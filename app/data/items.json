@@ -1,0 +1,7181 @@
+{
+  "entries": [
+    {
+      "name": "Adder Carcass",
+      "iconUrl": "gfx/invobjs/adder-carcass"
+    },
+    {
+      "name": "Clean Adder Carcass",
+      "iconUrl": "gfx/invobjs/adder-clean"
+    },
+    {
+      "name": "Adder Crown",
+      "iconUrl": "gfx/invobjs/addercrown"
+    },
+    {
+      "name": "Dead Adder",
+      "iconUrl": "gfx/invobjs/adder-dead"
+    },
+    {
+      "name": "Adder Fang",
+      "iconUrl": "gfx/invobjs/adderfang"
+    },
+    {
+      "name": "Adder Hide",
+      "iconUrl": "gfx/invobjs/adderhide"
+    },
+    {
+      "name": "Fresh Adder Hide",
+      "iconUrl": "gfx/invobjs/adderhide-blood"
+    },
+    {
+      "name": "Adder Hide",
+      "iconUrl": "gfx/invobjs/adderhide-frame"
+    },
+    {
+      "name": "Air Marshal's Cap",
+      "iconUrl": "gfx/invobjs/airmarshalscap"
+    },
+    {
+      "name": "Almonds",
+      "iconUrl": "gfx/invobjs/almond"
+    },
+    {
+      "name": "Ancient Root",
+      "iconUrl": "gfx/invobjs/ancientroot"
+    },
+    {
+      "name": "Ancient Tooth",
+      "iconUrl": "gfx/invobjs/ancienttooth"
+    },
+    {
+      "name": "Animal Fat",
+      "iconUrl": "gfx/invobjs/animalfat"
+    },
+    {
+      "name": "Rendered Animal Fat",
+      "iconUrl": "gfx/invobjs/animalfat-r"
+    },
+    {
+      "name": "Ant",
+      "iconUrl": "gfx/invobjs/ant"
+    },
+    {
+      "name": "Ant Farm",
+      "iconUrl": "gfx/invobjs/antfarm"
+    },
+    {
+      "name": "Moose Antlers",
+      "iconUrl": "gfx/invobjs/antlers-moose"
+    },
+    {
+      "name": "Red Deer Antlers",
+      "iconUrl": "gfx/invobjs/antlers-reddeer"
+    },
+    {
+      "name": "Reindeer Antlers",
+      "iconUrl": "gfx/invobjs/antlers-reindeer"
+    },
+    {
+      "name": "Antler Steak Cutlery",
+      "iconUrl": "gfx/invobjs/antlersteakcutlery"
+    },
+    {
+      "name": "Aphids",
+      "iconUrl": "gfx/invobjs/ants-aphids"
+    },
+    {
+      "name": "Ant Empress",
+      "iconUrl": "gfx/invobjs/ants-empress"
+    },
+    {
+      "name": "Ant Larvae",
+      "iconUrl": "gfx/invobjs/ants-larvae"
+    },
+    {
+      "name": "Ant Pupae",
+      "iconUrl": "gfx/invobjs/ants-pupae"
+    },
+    {
+      "name": "Ant Queen",
+      "iconUrl": "gfx/invobjs/ants-queen"
+    },
+    {
+      "name": "Ant Soldiers",
+      "iconUrl": "gfx/invobjs/ants-soldiers"
+    },
+    {
+      "name": "Any Leather",
+      "iconUrl": "gfx/invobjs/anyleather"
+    },
+    {
+      "name": "Apatite",
+      "iconUrl": "gfx/invobjs/apatite"
+    },
+    {
+      "name": "Red Apple Core",
+      "iconUrl": "gfx/invobjs/applecore"
+    },
+    {
+      "name": "Apple Pie",
+      "iconUrl": "gfx/invobjs/applepie"
+    },
+    {
+      "name": "Red Apple",
+      "iconUrl": "gfx/invobjs/apple"
+    },
+    {
+      "name": "Silvershine",
+      "iconUrl": "gfx/invobjs/argentite"
+    },
+    {
+      "name": "Armored Striders",
+      "iconUrl": "gfx/invobjs/armoredstriders"
+    },
+    {
+      "name": "Arrow",
+      "iconUrl": "gfx/invobjs/arrow"
+    },
+    {
+      "name": "Bone Arrow",
+      "iconUrl": "gfx/invobjs/arrow-bone"
+    },
+    {
+      "name": "Metal Arrow",
+      "iconUrl": "gfx/invobjs/arrow-metal"
+    },
+    {
+      "name": "Arrow-Shattered Arrow",
+      "iconUrl": "gfx/invobjs/arrow-shattered"
+    },
+    {
+      "name": "Stone Arrow",
+      "iconUrl": "gfx/invobjs/arrow-stone"
+    },
+    {
+      "name": "Ashen Robes",
+      "iconUrl": "gfx/invobjs/ashenrobe"
+    },
+    {
+      "name": "Ashes",
+      "iconUrl": "gfx/invobjs/ashes"
+    },
+    {
+      "name": "Aurochs Hair",
+      "iconUrl": "gfx/invobjs/aurochshair"
+    },
+    {
+      "name": "Aurochs Hide",
+      "iconUrl": "gfx/invobjs/aurochshide"
+    },
+    {
+      "name": "Fresh Aurochs Hide",
+      "iconUrl": "gfx/invobjs/aurochshide-blood"
+    },
+    {
+      "name": "Autumn Steak",
+      "iconUrl": "gfx/invobjs/autumnsteak"
+    },
+    {
+      "name": "Metal Axe",
+      "iconUrl": "gfx/invobjs/axe-m"
+    },
+    {
+      "name": "Battleaxe of the Twelfth Bay",
+      "iconUrl": "gfx/invobjs/b12axe"
+    },
+    {
+      "name": "Birchbark Backpack",
+      "iconUrl": "gfx/invobjs/backpack-birch"
+    },
+    {
+      "name": "Leather Backpack",
+      "iconUrl": "gfx/invobjs/backpack-leather"
+    },
+    {
+      "name": "Badger Hide",
+      "iconUrl": "gfx/invobjs/badgerhide"
+    },
+    {
+      "name": "Fresh Badger Hide",
+      "iconUrl": "gfx/invobjs/badgerhide-blood"
+    },
+    {
+      "name": "Badger Hide Vest",
+      "iconUrl": "gfx/invobjs/badgervest"
+    },
+    {
+      "name": "Bar of Bronze",
+      "iconUrl": "gfx/invobjs/bar-bronze"
+    },
+    {
+      "name": "Bar of Cast Iron",
+      "iconUrl": "gfx/invobjs/bar-castiron"
+    },
+    {
+      "name": "Bar of Copper",
+      "iconUrl": "gfx/invobjs/bar-copper"
+    },
+    {
+      "name": "Bar of Gold",
+      "iconUrl": "gfx/invobjs/bar-gold"
+    },
+    {
+      "name": "Bar of Bronze, Iron or Steel",
+      "iconUrl": "gfx/invobjs/bar-hardmetal"
+    },
+    {
+      "name": "Birch Bark",
+      "iconUrl": "gfx/invobjs/bark-birch"
+    },
+    {
+      "name": "Barkboat",
+      "iconUrl": "gfx/invobjs/barkboat"
+    },
+    {
+      "name": "Bark Bread",
+      "iconUrl": "gfx/invobjs/barkbread"
+    },
+    {
+      "name": "Bark Reinforcement",
+      "iconUrl": "gfx/invobjs/barkreinforcement"
+    },
+    {
+      "name": "Treebark",
+      "iconUrl": "gfx/invobjs/bark"
+    },
+    {
+      "name": "Bar of Any Metal",
+      "iconUrl": "gfx/invobjs/bar-metal"
+    },
+    {
+      "name": "Bar of a Precious Metal",
+      "iconUrl": "gfx/invobjs/bar-preciousmetal"
+    },
+    {
+      "name": "Bar of Silver",
+      "iconUrl": "gfx/invobjs/bar-silver"
+    },
+    {
+      "name": "Bar of Steel",
+      "iconUrl": "gfx/invobjs/bar-steel"
+    },
+    {
+      "name": "Bar of Tin",
+      "iconUrl": "gfx/invobjs/bar-tin"
+    },
+    {
+      "name": "Bar of Any Common Metal",
+      "iconUrl": "gfx/invobjs/bar-toolmetal"
+    },
+    {
+      "name": "Bar of Wrought Iron",
+      "iconUrl": "gfx/invobjs/bar-wroughtiron"
+    },
+    {
+      "name": "Basalt",
+      "iconUrl": "gfx/invobjs/basalt"
+    },
+    {
+      "name": "Bat Wing",
+      "iconUrl": "gfx/invobjs/batcape"
+    },
+    {
+      "name": "Cleaned Bat",
+      "iconUrl": "gfx/invobjs/bat-clean"
+    },
+    {
+      "name": "Dead Bat",
+      "iconUrl": "gfx/invobjs/bat-dead"
+    },
+    {
+      "name": "Bat Hide",
+      "iconUrl": "gfx/invobjs/bathide"
+    },
+    {
+      "name": "Fresh Bat Hide",
+      "iconUrl": "gfx/invobjs/bathide-blood"
+    },
+    {
+      "name": "Batter",
+      "iconUrl": "gfx/invobjs/batter"
+    },
+    {
+      "name": "Battle Standard",
+      "iconUrl": "gfx/invobjs/battlestandard"
+    },
+    {
+      "name": "Batwing Necklace",
+      "iconUrl": "gfx/invobjs/batwingnecklace"
+    },
+    {
+      "name": "Bat Wings",
+      "iconUrl": "gfx/invobjs/batwings"
+    },
+    {
+      "name": "Dried Batwings",
+      "iconUrl": "gfx/invobjs/batwingsdried"
+    },
+    {
+      "name": "Bear Cape",
+      "iconUrl": "gfx/invobjs/bearcape"
+    },
+    {
+      "name": "Bear Fur Trimmings",
+      "iconUrl": "gfx/invobjs/bearfurtrimmings"
+    },
+    {
+      "name": "Bear Hide",
+      "iconUrl": "gfx/invobjs/bearhide"
+    },
+    {
+      "name": "Fresh Bear Hide",
+      "iconUrl": "gfx/invobjs/bearhide-blood"
+    },
+    {
+      "name": "Bear Tooth Talisman",
+      "iconUrl": "gfx/invobjs/beartalman"
+    },
+    {
+      "name": "Bear Tooth",
+      "iconUrl": "gfx/invobjs/beartooth"
+    },
+    {
+      "name": "Beaver Crown",
+      "iconUrl": "gfx/invobjs/beavercrown"
+    },
+    {
+      "name": "Beaver Delights",
+      "iconUrl": "gfx/invobjs/beaverdelights"
+    },
+    {
+      "name": "Chewed Fibre",
+      "iconUrl": "gfx/invobjs/beaverfiber"
+    },
+    {
+      "name": "Beaver Wrist Guards",
+      "iconUrl": "gfx/invobjs/beavergauntlets"
+    },
+    {
+      "name": "Beaver Hide",
+      "iconUrl": "gfx/invobjs/beaverhide"
+    },
+    {
+      "name": "Fresh Beaver Hide",
+      "iconUrl": "gfx/invobjs/beaverhide-blood"
+    },
+    {
+      "name": "Beaver Tail",
+      "iconUrl": "gfx/invobjs/beavertail"
+    },
+    {
+      "name": "Beaver Teeth",
+      "iconUrl": "gfx/invobjs/beaverteeth"
+    },
+    {
+      "name": "Beeswax",
+      "iconUrl": "gfx/invobjs/beeswax"
+    },
+    {
+      "name": "Wax Candle",
+      "iconUrl": "gfx/invobjs/beeswaxcandle"
+    },
+    {
+      "name": "Beetroot",
+      "iconUrl": "gfx/invobjs/beet"
+    },
+    {
+      "name": "Beeted Bird Breast",
+      "iconUrl": "gfx/invobjs/beetbird"
+    },
+    {
+      "name": "The Bee that Stung",
+      "iconUrl": "gfx/invobjs/beethatstung"
+    },
+    {
+      "name": "Beetroot Leaves",
+      "iconUrl": "gfx/invobjs/beetleaves"
+    },
+    {
+      "name": "Berries",
+      "iconUrl": "gfx/invobjs/berry"
+    },
+    {
+      "name": "Fruit or Berry",
+      "iconUrl": "gfx/invobjs/berryfruit"
+    },
+    {
+      "name": "Birchbark Bream",
+      "iconUrl": "gfx/invobjs/birchbarkbream"
+    },
+    {
+      "name": "Bird Cherries",
+      "iconUrl": "gfx/invobjs/birdcherry"
+    },
+    {
+      "name": "Birthday Cake",
+      "iconUrl": "gfx/invobjs/birthdaycake"
+    },
+    {
+      "name": "Black Coal",
+      "iconUrl": "gfx/invobjs/blackcoal"
+    },
+    {
+      "name": "Black Ribeye Steak",
+      "iconUrl": "gfx/invobjs/blackribeye"
+    },
+    {
+      "name": "A Bond of Blood & Soil",
+      "iconUrl": "gfx/invobjs/bloodsoil"
+    },
+    {
+      "name": "Bloody Rag",
+      "iconUrl": "gfx/invobjs/bloodyrag"
+    },
+    {
+      "name": "Bloom",
+      "iconUrl": "gfx/invobjs/bloom"
+    },
+    {
+      "name": "Blubber Feast",
+      "iconUrl": "gfx/invobjs/blubberfeast"
+    },
+    {
+      "name": "Blueberry Pie",
+      "iconUrl": "gfx/invobjs/blueberryslice"
+    },
+    {
+      "name": "Board of Alder",
+      "iconUrl": "gfx/invobjs/board-alder"
+    },
+    {
+      "name": "Board of Almondwood",
+      "iconUrl": "gfx/invobjs/board-almondtree"
+    },
+    {
+      "name": "Board of Applewood",
+      "iconUrl": "gfx/invobjs/board-appletree"
+    },
+    {
+      "name": "Board of Ash",
+      "iconUrl": "gfx/invobjs/board-ash"
+    },
+    {
+      "name": "Board of Aspen",
+      "iconUrl": "gfx/invobjs/board-aspen"
+    },
+    {
+      "name": "Board of Bay Willow",
+      "iconUrl": "gfx/invobjs/board-baywillow"
+    },
+    {
+      "name": "Board of Beech",
+      "iconUrl": "gfx/invobjs/board-beech"
+    },
+    {
+      "name": "Board of Birch",
+      "iconUrl": "gfx/invobjs/board-birch"
+    },
+    {
+      "name": "Board of Birdcherrywood",
+      "iconUrl": "gfx/invobjs/board-birdcherrytree"
+    },
+    {
+      "name": "Board of Buckthorn",
+      "iconUrl": "gfx/invobjs/board-buckthorn"
+    },
+    {
+      "name": "Board of Cedar",
+      "iconUrl": "gfx/invobjs/board-cedar"
+    },
+    {
+      "name": "Board of Cherrywood",
+      "iconUrl": "gfx/invobjs/board-cherry"
+    },
+    {
+      "name": "Board of Chestnutwood",
+      "iconUrl": "gfx/invobjs/board-chestnuttree"
+    },
+    {
+      "name": "Board of Conkerwood",
+      "iconUrl": "gfx/invobjs/board-conkertree"
+    },
+    {
+      "name": "Board of Corkoak",
+      "iconUrl": "gfx/invobjs/board-corkoak"
+    },
+    {
+      "name": "Board of Crabapplewood",
+      "iconUrl": "gfx/invobjs/board-crabappletree"
+    },
+    {
+      "name": "Board of Cypress",
+      "iconUrl": "gfx/invobjs/board-cypress"
+    },
+    {
+      "name": "Board of Elm",
+      "iconUrl": "gfx/invobjs/board-elm"
+    },
+    {
+      "name": "Board of Fir",
+      "iconUrl": "gfx/invobjs/board-fir"
+    },
+    {
+      "name": "Board of Goldenchain",
+      "iconUrl": "gfx/invobjs/board-goldenchain"
+    },
+    {
+      "name": "Board of Hazel",
+      "iconUrl": "gfx/invobjs/board-hazel"
+    },
+    {
+      "name": "Board of Hornbeam",
+      "iconUrl": "gfx/invobjs/board-hornbeam"
+    },
+    {
+      "name": "Board of Juniper",
+      "iconUrl": "gfx/invobjs/board-juniper"
+    },
+    {
+      "name": "Board of King's Oak",
+      "iconUrl": "gfx/invobjs/board-kingsoak"
+    },
+    {
+      "name": "Board of Larch",
+      "iconUrl": "gfx/invobjs/board-larch"
+    },
+    {
+      "name": "Board of Laurel",
+      "iconUrl": "gfx/invobjs/board-laurel"
+    },
+    {
+      "name": "Board of Linden",
+      "iconUrl": "gfx/invobjs/board-linden"
+    },
+    {
+      "name": "Board of Maple",
+      "iconUrl": "gfx/invobjs/board-maple"
+    },
+    {
+      "name": "Board of Mulberrywood",
+      "iconUrl": "gfx/invobjs/board-mulberry"
+    },
+    {
+      "name": "Board of Oak",
+      "iconUrl": "gfx/invobjs/board-oak"
+    },
+    {
+      "name": "Board of Olivewood",
+      "iconUrl": "gfx/invobjs/board-olivetree"
+    },
+    {
+      "name": "Board of Pine",
+      "iconUrl": "gfx/invobjs/board-pine"
+    },
+    {
+      "name": "Board of Planewood",
+      "iconUrl": "gfx/invobjs/board-planetree"
+    },
+    {
+      "name": "Board of Plumwood",
+      "iconUrl": "gfx/invobjs/board-plumtree"
+    },
+    {
+      "name": "Board of Poplar",
+      "iconUrl": "gfx/invobjs/board-poplar"
+    },
+    {
+      "name": "Board of Quincewood",
+      "iconUrl": "gfx/invobjs/board-quincetree"
+    },
+    {
+      "name": "Board of Rowan",
+      "iconUrl": "gfx/invobjs/board-rowan"
+    },
+    {
+      "name": "Board of Sallow",
+      "iconUrl": "gfx/invobjs/board-sallow"
+    },
+    {
+      "name": "Board of Spruce",
+      "iconUrl": "gfx/invobjs/board-spruce"
+    },
+    {
+      "name": "Board of Sweetgum",
+      "iconUrl": "gfx/invobjs/board-sweetgum"
+    },
+    {
+      "name": "Board of Terebinth",
+      "iconUrl": "gfx/invobjs/board-terebinth"
+    },
+    {
+      "name": "Board of Towercap",
+      "iconUrl": "gfx/invobjs/board-towercap"
+    },
+    {
+      "name": "Board of Walnutwood",
+      "iconUrl": "gfx/invobjs/board-walnuttree"
+    },
+    {
+      "name": "Board of Whitebeam",
+      "iconUrl": "gfx/invobjs/board-whitebeam"
+    },
+    {
+      "name": "Board of Willow",
+      "iconUrl": "gfx/invobjs/board-willow"
+    },
+    {
+      "name": "Board of Witherwood",
+      "iconUrl": "gfx/invobjs/board-witherstand"
+    },
+    {
+      "name": "Board of Yew",
+      "iconUrl": "gfx/invobjs/board-yew"
+    },
+    {
+      "name": "Fresh Boarhide",
+      "iconUrl": "gfx/invobjs/boarhide-blood"
+    },
+    {
+      "name": "Boarhide",
+      "iconUrl": "gfx/invobjs/boarhide"
+    },
+    {
+      "name": "Boar Spear",
+      "iconUrl": "gfx/invobjs/boarspear"
+    },
+    {
+      "name": "Boar Tusk",
+      "iconUrl": "gfx/invobjs/boartusk"
+    },
+    {
+      "name": "Boar Tusk Helmet",
+      "iconUrl": "gfx/invobjs/boartuskhelmet"
+    },
+    {
+      "name": "Bone Ash",
+      "iconUrl": "gfx/invobjs/boneash"
+    },
+    {
+      "name": "Bone Material",
+      "iconUrl": "gfx/invobjs/bone"
+    },
+    {
+      "name": "Bone Glue",
+      "iconUrl": "gfx/invobjs/boneglue"
+    },
+    {
+      "name": "Bone Greaves",
+      "iconUrl": "gfx/invobjs/bonegreaves"
+    },
+    {
+      "name": "Bone Marrow",
+      "iconUrl": "gfx/invobjs/bonemarrow"
+    },
+    {
+      "name": "Bone Pins",
+      "iconUrl": "gfx/invobjs/bonepins"
+    },
+    {
+      "name": "Bonesaw",
+      "iconUrl": "gfx/invobjs/bonesaw"
+    },
+    {
+      "name": "Boreworm Beak",
+      "iconUrl": "gfx/invobjs/borewormbeak"
+    },
+    {
+      "name": "Fresh Boreworm Hide",
+      "iconUrl": "gfx/invobjs/borewormhide-blood"
+    },
+    {
+      "name": "Boreworm Hide",
+      "iconUrl": "gfx/invobjs/borewormhide"
+    },
+    {
+      "name": "Boreworm Mask",
+      "iconUrl": "gfx/invobjs/borewormmask"
+    },
+    {
+      "name": "Alder Bough",
+      "iconUrl": "gfx/invobjs/bough-alder"
+    },
+    {
+      "name": "Elm Bough",
+      "iconUrl": "gfx/invobjs/bough-elm"
+    },
+    {
+      "name": "Fir Bough",
+      "iconUrl": "gfx/invobjs/bough-fir"
+    },
+    {
+      "name": "Spruce Bough",
+      "iconUrl": "gfx/invobjs/bough-spruce"
+    },
+    {
+      "name": "Tree Bough",
+      "iconUrl": "gfx/invobjs/bough"
+    },
+    {
+      "name": "Yew Bough",
+      "iconUrl": "gfx/invobjs/bough-yew"
+    },
+    {
+      "name": "Bouquet of Flowers",
+      "iconUrl": "gfx/invobjs/bouquet"
+    },
+    {
+      "name": "Branch",
+      "iconUrl": "gfx/invobjs/branch"
+    },
+    {
+      "name": "Branding Iron",
+      "iconUrl": "gfx/invobjs/brandingiron"
+    },
+    {
+      "name": "Red-hot Branding Iron",
+      "iconUrl": "gfx/invobjs/brandingiron-r"
+    },
+    {
+      "name": "Bread",
+      "iconUrl": "gfx/invobjs/bread"
+    },
+    {
+      "name": "Brick",
+      "iconUrl": "gfx/invobjs/brick-acre"
+    },
+    {
+      "name": "Any Brick",
+      "iconUrl": "gfx/invobjs/brick"
+    },
+    {
+      "name": "Brick",
+      "iconUrl": "gfx/invobjs/brick-ball"
+    },
+    {
+      "name": "Brick",
+      "iconUrl": "gfx/invobjs/brick-bone"
+    },
+    {
+      "name": "Brick",
+      "iconUrl": "gfx/invobjs/brick-cave"
+    },
+    {
+      "name": "Brick",
+      "iconUrl": "gfx/invobjs/brick-gray"
+    },
+    {
+      "name": "Brick",
+      "iconUrl": "gfx/invobjs/brick-pit"
+    },
+    {
+      "name": "Brimstone",
+      "iconUrl": "gfx/invobjs/brimstone"
+    },
+    {
+      "name": "Broiled Burbot",
+      "iconUrl": "gfx/invobjs/broiledburbot"
+    },
+    {
+      "name": "Bronze Helm",
+      "iconUrl": "gfx/invobjs/bronzehelm"
+    },
+    {
+      "name": "Bronze Plate",
+      "iconUrl": "gfx/invobjs/bronzeplate"
+    },
+    {
+      "name": "Bronze Steed",
+      "iconUrl": "gfx/invobjs/bronzesteed"
+    },
+    {
+      "name": "Bronze Sword",
+      "iconUrl": "gfx/invobjs/bronzesword"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-ashes"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-barley"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-barleyflour"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-batter"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-beer"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-carrot"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-cavedust"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-colorwhite"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-coloryellow"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-cucumber"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-flax"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-flaxoil"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-grape"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-grapejuice"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-grist"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-hartshorn"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-hemp"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-honey"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-milk"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-poppy"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-pumpkin"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-rennet"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-swill"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-tanfluid"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-tar"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-tea"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-vinegar"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-water"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-wheat"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-wheatflour"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-wine"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/bucket-wort"
+    },
+    {
+      "name": "Bull Pipe",
+      "iconUrl": "gfx/invobjs/bullpipe"
+    },
+    {
+      "name": "A Bloody Mess...",
+      "iconUrl": "gfx/invobjs/bunny-dead"
+    },
+    {
+      "name": "Bunny Slippers",
+      "iconUrl": "gfx/invobjs/bunnyslippers"
+    },
+    {
+      "name": "Bushcraft Fishingpole",
+      "iconUrl": "gfx/invobjs/bushpole"
+    },
+    {
+      "name": "Bushcraft Fishingpole",
+      "iconUrl": "gfx/invobjs/bushpole-h"
+    },
+    {
+      "name": "Bushcraft Fishingpole",
+      "iconUrl": "gfx/invobjs/bushpole-l"
+    },
+    {
+      "name": "Butcher's Cleaver",
+      "iconUrl": "gfx/invobjs/butcherscleaver"
+    },
+    {
+      "name": "Butter-steamed Cavebulb",
+      "iconUrl": "gfx/invobjs/butterbulb"
+    },
+    {
+      "name": "Butter",
+      "iconUrl": "gfx/invobjs/butter"
+    },
+    {
+      "name": "Cake Knife",
+      "iconUrl": "gfx/invobjs/cakeknife"
+    },
+    {
+      "name": "Camomile Compress",
+      "iconUrl": "gfx/invobjs/camomilecompress"
+    },
+    {
+      "name": "Dried Camomile",
+      "iconUrl": "gfx/invobjs/camomiledry"
+    },
+    {
+      "name": "Candleberry Wax",
+      "iconUrl": "gfx/invobjs/candleberrywax"
+    },
+    {
+      "name": "Carrot Cake",
+      "iconUrl": "gfx/invobjs/carrotcake"
+    },
+    {
+      "name": "Carrot",
+      "iconUrl": "gfx/invobjs/carrot"
+    },
+    {
+      "name": "Cassiterite",
+      "iconUrl": "gfx/invobjs/cassiterite"
+    },
+    {
+      "name": "Cast Iron Trivet",
+      "iconUrl": "gfx/invobjs/castirontrivet"
+    },
+    {
+      "name": "Cat Gold",
+      "iconUrl": "gfx/invobjs/catgold"
+    },
+    {
+      "name": "Cave Angler Light",
+      "iconUrl": "gfx/invobjs/caveanglerlight"
+    },
+    {
+      "name": "Cave Angler Scales",
+      "iconUrl": "gfx/invobjs/caveanglerscales"
+    },
+    {
+      "name": "Fresh Cave Angler Scales",
+      "iconUrl": "gfx/invobjs/caveanglerscales-raw"
+    },
+    {
+      "name": "Cave Battery",
+      "iconUrl": "gfx/invobjs/cavebattery"
+    },
+    {
+      "name": "Cave Centipede",
+      "iconUrl": "gfx/invobjs/cavecentipede"
+    },
+    {
+      "name": "Cave Coral Ring",
+      "iconUrl": "gfx/invobjs/cavecoralring"
+    },
+    {
+      "name": "Cavedust",
+      "iconUrl": "gfx/invobjs/cavedust"
+    },
+    {
+      "name": "Cave Louse Chitin",
+      "iconUrl": "gfx/invobjs/cavelousechitin"
+    },
+    {
+      "name": "Cave Louse Leg",
+      "iconUrl": "gfx/invobjs/cavelouseleg"
+    },
+    {
+      "name": "Cave Moth",
+      "iconUrl": "gfx/invobjs/cavemoth"
+    },
+    {
+      "name": "Notes of a Foul Symphony",
+      "iconUrl": "gfx/invobjs/cavenote"
+    },
+    {
+      "name": "Cave Slime",
+      "iconUrl": "gfx/invobjs/caveslime"
+    },
+    {
+      "name": "Centibab",
+      "iconUrl": "gfx/invobjs/centibab"
+    },
+    {
+      "name": "Chainmail Shirt",
+      "iconUrl": "gfx/invobjs/chainmailshirt"
+    },
+    {
+      "name": "Chalcopyrite",
+      "iconUrl": "gfx/invobjs/chalcopyrite"
+    },
+    {
+      "name": "Abbaye",
+      "iconUrl": "gfx/invobjs/cheese-abbaye"
+    },
+    {
+      "name": "Brique",
+      "iconUrl": "gfx/invobjs/cheese-brique"
+    },
+    {
+      "name": "Brodgar Blue Cheese",
+      "iconUrl": "gfx/invobjs/cheese-brodgarblue"
+    },
+    {
+      "name": "Cabrales",
+      "iconUrl": "gfx/invobjs/cheese-cabrales"
+    },
+    {
+      "name": "Caciotta",
+      "iconUrl": "gfx/invobjs/cheese-caciotta"
+    },
+    {
+      "name": "Cheesecake",
+      "iconUrl": "gfx/invobjs/cheesecake"
+    },
+    {
+      "name": "Cave Cheddar",
+      "iconUrl": "gfx/invobjs/cheese-cavecheddar"
+    },
+    {
+      "name": "Cellar Cheddar",
+      "iconUrl": "gfx/invobjs/cheese-cellarcheddar"
+    },
+    {
+      "name": "Creamy Camembert",
+      "iconUrl": "gfx/invobjs/cheese-creamycamembert"
+    },
+    {
+      "name": "Feta",
+      "iconUrl": "gfx/invobjs/cheese-feta"
+    },
+    {
+      "name": "Gbejna",
+      "iconUrl": "gfx/invobjs/cheese-gbejna"
+    },
+    {
+      "name": "Generic Gouda",
+      "iconUrl": "gfx/invobjs/cheese-genericgouda"
+    },
+    {
+      "name": "Halloumi",
+      "iconUrl": "gfx/invobjs/cheese-halloumi"
+    },
+    {
+      "name": "Harmesan Cheese",
+      "iconUrl": "gfx/invobjs/cheese-harmesan"
+    },
+    {
+      "name": "Jorbonzola",
+      "iconUrl": "gfx/invobjs/cheese-jorbonzola"
+    },
+    {
+      "name": "Manchego",
+      "iconUrl": "gfx/invobjs/cheese-manchego"
+    },
+    {
+      "name": "Midnight Blue Cheese",
+      "iconUrl": "gfx/invobjs/cheese-midnightblue"
+    },
+    {
+      "name": "Mothzarella",
+      "iconUrl": "gfx/invobjs/cheese-mothzarella"
+    },
+    {
+      "name": "Musky Milben",
+      "iconUrl": "gfx/invobjs/cheese-muskymilben"
+    },
+    {
+      "name": "Oscypki",
+      "iconUrl": "gfx/invobjs/cheese-oscypki"
+    },
+    {
+      "name": "Pecorino",
+      "iconUrl": "gfx/invobjs/cheese-pecorino"
+    },
+    {
+      "name": "Roncal",
+      "iconUrl": "gfx/invobjs/cheese-roncal"
+    },
+    {
+      "name": "Sunlit Stilton",
+      "iconUrl": "gfx/invobjs/cheese-sunlitstilton"
+    },
+    {
+      "name": "Tasty Emmentaler",
+      "iconUrl": "gfx/invobjs/cheese-temmentaler"
+    },
+    {
+      "name": "Cheese Tray",
+      "iconUrl": "gfx/invobjs/cheesetray-cheese"
+    },
+    {
+      "name": "Cheese Tray",
+      "iconUrl": "gfx/invobjs/cheesetray"
+    },
+    {
+      "name": "Cheese Tray",
+      "iconUrl": "gfx/invobjs/cheesetray-curd"
+    },
+    {
+      "name": "Cheese Tray",
+      "iconUrl": "gfx/invobjs/cheesetray-l1"
+    },
+    {
+      "name": "Cheese Tray",
+      "iconUrl": "gfx/invobjs/cheesetray-l2"
+    },
+    {
+      "name": "Cheese Tray",
+      "iconUrl": "gfx/invobjs/cheesetray-l4"
+    },
+    {
+      "name": "Zamorano",
+      "iconUrl": "gfx/invobjs/cheese-zamorano"
+    },
+    {
+      "name": "Chef's Hat",
+      "iconUrl": "gfx/invobjs/chefshat"
+    },
+    {
+      "name": "Chef's Pin",
+      "iconUrl": "gfx/invobjs/chefspin"
+    },
+    {
+      "name": "Cherries",
+      "iconUrl": "gfx/invobjs/cherry"
+    },
+    {
+      "name": "Chestnut",
+      "iconUrl": "gfx/invobjs/chestnut"
+    },
+    {
+      "name": "Roast Chestnut",
+      "iconUrl": "gfx/invobjs/chestnutroast"
+    },
+    {
+      "name": "Chick",
+      "iconUrl": "gfx/invobjs/chick"
+    },
+    {
+      "name": "A Bloody Mess...",
+      "iconUrl": "gfx/invobjs/chick-dead"
+    },
+    {
+      "name": "Cleaned Chicken",
+      "iconUrl": "gfx/invobjs/chicken-cleaned"
+    },
+    {
+      "name": "Plucked Chicken",
+      "iconUrl": "gfx/invobjs/chicken-plucked"
+    },
+    {
+      "name": "Chicken Salad",
+      "iconUrl": "gfx/invobjs/chickensalad"
+    },
+    {
+      "name": "Chieftain's Hat",
+      "iconUrl": "gfx/invobjs/chiefhat"
+    },
+    {
+      "name": "Chitin Helmet",
+      "iconUrl": "gfx/invobjs/chitinhelmet"
+    },
+    {
+      "name": "Chitin Hook",
+      "iconUrl": "gfx/invobjs/chitinhook"
+    },
+    {
+      "name": "Chitin Sequins",
+      "iconUrl": "gfx/invobjs/chitinsequin"
+    },
+    {
+      "name": "Butter-Chived Trout",
+      "iconUrl": "gfx/invobjs/chivetrout"
+    },
+    {
+      "name": "Chum Bait",
+      "iconUrl": "gfx/invobjs/chumbait"
+    },
+    {
+      "name": "Cigar",
+      "iconUrl": "gfx/invobjs/cigar"
+    },
+    {
+      "name": "Cinnabar",
+      "iconUrl": "gfx/invobjs/cinnabar"
+    },
+    {
+      "name": "Clambake",
+      "iconUrl": "gfx/invobjs/clambake"
+    },
+    {
+      "name": "Acre Clay",
+      "iconUrl": "gfx/invobjs/clay-acre"
+    },
+    {
+      "name": "Ball Clay",
+      "iconUrl": "gfx/invobjs/clay-ball"
+    },
+    {
+      "name": "Bone Clay",
+      "iconUrl": "gfx/invobjs/clay-bone"
+    },
+    {
+      "name": "Cave Clay",
+      "iconUrl": "gfx/invobjs/clay-cave",
+      "detection": 10780
+    },
+    {
+      "name": "Clay",
+      "iconUrl": "gfx/invobjs/clay"
+    },
+    {
+      "name": "Fine Clay",
+      "iconUrl": "gfx/invobjs/clay-fine"
+    },
+    {
+      "name": "Gray Clay",
+      "iconUrl": "gfx/invobjs/clay-gray",
+      "detection": 540
+    },
+    {
+      "name": "Pit Clay",
+      "iconUrl": "gfx/invobjs/clay-pit"
+    },
+    {
+      "name": "Potter's Clay",
+      "iconUrl": "gfx/invobjs/clay-potters"
+    },
+    {
+      "name": "Clean Animal Carcass",
+      "iconUrl": "gfx/invobjs/cleancarcass"
+    },
+    {
+      "name": "Clogs",
+      "iconUrl": "gfx/invobjs/clogs"
+    },
+    {
+      "name": "Cloth",
+      "iconUrl": "gfx/invobjs/cloth"
+    },
+    {
+      "name": "Quilted Wadding",
+      "iconUrl": "gfx/invobjs/clothwadding"
+    },
+    {
+      "name": "Smell of Assault",
+      "iconUrl": "gfx/invobjs/clue-assault"
+    },
+    {
+      "name": "Stink of Battery",
+      "iconUrl": "gfx/invobjs/clue-battery"
+    },
+    {
+      "name": "Stench of Murder",
+      "iconUrl": "gfx/invobjs/clue-murder"
+    },
+    {
+      "name": "Whiff of Rummaging",
+      "iconUrl": "gfx/invobjs/clue-rummage"
+    },
+    {
+      "name": "Reek of Theft",
+      "iconUrl": "gfx/invobjs/clue-theft"
+    },
+    {
+      "name": "Odor of Trespassing",
+      "iconUrl": "gfx/invobjs/clue-trespass"
+    },
+    {
+      "name": "Vile Vapor of Vandalism",
+      "iconUrl": "gfx/invobjs/clue-vandal"
+    },
+    {
+      "name": "Ominous Smoke of War",
+      "iconUrl": "gfx/invobjs/clue-war"
+    },
+    {
+      "name": "Coal",
+      "iconUrl": "gfx/invobjs/coal"
+    },
+    {
+      "name": "Coiled Rope Hotpad",
+      "iconUrl": "gfx/invobjs/coiledropehotpad"
+    },
+    {
+      "name": "Cast Iron Coins",
+      "iconUrl": "gfx/invobjs/coins/castiron-50"
+    },
+    {
+      "name": "Copper Coins",
+      "iconUrl": "gfx/invobjs/coins/copper-50"
+    },
+    {
+      "name": "Gold Coins",
+      "iconUrl": "gfx/invobjs/coins/gold-50"
+    },
+    {
+      "name": "Coins",
+      "iconUrl": "gfx/invobjs/coins/rcp"
+    },
+    {
+      "name": "Silver Coins",
+      "iconUrl": "gfx/invobjs/coins/silver-50"
+    },
+    {
+      "name": "Steel Coins",
+      "iconUrl": "gfx/invobjs/coins/steel-50"
+    },
+    {
+      "name": "Tin Coins",
+      "iconUrl": "gfx/invobjs/coins/tin-50"
+    },
+    {
+      "name": "Wrought Iron Coins",
+      "iconUrl": "gfx/invobjs/coins/wroughtiron-50"
+    },
+    {
+      "name": "Cold Compress",
+      "iconUrl": "gfx/invobjs/coldcompress"
+    },
+    {
+      "name": "Black Pigment",
+      "iconUrl": "gfx/invobjs/colorblack"
+    },
+    {
+      "name": "Blue Pigment",
+      "iconUrl": "gfx/invobjs/colorblue"
+    },
+    {
+      "name": "Green Pigment",
+      "iconUrl": "gfx/invobjs/colorgreen"
+    },
+    {
+      "name": "Orange Pigment",
+      "iconUrl": "gfx/invobjs/colororange"
+    },
+    {
+      "name": "Purple Pigment",
+      "iconUrl": "gfx/invobjs/colorpurple"
+    },
+    {
+      "name": "Red Pigment",
+      "iconUrl": "gfx/invobjs/colorred"
+    },
+    {
+      "name": "Turquoise Pigment",
+      "iconUrl": "gfx/invobjs/colorturquoise"
+    },
+    {
+      "name": "White Pigment",
+      "iconUrl": "gfx/invobjs/colorwhite"
+    },
+    {
+      "name": "Yellow Pigment",
+      "iconUrl": "gfx/invobjs/coloryellow"
+    },
+    {
+      "name": "Cone Cow",
+      "iconUrl": "gfx/invobjs/conecow"
+    },
+    {
+      "name": "Decent-sized Conifer Cone",
+      "iconUrl": "gfx/invobjs/cone"
+    },
+    {
+      "name": "Cone Gruel",
+      "iconUrl": "gfx/invobjs/conegruel"
+    },
+    {
+      "name": "Copper Kettle",
+      "iconUrl": "gfx/invobjs/copperkettle"
+    },
+    {
+      "name": "Copper Scales",
+      "iconUrl": "gfx/invobjs/copperscales"
+    },
+    {
+      "name": "Cork",
+      "iconUrl": "gfx/invobjs/cork"
+    },
+    {
+      "name": "Cornbraid",
+      "iconUrl": "gfx/invobjs/cornbraid"
+    },
+    {
+      "name": "Cornucopia",
+      "iconUrl": "gfx/invobjs/cornucopia"
+    },
+    {
+      "name": "Fresh Cattle Hide",
+      "iconUrl": "gfx/invobjs/cowhide-blood"
+    },
+    {
+      "name": "Cattle Hide",
+      "iconUrl": "gfx/invobjs/cowhide"
+    },
+    {
+      "name": "Crab Cakes",
+      "iconUrl": "gfx/invobjs/crabcakes"
+    },
+    {
+      "name": "Crab Claw",
+      "iconUrl": "gfx/invobjs/crabclaw"
+    },
+    {
+      "name": "Crab",
+      "iconUrl": "gfx/invobjs/crab"
+    },
+    {
+      "name": "Crab Roe",
+      "iconUrl": "gfx/invobjs/crabroe"
+    },
+    {
+      "name": "Crabshell",
+      "iconUrl": "gfx/invobjs/crabshell"
+    },
+    {
+      "name": "Crabshell Sunfeather",
+      "iconUrl": "gfx/invobjs/crabshellsunfeather"
+    },
+    {
+      "name": "Creamy Cock",
+      "iconUrl": "gfx/invobjs/creamycock"
+    },
+    {
+      "name": "Crop Seeds",
+      "iconUrl": "gfx/invobjs/cropseeds"
+    },
+    {
+      "name": "Crude Idol",
+      "iconUrl": "gfx/invobjs/crudeidol"
+    },
+    {
+      "name": "Cruel Splinter",
+      "iconUrl": "gfx/invobjs/cruelsplinter"
+    },
+    {
+      "name": "Cucumber",
+      "iconUrl": "gfx/invobjs/cucumber"
+    },
+    {
+      "name": "Cucumber Salsa",
+      "iconUrl": "gfx/invobjs/cucumbersalsa"
+    },
+    {
+      "name": "Cow's Curd",
+      "iconUrl": "gfx/invobjs/curd-cow"
+    },
+    {
+      "name": "Curd",
+      "iconUrl": "gfx/invobjs/curd"
+    },
+    {
+      "name": "Curd'n'Chives",
+      "iconUrl": "gfx/invobjs/curdnchives"
+    },
+    {
+      "name": "Sheep's Curd",
+      "iconUrl": "gfx/invobjs/curd-sheep"
+    },
+    {
+      "name": "Cutthroat Cuirass",
+      "iconUrl": "gfx/invobjs/cutthroatcuirass"
+    },
+    {
+      "name": "Cutthroat Knuckles",
+      "iconUrl": "gfx/invobjs/cutthroatknuckles"
+    },
+    {
+      "name": "Cylinder Hat",
+      "iconUrl": "gfx/invobjs/cylinderhat"
+    },
+    {
+      "name": "Dark Effigy",
+      "iconUrl": "gfx/invobjs/darkeffigy"
+    },
+    {
+      "name": "Dark Heart",
+      "iconUrl": "gfx/invobjs/darkheart"
+    },
+    {
+      "name": "Druid's Cloak",
+      "iconUrl": "gfx/invobjs/dcloak"
+    },
+    {
+      "name": "Death's Head Chrysalis",
+      "iconUrl": "gfx/invobjs/deathchrysalis"
+    },
+    {
+      "name": "Fouls of the Deep",
+      "iconUrl": "gfx/invobjs/deepfouls"
+    },
+    {
+      "name": "Deep Fried Bird",
+      "iconUrl": "gfx/invobjs/deepfriedbird"
+    },
+    {
+      "name": "Deep Sea Atavism",
+      "iconUrl": "gfx/invobjs/deepseaatavism"
+    },
+    {
+      "name": "Die",
+      "iconUrl": "gfx/invobjs/die-1"
+    },
+    {
+      "name": "Die",
+      "iconUrl": "gfx/invobjs/die-2"
+    },
+    {
+      "name": "Die",
+      "iconUrl": "gfx/invobjs/die-3"
+    },
+    {
+      "name": "Die",
+      "iconUrl": "gfx/invobjs/die-4"
+    },
+    {
+      "name": "Die",
+      "iconUrl": "gfx/invobjs/die-5"
+    },
+    {
+      "name": "Die",
+      "iconUrl": "gfx/invobjs/die-6"
+    },
+    {
+      "name": "Rack of Divine Ribs",
+      "iconUrl": "gfx/invobjs/divagi10"
+    },
+    {
+      "name": "Divine Rib",
+      "iconUrl": "gfx/invobjs/divagi1"
+    },
+    {
+      "name": "Side of Divine Bacon",
+      "iconUrl": "gfx/invobjs/divcon10"
+    },
+    {
+      "name": "Slice of Divine Bacon",
+      "iconUrl": "gfx/invobjs/divcon1"
+    },
+    {
+      "name": "Divine Tail",
+      "iconUrl": "gfx/invobjs/divmelee10"
+    },
+    {
+      "name": "Divine Bristles",
+      "iconUrl": "gfx/invobjs/divmelee1"
+    },
+    {
+      "name": "Divine Trotter",
+      "iconUrl": "gfx/invobjs/divstr10"
+    },
+    {
+      "name": "Divine Toe",
+      "iconUrl": "gfx/invobjs/divstr1"
+    },
+    {
+      "name": "Divine Snout",
+      "iconUrl": "gfx/invobjs/divunarmed10"
+    },
+    {
+      "name": "Divine Snot",
+      "iconUrl": "gfx/invobjs/divunarmed1"
+    },
+    {
+      "name": "Dolomite",
+      "iconUrl": "gfx/invobjs/dolomite"
+    },
+    {
+      "name": "Unbaked Apple Pie",
+      "iconUrl": "gfx/invobjs/dough-applepie"
+    },
+    {
+      "name": "Unbaked Bark Bread",
+      "iconUrl": "gfx/invobjs/dough-barkbread"
+    },
+    {
+      "name": "Blueberry Pie Dough",
+      "iconUrl": "gfx/invobjs/dough-blueberryslice"
+    },
+    {
+      "name": "Bread Dough",
+      "iconUrl": "gfx/invobjs/dough-bread"
+    },
+    {
+      "name": "Unbaked Carrot Cake",
+      "iconUrl": "gfx/invobjs/dough-carrotcake"
+    },
+    {
+      "name": "Unbaked Cheesecake",
+      "iconUrl": "gfx/invobjs/dough-cheesecake"
+    },
+    {
+      "name": "Unbaked Egg Cake",
+      "iconUrl": "gfx/invobjs/dough-eggcake"
+    },
+    {
+      "name": "Unbaked Fishpie",
+      "iconUrl": "gfx/invobjs/dough-fishpie"
+    },
+    {
+      "name": "Unbaked Fishwrap",
+      "iconUrl": "gfx/invobjs/dough-fishwrap"
+    },
+    {
+      "name": "Unbaked Fruit Pie",
+      "iconUrl": "gfx/invobjs/dough-fruitpie"
+    },
+    {
+      "name": "Unbaked Fruitroast",
+      "iconUrl": "gfx/invobjs/dough-fruitroast"
+    },
+    {
+      "name": "Unbaked Greenleaf Pie",
+      "iconUrl": "gfx/invobjs/dough-greenleafpie"
+    },
+    {
+      "name": "Unbaked Grubpie",
+      "iconUrl": "gfx/invobjs/dough-grubpie"
+    },
+    {
+      "name": "Honeybun Dough",
+      "iconUrl": "gfx/invobjs/dough-honeybun"
+    },
+    {
+      "name": "Unbaked Jelly Cake",
+      "iconUrl": "gfx/invobjs/dough-jellycake"
+    },
+    {
+      "name": "Unbaked Linseed Loaf",
+      "iconUrl": "gfx/invobjs/dough-linseedloaf"
+    },
+    {
+      "name": "Unbaked Meatpie",
+      "iconUrl": "gfx/invobjs/dough-meatpie"
+    },
+    {
+      "name": "Raw Mushroom-Burst Glutton",
+      "iconUrl": "gfx/invobjs/dough-mushroomburstglutton"
+    },
+    {
+      "name": "Unbaked Nutjerky",
+      "iconUrl": "gfx/invobjs/dough-nutjerky"
+    },
+    {
+      "name": "Pea Pie Dough",
+      "iconUrl": "gfx/invobjs/dough-peapie"
+    },
+    {
+      "name": "Chantrelle & Onion Pirozhki Dough",
+      "iconUrl": "gfx/invobjs/dough-pirozhki"
+    },
+    {
+      "name": "Mushroom & Onion Pirozhki Dough",
+      "iconUrl": "gfx/invobjs/dough-pirozhki"
+    },
+    {
+      "name": "Pumpkin Bread Dough",
+      "iconUrl": "gfx/invobjs/dough-pumpkinbread"
+    },
+    {
+      "name": "Pumpkin Pie Dough",
+      "iconUrl": "gfx/invobjs/dough-pumpkinpie"
+    },
+    {
+      "name": "Unbaked Raisin Butter-Cake",
+      "iconUrl": "gfx/invobjs/dough-raisinbuttercake"
+    },
+    {
+      "name": "Ring of Brodgar Dough",
+      "iconUrl": "gfx/invobjs/dough-ringofbrodgar"
+    },
+    {
+      "name": "Unbaked Butter Scones",
+      "iconUrl": "gfx/invobjs/dough-scones"
+    },
+    {
+      "name": "Unbaked Seedcrisp Flatbread",
+      "iconUrl": "gfx/invobjs/dough-seedcrispbread"
+    },
+    {
+      "name": "Unbaked Strawberry Cake",
+      "iconUrl": "gfx/invobjs/dough-strawberrycake"
+    },
+    {
+      "name": "Unbaked Wellplaiced Pie",
+      "iconUrl": "gfx/invobjs/dough-wellplaicedpie"
+    },
+    {
+      "name": "Dowsing Rod",
+      "iconUrl": "gfx/invobjs/dowrod"
+    },
+    {
+      "name": "Emerald Dragonfly",
+      "iconUrl": "gfx/invobjs/dragonfly-emerald"
+    },
+    {
+      "name": "Ruby Dragonfly",
+      "iconUrl": "gfx/invobjs/dragonfly-ruby"
+    },
+    {
+      "name": "Dragon Helm",
+      "iconUrl": "gfx/invobjs/dragonhelm"
+    },
+    {
+      "name": "A Beautiful Dream",
+      "iconUrl": "gfx/invobjs/dream"
+    },
+    {
+      "name": "Dressed Lettuce",
+      "iconUrl": "gfx/invobjs/dressedsalad"
+    },
+    {
+      "name": "Drinking Horn",
+      "iconUrl": "gfx/invobjs/drinkinghorn"
+    },
+    {
+      "name": "Druid's Helm",
+      "iconUrl": "gfx/invobjs/druidshelm"
+    },
+    {
+      "name": "Earthenware Platter",
+      "iconUrl": "gfx/invobjs/earthenwareplatter"
+    },
+    {
+      "name": "Unfired Earthenware Platter",
+      "iconUrl": "gfx/invobjs/earthenwareplatter-u"
+    },
+    {
+      "name": "Earthworm",
+      "iconUrl": "gfx/invobjs/earthworm"
+    },
+    {
+      "name": "Easter Egg",
+      "iconUrl": "gfx/invobjs/easteregg0"
+    },
+    {
+      "name": "Easter Egg",
+      "iconUrl": "gfx/invobjs/easteregg1"
+    },
+    {
+      "name": "Easter Egg",
+      "iconUrl": "gfx/invobjs/easteregg2"
+    },
+    {
+      "name": "Easter Egg",
+      "iconUrl": "gfx/invobjs/easteregg3"
+    },
+    {
+      "name": "Egg Cake",
+      "iconUrl": "gfx/invobjs/eggcake"
+    },
+    {
+      "name": "Boiled Chicken Egg",
+      "iconUrl": "gfx/invobjs/egg-chicken-boiled"
+    },
+    {
+      "name": "Chicken Egg",
+      "iconUrl": "gfx/invobjs/egg-chicken"
+    },
+    {
+      "name": "Fried Chicken Egg",
+      "iconUrl": "gfx/invobjs/egg-chicken-fried"
+    },
+    {
+      "name": "Potent Rod",
+      "iconUrl": "gfx/invobjs/electrifiedrod"
+    },
+    {
+      "name": "Encumbered Roast",
+      "iconUrl": "gfx/invobjs/encumberedroast"
+    },
+    {
+      "name": "Enthroned Toad",
+      "iconUrl": "gfx/invobjs/enthronedtoad"
+    },
+    {
+      "name": "Entrails",
+      "iconUrl": "gfx/invobjs/entrails"
+    },
+    {
+      "name": "Stuffed Bear",
+      "iconUrl": "gfx/invobjs/ernst"
+    },
+    {
+      "name": "Escargots d'Amour",
+      "iconUrl": "gfx/invobjs/escargotamour"
+    },
+    {
+      "name": "Everglowing Ember",
+      "iconUrl": "gfx/invobjs/everglowingember"
+    },
+    {
+      "name": "Exquisite Belt",
+      "iconUrl": "gfx/invobjs/exquisitebelt"
+    },
+    {
+      "name": "Exquisite Rot",
+      "iconUrl": "gfx/invobjs/exquisiterot"
+    },
+    {
+      "name": "Untanned Rot",
+      "iconUrl": "gfx/invobjs/exquisiterotu"
+    },
+    {
+      "name": "Extra Stitches",
+      "iconUrl": "gfx/invobjs/extrastitch"
+    },
+    {
+      "name": "Fairy Mushroom",
+      "iconUrl": "gfx/invobjs/fairyshroom"
+    },
+    {
+      "name": "Fancy Buckle",
+      "iconUrl": "gfx/invobjs/fancybuckle"
+    },
+    {
+      "name": "Fat-Braised Veg",
+      "iconUrl": "gfx/invobjs/fatbraisedveg"
+    },
+    {
+      "name": "Feather Band",
+      "iconUrl": "gfx/invobjs/featherband"
+    },
+    {
+      "name": "Chicken Feathers",
+      "iconUrl": "gfx/invobjs/feather-chicken"
+    },
+    {
+      "name": "Feather Duster",
+      "iconUrl": "gfx/invobjs/featherduster"
+    },
+    {
+      "name": "Feather",
+      "iconUrl": "gfx/invobjs/feather"
+    },
+    {
+      "name": "Feather Garland",
+      "iconUrl": "gfx/invobjs/feathergarland"
+    },
+    {
+      "name": "Golden Eagle Feather",
+      "iconUrl": "gfx/invobjs/feather-goldeneagle"
+    },
+    {
+      "name": "Magpie Feather",
+      "iconUrl": "gfx/invobjs/feather-magpie"
+    },
+    {
+      "name": "Mallard Feather",
+      "iconUrl": "gfx/invobjs/feather-mallard"
+    },
+    {
+      "name": "Ptarmigan Feather",
+      "iconUrl": "gfx/invobjs/feather-ptarmigan"
+    },
+    {
+      "name": "Quail Feather",
+      "iconUrl": "gfx/invobjs/feather-quail"
+    },
+    {
+      "name": "Feather Stuffing",
+      "iconUrl": "gfx/invobjs/featherstuffing"
+    },
+    {
+      "name": "Swan Feather",
+      "iconUrl": "gfx/invobjs/feather-swan"
+    },
+    {
+      "name": "Feather Trinket",
+      "iconUrl": "gfx/invobjs/feathertrinket"
+    },
+    {
+      "name": "Wood Grouse Feather",
+      "iconUrl": "gfx/invobjs/feather-woodgrouse"
+    },
+    {
+      "name": "Feldspar",
+      "iconUrl": "gfx/invobjs/feldspar"
+    },
+    {
+      "name": "Silver for the Ferryman",
+      "iconUrl": "gfx/invobjs/ferrysilver"
+    },
+    {
+      "name": "Broken Nidbane Fetter",
+      "iconUrl": "gfx/invobjs/fetterbroken"
+    },
+    {
+      "name": "Nidbane Fetter",
+      "iconUrl": "gfx/invobjs/fetter"
+    },
+    {
+      "name": "Fez",
+      "iconUrl": "gfx/invobjs/fez"
+    },
+    {
+      "name": "Finebone",
+      "iconUrl": "gfx/invobjs/finebone"
+    },
+    {
+      "name": "Beast Ring",
+      "iconUrl": "gfx/invobjs/finebonering"
+    },
+    {
+      "name": "Finebone Trinkets",
+      "iconUrl": "gfx/invobjs/finebonetrinkets"
+    },
+    {
+      "name": "Fine Feather Brooch",
+      "iconUrl": "gfx/invobjs/finefeatherbrooch"
+    },
+    {
+      "name": "Fine Feather",
+      "iconUrl": "gfx/invobjs/finefeather"
+    },
+    {
+      "name": "Firebrand",
+      "iconUrl": "gfx/invobjs/firebrand"
+    },
+    {
+      "name": "Firefly",
+      "iconUrl": "gfx/invobjs/firefly"
+    },
+    {
+      "name": "Asp",
+      "iconUrl": "gfx/invobjs/fish-asp"
+    },
+    {
+      "name": "Bream",
+      "iconUrl": "gfx/invobjs/fish-bream"
+    },
+    {
+      "name": "Brill",
+      "iconUrl": "gfx/invobjs/fish-brill"
+    },
+    {
+      "name": "Burbot",
+      "iconUrl": "gfx/invobjs/fish-burbot"
+    },
+    {
+      "name": "Carp",
+      "iconUrl": "gfx/invobjs/fish-carp"
+    },
+    {
+      "name": "Catfish",
+      "iconUrl": "gfx/invobjs/fish-catfish"
+    },
+    {
+      "name": "Cavelacanth",
+      "iconUrl": "gfx/invobjs/fish-cavelacanth"
+    },
+    {
+      "name": "Chub",
+      "iconUrl": "gfx/invobjs/fish-chub"
+    },
+    {
+      "name": "Eel",
+      "iconUrl": "gfx/invobjs/fish-eel"
+    },
+    {
+      "name": "Fisherman's Hat",
+      "iconUrl": "gfx/invobjs/fishermanshat"
+    },
+    {
+      "name": "Fish",
+      "iconUrl": "gfx/invobjs/fish"
+    },
+    {
+      "name": "Grayling",
+      "iconUrl": "gfx/invobjs/fish-grayling"
+    },
+    {
+      "name": "Ide",
+      "iconUrl": "gfx/invobjs/fish-ide"
+    },
+    {
+      "name": "Fish in Tears",
+      "iconUrl": "gfx/invobjs/fishintears"
+    },
+    {
+      "name": "Lavaret",
+      "iconUrl": "gfx/invobjs/fish-lavaret"
+    },
+    {
+      "name": "Mullet",
+      "iconUrl": "gfx/invobjs/fish-mullet"
+    },
+    {
+      "name": "Pale Ghostfish",
+      "iconUrl": "gfx/invobjs/fish-paleghostfish"
+    },
+    {
+      "name": "Perch",
+      "iconUrl": "gfx/invobjs/fish-perch"
+    },
+    {
+      "name": "Fishpie",
+      "iconUrl": "gfx/invobjs/fishpie"
+    },
+    {
+      "name": "Pike",
+      "iconUrl": "gfx/invobjs/fish-pike"
+    },
+    {
+      "name": "Plaice",
+      "iconUrl": "gfx/invobjs/fish-plaice"
+    },
+    {
+      "name": "Pomfret",
+      "iconUrl": "gfx/invobjs/fish-pomfret"
+    },
+    {
+      "name": "Roach",
+      "iconUrl": "gfx/invobjs/fish-roach"
+    },
+    {
+      "name": "Ruffe",
+      "iconUrl": "gfx/invobjs/fish-ruffe"
+    },
+    {
+      "name": "Salmon",
+      "iconUrl": "gfx/invobjs/fish-salmon"
+    },
+    {
+      "name": "Silver Bream",
+      "iconUrl": "gfx/invobjs/fish-silverbream"
+    },
+    {
+      "name": "Smelt",
+      "iconUrl": "gfx/invobjs/fish-smelt"
+    },
+    {
+      "name": "Fishsticks",
+      "iconUrl": "gfx/invobjs/fishsticks"
+    },
+    {
+      "name": "Sturgeon",
+      "iconUrl": "gfx/invobjs/fish-sturgeon"
+    },
+    {
+      "name": "Tench",
+      "iconUrl": "gfx/invobjs/fish-tench"
+    },
+    {
+      "name": "Trout",
+      "iconUrl": "gfx/invobjs/fish-trout"
+    },
+    {
+      "name": "Whiting",
+      "iconUrl": "gfx/invobjs/fish-whiting"
+    },
+    {
+      "name": "Fishwrap",
+      "iconUrl": "gfx/invobjs/fishwrap"
+    },
+    {
+      "name": "Fishy Eyeball",
+      "iconUrl": "gfx/invobjs/fishyeyeball"
+    },
+    {
+      "name": "Zander",
+      "iconUrl": "gfx/invobjs/fish-zander"
+    },
+    {
+      "name": "Zope",
+      "iconUrl": "gfx/invobjs/fish-zope"
+    },
+    {
+      "name": "Flax Fibres",
+      "iconUrl": "gfx/invobjs/flaxfibre"
+    },
+    {
+      "name": "Linseed Oil",
+      "iconUrl": "gfx/invobjs/flaxoil"
+    },
+    {
+      "name": "Flint",
+      "iconUrl": "gfx/invobjs/flint"
+    },
+    {
+      "name": "Flint & Steel",
+      "iconUrl": "gfx/invobjs/flintsteel"
+    },
+    {
+      "name": "Flipper Bones",
+      "iconUrl": "gfx/invobjs/flipperbone"
+    },
+    {
+      "name": "Barley Flour",
+      "iconUrl": "gfx/invobjs/flour-barleyflour"
+    },
+    {
+      "name": "Flour",
+      "iconUrl": "gfx/invobjs/flour"
+    },
+    {
+      "name": "Millable Seed",
+      "iconUrl": "gfx/invobjs/flourseeds"
+    },
+    {
+      "name": "Wheat Flour",
+      "iconUrl": "gfx/invobjs/flour-wheatflour"
+    },
+    {
+      "name": "Flower",
+      "iconUrl": "gfx/invobjs/flower"
+    },
+    {
+      "name": "Poppy Flower",
+      "iconUrl": "gfx/invobjs/flower-poppy"
+    },
+    {
+      "name": "Fluorospar",
+      "iconUrl": "gfx/invobjs/fluorospar"
+    },
+    {
+      "name": "Flute",
+      "iconUrl": "gfx/invobjs/flute"
+    },
+    {
+      "name": "Beast Unborn",
+      "iconUrl": "gfx/invobjs/foetus"
+    },
+    {
+      "name": "Beer",
+      "iconUrl": "gfx/invobjs/food/beer"
+    },
+    {
+      "name": "Berries",
+      "iconUrl": "gfx/invobjs/food/berries"
+    },
+    {
+      "name": "Bread",
+      "iconUrl": "gfx/invobjs/food/bread"
+    },
+    {
+      "name": "Cheese",
+      "iconUrl": "gfx/invobjs/food/cheese"
+    },
+    {
+      "name": "Creepies & Crawlies",
+      "iconUrl": "gfx/invobjs/food/creep"
+    },
+    {
+      "name": "Dairy",
+      "iconUrl": "gfx/invobjs/food/dairy"
+    },
+    {
+      "name": "Fish",
+      "iconUrl": "gfx/invobjs/food/fish"
+    },
+    {
+      "name": "Food",
+      "iconUrl": "gfx/invobjs/food/food"
+    },
+    {
+      "name": "Forage",
+      "iconUrl": "gfx/invobjs/food/forage"
+    },
+    {
+      "name": "Fruit",
+      "iconUrl": "gfx/invobjs/food/fruit"
+    },
+    {
+      "name": "Game",
+      "iconUrl": "gfx/invobjs/food/game"
+    },
+    {
+      "name": "Meat",
+      "iconUrl": "gfx/invobjs/food/meat"
+    },
+    {
+      "name": "Nuts & Seeds",
+      "iconUrl": "gfx/invobjs/food/nuts"
+    },
+    {
+      "name": "Offal",
+      "iconUrl": "gfx/invobjs/food/offal"
+    },
+    {
+      "name": "Fowl & Poultry",
+      "iconUrl": "gfx/invobjs/food/poultry"
+    },
+    {
+      "name": "Sausage",
+      "iconUrl": "gfx/invobjs/food/sausage"
+    },
+    {
+      "name": "Mushrooms",
+      "iconUrl": "gfx/invobjs/food/shrooms"
+    },
+    {
+      "name": "Tea",
+      "iconUrl": "gfx/invobjs/food/tea"
+    },
+    {
+      "name": "Vegetables",
+      "iconUrl": "gfx/invobjs/food/veg"
+    },
+    {
+      "name": "Wine",
+      "iconUrl": "gfx/invobjs/food/wine"
+    },
+    {
+      "name": "Forager's Brooch",
+      "iconUrl": "gfx/invobjs/foragebrooch"
+    },
+    {
+      "name": "Forest Lizard",
+      "iconUrl": "gfx/invobjs/forestlizard"
+    },
+    {
+      "name": "Forest Snail",
+      "iconUrl": "gfx/invobjs/forestsnail"
+    },
+    {
+      "name": "Forge Ring",
+      "iconUrl": "gfx/invobjs/forgering"
+    },
+    {
+      "name": "Fossil Collection",
+      "iconUrl": "gfx/invobjs/fossilcollection"
+    },
+    {
+      "name": "Foul Smoke",
+      "iconUrl": "gfx/invobjs/foulsmoke"
+    },
+    {
+      "name": "Fox Hat",
+      "iconUrl": "gfx/invobjs/foxhat"
+    },
+    {
+      "name": "Fresh Fox Hide",
+      "iconUrl": "gfx/invobjs/foxhide-blood"
+    },
+    {
+      "name": "Raw Fox Hide",
+      "iconUrl": "gfx/invobjs/foxhide-blood"
+    },
+    {
+      "name": "Dried Fox Hide",
+      "iconUrl": "gfx/invobjs/foxhide"
+    },
+    {
+      "name": "Fox Hide",
+      "iconUrl": "gfx/invobjs/foxhide"
+    },
+    {
+      "name": "Frog",
+      "iconUrl": "gfx/invobjs/frog"
+    },
+    {
+      "name": "Grilled Frog Legs",
+      "iconUrl": "gfx/invobjs/froglegs"
+    },
+    {
+      "name": "Fruit Pie",
+      "iconUrl": "gfx/invobjs/fruitpie"
+    },
+    {
+      "name": "Fruitroast",
+      "iconUrl": "gfx/invobjs/fruitroast"
+    },
+    {
+      "name": "Fruit Sorbet",
+      "iconUrl": "gfx/invobjs/fruitsorbet"
+    },
+    {
+      "name": "Frying Pan",
+      "iconUrl": "gfx/invobjs/fryingpan"
+    },
+    {
+      "name": "Fulgurite",
+      "iconUrl": "gfx/invobjs/fulgurite"
+    },
+    {
+      "name": "Fur Boots",
+      "iconUrl": "gfx/invobjs/furboots"
+    },
+    {
+      "name": "Fur Cloak",
+      "iconUrl": "gfx/invobjs/furcloak"
+    },
+    {
+      "name": "Fyrdsman's Sword",
+      "iconUrl": "gfx/invobjs/fyrdsword"
+    },
+    {
+      "name": "Galena",
+      "iconUrl": "gfx/invobjs/galena"
+    },
+    {
+      "name": "Game Time Token",
+      "iconUrl": "gfx/invobjs/gametime"
+    },
+    {
+      "name": "Garden Pot",
+      "iconUrl": "gfx/invobjs/gardenpot"
+    },
+    {
+      "name": "Unfired Garden Pot",
+      "iconUrl": "gfx/invobjs/gardenpot-u"
+    },
+    {
+      "name": "Garment Needle",
+      "iconUrl": "gfx/invobjs/garmentneedle0"
+    },
+    {
+      "name": "Garment Needle",
+      "iconUrl": "gfx/invobjs/garmentneedle3"
+    },
+    {
+      "name": "Gauze",
+      "iconUrl": "gfx/invobjs/gauze"
+    },
+    {
+      "name": "Gemstone",
+      "iconUrl": "gfx/invobjs/gems/any"
+    },
+    {
+      "name": "Fair Cabochon",
+      "iconUrl": "gfx/invobjs/gems/fair-cabochon"
+    },
+    {
+      "name": "Grand Rough",
+      "iconUrl": "gfx/invobjs/gems/grand-rough"
+    },
+    {
+      "name": "Jotun Cabochon",
+      "iconUrl": "gfx/invobjs/gems/jotun-cabochon"
+    },
+    {
+      "name": "Gift Box",
+      "iconUrl": "gfx/invobjs/gift-yule"
+    },
+    {
+      "name": "Gift Box",
+      "iconUrl": "gfx/invobjs/gift-yule-o"
+    },
+    {
+      "name": "Gilded Nautilus",
+      "iconUrl": "gfx/invobjs/gildednautilus"
+    },
+    {
+      "name": "Gilding Leaf",
+      "iconUrl": "gfx/invobjs/gildingleaf"
+    },
+    {
+      "name": "Gilding Rock",
+      "iconUrl": "gfx/invobjs/gildingrock"
+    },
+    {
+      "name": "Glass Beads",
+      "iconUrl": "gfx/invobjs/glassbeads"
+    },
+    {
+      "name": "Glass Key",
+      "iconUrl": "gfx/invobjs/glasskey"
+    },
+    {
+      "name": "Raw Glass",
+      "iconUrl": "gfx/invobjs/glass"
+    },
+    {
+      "name": "Spun Gluethread",
+      "iconUrl": "gfx/invobjs/gluethread"
+    },
+    {
+      "name": "Glue Troll",
+      "iconUrl": "gfx/invobjs/gluetroll"
+    },
+    {
+      "name": "Gneiss",
+      "iconUrl": "gfx/invobjs/gneiss"
+    },
+    {
+      "name": "Fresh Goat Hide",
+      "iconUrl": "gfx/invobjs/goathide-blood"
+    },
+    {
+      "name": "Goat Hide",
+      "iconUrl": "gfx/invobjs/goathide"
+    },
+    {
+      "name": "Goat Horn",
+      "iconUrl": "gfx/invobjs/goathorn"
+    },
+    {
+      "name": "Goat Mask",
+      "iconUrl": "gfx/invobjs/goatmask"
+    },
+    {
+      "name": "Goldbeater's Skin",
+      "iconUrl": "gfx/invobjs/goldbeaters"
+    },
+    {
+      "name": "Gold Egg",
+      "iconUrl": "gfx/invobjs/goldegg"
+    },
+    {
+      "name": "Golden Cat",
+      "iconUrl": "gfx/invobjs/goldencat"
+    },
+    {
+      "name": "Cleaned Golden Eagle",
+      "iconUrl": "gfx/invobjs/goldeneagle-cleaned"
+    },
+    {
+      "name": "Dead Golden Eagle",
+      "iconUrl": "gfx/invobjs/goldeneagle-dead"
+    },
+    {
+      "name": "Plucked Golden Eagle",
+      "iconUrl": "gfx/invobjs/goldeneagle-plucked"
+    },
+    {
+      "name": "Golden Eagle Talon",
+      "iconUrl": "gfx/invobjs/goldeneagletalon"
+    },
+    {
+      "name": "Golden Table Bell",
+      "iconUrl": "gfx/invobjs/goldentablebell"
+    },
+    {
+      "name": "Golden Tooth",
+      "iconUrl": "gfx/invobjs/goldentooth"
+    },
+    {
+      "name": "Gold Plate",
+      "iconUrl": "gfx/invobjs/goldplate"
+    },
+    {
+      "name": "Grand Belt",
+      "iconUrl": "gfx/invobjs/grandbelt"
+    },
+    {
+      "name": "Grand Haruspex",
+      "iconUrl": "gfx/invobjs/grandharuspex"
+    },
+    {
+      "name": "Granite",
+      "iconUrl": "gfx/invobjs/granite"
+    },
+    {
+      "name": "Grapes",
+      "iconUrl": "gfx/invobjs/grapes"
+    },
+    {
+      "name": "Grasshopper",
+      "iconUrl": "gfx/invobjs/grasshopper"
+    },
+    {
+      "name": "Greased Joints",
+      "iconUrl": "gfx/invobjs/greasedjoints"
+    },
+    {
+      "name": "Great Wax Seal",
+      "iconUrl": "gfx/invobjs/greatwaxseal"
+    },
+    {
+      "name": "Greenleaf Pie",
+      "iconUrl": "gfx/invobjs/greenleafpie"
+    },
+    {
+      "name": "Mask of the Green Man",
+      "iconUrl": "gfx/invobjs/greenmanmask"
+    },
+    {
+      "name": "Woodsman's Tunic",
+      "iconUrl": "gfx/invobjs/greentunic"
+    },
+    {
+      "name": "Fresh Grey Seal Hide",
+      "iconUrl": "gfx/invobjs/greysealhide-blood"
+    },
+    {
+      "name": "Grey Seal Hide",
+      "iconUrl": "gfx/invobjs/greysealhide"
+    },
+    {
+      "name": "Barley Grist",
+      "iconUrl": "gfx/invobjs/grist-barley"
+    },
+    {
+      "name": "Barley Grist",
+      "iconUrl": "gfx/invobjs/grist-barleygrist"
+    },
+    {
+      "name": "Grist",
+      "iconUrl": "gfx/invobjs/grist"
+    },
+    {
+      "name": "Wheat Grist",
+      "iconUrl": "gfx/invobjs/grist-wheatgrist"
+    },
+    {
+      "name": "Grub",
+      "iconUrl": "gfx/invobjs/grub"
+    },
+    {
+      "name": "Grubpie",
+      "iconUrl": "gfx/invobjs/grubpie"
+    },
+    {
+      "name": "Scent of a Heinous Crime",
+      "iconUrl": "gfx/invobjs/gscent"
+    },
+    {
+      "name": "Bat Guano",
+      "iconUrl": "gfx/invobjs/guano"
+    },
+    {
+      "name": "Rough Guard Patch",
+      "iconUrl": "gfx/invobjs/guardpatch"
+    },
+    {
+      "name": "Holy Halo",
+      "iconUrl": "gfx/invobjs/halo"
+    },
+    {
+      "name": "The Hand that Gives",
+      "iconUrl": "gfx/invobjs/hand-give"
+    },
+    {
+      "name": "Hand Impression",
+      "iconUrl": "gfx/invobjs/handimpression"
+    },
+    {
+      "name": "Unfired Hand Impression",
+      "iconUrl": "gfx/invobjs/handimpression-u"
+    },
+    {
+      "name": "The Hand that Takes",
+      "iconUrl": "gfx/invobjs/hand-take"
+    },
+    {
+      "name": "Bandit's Mask",
+      "iconUrl": "gfx/invobjs/hanky"
+    },
+    {
+      "name": "Hardened Leather",
+      "iconUrl": "gfx/invobjs/hardenedleather"
+    },
+    {
+      "name": "Hardhat",
+      "iconUrl": "gfx/invobjs/hardhat"
+    },
+    {
+      "name": "Hard Metal Cutlery",
+      "iconUrl": "gfx/invobjs/hardmetalcutlery"
+    },
+    {
+      "name": "Hard Metal Rivets",
+      "iconUrl": "gfx/invobjs/hardmetalrivets"
+    },
+    {
+      "name": "Harmonica",
+      "iconUrl": "gfx/invobjs/harmonica"
+    },
+    {
+      "name": "Salt of Hartshorn",
+      "iconUrl": "gfx/invobjs/hartshorn"
+    },
+    {
+      "name": "Hartshorn Salve",
+      "iconUrl": "gfx/invobjs/hartshornsalve"
+    },
+    {
+      "name": "Hazelnut",
+      "iconUrl": "gfx/invobjs/hazelnut"
+    },
+    {
+      "name": "Hedgehog Carcass",
+      "iconUrl": "gfx/invobjs/hedgehog-carcass"
+    },
+    {
+      "name": "Clean Hedgehog Carcass",
+      "iconUrl": "gfx/invobjs/hedgehog-clean"
+    },
+    {
+      "name": "Dead Hedgehog",
+      "iconUrl": "gfx/invobjs/hedgehog-dead"
+    },
+    {
+      "name": "Hedgehog",
+      "iconUrl": "gfx/invobjs/hedgehog"
+    },
+    {
+      "name": "Fresh Hedgehog Skin",
+      "iconUrl": "gfx/invobjs/hedgehoghide-blood"
+    },
+    {
+      "name": "Hedgehog Skin",
+      "iconUrl": "gfx/invobjs/hedgehoghide"
+    },
+    {
+      "name": "Hedgehog Quills",
+      "iconUrl": "gfx/invobjs/hedgehogquills"
+    },
+    {
+      "name": "Family Heirloom",
+      "iconUrl": "gfx/invobjs/heirloom"
+    },
+    {
+      "name": "Bloodstone",
+      "iconUrl": "gfx/invobjs/hematite"
+    },
+    {
+      "name": "Hemp Cloth",
+      "iconUrl": "gfx/invobjs/hempcloth"
+    },
+    {
+      "name": "Cured Hemp Bud",
+      "iconUrl": "gfx/invobjs/hemp-cured"
+    },
+    {
+      "name": "Hemp Fibres",
+      "iconUrl": "gfx/invobjs/hempfibre"
+    },
+    {
+      "name": "Fresh Hemp Bud",
+      "iconUrl": "gfx/invobjs/hemp-fresh"
+    },
+    {
+      "name": "Hemp Pants",
+      "iconUrl": "gfx/invobjs/hemppants"
+    },
+    {
+      "name": "Hemp Shirt",
+      "iconUrl": "gfx/invobjs/hempshirt"
+    },
+    {
+      "name": "Dead Hen",
+      "iconUrl": "gfx/invobjs/hen-dead"
+    },
+    {
+      "name": "Hen",
+      "iconUrl": "gfx/invobjs/hen"
+    },
+    {
+      "name": "Heraldic Cape",
+      "iconUrl": "gfx/invobjs/heraldicape"
+    },
+    {
+      "name": "Bay Bolete",
+      "iconUrl": "gfx/invobjs/herbs/baybolete",
+      "detection": 1920
+    },
+    {
+      "name": "Black Trumpets",
+      "iconUrl": "gfx/invobjs/herbs/blacktrumpet",
+      "detection": 7000
+    },
+    {
+      "name": "Washed-up Bladderwrack",
+      "iconUrl": "gfx/invobjs/herbs/bladderwrack"
+    },
+    {
+      "name": "Bloated Bolete",
+      "iconUrl": "gfx/invobjs/herbs/bloatedbolete",
+      "detection": 220
+    },
+    {
+      "name": "Blood Stern",
+      "iconUrl": "gfx/invobjs/herbs/bloodstern",
+      "detection": 2500
+    },
+    {
+      "name": "Blueberries",
+      "iconUrl": "gfx/invobjs/herbs/blueberry",
+      "detection": 10
+    },
+    {
+      "name": "Camomile",
+      "iconUrl": "gfx/invobjs/herbs/camomile",
+      "detection": 6600
+    },
+    {
+      "name": "Candleberry",
+      "iconUrl": "gfx/invobjs/herbs/candleberry",
+      "detection": 320
+    },
+    {
+      "name": "Cattail Fibres",
+      "iconUrl": "gfx/invobjs/herbs/cattailfibre",
+      "detection": 500
+    },
+    {
+      "name": "Cattail Head",
+      "iconUrl": "gfx/invobjs/herbs/cattailhead",
+      "detection": 500
+    },
+    {
+      "name": "Cattail Roots",
+      "iconUrl": "gfx/invobjs/herbs/cattailroots",
+      "detection": 500
+    },
+    {
+      "name": "Cavebulb",
+      "iconUrl": "gfx/invobjs/herbs/cavebulb",
+      "detection": 1050
+    },
+    {
+      "name": "Cave Coral",
+      "iconUrl": "gfx/invobjs/herbs/cavecoral",
+      "detection": 7380
+    },
+    {
+      "name": "Cave Lantern",
+      "iconUrl": "gfx/invobjs/herbs/cavelantern",
+      "detection": 16000
+    },
+    {
+      "name": "Chantrelles",
+      "iconUrl": "gfx/invobjs/herbs/chantrelle",
+      "detection": 100
+    },
+    {
+      "name": "Chiming Bluebell",
+      "iconUrl": "gfx/invobjs/herbs/chimingbluebell",
+      "detection": 1040
+    },
+    {
+      "name": "Chives",
+      "iconUrl": "gfx/invobjs/herbs/chives",
+      "detection": 180
+    },
+    {
+      "name": "Clover",
+      "iconUrl": "gfx/invobjs/herbs/clover",
+      "detection": 260
+    },
+    {
+      "name": "Common Starfish",
+      "iconUrl": "gfx/invobjs/herbs/commonstarfish",
+      "detection": 1400
+    },
+    {
+      "name": "Dandelion",
+      "iconUrl": "gfx/invobjs/herbs/dandelion",
+      "detection": 20
+    },
+    {
+      "name": "Dill",
+      "iconUrl": "gfx/invobjs/herbs/dill",
+      "detection": 9600
+    },
+    {
+      "name": "Edelweiß",
+      "iconUrl": "gfx/invobjs/herbs/edelweiss",
+      "detection": 3200
+    },
+    {
+      "name": "Peculiar Flotsam",
+      "iconUrl": "gfx/invobjs/herbs/flotsam",
+      "detection": 220
+    },
+    {
+      "name": "Four-Leaf Clover",
+      "iconUrl": "gfx/invobjs/herbs/fourleafclover",
+      "detection": 260
+    },
+    {
+      "name": "Frog's Crown",
+      "iconUrl": "gfx/invobjs/herbs/frogscrown",
+      "detection": 900
+    },
+    {
+      "name": "Frogspawn",
+      "iconUrl": "gfx/invobjs/herbs/frogspawn",
+      "detection": 2000
+    },
+    {
+      "name": "Giant Puffball",
+      "iconUrl": "gfx/invobjs/herbs/giantpuffball",
+      "detection": 1000
+    },
+    {
+      "name": "Glimmermoss",
+      "iconUrl": "gfx/invobjs/herbs/glimmermoss",
+      "detection": 2550
+    },
+    {
+      "name": "Gooseneck Barnacle",
+      "iconUrl": "gfx/invobjs/herbs/goosebarnacle",
+      "detection": 200
+    },
+    {
+      "name": "Green Kelp",
+      "iconUrl": "gfx/invobjs/herbs/greenkelp",
+      "detection": 7000
+    },
+    {
+      "name": "Kvann",
+      "iconUrl": "gfx/invobjs/herbs/kvann",
+      "detection": 1800
+    },
+    {
+      "name": "Dewy Lady's Mantle",
+      "iconUrl": "gfx/invobjs/herbs/ladysmantledew",
+      "detection": 160
+    },
+    {
+      "name": "Lady's Mantle",
+      "iconUrl": "gfx/invobjs/herbs/ladysmantle",
+      "detection": 160
+    },
+    {
+      "name": "Lamp Stalk",
+      "iconUrl": "gfx/invobjs/herbs/lampstalk",
+      "detection": 400
+    },
+    {
+      "name": "Lingonberries",
+      "iconUrl": "gfx/invobjs/herbs/lingon",
+      "detection": 200
+    },
+    {
+      "name": "Morels",
+      "iconUrl": "gfx/invobjs/herbs/lorchel",
+      "detection": 300
+    },
+    {
+      "name": "Mandrake Root",
+      "iconUrl": "gfx/invobjs/herbs/mandrake",
+      "detection": 400
+    },
+    {
+      "name": "Mistletoe",
+      "iconUrl": "gfx/invobjs/herbs/mistletoe",
+      "detection": 20
+    },
+    {
+      "name": "River Pearl Mussel",
+      "iconUrl": "gfx/invobjs/herbs/mussels",
+      "detection": 1520
+    },
+    {
+      "name": "Parasol Mushroom",
+      "iconUrl": "gfx/invobjs/herbs/parasolshroom",
+      "detection": 300
+    },
+    {
+      "name": "Royal Toadstool",
+      "iconUrl": "gfx/invobjs/herbs/royaltoadstool",
+      "detection": 650
+    },
+    {
+      "name": "Rustroot",
+      "iconUrl": "gfx/invobjs/herbs/rustroot",
+      "detection": 1000
+    },
+    {
+      "name": "Rainbow Shell",
+      "iconUrl": "gfx/invobjs/herbs/seashell",
+      "detection": 5000
+    },
+    {
+      "name": "Uncommon Snapdragon",
+      "iconUrl": "gfx/invobjs/herbs/snapdragon",
+      "detection": 288
+    },
+    {
+      "name": "Spindly Taproot",
+      "iconUrl": "gfx/invobjs/herbs/spindlytaproot",
+      "detection": 20
+    },
+    {
+      "name": "Stalagoom",
+      "iconUrl": "gfx/invobjs/herbs/stalagoom",
+      "detection": 200
+    },
+    {
+      "name": "Stinging Nettle",
+      "iconUrl": "gfx/invobjs/herbs/stingingnettle",
+      "detection": 50
+    },
+    {
+      "name": "Strawberries",
+      "iconUrl": "gfx/invobjs/herbs/strawberry",
+      "detection": 3700
+    },
+    {
+      "name": "Tangled Bramble",
+      "iconUrl": "gfx/invobjs/herbs/tangledbramble",
+      "detection": 560
+    },
+    {
+      "name": "Thorny Thistle",
+      "iconUrl": "gfx/invobjs/herbs/thornythistle"
+    },
+    {
+      "name": "Flotsam",
+      "iconUrl": "gfx/invobjs/herbs/vrakgods"
+    },
+    {
+      "name": "Waybroad",
+      "iconUrl": "gfx/invobjs/herbs/waybroad",
+      "detection": 300
+    },
+    {
+      "name": "Wild Windsown Weed",
+      "iconUrl": "gfx/invobjs/herbs/windweed",
+      "detection": 160
+    },
+    {
+      "name": "Yarrow",
+      "iconUrl": "gfx/invobjs/herbs/yarrow",
+      "detection": 400
+    },
+    {
+      "name": "Yellowfeet",
+      "iconUrl": "gfx/invobjs/herbs/yellowfoot",
+      "detection": 400
+    },
+    {
+      "name": "Hermine Cape",
+      "iconUrl": "gfx/invobjs/herminecape"
+    },
+    {
+      "name": "Hide Cloak",
+      "iconUrl": "gfx/invobjs/hidecloak"
+    },
+    {
+      "name": "Hide",
+      "iconUrl": "gfx/invobjs/hide"
+    },
+    {
+      "name": "Hide Layer",
+      "iconUrl": "gfx/invobjs/hidelayer"
+    },
+    {
+      "name": "Hide Strap",
+      "iconUrl": "gfx/invobjs/hidestrap"
+    },
+    {
+      "name": "Hirdsman's Helmet",
+      "iconUrl": "gfx/invobjs/hirdhelmet"
+    },
+    {
+      "name": "Hirdsman's Cape",
+      "iconUrl": "gfx/invobjs/hirdsmanscape"
+    },
+    {
+      "name": "Hirdsman's Sword",
+      "iconUrl": "gfx/invobjs/hirdsword"
+    },
+    {
+      "name": "Honey'd Bear",
+      "iconUrl": "gfx/invobjs/honeybear"
+    },
+    {
+      "name": "Honey Broadaid",
+      "iconUrl": "gfx/invobjs/honeybroadaid"
+    },
+    {
+      "name": "Honeybun",
+      "iconUrl": "gfx/invobjs/honeybun"
+    },
+    {
+      "name": "Honey",
+      "iconUrl": "gfx/invobjs/honey"
+    },
+    {
+      "name": "Bone Hook",
+      "iconUrl": "gfx/invobjs/hook-bone"
+    },
+    {
+      "name": "Gold Hook",
+      "iconUrl": "gfx/invobjs/hook-gold"
+    },
+    {
+      "name": "Metal Hook",
+      "iconUrl": "gfx/invobjs/hook-metal"
+    },
+    {
+      "name": "Hop Cones",
+      "iconUrl": "gfx/invobjs/hopcones"
+    },
+    {
+      "name": "Unusually Large Hop Cone",
+      "iconUrl": "gfx/invobjs/hopcones-l"
+    },
+    {
+      "name": "Hopped-up Cone Cow",
+      "iconUrl": "gfx/invobjs/hoppedcow"
+    },
+    {
+      "name": "Hornblende",
+      "iconUrl": "gfx/invobjs/hornblende"
+    },
+    {
+      "name": "Horn Silver",
+      "iconUrl": "gfx/invobjs/hornsilver"
+    },
+    {
+      "name": "Horrible Knot",
+      "iconUrl": "gfx/invobjs/horribleknot"
+    },
+    {
+      "name": "Fresh Horse Hide",
+      "iconUrl": "gfx/invobjs/horsehide-blood"
+    },
+    {
+      "name": "Horse Hide",
+      "iconUrl": "gfx/invobjs/horsehide"
+    },
+    {
+      "name": "Hot Wings",
+      "iconUrl": "gfx/invobjs/hotwings"
+    },
+    {
+      "name": "Patch of Aurochs Hide",
+      "iconUrl": "gfx/invobjs/hpatch-aurochs"
+    },
+    {
+      "name": "Patch of Badger Hide",
+      "iconUrl": "gfx/invobjs/hpatch-badger"
+    },
+    {
+      "name": "Patch of Bear Hide",
+      "iconUrl": "gfx/invobjs/hpatch-bear"
+    },
+    {
+      "name": "Patch of Boarhide",
+      "iconUrl": "gfx/invobjs/hpatch-boar"
+    },
+    {
+      "name": "Patch of Cattle Hide",
+      "iconUrl": "gfx/invobjs/hpatch-cow"
+    },
+    {
+      "name": "Patch of Fox Hide",
+      "iconUrl": "gfx/invobjs/hpatch-fox"
+    },
+    {
+      "name": "Patch of Grey Seal Hide",
+      "iconUrl": "gfx/invobjs/hpatch-greyseal"
+    },
+    {
+      "name": "Patch of Horse Hide",
+      "iconUrl": "gfx/invobjs/hpatch-horse"
+    },
+    {
+      "name": "Patch of Lynx Hide",
+      "iconUrl": "gfx/invobjs/hpatch-lynx"
+    },
+    {
+      "name": "Patch of Mammoth Hide",
+      "iconUrl": "gfx/invobjs/hpatch-mammoth"
+    },
+    {
+      "name": "Patch of Moose Hide",
+      "iconUrl": "gfx/invobjs/hpatch-moose"
+    },
+    {
+      "name": "Patch of Mouflon Hide",
+      "iconUrl": "gfx/invobjs/hpatch-mouflon"
+    },
+    {
+      "name": "Patch of Pigskin",
+      "iconUrl": "gfx/invobjs/hpatch-pig"
+    },
+    {
+      "name": "Patch of Red Deer Hide",
+      "iconUrl": "gfx/invobjs/hpatch-reddeer"
+    },
+    {
+      "name": "Patch of Sheepskin",
+      "iconUrl": "gfx/invobjs/hpatch-sheep"
+    },
+    {
+      "name": "Patch of Wildhorse Hide",
+      "iconUrl": "gfx/invobjs/hpatch-wildhorse"
+    },
+    {
+      "name": "Hunter's Belt",
+      "iconUrl": "gfx/invobjs/huntersbelt"
+    },
+    {
+      "name": "Hunter's Bow",
+      "iconUrl": "gfx/invobjs/huntersbow"
+    },
+    {
+      "name": "Hunter's Quiver",
+      "iconUrl": "gfx/invobjs/huntersquiver-e"
+    },
+    {
+      "name": "Hunter's Quiver",
+      "iconUrl": "gfx/invobjs/huntersquiver"
+    },
+    {
+      "name": "Hunter's Shirt",
+      "iconUrl": "gfx/invobjs/huntersshirt"
+    },
+    {
+      "name": "Hussar's Wings",
+      "iconUrl": "gfx/invobjs/hussarwings"
+    },
+    {
+      "name": "Ageless Ice",
+      "iconUrl": "gfx/invobjs/icicle"
+    },
+    {
+      "name": "Heavy Earth",
+      "iconUrl": "gfx/invobjs/ilmenite"
+    },
+    {
+      "name": "Intestines",
+      "iconUrl": "gfx/invobjs/intestines"
+    },
+    {
+      "name": "Stitched Casing",
+      "iconUrl": "gfx/invobjs/intestines-m"
+    },
+    {
+      "name": "Irrlight",
+      "iconUrl": "gfx/invobjs/irrbloss"
+    },
+    {
+      "name": "Itsy Bitsy Spider",
+      "iconUrl": "gfx/invobjs/itsybitsyspider"
+    },
+    {
+      "name": "Itsy Bitsy's Web",
+      "iconUrl": "gfx/invobjs/itsybitsysweb"
+    },
+    {
+      "name": "Ivory Figurine",
+      "iconUrl": "gfx/invobjs/ivoryfigurine"
+    },
+    {
+      "name": "Jack-o'-Mask",
+      "iconUrl": "gfx/invobjs/jackomask"
+    },
+    {
+      "name": "Clay Jar",
+      "iconUrl": "gfx/invobjs/jar"
+    },
+    {
+      "name": "Rustroot Extract",
+      "iconUrl": "gfx/invobjs/jar-rustjuice"
+    },
+    {
+      "name": "Unfired Clay Jar",
+      "iconUrl": "gfx/invobjs/jar-u"
+    },
+    {
+      "name": "Leather Merchant's Hat",
+      "iconUrl": "gfx/invobjs/jewhat"
+    },
+    {
+      "name": "Jotun's Morsel",
+      "iconUrl": "gfx/invobjs/jotunmorsel"
+    },
+    {
+      "name": "Kelp Cream",
+      "iconUrl": "gfx/invobjs/kelpcream"
+    },
+    {
+      "name": "Master Key",
+      "iconUrl": "gfx/invobjs/key-big"
+    },
+    {
+      "name": "Keyring",
+      "iconUrl": "gfx/invobjs/keyring-e"
+    },
+    {
+      "name": "Keyring",
+      "iconUrl": "gfx/invobjs/keyring-f"
+    },
+    {
+      "name": "Slave Key",
+      "iconUrl": "gfx/invobjs/key"
+    },
+    {
+      "name": "Birchbark Kuksa",
+      "iconUrl": "gfx/invobjs/kuksa"
+    },
+    {
+      "name": "Birchbark Kuksa",
+      "iconUrl": "gfx/invobjs/kuksa-full"
+    },
+    {
+      "name": "Kyanite",
+      "iconUrl": "gfx/invobjs/kyanite"
+    },
+    {
+      "name": "Ladybug",
+      "iconUrl": "gfx/invobjs/ladybug"
+    },
+    {
+      "name": "Lantern",
+      "iconUrl": "gfx/invobjs/lantern"
+    },
+    {
+      "name": "Wreath of Laurels",
+      "iconUrl": "gfx/invobjs/laurelwreath"
+    },
+    {
+      "name": "Lawspeaker's Hat",
+      "iconUrl": "gfx/invobjs/lawhat"
+    },
+    {
+      "name": "Lawspeaker's Robes",
+      "iconUrl": "gfx/invobjs/lawrobe"
+    },
+    {
+      "name": "Conker Leaf",
+      "iconUrl": "gfx/invobjs/leaf-conkertree"
+    },
+    {
+      "name": "Heartwood Leaves",
+      "iconUrl": "gfx/invobjs/leaf-heartwood"
+    },
+    {
+      "name": "Laurel Leaves",
+      "iconUrl": "gfx/invobjs/leaf-laurel"
+    },
+    {
+      "name": "Leaf",
+      "iconUrl": "gfx/invobjs/leaf"
+    },
+    {
+      "name": "Maple Leaf",
+      "iconUrl": "gfx/invobjs/leaf-maple"
+    },
+    {
+      "name": "Mulberry Leaf",
+      "iconUrl": "gfx/invobjs/leaf-mulberrytree"
+    },
+    {
+      "name": "Leather Armor",
+      "iconUrl": "gfx/invobjs/leatherarmor"
+    },
+    {
+      "name": "Leather Ball",
+      "iconUrl": "gfx/invobjs/leatherball"
+    },
+    {
+      "name": "Leather Boots",
+      "iconUrl": "gfx/invobjs/leatherboots"
+    },
+    {
+      "name": "Stitched Leather Coaster",
+      "iconUrl": "gfx/invobjs/leathercoaster"
+    },
+    {
+      "name": "Leather Coat",
+      "iconUrl": "gfx/invobjs/leathercoat"
+    },
+    {
+      "name": "Leather Fabric",
+      "iconUrl": "gfx/invobjs/leatherfabric"
+    },
+    {
+      "name": "Leather",
+      "iconUrl": "gfx/invobjs/leather"
+    },
+    {
+      "name": "Leather Pants",
+      "iconUrl": "gfx/invobjs/leatherpants"
+    },
+    {
+      "name": "Leather Patch",
+      "iconUrl": "gfx/invobjs/leatherpatch"
+    },
+    {
+      "name": "Leather Purse",
+      "iconUrl": "gfx/invobjs/leatherpurse"
+    },
+    {
+      "name": "Bloated Leech",
+      "iconUrl": "gfx/invobjs/leechbloat"
+    },
+    {
+      "name": "Leech",
+      "iconUrl": "gfx/invobjs/leech"
+    },
+    {
+      "name": "Leprechaun's Hat",
+      "iconUrl": "gfx/invobjs/leprechaunshat"
+    },
+    {
+      "name": "Head of Lettuce",
+      "iconUrl": "gfx/invobjs/lettucehead"
+    },
+    {
+      "name": "Lettuce Leaf",
+      "iconUrl": "gfx/invobjs/lettuceleaf"
+    },
+    {
+      "name": "Limestone",
+      "iconUrl": "gfx/invobjs/limestone"
+    },
+    {
+      "name": "Iron Ochre",
+      "iconUrl": "gfx/invobjs/limonite"
+    },
+    {
+      "name": "Linen Cloth",
+      "iconUrl": "gfx/invobjs/linencloth"
+    },
+    {
+      "name": "Linen Napkin",
+      "iconUrl": "gfx/invobjs/linennapkin"
+    },
+    {
+      "name": "Linen Pants",
+      "iconUrl": "gfx/invobjs/linenpants"
+    },
+    {
+      "name": "Linen Shirt",
+      "iconUrl": "gfx/invobjs/linenshirt"
+    },
+    {
+      "name": "Linen Tablecloth",
+      "iconUrl": "gfx/invobjs/linentablecloth"
+    },
+    {
+      "name": "The Green Hero's Cap",
+      "iconUrl": "gfx/invobjs/linkhat"
+    },
+    {
+      "name": "Linseed Loaf",
+      "iconUrl": "gfx/invobjs/linseedloaf"
+    },
+    {
+      "name": "Liver & Onions",
+      "iconUrl": "gfx/invobjs/liveronions"
+    },
+    {
+      "name": "Lizard on Scales",
+      "iconUrl": "gfx/invobjs/lizardonscales"
+    },
+    {
+      "name": "Uninstalled Lock",
+      "iconUrl": "gfx/invobjs/lock"
+    },
+    {
+      "name": "Dried Morels",
+      "iconUrl": "gfx/invobjs/lorcheldried"
+    },
+    {
+      "name": "Parboiled Morels",
+      "iconUrl": "gfx/invobjs/lorchelwet"
+    },
+    {
+      "name": "Lotus Bloom",
+      "iconUrl": "gfx/invobjs/lotusbloom"
+    },
+    {
+      "name": "Lucky Rabbit's Foot",
+      "iconUrl": "gfx/invobjs/luckyrabbits-dry"
+    },
+    {
+      "name": "Raw Lucky Rabbit's Foot",
+      "iconUrl": "gfx/invobjs/luckyrabbits"
+    },
+    {
+      "name": "Copperbrush Snapper",
+      "iconUrl": "gfx/invobjs/lure-copperbrushsnapper"
+    },
+    {
+      "name": "Copper Comet",
+      "iconUrl": "gfx/invobjs/lure-coppercomet"
+    },
+    {
+      "name": "Feather Fly",
+      "iconUrl": "gfx/invobjs/lure-featherfly"
+    },
+    {
+      "name": "Gold Spoon-Lure",
+      "iconUrl": "gfx/invobjs/lure-goldspoon"
+    },
+    {
+      "name": "Pinecone Plug",
+      "iconUrl": "gfx/invobjs/lure-pineconeplug"
+    },
+    {
+      "name": "Poppy Wobbler",
+      "iconUrl": "gfx/invobjs/lure-poppywobbler"
+    },
+    {
+      "name": "Rock Lobster",
+      "iconUrl": "gfx/invobjs/lure-rocklobster"
+    },
+    {
+      "name": "Steelbrush Plunger",
+      "iconUrl": "gfx/invobjs/lure-steelbrush"
+    },
+    {
+      "name": "Tin Fly",
+      "iconUrl": "gfx/invobjs/lure-tinfly"
+    },
+    {
+      "name": "Woodfish",
+      "iconUrl": "gfx/invobjs/lure-woodfish"
+    },
+    {
+      "name": "Lynx Cape",
+      "iconUrl": "gfx/invobjs/lynxcape"
+    },
+    {
+      "name": "Lynx Claws",
+      "iconUrl": "gfx/invobjs/lynxclaws"
+    },
+    {
+      "name": "Fresh Lynx Hide",
+      "iconUrl": "gfx/invobjs/lynxhide-blood"
+    },
+    {
+      "name": "Lynx Hide",
+      "iconUrl": "gfx/invobjs/lynxhide"
+    },
+    {
+      "name": "Black Ore",
+      "iconUrl": "gfx/invobjs/magnetite"
+    },
+    {
+      "name": "Magnifying Glass",
+      "iconUrl": "gfx/invobjs/magnifyingglass"
+    },
+    {
+      "name": "Magpie's Thieving Claw",
+      "iconUrl": "gfx/invobjs/magpieclaw"
+    },
+    {
+      "name": "Cleaned Magpie",
+      "iconUrl": "gfx/invobjs/magpie-cleaned"
+    },
+    {
+      "name": "Dead Magpie",
+      "iconUrl": "gfx/invobjs/magpie-dead"
+    },
+    {
+      "name": "Magpie",
+      "iconUrl": "gfx/invobjs/magpie"
+    },
+    {
+      "name": "Plucked Magpie",
+      "iconUrl": "gfx/invobjs/magpie-plucked"
+    },
+    {
+      "name": "Malachite",
+      "iconUrl": "gfx/invobjs/malachite"
+    },
+    {
+      "name": "Cleaned Mallard",
+      "iconUrl": "gfx/invobjs/mallard-cleaned"
+    },
+    {
+      "name": "Dead Mallard Hen",
+      "iconUrl": "gfx/invobjs/mallard-dead-f"
+    },
+    {
+      "name": "Dead Mallard Drake",
+      "iconUrl": "gfx/invobjs/mallard-dead-m"
+    },
+    {
+      "name": "Mallard Hen",
+      "iconUrl": "gfx/invobjs/mallard-f"
+    },
+    {
+      "name": "Mallard Drake",
+      "iconUrl": "gfx/invobjs/mallard-m"
+    },
+    {
+      "name": "Plucked Mallard",
+      "iconUrl": "gfx/invobjs/mallard-plucked"
+    },
+    {
+      "name": "Malted Grains",
+      "iconUrl": "gfx/invobjs/malt"
+    },
+    {
+      "name": "Fresh Mammoth Hide",
+      "iconUrl": "gfx/invobjs/mammothhide-blood"
+    },
+    {
+      "name": "Mammoth Hide",
+      "iconUrl": "gfx/invobjs/mammothhide"
+    },
+    {
+      "name": "Mammoth Tusk",
+      "iconUrl": "gfx/invobjs/mammothtusk"
+    },
+    {
+      "name": "Spirited Mandrake Root",
+      "iconUrl": "gfx/invobjs/mandrakespirited",
+      "detection": 400
+    },
+    {
+      "name": "Marble",
+      "iconUrl": "gfx/invobjs/marble"
+    },
+    {
+      "name": "Shiny Marbles",
+      "iconUrl": "gfx/invobjs/marbles"
+    },
+    {
+      "name": "Marrow Roast",
+      "iconUrl": "gfx/invobjs/marrowroast"
+    },
+    {
+      "name": "Box of Matches",
+      "iconUrl": "gfx/invobjs/matchbox"
+    },
+    {
+      "name": "Adder",
+      "iconUrl": "gfx/invobjs/meat-adder"
+    },
+    {
+      "name": "Asp",
+      "iconUrl": "gfx/invobjs/meat-asp"
+    },
+    {
+      "name": "Wild Beef",
+      "iconUrl": "gfx/invobjs/meat-aurochs"
+    },
+    {
+      "name": "Badger",
+      "iconUrl": "gfx/invobjs/meat-badger"
+    },
+    {
+      "name": "Bat",
+      "iconUrl": "gfx/invobjs/meat-bat"
+    },
+    {
+      "name": "Bear",
+      "iconUrl": "gfx/invobjs/meat-bear"
+    },
+    {
+      "name": "Beaver",
+      "iconUrl": "gfx/invobjs/meat-beaver"
+    },
+    {
+      "name": "Beef",
+      "iconUrl": "gfx/invobjs/meat-beef"
+    },
+    {
+      "name": "Wild Pork",
+      "iconUrl": "gfx/invobjs/meat-boar"
+    },
+    {
+      "name": "Boreworm",
+      "iconUrl": "gfx/invobjs/meat-boreworm"
+    },
+    {
+      "name": "Bream",
+      "iconUrl": "gfx/invobjs/meat-bream"
+    },
+    {
+      "name": "Brill",
+      "iconUrl": "gfx/invobjs/meat-brill"
+    },
+    {
+      "name": "Burbot",
+      "iconUrl": "gfx/invobjs/meat-burbot"
+    },
+    {
+      "name": "Carp",
+      "iconUrl": "gfx/invobjs/meat-carp"
+    },
+    {
+      "name": "Catfish",
+      "iconUrl": "gfx/invobjs/meat-catfish"
+    },
+    {
+      "name": "Cave Angler",
+      "iconUrl": "gfx/invobjs/meat-caveangler"
+    },
+    {
+      "name": "Cave Louse",
+      "iconUrl": "gfx/invobjs/meat-cavelouse"
+    },
+    {
+      "name": "Chicken",
+      "iconUrl": "gfx/invobjs/meat-chicken"
+    },
+    {
+      "name": "Chub",
+      "iconUrl": "gfx/invobjs/meat-chub"
+    },
+    {
+      "name": "Beef",
+      "iconUrl": "gfx/invobjs/meat-cow"
+    },
+    {
+      "name": "Crab",
+      "iconUrl": "gfx/invobjs/meat-crab"
+    },
+    {
+      "name": "Raw %",
+      "iconUrl": "gfx/invobjs/meat-crust"
+    },
+    {
+      "name": "Eel",
+      "iconUrl": "gfx/invobjs/meat-eel"
+    },
+    {
+      "name": "Horsemeat",
+      "iconUrl": "gfx/invobjs/meat-equine"
+    },
+    {
+      "name": "Filet of %",
+      "iconUrl": "gfx/invobjs/meat-filet"
+    },
+    {
+      "name": "Fox",
+      "iconUrl": "gfx/invobjs/meat-fox"
+    },
+    {
+      "name": "Chevon",
+      "iconUrl": "gfx/invobjs/meat-goat"
+    },
+    {
+      "name": "Golden Eagle",
+      "iconUrl": "gfx/invobjs/meat-goldeneagle"
+    },
+    {
+      "name": "Grayling",
+      "iconUrl": "gfx/invobjs/meat-grayling"
+    },
+    {
+      "name": "Grey Seal",
+      "iconUrl": "gfx/invobjs/meat-greyseal"
+    },
+    {
+      "name": "Hedgehog",
+      "iconUrl": "gfx/invobjs/meat-hedgehog"
+    },
+    {
+      "name": "Horse",
+      "iconUrl": "gfx/invobjs/meat-horse"
+    },
+    {
+      "name": "Ide",
+      "iconUrl": "gfx/invobjs/meat-ide"
+    },
+    {
+      "name": "Meat-in-Jelly",
+      "iconUrl": "gfx/invobjs/meatinjelly"
+    },
+    {
+      "name": "Lavaret",
+      "iconUrl": "gfx/invobjs/meat-lavaret"
+    },
+    {
+      "name": "Lynx",
+      "iconUrl": "gfx/invobjs/meat-lynx"
+    },
+    {
+      "name": "Magpie",
+      "iconUrl": "gfx/invobjs/meat-magpie"
+    },
+    {
+      "name": "Mallard",
+      "iconUrl": "gfx/invobjs/meat-mallard"
+    },
+    {
+      "name": "Mammoth",
+      "iconUrl": "gfx/invobjs/meat-mammoth"
+    },
+    {
+      "name": "Meat",
+      "iconUrl": "gfx/invobjs/meat"
+    },
+    {
+      "name": "Mole",
+      "iconUrl": "gfx/invobjs/meat-mole"
+    },
+    {
+      "name": "Moose",
+      "iconUrl": "gfx/invobjs/meat-moose"
+    },
+    {
+      "name": "Wild Mutton",
+      "iconUrl": "gfx/invobjs/meat-mouflon"
+    },
+    {
+      "name": "Mullet",
+      "iconUrl": "gfx/invobjs/meat-mullet"
+    },
+    {
+      "name": "Mutton",
+      "iconUrl": "gfx/invobjs/meat-mutton"
+    },
+    {
+      "name": "Otter",
+      "iconUrl": "gfx/invobjs/meat-otter"
+    },
+    {
+      "name": "Perch",
+      "iconUrl": "gfx/invobjs/meat-perch"
+    },
+    {
+      "name": "Meatpie",
+      "iconUrl": "gfx/invobjs/meatpie"
+    },
+    {
+      "name": "Pork",
+      "iconUrl": "gfx/invobjs/meat-pig"
+    },
+    {
+      "name": "Pike",
+      "iconUrl": "gfx/invobjs/meat-pike"
+    },
+    {
+      "name": "Plaice",
+      "iconUrl": "gfx/invobjs/meat-plaice"
+    },
+    {
+      "name": "Pomfret",
+      "iconUrl": "gfx/invobjs/meat-pomfret"
+    },
+    {
+      "name": "Pork",
+      "iconUrl": "gfx/invobjs/meat-pork"
+    },
+    {
+      "name": "% Meat",
+      "iconUrl": "gfx/invobjs/meat-poultry"
+    },
+    {
+      "name": "Ptarmigan",
+      "iconUrl": "gfx/invobjs/meat-ptarmigan"
+    },
+    {
+      "name": "Quail",
+      "iconUrl": "gfx/invobjs/meat-quail"
+    },
+    {
+      "name": "Rabbit",
+      "iconUrl": "gfx/invobjs/meat-rabbit"
+    },
+    {
+      "name": "Raw %",
+      "iconUrl": "gfx/invobjs/meat-raw"
+    },
+    {
+      "name": "Venison",
+      "iconUrl": "gfx/invobjs/meat-reddeer"
+    },
+    {
+      "name": "Reindeer Venison",
+      "iconUrl": "gfx/invobjs/meat-reindeer"
+    },
+    {
+      "name": "Roast Filet of %",
+      "iconUrl": "gfx/invobjs/meat-rfilet"
+    },
+    {
+      "name": "Roach",
+      "iconUrl": "gfx/invobjs/meat-roach"
+    },
+    {
+      "name": "Roast %",
+      "iconUrl": "gfx/invobjs/meat-roast"
+    },
+    {
+      "name": "Roast %",
+      "iconUrl": "gfx/invobjs/meat-rpoultry"
+    },
+    {
+      "name": "Ruffe",
+      "iconUrl": "gfx/invobjs/meat-ruffe"
+    },
+    {
+      "name": "Roast %",
+      "iconUrl": "gfx/invobjs/meat-rweird"
+    },
+    {
+      "name": "Salmon",
+      "iconUrl": "gfx/invobjs/meat-salmon"
+    },
+    {
+      "name": "Mutton",
+      "iconUrl": "gfx/invobjs/meat-sheep"
+    },
+    {
+      "name": "Silver Bream",
+      "iconUrl": "gfx/invobjs/meat-silverbream"
+    },
+    {
+      "name": "Smelt",
+      "iconUrl": "gfx/invobjs/meat-smelt"
+    },
+    {
+      "name": "Sizzling %",
+      "iconUrl": "gfx/invobjs/meat-smoke"
+    },
+    {
+      "name": "Spitroast %",
+      "iconUrl": "gfx/invobjs/meat-spitroast"
+    },
+    {
+      "name": "Spitroast %",
+      "iconUrl": "gfx/invobjs/meat-spoultry"
+    },
+    {
+      "name": "Squirrel",
+      "iconUrl": "gfx/invobjs/meat-squirrel"
+    },
+    {
+      "name": "Sturgeon",
+      "iconUrl": "gfx/invobjs/meat-sturgeon"
+    },
+    {
+      "name": "Swan",
+      "iconUrl": "gfx/invobjs/meat-swan"
+    },
+    {
+      "name": "Tench",
+      "iconUrl": "gfx/invobjs/meat-tench"
+    },
+    {
+      "name": "% Bollock",
+      "iconUrl": "gfx/invobjs/meat-testis"
+    },
+    {
+      "name": "Roast % Bollock",
+      "iconUrl": "gfx/invobjs/meat-testis-r"
+    },
+    {
+      "name": "Troll",
+      "iconUrl": "gfx/invobjs/meat-troll"
+    },
+    {
+      "name": "Trout",
+      "iconUrl": "gfx/invobjs/meat-trout"
+    },
+    {
+      "name": "Walrus",
+      "iconUrl": "gfx/invobjs/meat-walrus"
+    },
+    {
+      "name": "% Meat",
+      "iconUrl": "gfx/invobjs/meat-weird"
+    },
+    {
+      "name": "Whiting",
+      "iconUrl": "gfx/invobjs/meat-whiting"
+    },
+    {
+      "name": "Wildgoat",
+      "iconUrl": "gfx/invobjs/meat-wildgoat"
+    },
+    {
+      "name": "Wildhorse",
+      "iconUrl": "gfx/invobjs/meat-wildhorse"
+    },
+    {
+      "name": "Wolverine",
+      "iconUrl": "gfx/invobjs/meat-wolverine"
+    },
+    {
+      "name": "Wood Grouse",
+      "iconUrl": "gfx/invobjs/meat-woodgrouse"
+    },
+    {
+      "name": "Zander",
+      "iconUrl": "gfx/invobjs/meat-zander"
+    },
+    {
+      "name": "Zope",
+      "iconUrl": "gfx/invobjs/meat-zope"
+    },
+    {
+      "name": "Medlar",
+      "iconUrl": "gfx/invobjs/medlar"
+    },
+    {
+      "name": "Medlar Seed",
+      "iconUrl": "gfx/invobjs/medlarseed"
+    },
+    {
+      "name": "Merchant's Pants",
+      "iconUrl": "gfx/invobjs/merchantspants"
+    },
+    {
+      "name": "Merchant's Ring",
+      "iconUrl": "gfx/invobjs/merchantsring"
+    },
+    {
+      "name": "Merchant's Robe",
+      "iconUrl": "gfx/invobjs/merchantsrobe"
+    },
+    {
+      "name": "Quicksilver",
+      "iconUrl": "gfx/invobjs/mercury"
+    },
+    {
+      "name": "Metal Buttons",
+      "iconUrl": "gfx/invobjs/metalbuttons"
+    },
+    {
+      "name": "Metal Mug",
+      "iconUrl": "gfx/invobjs/metalmug-full"
+    },
+    {
+      "name": "Metal Mug",
+      "iconUrl": "gfx/invobjs/metalmug"
+    },
+    {
+      "name": "Metal Plate",
+      "iconUrl": "gfx/invobjs/metalplate"
+    },
+    {
+      "name": "Metal Saucière",
+      "iconUrl": "gfx/invobjs/metalsaucier"
+    },
+    {
+      "name": "Milk",
+      "iconUrl": "gfx/invobjs/milk"
+    },
+    {
+      "name": "Miner's Helm",
+      "iconUrl": "gfx/invobjs/minershelm-c"
+    },
+    {
+      "name": "Miner's Helm",
+      "iconUrl": "gfx/invobjs/minershelm"
+    },
+    {
+      "name": "Mirkwood Offering",
+      "iconUrl": "gfx/invobjs/mirkwoodoffering"
+    },
+    {
+      "name": "Loading...",
+      "iconUrl": "gfx/invobjs/missing"
+    },
+    {
+      "name": "Mole Carcass",
+      "iconUrl": "gfx/invobjs/mole-carcass"
+    },
+    {
+      "name": "Clean Mole Carcass",
+      "iconUrl": "gfx/invobjs/mole-clean"
+    },
+    {
+      "name": "Dead Mole",
+      "iconUrl": "gfx/invobjs/mole-dead"
+    },
+    {
+      "name": "Fresh Mole Hide",
+      "iconUrl": "gfx/invobjs/molehide-blood"
+    },
+    {
+      "name": "Mole Hide",
+      "iconUrl": "gfx/invobjs/molehide"
+    },
+    {
+      "name": "Molehide Pants",
+      "iconUrl": "gfx/invobjs/molehidepants"
+    },
+    {
+      "name": "Molehill",
+      "iconUrl": "gfx/invobjs/molehill"
+    },
+    {
+      "name": "Mole",
+      "iconUrl": "gfx/invobjs/mole"
+    },
+    {
+      "name": "Mole's Pawbone",
+      "iconUrl": "gfx/invobjs/molepaw"
+    },
+    {
+      "name": "Monarch Butterfly",
+      "iconUrl": "gfx/invobjs/monarchbutterfly"
+    },
+    {
+      "name": "Monocle",
+      "iconUrl": "gfx/invobjs/monocle"
+    },
+    {
+      "name": "Moose Antler Buttons",
+      "iconUrl": "gfx/invobjs/mooseantlerbuttons"
+    },
+    {
+      "name": "Fresh Moose Hide",
+      "iconUrl": "gfx/invobjs/moosehide-blood"
+    },
+    {
+      "name": "Moose Hide Jacket",
+      "iconUrl": "gfx/invobjs/moosehidejacket"
+    },
+    {
+      "name": "Moose Hide",
+      "iconUrl": "gfx/invobjs/moosehide"
+    },
+    {
+      "name": "Mother of Pearl",
+      "iconUrl": "gfx/invobjs/motherofpearl"
+    },
+    {
+      "name": "Fresh Mouflon Hide",
+      "iconUrl": "gfx/invobjs/mouflonhide-blood"
+    },
+    {
+      "name": "Mouflon Hide",
+      "iconUrl": "gfx/invobjs/mouflonhide"
+    },
+    {
+      "name": "Mud Ointment",
+      "iconUrl": "gfx/invobjs/mudointment"
+    },
+    {
+      "name": "Mug",
+      "iconUrl": "gfx/invobjs/mug-full"
+    },
+    {
+      "name": "Mug",
+      "iconUrl": "gfx/invobjs/mug"
+    },
+    {
+      "name": "Unfired Mug",
+      "iconUrl": "gfx/invobjs/mug-u"
+    },
+    {
+      "name": "Mulberry",
+      "iconUrl": "gfx/invobjs/mulberry"
+    },
+    {
+      "name": "Mulch",
+      "iconUrl": "gfx/invobjs/mulch"
+    },
+    {
+      "name": "Mushroom Mash",
+      "iconUrl": "gfx/invobjs/mushroommash"
+    },
+    {
+      "name": "Boiled River Pearl Mussel",
+      "iconUrl": "gfx/invobjs/musselsboiled"
+    },
+    {
+      "name": "Leaf Ore",
+      "iconUrl": "gfx/invobjs/nagyagite"
+    },
+    {
+      "name": "Nettle Pants",
+      "iconUrl": "gfx/invobjs/nettlepants"
+    },
+    {
+      "name": "Nettle Shirt",
+      "iconUrl": "gfx/invobjs/nettleshirt"
+    },
+    {
+      "name": "Laddie's Cap",
+      "iconUrl": "gfx/invobjs/newsboyscap"
+    },
+    {
+      "name": "Nine-Tails",
+      "iconUrl": "gfx/invobjs/ninetails"
+    },
+    {
+      "name": "Bronze Nugget",
+      "iconUrl": "gfx/invobjs/nugget-bronze"
+    },
+    {
+      "name": "Cast Iron Nugget",
+      "iconUrl": "gfx/invobjs/nugget-castiron"
+    },
+    {
+      "name": "Copper Nugget",
+      "iconUrl": "gfx/invobjs/nugget-copper"
+    },
+    {
+      "name": "Gold Nugget",
+      "iconUrl": "gfx/invobjs/nugget-gold"
+    },
+    {
+      "name": "Nugget of Bronze, Iron or Steel",
+      "iconUrl": "gfx/invobjs/nugget-hardmetal"
+    },
+    {
+      "name": "Nugget of Any Metal",
+      "iconUrl": "gfx/invobjs/nugget-metal"
+    },
+    {
+      "name": "Nugget of a Precious Metal",
+      "iconUrl": "gfx/invobjs/nugget-preciousmetal"
+    },
+    {
+      "name": "Silver Nugget",
+      "iconUrl": "gfx/invobjs/nugget-silver"
+    },
+    {
+      "name": "Nugget of Steel",
+      "iconUrl": "gfx/invobjs/nugget-steel"
+    },
+    {
+      "name": "Tin Nugget",
+      "iconUrl": "gfx/invobjs/nugget-tin"
+    },
+    {
+      "name": "Nugget of Any Common Metal",
+      "iconUrl": "gfx/invobjs/nugget-toolmetal"
+    },
+    {
+      "name": "Nugget of Wrought Iron",
+      "iconUrl": "gfx/invobjs/nugget-wroughtiron"
+    },
+    {
+      "name": "Nutjerky",
+      "iconUrl": "gfx/invobjs/nutjerky"
+    },
+    {
+      "name": "Nuts",
+      "iconUrl": "gfx/invobjs/nut"
+    },
+    {
+      "name": "Oak Apple",
+      "iconUrl": "gfx/invobjs/oakapple"
+    },
+    {
+      "name": "Oak Spire",
+      "iconUrl": "gfx/invobjs/oakspire"
+    },
+    {
+      "name": "Occult Ring",
+      "iconUrl": "gfx/invobjs/occultring"
+    },
+    {
+      "name": "Odd Honeycomb",
+      "iconUrl": "gfx/invobjs/oddhoneycomb"
+    },
+    {
+      "name": "Odd Tuber",
+      "iconUrl": "gfx/invobjs/oddtuber"
+    },
+    {
+      "name": "The Other Old Boot",
+      "iconUrl": "gfx/invobjs/oldboot-l"
+    },
+    {
+      "name": "An Old Boot",
+      "iconUrl": "gfx/invobjs/oldboot-r"
+    },
+    {
+      "name": "Rusalka's Water Moccasins",
+      "iconUrl": "gfx/invobjs/oldboots"
+    },
+    {
+      "name": "Olive",
+      "iconUrl": "gfx/invobjs/olive"
+    },
+    {
+      "name": "Olivine",
+      "iconUrl": "gfx/invobjs/olivine"
+    },
+    {
+      "name": "Omelette",
+      "iconUrl": "gfx/invobjs/omelette"
+    },
+    {
+      "name": "Onion Braid",
+      "iconUrl": "gfx/invobjs/onionbraid"
+    },
+    {
+      "name": "Onioned Escargot",
+      "iconUrl": "gfx/invobjs/onionedescargot"
+    },
+    {
+      "name": "Onion",
+      "iconUrl": "gfx/invobjs/onion"
+    },
+    {
+      "name": "Onion Rings",
+      "iconUrl": "gfx/invobjs/onionrings"
+    },
+    {
+      "name": "Onion Salad",
+      "iconUrl": "gfx/invobjs/onionsalad"
+    },
+    {
+      "name": "Onion Skewer",
+      "iconUrl": "gfx/invobjs/onionskewer"
+    },
+    {
+      "name": "Opium Dragon",
+      "iconUrl": "gfx/invobjs/opiumdragon"
+    },
+    {
+      "name": "Opium",
+      "iconUrl": "gfx/invobjs/opium"
+    },
+    {
+      "name": "Ore",
+      "iconUrl": "gfx/invobjs/ore-iron"
+    },
+    {
+      "name": "Fresh Otterhide",
+      "iconUrl": "gfx/invobjs/otterhide-blood"
+    },
+    {
+      "name": "Otterhide",
+      "iconUrl": "gfx/invobjs/otterhide"
+    },
+    {
+      "name": "Ouroboros",
+      "iconUrl": "gfx/invobjs/ouroboros"
+    },
+    {
+      "name": "Package Hat",
+      "iconUrl": "gfx/invobjs/packagehat"
+    },
+    {
+      "name": "Pack Rack",
+      "iconUrl": "gfx/invobjs/packrack"
+    },
+    {
+      "name": "Painting",
+      "iconUrl": "gfx/invobjs/painting"
+    },
+    {
+      "name": "Crêpe Citrouille",
+      "iconUrl": "gfx/invobjs/pancake-citrouille"
+    },
+    {
+      "name": "Crêpe Noisette",
+      "iconUrl": "gfx/invobjs/pancake-noisette"
+    },
+    {
+      "name": "Pancake",
+      "iconUrl": "gfx/invobjs/pancake"
+    },
+    {
+      "name": "Pommace Perdue",
+      "iconUrl": "gfx/invobjs/pancake-pommace"
+    },
+    {
+      "name": "Sacrebleu",
+      "iconUrl": "gfx/invobjs/pancake-sacrebleu"
+    },
+    {
+      "name": "Combat Instruction",
+      "iconUrl": "gfx/invobjs/parchment-cmb"
+    },
+    {
+      "name": "Material Account",
+      "iconUrl": "gfx/invobjs/parchment-m"
+    },
+    {
+      "name": "Parchment",
+      "iconUrl": "gfx/invobjs/parchment"
+    },
+    {
+      "name": "Wanted Poster",
+      "iconUrl": "gfx/invobjs/parchment-p"
+    },
+    {
+      "name": "Written Parchment",
+      "iconUrl": "gfx/invobjs/parchment-w"
+    },
+    {
+      "name": "Patterned Embroidery",
+      "iconUrl": "gfx/invobjs/patternbroid"
+    },
+    {
+      "name": "Pea Pie",
+      "iconUrl": "gfx/invobjs/peapie"
+    },
+    {
+      "name": "Peapod",
+      "iconUrl": "gfx/invobjs/peapod"
+    },
+    {
+      "name": "Pearl Necklace",
+      "iconUrl": "gfx/invobjs/pearlnecklace"
+    },
+    {
+      "name": "Pear",
+      "iconUrl": "gfx/invobjs/pear"
+    },
+    {
+      "name": "Gold Pebbles",
+      "iconUrl": "gfx/invobjs/pebble-gold"
+    },
+    {
+      "name": "Black Pepper",
+      "iconUrl": "gfx/invobjs/pepper"
+    },
+    {
+      "name": "Peppercorn",
+      "iconUrl": "gfx/invobjs/peppercorn"
+    },
+    {
+      "name": "Boiled Pepper Drupe",
+      "iconUrl": "gfx/invobjs/pepperdrupeboiled"
+    },
+    {
+      "name": "Dried Pepper Drupe",
+      "iconUrl": "gfx/invobjs/pepperdrupedried"
+    },
+    {
+      "name": "Peppermill",
+      "iconUrl": "gfx/invobjs/peppermill"
+    },
+    {
+      "name": "Pepper Shaker",
+      "iconUrl": "gfx/invobjs/peppershaker"
+    },
+    {
+      "name": "Perched Perch",
+      "iconUrl": "gfx/invobjs/perchedperch"
+    },
+    {
+      "name": "The Perfect Hole",
+      "iconUrl": "gfx/invobjs/perfecthole"
+    },
+    {
+      "name": "Persimmon",
+      "iconUrl": "gfx/invobjs/persimmon"
+    },
+    {
+      "name": "Petraglyph",
+      "iconUrl": "gfx/invobjs/petraglyph"
+    },
+    {
+      "name": "Petrified Seashell",
+      "iconUrl": "gfx/invobjs/petrifiedshell"
+    },
+    {
+      "name": "Direvein",
+      "iconUrl": "gfx/invobjs/petzite"
+    },
+    {
+      "name": "Pharao's Crown",
+      "iconUrl": "gfx/invobjs/pharaoshat"
+    },
+    {
+      "name": "Pickaxe",
+      "iconUrl": "gfx/invobjs/pickaxe"
+    },
+    {
+      "name": "Wicker Picker",
+      "iconUrl": "gfx/invobjs/pickingbasket"
+    },
+    {
+      "name": "Fresh Pigskin",
+      "iconUrl": "gfx/invobjs/pighide-blood"
+    },
+    {
+      "name": "Pigskin",
+      "iconUrl": "gfx/invobjs/pighide"
+    },
+    {
+      "name": "Clay Pipe",
+      "iconUrl": "gfx/invobjs/pipe-clay"
+    },
+    {
+      "name": "Unfired Clay Pipe",
+      "iconUrl": "gfx/invobjs/pipe-clay-u"
+    },
+    {
+      "name": "Chantrelle & Onion Pirozhki",
+      "iconUrl": "gfx/invobjs/pirozhki"
+    },
+    {
+      "name": "Mushroom & Onion Pirozhki",
+      "iconUrl": "gfx/invobjs/pirozhki"
+    },
+    {
+      "name": "Finer Plant Fibre",
+      "iconUrl": "gfx/invobjs/plantfibre"
+    },
+    {
+      "name": "Plate Boots",
+      "iconUrl": "gfx/invobjs/plateboots"
+    },
+    {
+      "name": "Plate Gauntlets",
+      "iconUrl": "gfx/invobjs/plategauntlets"
+    },
+    {
+      "name": "Plate Greaves",
+      "iconUrl": "gfx/invobjs/plategreaves"
+    },
+    {
+      "name": "Plate Helmet",
+      "iconUrl": "gfx/invobjs/platehelmet"
+    },
+    {
+      "name": "Plate Mail",
+      "iconUrl": "gfx/invobjs/platemail"
+    },
+    {
+      "name": "Plumb-Bob",
+      "iconUrl": "gfx/invobjs/plumbbob"
+    },
+    {
+      "name": "Plum",
+      "iconUrl": "gfx/invobjs/plum"
+    },
+    {
+      "name": "Plush Bat",
+      "iconUrl": "gfx/invobjs/plushbat"
+    },
+    {
+      "name": "Poached Wolverine",
+      "iconUrl": "gfx/invobjs/poachedwolverine"
+    },
+    {
+      "name": "Polished Porphyry Beads",
+      "iconUrl": "gfx/invobjs/polishedbeads"
+    },
+    {
+      "name": "Poor Man's Belt",
+      "iconUrl": "gfx/invobjs/poormansbelt"
+    },
+    {
+      "name": "Poor Man's Gloves",
+      "iconUrl": "gfx/invobjs/poormansgloves"
+    },
+    {
+      "name": "Poppycaps",
+      "iconUrl": "gfx/invobjs/poppycapss"
+    },
+    {
+      "name": "Poppy Garland",
+      "iconUrl": "gfx/invobjs/poppygarland"
+    },
+    {
+      "name": "Poppy Grist",
+      "iconUrl": "gfx/invobjs/poppygrist"
+    },
+    {
+      "name": "Dried Poppy Pod",
+      "iconUrl": "gfx/invobjs/poppypodd"
+    },
+    {
+      "name": "Poppy Pod",
+      "iconUrl": "gfx/invobjs/poppypod"
+    },
+    {
+      "name": "Porcelain Doll",
+      "iconUrl": "gfx/invobjs/porcelaindoll"
+    },
+    {
+      "name": "Porcelain Plate",
+      "iconUrl": "gfx/invobjs/porcelainplate"
+    },
+    {
+      "name": "Unfired Porcelain Plate",
+      "iconUrl": "gfx/invobjs/porcelainplate-u"
+    },
+    {
+      "name": "Porphyry",
+      "iconUrl": "gfx/invobjs/porphyry"
+    },
+    {
+      "name": "Butter Porridge",
+      "iconUrl": "gfx/invobjs/porridge"
+    },
+    {
+      "name": "Unfired Pot",
+      "iconUrl": "gfx/invobjs/pot-u"
+    },
+    {
+      "name": "Poultry",
+      "iconUrl": "gfx/invobjs/poultry"
+    },
+    {
+      "name": "Precious Details",
+      "iconUrl": "gfx/invobjs/preciousdetails"
+    },
+    {
+      "name": "Prepared Animal Hide",
+      "iconUrl": "gfx/invobjs/prephide"
+    },
+    {
+      "name": "Primitive Casting-Rod",
+      "iconUrl": "gfx/invobjs/primrod-h"
+    },
+    {
+      "name": "Primitive Casting-Rod",
+      "iconUrl": "gfx/invobjs/primrod-l"
+    },
+    {
+      "name": "Primitive Casting-Rod",
+      "iconUrl": "gfx/invobjs/primrod"
+    },
+    {
+      "name": "Prism",
+      "iconUrl": "gfx/invobjs/prism"
+    },
+    {
+      "name": "Protest",
+      "iconUrl": "gfx/invobjs/protestsign"
+    },
+    {
+      "name": "Cleaned Ptarmigan",
+      "iconUrl": "gfx/invobjs/ptarmigan-cleaned"
+    },
+    {
+      "name": "Dead Ptarmigan",
+      "iconUrl": "gfx/invobjs/ptarmigan-dead"
+    },
+    {
+      "name": "Plucked Ptarmigan",
+      "iconUrl": "gfx/invobjs/ptarmigan-plucked"
+    },
+    {
+      "name": "Ptarmigan",
+      "iconUrl": "gfx/invobjs/ptarmigan"
+    },
+    {
+      "name": "Pumpkin Bread",
+      "iconUrl": "gfx/invobjs/pumpkinbread"
+    },
+    {
+      "name": "Pumpkin Flesh",
+      "iconUrl": "gfx/invobjs/pumpkinflesh"
+    },
+    {
+      "name": "Pumpkin Pie",
+      "iconUrl": "gfx/invobjs/pumpkinpie"
+    },
+    {
+      "name": "Pumpkin",
+      "iconUrl": "gfx/invobjs/pumpkin"
+    },
+    {
+      "name": "Pyrite Spark",
+      "iconUrl": "gfx/invobjs/pyritespark"
+    },
+    {
+      "name": "Cleaned Quail",
+      "iconUrl": "gfx/invobjs/quail-cleaned"
+    },
+    {
+      "name": "Dead Quail",
+      "iconUrl": "gfx/invobjs/quail-dead"
+    },
+    {
+      "name": "Plucked Quail",
+      "iconUrl": "gfx/invobjs/quail-plucked"
+    },
+    {
+      "name": "Quail",
+      "iconUrl": "gfx/invobjs/quail"
+    },
+    {
+      "name": "Quartz",
+      "iconUrl": "gfx/invobjs/quartz"
+    },
+    {
+      "name": "Quince Core",
+      "iconUrl": "gfx/invobjs/quincecore"
+    },
+    {
+      "name": "Quince",
+      "iconUrl": "gfx/invobjs/quince"
+    },
+    {
+      "name": "Rabbit Buck",
+      "iconUrl": "gfx/invobjs/rabbit-buck"
+    },
+    {
+      "name": "Bunny Rabbit",
+      "iconUrl": "gfx/invobjs/rabbit-bunny"
+    },
+    {
+      "name": "Rabbit Carcass",
+      "iconUrl": "gfx/invobjs/rabbit-carcass"
+    },
+    {
+      "name": "Clean Rabbit Carcass",
+      "iconUrl": "gfx/invobjs/rabbit-clean"
+    },
+    {
+      "name": "Dead Rabbit",
+      "iconUrl": "gfx/invobjs/rabbit-dead"
+    },
+    {
+      "name": "Dead Rabbit",
+      "iconUrl": "gfx/invobjs/rabbit-dead-doe"
+    },
+    {
+      "name": "Rabbit Doe",
+      "iconUrl": "gfx/invobjs/rabbit-doe"
+    },
+    {
+      "name": "Rabbit Food",
+      "iconUrl": "gfx/invobjs/rabbitfood"
+    },
+    {
+      "name": "Fresh Rabbit Fur",
+      "iconUrl": "gfx/invobjs/rabbithide-blood"
+    },
+    {
+      "name": "Rabbit Fur",
+      "iconUrl": "gfx/invobjs/rabbithide"
+    },
+    {
+      "name": "Rabbit",
+      "iconUrl": "gfx/invobjs/rabbit"
+    },
+    {
+      "name": "Rabbit Buck",
+      "iconUrl": "gfx/invobjs/rabbit"
+    },
+    {
+      "name": "Raider's Cap",
+      "iconUrl": "gfx/invobjs/raiderscap"
+    },
+    {
+      "name": "Rainbow Shell Amulet",
+      "iconUrl": "gfx/invobjs/rainbowshellamulet"
+    },
+    {
+      "name": "Raisin Butter-Cake",
+      "iconUrl": "gfx/invobjs/raisinbuttercake"
+    },
+    {
+      "name": "Raisins",
+      "iconUrl": "gfx/invobjs/raisins"
+    },
+    {
+      "name": "Ranger's Boots",
+      "iconUrl": "gfx/invobjs/rangersboots"
+    },
+    {
+      "name": "Ranger's Cape",
+      "iconUrl": "gfx/invobjs/rangerscape"
+    },
+    {
+      "name": "Ranger's Pants",
+      "iconUrl": "gfx/invobjs/rangerspants"
+    },
+    {
+      "name": "Ranger's Shirt",
+      "iconUrl": "gfx/invobjs/rangersshirt"
+    },
+    {
+      "name": "Rat",
+      "iconUrl": "gfx/invobjs/rat"
+    },
+    {
+      "name": "Rat-on-a-Stick",
+      "iconUrl": "gfx/invobjs/ratstick"
+    },
+    {
+      "name": "Rattle-Tattle-Talisman",
+      "iconUrl": "gfx/invobjs/rattletattle"
+    },
+    {
+      "name": "Raw Meat",
+      "iconUrl": "gfx/invobjs/rawmeats"
+    },
+    {
+      "name": "Fresh Red Deer Hide",
+      "iconUrl": "gfx/invobjs/reddeerhide-blood"
+    },
+    {
+      "name": "Red Deer Hide",
+      "iconUrl": "gfx/invobjs/reddeerhide"
+    },
+    {
+      "name": "Scarlet Gown",
+      "iconUrl": "gfx/invobjs/redgown"
+    },
+    {
+      "name": "Red Onion",
+      "iconUrl": "gfx/invobjs/redonion"
+    },
+    {
+      "name": "Red-Shred Salad",
+      "iconUrl": "gfx/invobjs/redshredsalad"
+    },
+    {
+      "name": "Reindeer Hide",
+      "iconUrl": "gfx/invobjs/reindeerhide"
+    },
+    {
+      "name": "Reinforced Hem",
+      "iconUrl": "gfx/invobjs/reinforcedhem"
+    },
+    {
+      "name": "Rennet",
+      "iconUrl": "gfx/invobjs/rennet"
+    },
+    {
+      "name": "Ring of Brodgar",
+      "iconUrl": "gfx/invobjs/ringofbrodgar"
+    },
+    {
+      "name": "River Pearl",
+      "iconUrl": "gfx/invobjs/riverpearl"
+    },
+    {
+      "name": "Roast Roach Wrap",
+      "iconUrl": "gfx/invobjs/roachwrap"
+    },
+    {
+      "name": "Roasthopper",
+      "iconUrl": "gfx/invobjs/roasthopper"
+    },
+    {
+      "name": "Folded Roasting Spit",
+      "iconUrl": "gfx/invobjs/roastspit"
+    },
+    {
+      "name": "Ring of Brodgar",
+      "iconUrl": "gfx/invobjs/robring"
+    },
+    {
+      "name": "Ring of Brodgar",
+      "iconUrl": "gfx/invobjs/robsea"
+    },
+    {
+      "name": "Rock Crystal",
+      "iconUrl": "gfx/invobjs/rockcrystal"
+    },
+    {
+      "name": "Cock",
+      "iconUrl": "gfx/invobjs/rooster"
+    },
+    {
+      "name": "Dead Cock",
+      "iconUrl": "gfx/invobjs/rooster-dead"
+    },
+    {
+      "name": "Rootfill",
+      "iconUrl": "gfx/invobjs/rootfill"
+    },
+    {
+      "name": "Rope",
+      "iconUrl": "gfx/invobjs/rope"
+    },
+    {
+      "name": "Wooden Roundshield",
+      "iconUrl": "gfx/invobjs/roundshield"
+    },
+    {
+      "name": "Rowan Berries",
+      "iconUrl": "gfx/invobjs/rowanberry"
+    },
+    {
+      "name": "Royal Ant",
+      "iconUrl": "gfx/invobjs/royalant"
+    },
+    {
+      "name": "Royal Crown",
+      "iconUrl": "gfx/invobjs/royalcrown"
+    },
+    {
+      "name": "Saddlebags",
+      "iconUrl": "gfx/invobjs/saddlebags"
+    },
+    {
+      "name": "Salad Greens",
+      "iconUrl": "gfx/invobjs/salad"
+    },
+    {
+      "name": "Salt Crystals",
+      "iconUrl": "gfx/invobjs/saltcrystal"
+    },
+    {
+      "name": "Sand Castle",
+      "iconUrl": "gfx/invobjs/sandcastle"
+    },
+    {
+      "name": "Sand",
+      "iconUrl": "gfx/invobjs/sand"
+    },
+    {
+      "name": "Sandstone",
+      "iconUrl": "gfx/invobjs/sandstone"
+    },
+    {
+      "name": "Metal Saw",
+      "iconUrl": "gfx/invobjs/saw-m"
+    },
+    {
+      "name": "Scent Gland",
+      "iconUrl": "gfx/invobjs/scentgland"
+    },
+    {
+      "name": "Schist",
+      "iconUrl": "gfx/invobjs/schist"
+    },
+    {
+      "name": "Butter Scones",
+      "iconUrl": "gfx/invobjs/scones"
+    },
+    {
+      "name": "Scythe",
+      "iconUrl": "gfx/invobjs/scythe"
+    },
+    {
+      "name": "Seagull",
+      "iconUrl": "gfx/invobjs/seagull"
+    },
+    {
+      "name": "Seal Burger",
+      "iconUrl": "gfx/invobjs/sealburger"
+    },
+    {
+      "name": "Seal Hide Hoses",
+      "iconUrl": "gfx/invobjs/sealskinpants"
+    },
+    {
+      "name": "Alder Catkin",
+      "iconUrl": "gfx/invobjs/seed-alder"
+    },
+    {
+      "name": "Arrowwood Berries",
+      "iconUrl": "gfx/invobjs/seed-arrowwood"
+    },
+    {
+      "name": "Ash Samaras",
+      "iconUrl": "gfx/invobjs/seed-ash"
+    },
+    {
+      "name": "Aspen Catkin",
+      "iconUrl": "gfx/invobjs/seed-aspen"
+    },
+    {
+      "name": "Barley Seeds",
+      "iconUrl": "gfx/invobjs/seed-barley"
+    },
+    {
+      "name": "Germinated Barley",
+      "iconUrl": "gfx/invobjs/seed-barleygerm"
+    },
+    {
+      "name": "Malted Barley",
+      "iconUrl": "gfx/invobjs/seed-barleymalt"
+    },
+    {
+      "name": "Bay Willow Catkins",
+      "iconUrl": "gfx/invobjs/seed-baywillow"
+    },
+    {
+      "name": "Beech Nuts",
+      "iconUrl": "gfx/invobjs/seed-beech"
+    },
+    {
+      "name": "Birch Catkin",
+      "iconUrl": "gfx/invobjs/seed-birch"
+    },
+    {
+      "name": "Blackberry",
+      "iconUrl": "gfx/invobjs/seed-blackberrybush"
+    },
+    {
+      "name": "Blackcurrant",
+      "iconUrl": "gfx/invobjs/seed-blackcurrant"
+    },
+    {
+      "name": "Sloan Berries",
+      "iconUrl": "gfx/invobjs/seed-blackthorn"
+    },
+    {
+      "name": "Bog-Myrtle Cones",
+      "iconUrl": "gfx/invobjs/seed-bogmyrtle"
+    },
+    {
+      "name": "Boxwood Seeds",
+      "iconUrl": "gfx/invobjs/seed-boxwood"
+    },
+    {
+      "name": "Bittersweet Nightshade Berries",
+      "iconUrl": "gfx/invobjs/seed-bsnightshade"
+    },
+    {
+      "name": "Buckthorn Drupes",
+      "iconUrl": "gfx/invobjs/seed-buckthorn"
+    },
+    {
+      "name": "Caprifole Berries",
+      "iconUrl": "gfx/invobjs/seed-caprifole"
+    },
+    {
+      "name": "Carrot Seeds",
+      "iconUrl": "gfx/invobjs/seed-carrot"
+    },
+    {
+      "name": "Cedar Cone",
+      "iconUrl": "gfx/invobjs/seed-cedar"
+    },
+    {
+      "name": "Cherry Kernels",
+      "iconUrl": "gfx/invobjs/seed-cherry"
+    },
+    {
+      "name": "Conker",
+      "iconUrl": "gfx/invobjs/seed-conkertree"
+    },
+    {
+      "name": "Crabapples",
+      "iconUrl": "gfx/invobjs/seed-crabappletree"
+    },
+    {
+      "name": "Crampbark Berries",
+      "iconUrl": "gfx/invobjs/seed-crampbark"
+    },
+    {
+      "name": "Cucumber Seeds",
+      "iconUrl": "gfx/invobjs/seed-cucumber"
+    },
+    {
+      "name": "Cypress Cone",
+      "iconUrl": "gfx/invobjs/seed-cypress"
+    },
+    {
+      "name": "Dog Rose Hips",
+      "iconUrl": "gfx/invobjs/seed-dogrose"
+    },
+    {
+      "name": "Elderberries",
+      "iconUrl": "gfx/invobjs/seed-elderberrybush"
+    },
+    {
+      "name": "Elm Seeds",
+      "iconUrl": "gfx/invobjs/seed-elm"
+    },
+    {
+      "name": "Fir Cone",
+      "iconUrl": "gfx/invobjs/seed-fir"
+    },
+    {
+      "name": "Flax Seeds",
+      "iconUrl": "gfx/invobjs/seed-flax"
+    },
+    {
+      "name": "Goldenchain Seeds",
+      "iconUrl": "gfx/invobjs/seed-goldenchain"
+    },
+    {
+      "name": "Gooseberry",
+      "iconUrl": "gfx/invobjs/seed-gooseberrybush"
+    },
+    {
+      "name": "Gorse",
+      "iconUrl": "gfx/invobjs/seed-gorse"
+    },
+    {
+      "name": "Grape Seeds",
+      "iconUrl": "gfx/invobjs/seed-grape"
+    },
+    {
+      "name": "Hawthorn Fruits",
+      "iconUrl": "gfx/invobjs/seed-hawthorn"
+    },
+    {
+      "name": "Hemp Seeds",
+      "iconUrl": "gfx/invobjs/seed-hemp"
+    },
+    {
+      "name": "Hollyberries",
+      "iconUrl": "gfx/invobjs/seed-holly"
+    },
+    {
+      "name": "Hornbeam Catkins",
+      "iconUrl": "gfx/invobjs/seed-hornbeam"
+    },
+    {
+      "name": "Juniper Berries",
+      "iconUrl": "gfx/invobjs/seed-juniper"
+    },
+    {
+      "name": "King's Acorn",
+      "iconUrl": "gfx/invobjs/seed-kingsoak"
+    },
+    {
+      "name": "Larch Cones",
+      "iconUrl": "gfx/invobjs/seed-larch"
+    },
+    {
+      "name": "Laurel Seeds",
+      "iconUrl": "gfx/invobjs/seed-laurel"
+    },
+    {
+      "name": "Lettuce Seeds",
+      "iconUrl": "gfx/invobjs/seed-lettuce"
+    },
+    {
+      "name": "Linden Fruits",
+      "iconUrl": "gfx/invobjs/seed-linden"
+    },
+    {
+      "name": "Maple Samara",
+      "iconUrl": "gfx/invobjs/seed-maple"
+    },
+    {
+      "name": "Oak Acorn",
+      "iconUrl": "gfx/invobjs/seed-oak"
+    },
+    {
+      "name": "Olive Kernel",
+      "iconUrl": "gfx/invobjs/seed-olive"
+    },
+    {
+      "name": "Pear Core",
+      "iconUrl": "gfx/invobjs/seed-pear"
+    },
+    {
+      "name": "Pine Cone",
+      "iconUrl": "gfx/invobjs/seed-pine"
+    },
+    {
+      "name": "Pipeweed Seeds",
+      "iconUrl": "gfx/invobjs/seed-pipeweed"
+    },
+    {
+      "name": "Plane Seedpods",
+      "iconUrl": "gfx/invobjs/seed-planetree"
+    },
+    {
+      "name": "Plum Kernel",
+      "iconUrl": "gfx/invobjs/seed-plum"
+    },
+    {
+      "name": "Poplar Catkin",
+      "iconUrl": "gfx/invobjs/seed-poplar"
+    },
+    {
+      "name": "Poppy Seeds",
+      "iconUrl": "gfx/invobjs/seed-poppy"
+    },
+    {
+      "name": "Pumpkin Seeds",
+      "iconUrl": "gfx/invobjs/seed-pumpkin"
+    },
+    {
+      "name": "Raspberry",
+      "iconUrl": "gfx/invobjs/seed-raspberrybush"
+    },
+    {
+      "name": "Redcurrant",
+      "iconUrl": "gfx/invobjs/seed-redcurrant"
+    },
+    {
+      "name": "Sallow Catkin",
+      "iconUrl": "gfx/invobjs/seed-sallow"
+    },
+    {
+      "name": "Seaberries",
+      "iconUrl": "gfx/invobjs/seed-sandthorn"
+    },
+    {
+      "name": "Spindleberries",
+      "iconUrl": "gfx/invobjs/seed-spindlebush"
+    },
+    {
+      "name": "Spruce Cone",
+      "iconUrl": "gfx/invobjs/seed-spruce"
+    },
+    {
+      "name": "Sweetgum Seedpod",
+      "iconUrl": "gfx/invobjs/seed-sweetgum"
+    },
+    {
+      "name": "Teabush Seedpod",
+      "iconUrl": "gfx/invobjs/seed-teabush"
+    },
+    {
+      "name": "Terebinth Seed",
+      "iconUrl": "gfx/invobjs/seed-terebinth"
+    },
+    {
+      "name": "Tibast Berries",
+      "iconUrl": "gfx/invobjs/seed-tibast"
+    },
+    {
+      "name": "Towercap Spore",
+      "iconUrl": "gfx/invobjs/seed-towercap"
+    },
+    {
+      "name": "Tree Heath Seed",
+      "iconUrl": "gfx/invobjs/seed-treeheath"
+    },
+    {
+      "name": "Tundra Rose Fruit",
+      "iconUrl": "gfx/invobjs/seed-tundrarose"
+    },
+    {
+      "name": "Germinated Wheat",
+      "iconUrl": "gfx/invobjs/seed-wheatgerm"
+    },
+    {
+      "name": "Malted Wheat",
+      "iconUrl": "gfx/invobjs/seed-wheatmalt"
+    },
+    {
+      "name": "Wheat Seeds",
+      "iconUrl": "gfx/invobjs/seed-wheat"
+    },
+    {
+      "name": "Willow Catkin",
+      "iconUrl": "gfx/invobjs/seed-willow"
+    },
+    {
+      "name": "Withercorn",
+      "iconUrl": "gfx/invobjs/seed-witherstand"
+    },
+    {
+      "name": "Fly Woodbine Berries",
+      "iconUrl": "gfx/invobjs/seed-woodbine"
+    },
+    {
+      "name": "Yew Cones",
+      "iconUrl": "gfx/invobjs/seed-yew"
+    },
+    {
+      "name": "Seer's Bones",
+      "iconUrl": "gfx/invobjs/seersbones"
+    },
+    {
+      "name": "Seer's Bowl",
+      "iconUrl": "gfx/invobjs/seersbowl"
+    },
+    {
+      "name": "Seer's Spindle",
+      "iconUrl": "gfx/invobjs/seersspindle"
+    },
+    {
+      "name": "Seer's Stones",
+      "iconUrl": "gfx/invobjs/seersstones"
+    },
+    {
+      "name": "Seer's Tealeaves",
+      "iconUrl": "gfx/invobjs/seerstea"
+    },
+    {
+      "name": "Solid Fat",
+      "iconUrl": "gfx/invobjs/sfat"
+    },
+    {
+      "name": "Fresh Sheepskin",
+      "iconUrl": "gfx/invobjs/sheephide-blood"
+    },
+    {
+      "name": "Sheepskin",
+      "iconUrl": "gfx/invobjs/sheephide"
+    },
+    {
+      "name": "Sherlock's Deerstalker",
+      "iconUrl": "gfx/invobjs/sherlockhat"
+    },
+    {
+      "name": "Shipwreck Buttons",
+      "iconUrl": "gfx/invobjs/shipwreckbuttons"
+    },
+    {
+      "name": "Metal Shovel",
+      "iconUrl": "gfx/invobjs/shovel-m"
+    },
+    {
+      "name": "Wooden Shovel",
+      "iconUrl": "gfx/invobjs/shovel-w"
+    },
+    {
+      "name": "Edible Mushroom",
+      "iconUrl": "gfx/invobjs/shroom"
+    },
+    {
+      "name": "Silk Cloth",
+      "iconUrl": "gfx/invobjs/silkcloth"
+    },
+    {
+      "name": "Silkworm Cocoon",
+      "iconUrl": "gfx/invobjs/silkcocoon"
+    },
+    {
+      "name": "Silkworm Egg",
+      "iconUrl": "gfx/invobjs/silkegg"
+    },
+    {
+      "name": "Silken Ribbon",
+      "iconUrl": "gfx/invobjs/silkenribbon"
+    },
+    {
+      "name": "Silk Filament",
+      "iconUrl": "gfx/invobjs/silkfilament"
+    },
+    {
+      "name": "Female Silkmoth",
+      "iconUrl": "gfx/invobjs/silkmoth-f"
+    },
+    {
+      "name": "Male Silkmoth",
+      "iconUrl": "gfx/invobjs/silkmoth-m"
+    },
+    {
+      "name": "Silk Napkin",
+      "iconUrl": "gfx/invobjs/silknapkin"
+    },
+    {
+      "name": "Silkspun Seam",
+      "iconUrl": "gfx/invobjs/silkspunseam"
+    },
+    {
+      "name": "Silk Tablecloth",
+      "iconUrl": "gfx/invobjs/silktablecloth"
+    },
+    {
+      "name": "Silk Thread",
+      "iconUrl": "gfx/invobjs/silkthread"
+    },
+    {
+      "name": "Silkworm",
+      "iconUrl": "gfx/invobjs/silkworm"
+    },
+    {
+      "name": "Silver Cutlery",
+      "iconUrl": "gfx/invobjs/silvercutlery"
+    },
+    {
+      "name": "Silver River Cutlery",
+      "iconUrl": "gfx/invobjs/silverrivercutlery"
+    },
+    {
+      "name": "Silver River Goblet",
+      "iconUrl": "gfx/invobjs/silverrivergoblet"
+    },
+    {
+      "name": "Silver Rose",
+      "iconUrl": "gfx/invobjs/silverrose"
+    },
+    {
+      "name": "Custom Image Sketchbook",
+      "iconUrl": "gfx/invobjs/sketchbook"
+    },
+    {
+      "name": "Custom Image Sketch",
+      "iconUrl": "gfx/invobjs/sketch"
+    },
+    {
+      "name": "Skull Cup",
+      "iconUrl": "gfx/invobjs/skullcup"
+    },
+    {
+      "name": "Hearthling Skull",
+      "iconUrl": "gfx/invobjs/skull"
+    },
+    {
+      "name": "Underdeveloped Hearthling Skull",
+      "iconUrl": "gfx/invobjs/skull-u"
+    },
+    {
+      "name": "Hearthling Skull",
+      "iconUrl": "gfx/invobjs/skullz"
+    },
+    {
+      "name": "Slag",
+      "iconUrl": "gfx/invobjs/slag"
+    },
+    {
+      "name": "Sling",
+      "iconUrl": "gfx/invobjs/sling"
+    },
+    {
+      "name": "Slinky",
+      "iconUrl": "gfx/invobjs/slinky"
+    },
+    {
+      "name": "Moose Antlers",
+      "iconUrl": "gfx/invobjs/small/antlers-moose"
+    },
+    {
+      "name": "Ashen Robes",
+      "iconUrl": "gfx/invobjs/small/ashenrobe"
+    },
+    {
+      "name": "Battleaxe of the Twelfth Bay",
+      "iconUrl": "gfx/invobjs/small/b12axe"
+    },
+    {
+      "name": "Birchbark Backpack",
+      "iconUrl": "gfx/invobjs/small/backpack-birch"
+    },
+    {
+      "name": "Leather Backpack",
+      "iconUrl": "gfx/invobjs/small/backpack-leather"
+    },
+    {
+      "name": "Badger Hide",
+      "iconUrl": "gfx/invobjs/small/badgerhide"
+    },
+    {
+      "name": "Badger Hide Vest",
+      "iconUrl": "gfx/invobjs/small/badgervest"
+    },
+    {
+      "name": "Bagpipe",
+      "iconUrl": "gfx/invobjs/small/bagpipe"
+    },
+    {
+      "name": "Battle Standard",
+      "iconUrl": "gfx/invobjs/small/battlestandard"
+    },
+    {
+      "name": "Bear Carcass",
+      "iconUrl": "gfx/invobjs/small/bear"
+    },
+    {
+      "name": "Bear Cape",
+      "iconUrl": "gfx/invobjs/small/bearcape"
+    },
+    {
+      "name": "Bear Coat",
+      "iconUrl": "gfx/invobjs/small/bearcoat"
+    },
+    {
+      "name": "Bear Hide",
+      "iconUrl": "gfx/invobjs/small/bearhide"
+    },
+    {
+      "name": "Beaver Hide",
+      "iconUrl": "gfx/invobjs/small/beaverhide"
+    },
+    {
+      "name": "Washed-up Bladderwrack",
+      "iconUrl": "gfx/invobjs/small/bladderwrack",
+      "detection": 500
+    },
+    {
+      "name": "Boar Carcass",
+      "iconUrl": "gfx/invobjs/small/boar"
+    },
+    {
+      "name": "Board",
+      "iconUrl": "gfx/invobjs/small/board"
+    },
+    {
+      "name": "Boar Hide",
+      "iconUrl": "gfx/invobjs/small/boarhide"
+    },
+    {
+      "name": "Boar Spear",
+      "iconUrl": "gfx/invobjs/small/boarspear"
+    },
+    {
+      "name": "Bonesaw",
+      "iconUrl": "gfx/invobjs/small/bonesaw"
+    },
+    {
+      "name": "Spruce Bough",
+      "iconUrl": "gfx/invobjs/small/bough-spruce"
+    },
+    {
+      "name": "Bronze Plate",
+      "iconUrl": "gfx/invobjs/small/bronzeplate"
+    },
+    {
+      "name": "Bronze Sword",
+      "iconUrl": "gfx/invobjs/small/bronzesword"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket-barley"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket-barleyflour"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket-beer"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket-carrot"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket-cucumber"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket-flax"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket-flaxoil"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket-grape"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket-grapejuice"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket-grist"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket-hemp"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket-honey"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket-milk"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket-pipeweed"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket-poppy"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket-pumpkin"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket-rennet"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket-swill"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket-tanfluid"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket-tar"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket-tea"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket-vinegar"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket-water"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket-wheatflour"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket-wine"
+    },
+    {
+      "name": "Bucket",
+      "iconUrl": "gfx/invobjs/small/bucket-wort"
+    },
+    {
+      "name": "Boulder",
+      "iconUrl": "gfx/invobjs/small/bumling"
+    },
+    {
+      "name": "Bush",
+      "iconUrl": "gfx/invobjs/small/bush"
+    },
+    {
+      "name": "Bushcraft Fishingpole",
+      "iconUrl": "gfx/invobjs/small/bushpole"
+    },
+    {
+      "name": "Bushcraft Fishingpole",
+      "iconUrl": "gfx/invobjs/small/bushpole-h"
+    },
+    {
+      "name": "Bushcraft Fishingpole",
+      "iconUrl": "gfx/invobjs/small/bushpole-l"
+    },
+    {
+      "name": "Carpet",
+      "iconUrl": "gfx/invobjs/small/carpet"
+    },
+    {
+      "name": "Chainmail Shirt",
+      "iconUrl": "gfx/invobjs/small/chainmailshirt"
+    },
+    {
+      "name": "Cheese Tray",
+      "iconUrl": "gfx/invobjs/small/cheesetray"
+    },
+    {
+      "name": "Cornucopia",
+      "iconUrl": "gfx/invobjs/small/cornucopia"
+    },
+    {
+      "name": "Cattle Hide",
+      "iconUrl": "gfx/invobjs/small/cowhide"
+    },
+    {
+      "name": "Crab",
+      "iconUrl": "gfx/invobjs/small/crab"
+    },
+    {
+      "name": "Creamy Cock",
+      "iconUrl": "gfx/invobjs/small/creamycock"
+    },
+    {
+      "name": "Cucumber",
+      "iconUrl": "gfx/invobjs/small/cucumber"
+    },
+    {
+      "name": "Cutthroat Cuirass",
+      "iconUrl": "gfx/invobjs/small/cutthroatcuirass"
+    },
+    {
+      "name": "Dark Effigy",
+      "iconUrl": "gfx/invobjs/small/darkeffigy"
+    },
+    {
+      "name": "Druid's Cloak",
+      "iconUrl": "gfx/invobjs/small/dcloak"
+    },
+    {
+      "name": "Drum & Sticks",
+      "iconUrl": "gfx/invobjs/small/drum"
+    },
+    {
+      "name": "Enthroned Toad",
+      "iconUrl": "gfx/invobjs/small/enthronedtoad"
+    },
+    {
+      "name": "Feather Duster",
+      "iconUrl": "gfx/invobjs/small/featherduster"
+    },
+    {
+      "name": "Fiddle & Bow",
+      "iconUrl": "gfx/invobjs/small/fiddle"
+    },
+    {
+      "name": "Asp",
+      "iconUrl": "gfx/invobjs/small/fish-asp"
+    },
+    {
+      "name": "Burbot",
+      "iconUrl": "gfx/invobjs/small/fish-burbot"
+    },
+    {
+      "name": "Carp",
+      "iconUrl": "gfx/invobjs/small/fish-carp"
+    },
+    {
+      "name": "Catfish",
+      "iconUrl": "gfx/invobjs/small/fish-catfish"
+    },
+    {
+      "name": "Eel",
+      "iconUrl": "gfx/invobjs/small/fish-eel"
+    },
+    {
+      "name": "Grayling",
+      "iconUrl": "gfx/invobjs/small/fish-grayling"
+    },
+    {
+      "name": "Lavaret",
+      "iconUrl": "gfx/invobjs/small/fish-lavaret"
+    },
+    {
+      "name": "Pike",
+      "iconUrl": "gfx/invobjs/small/fish-pike"
+    },
+    {
+      "name": "Salmon",
+      "iconUrl": "gfx/invobjs/small/fish-salmon"
+    },
+    {
+      "name": "Sturgeon",
+      "iconUrl": "gfx/invobjs/small/fish-sturgeon"
+    },
+    {
+      "name": "Trout",
+      "iconUrl": "gfx/invobjs/small/fish-trout"
+    },
+    {
+      "name": "Zander",
+      "iconUrl": "gfx/invobjs/small/fish-zander"
+    },
+    {
+      "name": "Fossil Collection",
+      "iconUrl": "gfx/invobjs/small/fossilcollection"
+    },
+    {
+      "name": "Dried Fox Hide",
+      "iconUrl": "gfx/invobjs/small/foxhide"
+    },
+    {
+      "name": "Frying Pan",
+      "iconUrl": "gfx/invobjs/small/fryingpan"
+    },
+    {
+      "name": "Fur Cloak",
+      "iconUrl": "gfx/invobjs/small/furcloak"
+    },
+    {
+      "name": "Fyrdsman's Sword",
+      "iconUrl": "gfx/invobjs/small/fyrdsword"
+    },
+    {
+      "name": "Garden Pot",
+      "iconUrl": "gfx/invobjs/small/gardenpot"
+    },
+    {
+      "name": "Gift Box",
+      "iconUrl": "gfx/invobjs/small/gift-yule"
+    },
+    {
+      "name": "Goat Mask",
+      "iconUrl": "gfx/invobjs/small/goatmask"
+    },
+    {
+      "name": "Grand Haruspex",
+      "iconUrl": "gfx/invobjs/small/grandharuspex"
+    },
+    {
+      "name": "Grey Seal Hide",
+      "iconUrl": "gfx/invobjs/small/greysealhide"
+    },
+    {
+      "name": "Heart Container",
+      "iconUrl": "gfx/invobjs/small/heartcontainer"
+    },
+    {
+      "name": "Hemp Tablecloth",
+      "iconUrl": "gfx/invobjs/small/hemptablecloth"
+    },
+    {
+      "name": "Hermine Cloak",
+      "iconUrl": "gfx/invobjs/small/herminecloak"
+    },
+    {
+      "name": "Hide Cloak",
+      "iconUrl": "gfx/invobjs/small/hidecloak"
+    },
+    {
+      "name": "Hirdsman's Sword",
+      "iconUrl": "gfx/invobjs/small/hirdsword"
+    },
+    {
+      "name": "Horse Hide",
+      "iconUrl": "gfx/invobjs/small/horsehide"
+    },
+    {
+      "name": "Hunter's Bow",
+      "iconUrl": "gfx/invobjs/small/huntersbow"
+    },
+    {
+      "name": "Hunter's Quiver",
+      "iconUrl": "gfx/invobjs/small/huntersquiver-e"
+    },
+    {
+      "name": "Hunter's Quiver",
+      "iconUrl": "gfx/invobjs/small/huntersquiver"
+    },
+    {
+      "name": "Hussar's Wings",
+      "iconUrl": "gfx/invobjs/small/hussarwings"
+    },
+    {
+      "name": "Jack-o'-Mask",
+      "iconUrl": "gfx/invobjs/small/jackomask"
+    },
+    {
+      "name": "Kozhukh",
+      "iconUrl": "gfx/invobjs/small/kozhukh"
+    },
+    {
+      "name": "Lawspeaker's Robes",
+      "iconUrl": "gfx/invobjs/small/lawrobe"
+    },
+    {
+      "name": "Leather Armor",
+      "iconUrl": "gfx/invobjs/small/leatherarmor"
+    },
+    {
+      "name": "Leather Coat",
+      "iconUrl": "gfx/invobjs/small/leathercoat"
+    },
+    {
+      "name": "Leather Pants",
+      "iconUrl": "gfx/invobjs/small/leatherpants"
+    },
+    {
+      "name": "Leather Tablecloth",
+      "iconUrl": "gfx/invobjs/small/leathertablecloth"
+    },
+    {
+      "name": "Leek",
+      "iconUrl": "gfx/invobjs/small/leek"
+    },
+    {
+      "name": "Head of Lettuce",
+      "iconUrl": "gfx/invobjs/small/lettucehead"
+    },
+    {
+      "name": "Linen Tablecloth",
+      "iconUrl": "gfx/invobjs/small/linentablecloth"
+    },
+    {
+      "name": "Log",
+      "iconUrl": "gfx/invobjs/small/log"
+    },
+    {
+      "name": "Lute",
+      "iconUrl": "gfx/invobjs/small/lute"
+    },
+    {
+      "name": "Lynx Cape",
+      "iconUrl": "gfx/invobjs/small/lynxcape"
+    },
+    {
+      "name": "Lynx Hide",
+      "iconUrl": "gfx/invobjs/small/lynxhide"
+    },
+    {
+      "name": "Mammoth Hide",
+      "iconUrl": "gfx/invobjs/small/mammothhide"
+    },
+    {
+      "name": "Mammoth Tusk",
+      "iconUrl": "gfx/invobjs/small/mammothtusk"
+    },
+    {
+      "name": "Merchant's Robe",
+      "iconUrl": "gfx/invobjs/small/merchantsrobe"
+    },
+    {
+      "name": "Moose Hide Jacket",
+      "iconUrl": "gfx/invobjs/small/moosehidejacket"
+    },
+    {
+      "name": "Moose Hide",
+      "iconUrl": "gfx/invobjs/small/moosehide"
+    },
+    {
+      "name": "Moose Carcass",
+      "iconUrl": "gfx/invobjs/small/moose"
+    },
+    {
+      "name": "Mouflon Hide",
+      "iconUrl": "gfx/invobjs/small/mouflonhide"
+    },
+    {
+      "name": "Onion Braid",
+      "iconUrl": "gfx/invobjs/small/onionbraid"
+    },
+    {
+      "name": "Otterhide",
+      "iconUrl": "gfx/invobjs/small/otterhide"
+    },
+    {
+      "name": "Pack Rack",
+      "iconUrl": "gfx/invobjs/small/packrack"
+    },
+    {
+      "name": "Painting",
+      "iconUrl": "gfx/invobjs/small/painting"
+    },
+    {
+      "name": "Pickaxe",
+      "iconUrl": "gfx/invobjs/small/pickaxe"
+    },
+    {
+      "name": "Wicker Picker",
+      "iconUrl": "gfx/invobjs/small/pickingbasket-f"
+    },
+    {
+      "name": "Wicker Picker",
+      "iconUrl": "gfx/invobjs/small/pickingbasket"
+    },
+    {
+      "name": "Plate Greaves",
+      "iconUrl": "gfx/invobjs/small/plategreaves"
+    },
+    {
+      "name": "Plate Mail",
+      "iconUrl": "gfx/invobjs/small/platemail"
+    },
+    {
+      "name": "Poor Man's Belt",
+      "iconUrl": "gfx/invobjs/small/poormansbelt"
+    },
+    {
+      "name": "Pot",
+      "iconUrl": "gfx/invobjs/small/pot"
+    },
+    {
+      "name": "Primitive Doll",
+      "iconUrl": "gfx/invobjs/small/primitivedoll"
+    },
+    {
+      "name": "Primitive Casting-Rod",
+      "iconUrl": "gfx/invobjs/small/primrod-h"
+    },
+    {
+      "name": "Primitive Casting-Rod",
+      "iconUrl": "gfx/invobjs/small/primrod-l"
+    },
+    {
+      "name": "Primitive Casting-Rod",
+      "iconUrl": "gfx/invobjs/small/primrod"
+    },
+    {
+      "name": "Protest Sign",
+      "iconUrl": "gfx/invobjs/small/protestsign"
+    },
+    {
+      "name": "Pumpkin",
+      "iconUrl": "gfx/invobjs/small/pumpkin"
+    },
+    {
+      "name": "Ranger's Cape",
+      "iconUrl": "gfx/invobjs/small/rangerscape"
+    },
+    {
+      "name": "Rattle-Tattle-Talisman",
+      "iconUrl": "gfx/invobjs/small/rattletattle"
+    },
+    {
+      "name": "Red Deer Hide",
+      "iconUrl": "gfx/invobjs/small/reddeerhide"
+    },
+    {
+      "name": "Red Deer Carcass",
+      "iconUrl": "gfx/invobjs/small/reddeer"
+    },
+    {
+      "name": "Scarlet Gown",
+      "iconUrl": "gfx/invobjs/small/redgown"
+    },
+    {
+      "name": "Reindeer Cape",
+      "iconUrl": "gfx/invobjs/small/reindeercape"
+    },
+    {
+      "name": "Reindeer Hide",
+      "iconUrl": "gfx/invobjs/small/reindeerhide"
+    },
+    {
+      "name": "Folded Roasting Spit",
+      "iconUrl": "gfx/invobjs/small/roastspit"
+    },
+    {
+      "name": "Dead Rooster",
+      "iconUrl": "gfx/invobjs/small/rooster-dead"
+    },
+    {
+      "name": "Rope",
+      "iconUrl": "gfx/invobjs/small/rope"
+    },
+    {
+      "name": "Wooden Roundshield",
+      "iconUrl": "gfx/invobjs/small/roundshield"
+    },
+    {
+      "name": "Saddlebags",
+      "iconUrl": "gfx/invobjs/small/saddlebags"
+    },
+    {
+      "name": "Sand Castle",
+      "iconUrl": "gfx/invobjs/small/sandcastle"
+    },
+    {
+      "name": "Metal Saw",
+      "iconUrl": "gfx/invobjs/small/saw-m"
+    },
+    {
+      "name": "Scythe",
+      "iconUrl": "gfx/invobjs/small/scythe"
+    },
+    {
+      "name": "Seer's Bones",
+      "iconUrl": "gfx/invobjs/small/seersbones"
+    },
+    {
+      "name": "Sheepskin",
+      "iconUrl": "gfx/invobjs/small/sheepskin"
+    },
+    {
+      "name": "Metal Shovel",
+      "iconUrl": "gfx/invobjs/small/shovel-m"
+    },
+    {
+      "name": "Wooden Shovel",
+      "iconUrl": "gfx/invobjs/small/shovel-w"
+    },
+    {
+      "name": "Silk Tablecloth",
+      "iconUrl": "gfx/invobjs/small/silktablecloth"
+    },
+    {
+      "name": "Sledgehammer",
+      "iconUrl": "gfx/invobjs/small/sledgehammer"
+    },
+    {
+      "name": "Uncommon Snapdragon",
+      "iconUrl": "gfx/invobjs/small/snapdragon"
+    },
+    {
+      "name": "Straw Doll",
+      "iconUrl": "gfx/invobjs/small/strawdoll"
+    },
+    {
+      "name": "Plain Tabard",
+      "iconUrl": "gfx/invobjs/small/tabardplain"
+    },
+    {
+      "name": "Tangled Bramble",
+      "iconUrl": "gfx/invobjs/small/tangledbramble"
+    },
+    {
+      "name": "Thorny Thistle",
+      "iconUrl": "gfx/invobjs/small/thornythistle",
+      "detection": 180
+    },
+    {
+      "name": "Cured Pipeweed",
+      "iconUrl": "gfx/invobjs/small/tobacco-cured"
+    },
+    {
+      "name": "Fresh Leaf of Pipeweed",
+      "iconUrl": "gfx/invobjs/small/tobacco-fresh"
+    },
+    {
+      "name": "Toga",
+      "iconUrl": "gfx/invobjs/small/toga"
+    },
+    {
+      "name": "Traveller's Sack",
+      "iconUrl": "gfx/invobjs/small/travellerssack"
+    },
+    {
+      "name": "Treeplanter's Pot",
+      "iconUrl": "gfx/invobjs/small/treepot-u"
+    },
+    {
+      "name": "Trollbone",
+      "iconUrl": "gfx/invobjs/small/trollbone"
+    },
+    {
+      "name": "Troll Ears",
+      "iconUrl": "gfx/invobjs/small/trollears"
+    },
+    {
+      "name": "Grand Troll Helm",
+      "iconUrl": "gfx/invobjs/small/trollhelm"
+    },
+    {
+      "name": "Troll Hide",
+      "iconUrl": "gfx/invobjs/small/trollhide"
+    },
+    {
+      "name": "Troll Skull",
+      "iconUrl": "gfx/invobjs/small/trollskull"
+    },
+    {
+      "name": "Urn",
+      "iconUrl": "gfx/invobjs/small/urn"
+    },
+    {
+      "name": "Vapntreyiu",
+      "iconUrl": "gfx/invobjs/small/vapntreyiu"
+    },
+    {
+      "name": "Völva's Wand",
+      "iconUrl": "gfx/invobjs/small/volvawand"
+    },
+    {
+      "name": "Wall Shelf",
+      "iconUrl": "gfx/invobjs/small/wallshelf"
+    },
+    {
+      "name": "Walrus Cape",
+      "iconUrl": "gfx/invobjs/small/walruscape"
+    },
+    {
+      "name": "Walrus Hide",
+      "iconUrl": "gfx/invobjs/small/walrushide"
+    },
+    {
+      "name": "Walrus Tusk",
+      "iconUrl": "gfx/invobjs/small/walrustusk"
+    },
+    {
+      "name": "Wanderer's Bindle",
+      "iconUrl": "gfx/invobjs/small/wanderersbindle"
+    },
+    {
+      "name": "Waterskin",
+      "iconUrl": "gfx/invobjs/small/waterskin"
+    },
+    {
+      "name": "Block of Wood",
+      "iconUrl": "gfx/invobjs/small/wblock"
+    },
+    {
+      "name": "Block of Mirkwood",
+      "iconUrl": "gfx/invobjs/small/wblock-mirkwood"
+    },
+    {
+      "name": "Block of Oak",
+      "iconUrl": "gfx/invobjs/small/wblock-oak"
+    },
+    {
+      "name": "Block of Spruce",
+      "iconUrl": "gfx/invobjs/small/wblock-spruce"
+    },
+    {
+      "name": "Wildgoat Hide",
+      "iconUrl": "gfx/invobjs/small/wildgoathide"
+    },
+    {
+      "name": "Wildhorse Hide",
+      "iconUrl": "gfx/invobjs/small/wildhorsehide"
+    },
+    {
+      "name": "Wolverine Hide",
+      "iconUrl": "gfx/invobjs/small/wolverinehide"
+    },
+    {
+      "name": "Wolverine",
+      "iconUrl": "gfx/invobjs/small/wolverine"
+    },
+    {
+      "name": "Woodland Crown",
+      "iconUrl": "gfx/invobjs/small/woodcrown"
+    },
+    {
+      "name": "Woodsman's Axe",
+      "iconUrl": "gfx/invobjs/small/woodsmansaxe"
+    },
+    {
+      "name": "Wool Tablecloth",
+      "iconUrl": "gfx/invobjs/small/wooltablecloth"
+    },
+    {
+      "name": "Blacksmith's Bauble",
+      "iconUrl": "gfx/invobjs/smithsbauble"
+    },
+    {
+      "name": "Smithy's Hammer",
+      "iconUrl": "gfx/invobjs/smithshammer"
+    },
+    {
+      "name": "Snakeskin Belt",
+      "iconUrl": "gfx/invobjs/snakeskinbelt"
+    },
+    {
+      "name": "Snakeskin Boots",
+      "iconUrl": "gfx/invobjs/snakeskinboots"
+    },
+    {
+      "name": "Snakeskin Stripes",
+      "iconUrl": "gfx/invobjs/snakeskinstripes"
+    },
+    {
+      "name": "Snowball",
+      "iconUrl": "gfx/invobjs/snowball"
+    },
+    {
+      "name": "Snow Globe",
+      "iconUrl": "gfx/invobjs/snowglobe"
+    },
+    {
+      "name": "Snow",
+      "iconUrl": "gfx/invobjs/snow"
+    },
+    {
+      "name": "Bar of Soap",
+      "iconUrl": "gfx/invobjs/soapbar"
+    },
+    {
+      "name": "Lather",
+      "iconUrl": "gfx/invobjs/soapbubble"
+    },
+    {
+      "name": "Soft Metal Cutlery",
+      "iconUrl": "gfx/invobjs/softmetalcutlery"
+    },
+    {
+      "name": "Soil",
+      "iconUrl": "gfx/invobjs/soil"
+    },
+    {
+      "name": "Sombrero",
+      "iconUrl": "gfx/invobjs/sombrero"
+    },
+    {
+      "name": "Sorb Apple Core",
+      "iconUrl": "gfx/invobjs/sorbapplecore"
+    },
+    {
+      "name": "Sorb Apple",
+      "iconUrl": "gfx/invobjs/sorbapple"
+    },
+    {
+      "name": "Spectacles",
+      "iconUrl": "gfx/invobjs/spectacles"
+    },
+    {
+      "name": "Spices",
+      "iconUrl": "gfx/invobjs/spices"
+    },
+    {
+      "name": "Spicy Salad",
+      "iconUrl": "gfx/invobjs/spicysalad"
+    },
+    {
+      "name": "Spring Stew",
+      "iconUrl": "gfx/invobjs/springstew"
+    },
+    {
+      "name": "Spring Water",
+      "iconUrl": "gfx/invobjs/springwater"
+    },
+    {
+      "name": "Sprucecap",
+      "iconUrl": "gfx/invobjs/sprucecap"
+    },
+    {
+      "name": "Squirrel Carcass",
+      "iconUrl": "gfx/invobjs/squirrel-carcass"
+    },
+    {
+      "name": "Clean Squirrel Carcass",
+      "iconUrl": "gfx/invobjs/squirrel-clean"
+    },
+    {
+      "name": "Dead Squirrel",
+      "iconUrl": "gfx/invobjs/squirrel-dead"
+    },
+    {
+      "name": "Fresh Squirrel Hide",
+      "iconUrl": "gfx/invobjs/squirrelhide-blood"
+    },
+    {
+      "name": "Squirrel Hide",
+      "iconUrl": "gfx/invobjs/squirrelhide"
+    },
+    {
+      "name": "Squirrel",
+      "iconUrl": "gfx/invobjs/squirrel"
+    },
+    {
+      "name": "Fresh Squirrel Tail",
+      "iconUrl": "gfx/invobjs/squirreltail-blood"
+    },
+    {
+      "name": "Squirrel Tail",
+      "iconUrl": "gfx/invobjs/squirreltail"
+    },
+    {
+      "name": "Stag Beetle",
+      "iconUrl": "gfx/invobjs/stagbeetle"
+    },
+    {
+      "name": "Stained Glass Heart",
+      "iconUrl": "gfx/invobjs/stainedglassheart"
+    },
+    {
+      "name": "Stalagoomba",
+      "iconUrl": "gfx/invobjs/stalagoomba"
+    },
+    {
+      "name": "Steak & Tubers",
+      "iconUrl": "gfx/invobjs/steaktuber"
+    },
+    {
+      "name": "Still Life",
+      "iconUrl": "gfx/invobjs/stillife"
+    },
+    {
+      "name": "Stinging Poultice",
+      "iconUrl": "gfx/invobjs/stingingpoultice"
+    },
+    {
+      "name": "Stinging Salad",
+      "iconUrl": "gfx/invobjs/stingingsalad"
+    },
+    {
+      "name": "Stitch Patch",
+      "iconUrl": "gfx/invobjs/stitchpatch"
+    },
+    {
+      "name": "Stone Axe",
+      "iconUrl": "gfx/invobjs/stoneaxe"
+    },
+    {
+      "name": "Stone",
+      "iconUrl": "gfx/invobjs/stone"
+    },
+    {
+      "name": "Stoneware Vase",
+      "iconUrl": "gfx/invobjs/stonewarevase"
+    },
+    {
+      "name": "Unfired Stoneware Vase",
+      "iconUrl": "gfx/invobjs/stonewarevase-u"
+    },
+    {
+      "name": "Strange Crystal",
+      "iconUrl": "gfx/invobjs/strangecrystal"
+    },
+    {
+      "name": "Strange Root",
+      "iconUrl": "gfx/invobjs/strangeroot"
+    },
+    {
+      "name": "Straw Doll",
+      "iconUrl": "gfx/invobjs/strawdoll"
+    },
+    {
+      "name": "Strawhat",
+      "iconUrl": "gfx/invobjs/strawhat"
+    },
+    {
+      "name": "Straw",
+      "iconUrl": "gfx/invobjs/straw"
+    },
+    {
+      "name": "Straw Twine",
+      "iconUrl": "gfx/invobjs/strawstring"
+    },
+    {
+      "name": "String",
+      "iconUrl": "gfx/invobjs/string"
+    },
+    {
+      "name": "Suckling's Maw",
+      "iconUrl": "gfx/invobjs/suckmaw"
+    },
+    {
+      "name": "Thane's Helm",
+      "iconUrl": "gfx/invobjs/suttonhelm"
+    },
+    {
+      "name": "Swan Feather Cape",
+      "iconUrl": "gfx/invobjs/swancape"
+    },
+    {
+      "name": "Cleaned Swan",
+      "iconUrl": "gfx/invobjs/swan-cleaned"
+    },
+    {
+      "name": "Dead Swan",
+      "iconUrl": "gfx/invobjs/swan-dead"
+    },
+    {
+      "name": "Plucked Swan",
+      "iconUrl": "gfx/invobjs/swan-plucked"
+    },
+    {
+      "name": "Swan",
+      "iconUrl": "gfx/invobjs/swan"
+    },
+    {
+      "name": "Sweet Beets",
+      "iconUrl": "gfx/invobjs/sweetbeets"
+    },
+    {
+      "name": "Schrifterz",
+      "iconUrl": "gfx/invobjs/sylvanite"
+    },
+    {
+      "name": "Plain Tabard",
+      "iconUrl": "gfx/invobjs/tabardplain"
+    },
+    {
+      "name": "Tafl Board",
+      "iconUrl": "gfx/invobjs/taflgame"
+    },
+    {
+      "name": "Tallow Candle",
+      "iconUrl": "gfx/invobjs/tallowcandle"
+    },
+    {
+      "name": "Tanning Fluid",
+      "iconUrl": "gfx/invobjs/tanfluid"
+    },
+    {
+      "name": "Tankard",
+      "iconUrl": "gfx/invobjs/tankard-full"
+    },
+    {
+      "name": "Tankard",
+      "iconUrl": "gfx/invobjs/tankard"
+    },
+    {
+      "name": "Taproot Lacing",
+      "iconUrl": "gfx/invobjs/taprootlacing"
+    },
+    {
+      "name": "Tarsticks",
+      "iconUrl": "gfx/invobjs/tarsticks"
+    },
+    {
+      "name": "Tar",
+      "iconUrl": "gfx/invobjs/tar"
+    },
+    {
+      "name": "Cured Tea",
+      "iconUrl": "gfx/invobjs/tea-any"
+    },
+    {
+      "name": "Black Tea Leaves",
+      "iconUrl": "gfx/invobjs/tea-black"
+    },
+    {
+      "name": "Fresh Tea Leaves",
+      "iconUrl": "gfx/invobjs/tea-fresh"
+    },
+    {
+      "name": "Green Tea Leaves",
+      "iconUrl": "gfx/invobjs/tea-green"
+    },
+    {
+      "name": "Teapot",
+      "iconUrl": "gfx/invobjs/teapot-full"
+    },
+    {
+      "name": "Teapot",
+      "iconUrl": "gfx/invobjs/teapot"
+    },
+    {
+      "name": "Unfired Teapot",
+      "iconUrl": "gfx/invobjs/teapot-u"
+    },
+    {
+      "name": "Thane's Ring",
+      "iconUrl": "gfx/invobjs/thanesring"
+    },
+    {
+      "name": "Thatching Material",
+      "iconUrl": "gfx/invobjs/thatching"
+    },
+    {
+      "name": "Clothier's Thimble",
+      "iconUrl": "gfx/invobjs/thimble"
+    },
+    {
+      "name": "Divination in Tin",
+      "iconUrl": "gfx/invobjs/tinvination"
+    },
+    {
+      "name": "Tin Warrior",
+      "iconUrl": "gfx/invobjs/tinwarrior"
+    },
+    {
+      "name": "Tiny Abacus",
+      "iconUrl": "gfx/invobjs/tinyabacus"
+    },
+    {
+      "name": "Toad Butter",
+      "iconUrl": "gfx/invobjs/toadbutter"
+    },
+    {
+      "name": "Toad",
+      "iconUrl": "gfx/invobjs/toad"
+    },
+    {
+      "name": "Cured Pipeweed",
+      "iconUrl": "gfx/invobjs/tobacco-cured"
+    },
+    {
+      "name": "Fresh Leaf of Pipeweed",
+      "iconUrl": "gfx/invobjs/tobacco-fresh"
+    },
+    {
+      "name": "Pipestuff",
+      "iconUrl": "gfx/invobjs/tobacco-ground"
+    },
+    {
+      "name": "Pipeweed",
+      "iconUrl": "gfx/invobjs/tobacco"
+    },
+    {
+      "name": "Lit Torch",
+      "iconUrl": "gfx/invobjs/torch-l"
+    },
+    {
+      "name": "Torch",
+      "iconUrl": "gfx/invobjs/torch"
+    },
+    {
+      "name": "Toy Chariot",
+      "iconUrl": "gfx/invobjs/toychariot"
+    },
+    {
+      "name": "Unfired Toy Chariot",
+      "iconUrl": "gfx/invobjs/toychariot-u"
+    },
+    {
+      "name": "Trash",
+      "iconUrl": "gfx/invobjs/trash"
+    },
+    {
+      "name": "Traveler's Sack",
+      "iconUrl": "gfx/invobjs/travellerssack"
+    },
+    {
+      "name": "Treeplanter's Pot",
+      "iconUrl": "gfx/invobjs/treepot-s"
+    },
+    {
+      "name": "Treeplanter's Pot",
+      "iconUrl": "gfx/invobjs/treepot"
+    },
+    {
+      "name": "Treeplanter's Pot",
+      "iconUrl": "gfx/invobjs/treepot-t"
+    },
+    {
+      "name": "Unfired Treeplanter's Pot",
+      "iconUrl": "gfx/invobjs/treepot-u"
+    },
+    {
+      "name": "Seed of Tree or Bush",
+      "iconUrl": "gfx/invobjs/treeseed"
+    },
+    {
+      "name": "Feathered Tricorne",
+      "iconUrl": "gfx/invobjs/tricorne"
+    },
+    {
+      "name": "Troll Belt",
+      "iconUrl": "gfx/invobjs/trollbelt"
+    },
+    {
+      "name": "Trollbone",
+      "iconUrl": "gfx/invobjs/trollbone"
+    },
+    {
+      "name": "Troll Ears",
+      "iconUrl": "gfx/invobjs/trollears"
+    },
+    {
+      "name": "Troll's Third Eye",
+      "iconUrl": "gfx/invobjs/trolleye"
+    },
+    {
+      "name": "Troll Hair",
+      "iconUrl": "gfx/invobjs/trollhair"
+    },
+    {
+      "name": "Fresh Troll Hide",
+      "iconUrl": "gfx/invobjs/trollhide-blood"
+    },
+    {
+      "name": "Troll Hide",
+      "iconUrl": "gfx/invobjs/trollhide"
+    },
+    {
+      "name": "Troll Nose",
+      "iconUrl": "gfx/invobjs/trollnose"
+    },
+    {
+      "name": "Troll Mushrooms",
+      "iconUrl": "gfx/invobjs/trollshrooms"
+    },
+    {
+      "name": "Troll Skull",
+      "iconUrl": "gfx/invobjs/trollskull"
+    },
+    {
+      "name": "Troll Tail",
+      "iconUrl": "gfx/invobjs/trolltail"
+    },
+    {
+      "name": "Troll Tusks",
+      "iconUrl": "gfx/invobjs/trolltusks"
+    },
+    {
+      "name": "Tuber Mash",
+      "iconUrl": "gfx/invobjs/tubermash"
+    },
+    {
+      "name": "Tuber",
+      "iconUrl": "gfx/invobjs/tuber"
+    },
+    {
+      "name": "Turnip",
+      "iconUrl": "gfx/invobjs/turnip"
+    },
+    {
+      "name": "Twig of Spruce",
+      "iconUrl": "gfx/invobjs/twigofspruce"
+    },
+    {
+      "name": "Uncrushed Husk",
+      "iconUrl": "gfx/invobjs/uncrushedhusk"
+    },
+    {
+      "name": "Unfired Urn",
+      "iconUrl": "gfx/invobjs/urn-u"
+    },
+    {
+      "name": "Woodsman's Ushanka",
+      "iconUrl": "gfx/invobjs/ushanka"
+    },
+    {
+      "name": "Vapntreyiu",
+      "iconUrl": "gfx/invobjs/vapntreyiu"
+    },
+    {
+      "name": "Vinegar",
+      "iconUrl": "gfx/invobjs/vinegar"
+    },
+    {
+      "name": "V?lva's Wand",
+      "iconUrl": "gfx/invobjs/volvawand"
+    },
+    {
+      "name": "Walnut",
+      "iconUrl": "gfx/invobjs/walnut"
+    },
+    {
+      "name": "Walrus Boots",
+      "iconUrl": "gfx/invobjs/walrusboots"
+    },
+    {
+      "name": "Fresh Walrus Hide",
+      "iconUrl": "gfx/invobjs/walrushide-blood"
+    },
+    {
+      "name": "Walrus Hide",
+      "iconUrl": "gfx/invobjs/walrushide"
+    },
+    {
+      "name": "Walrus Tusk",
+      "iconUrl": "gfx/invobjs/walrustusk"
+    },
+    {
+      "name": "Wanderer's Bindle",
+      "iconUrl": "gfx/invobjs/wanderersbindle"
+    },
+    {
+      "name": "Waterflask",
+      "iconUrl": "gfx/invobjs/waterflask"
+    },
+    {
+      "name": "Waterskin",
+      "iconUrl": "gfx/invobjs/waterskin"
+    },
+    {
+      "name": "Waterstrider",
+      "iconUrl": "gfx/invobjs/waterstrider"
+    },
+    {
+      "name": "Water",
+      "iconUrl": "gfx/invobjs/water"
+    },
+    {
+      "name": "Wax-Impregnated Lining",
+      "iconUrl": "gfx/invobjs/waxlining"
+    },
+    {
+      "name": "Wax",
+      "iconUrl": "gfx/invobjs/wax"
+    },
+    {
+      "name": "Block of Alder",
+      "iconUrl": "gfx/invobjs/wblock-alder"
+    },
+    {
+      "name": "Block of Almondwood",
+      "iconUrl": "gfx/invobjs/wblock-almondtree"
+    },
+    {
+      "name": "Block of Applewood",
+      "iconUrl": "gfx/invobjs/wblock-appletree"
+    },
+    {
+      "name": "Block of Ash",
+      "iconUrl": "gfx/invobjs/wblock-ash"
+    },
+    {
+      "name": "Block of Aspen",
+      "iconUrl": "gfx/invobjs/wblock-aspen"
+    },
+    {
+      "name": "Block of Bay Willow",
+      "iconUrl": "gfx/invobjs/wblock-baywillow"
+    },
+    {
+      "name": "Block of Beaver Salvage",
+      "iconUrl": "gfx/invobjs/wblock-beavertree"
+    },
+    {
+      "name": "Block of Beech",
+      "iconUrl": "gfx/invobjs/wblock-beech"
+    },
+    {
+      "name": "Block of Birch",
+      "iconUrl": "gfx/invobjs/wblock-birch"
+    },
+    {
+      "name": "Block of Birdcherrywood",
+      "iconUrl": "gfx/invobjs/wblock-birdcherrytree"
+    },
+    {
+      "name": "Block of Blackthorn",
+      "iconUrl": "gfx/invobjs/wblock-blackthorn"
+    },
+    {
+      "name": "Block of Boxwood",
+      "iconUrl": "gfx/invobjs/wblock-boxwood"
+    },
+    {
+      "name": "Block of Buckthorn",
+      "iconUrl": "gfx/invobjs/wblock-buckthorn"
+    },
+    {
+      "name": "Block of Cedar",
+      "iconUrl": "gfx/invobjs/wblock-cedar"
+    },
+    {
+      "name": "Block of Cherrywood",
+      "iconUrl": "gfx/invobjs/wblock-cherry"
+    },
+    {
+      "name": "Block of Chestnutwood",
+      "iconUrl": "gfx/invobjs/wblock-chestnuttree"
+    },
+    {
+      "name": "Block of Conkerwood",
+      "iconUrl": "gfx/invobjs/wblock-conkertree"
+    },
+    {
+      "name": "Block of Corkoak",
+      "iconUrl": "gfx/invobjs/wblock-corkoak"
+    },
+    {
+      "name": "Block of Crabapplewood",
+      "iconUrl": "gfx/invobjs/wblock-crabappletree"
+    },
+    {
+      "name": "Block of Crampbark",
+      "iconUrl": "gfx/invobjs/wblock-crampbark"
+    },
+    {
+      "name": "Block of Cypress",
+      "iconUrl": "gfx/invobjs/wblock-cypress"
+    },
+    {
+      "name": "Block of Elderwood",
+      "iconUrl": "gfx/invobjs/wblock-elderberrybush"
+    },
+    {
+      "name": "Block of Elm",
+      "iconUrl": "gfx/invobjs/wblock-elm"
+    },
+    {
+      "name": "Block of Fir",
+      "iconUrl": "gfx/invobjs/wblock-fir"
+    },
+    {
+      "name": "Block of Goldenchain",
+      "iconUrl": "gfx/invobjs/wblock-goldenchain"
+    },
+    {
+      "name": "Block of Gooseberrywood",
+      "iconUrl": "gfx/invobjs/wblock-gooseberrybush"
+    },
+    {
+      "name": "Block of Hawthorn",
+      "iconUrl": "gfx/invobjs/wblock-hawthorn"
+    },
+    {
+      "name": "Block of Hazel",
+      "iconUrl": "gfx/invobjs/wblock-hazel"
+    },
+    {
+      "name": "Block of Hornbeam",
+      "iconUrl": "gfx/invobjs/wblock-hornbeam"
+    },
+    {
+      "name": "Block of Juniper",
+      "iconUrl": "gfx/invobjs/wblock-juniper"
+    },
+    {
+      "name": "Block of King's Oak",
+      "iconUrl": "gfx/invobjs/wblock-kingsoak"
+    },
+    {
+      "name": "Block of Larch",
+      "iconUrl": "gfx/invobjs/wblock-larch"
+    },
+    {
+      "name": "Block of Laurel",
+      "iconUrl": "gfx/invobjs/wblock-laurel"
+    },
+    {
+      "name": "Block of Linden",
+      "iconUrl": "gfx/invobjs/wblock-linden"
+    },
+    {
+      "name": "Block of Maple",
+      "iconUrl": "gfx/invobjs/wblock-maple"
+    },
+    {
+      "name": "Block of Mirkwood",
+      "iconUrl": "gfx/invobjs/wblock-mirkwood"
+    },
+    {
+      "name": "Block of Mulberrywood",
+      "iconUrl": "gfx/invobjs/wblock-mulberry"
+    },
+    {
+      "name": "Block of Oak",
+      "iconUrl": "gfx/invobjs/wblock-oak"
+    },
+    {
+      "name": "Block of Olivewood",
+      "iconUrl": "gfx/invobjs/wblock-olivetree"
+    },
+    {
+      "name": "Block of Pine",
+      "iconUrl": "gfx/invobjs/wblock-pine"
+    },
+    {
+      "name": "Block of Planewood",
+      "iconUrl": "gfx/invobjs/wblock-planetree"
+    },
+    {
+      "name": "Block of Plumwood",
+      "iconUrl": "gfx/invobjs/wblock-plumtree"
+    },
+    {
+      "name": "Block of Poplar",
+      "iconUrl": "gfx/invobjs/wblock-poplar"
+    },
+    {
+      "name": "Block of Quincewood",
+      "iconUrl": "gfx/invobjs/wblock-quincetree"
+    },
+    {
+      "name": "Block of Rowan",
+      "iconUrl": "gfx/invobjs/wblock-rowan"
+    },
+    {
+      "name": "Block of Sallow",
+      "iconUrl": "gfx/invobjs/wblock-sallow"
+    },
+    {
+      "name": "Block of Spindlewood",
+      "iconUrl": "gfx/invobjs/wblock-spindlebush"
+    },
+    {
+      "name": "Block of Spruce",
+      "iconUrl": "gfx/invobjs/wblock-spruce"
+    },
+    {
+      "name": "Block of Sweetgum",
+      "iconUrl": "gfx/invobjs/wblock-sweetgum"
+    },
+    {
+      "name": "Block of Teawood",
+      "iconUrl": "gfx/invobjs/wblock-teabush"
+    },
+    {
+      "name": "Block of Terebinth",
+      "iconUrl": "gfx/invobjs/wblock-terebinth"
+    },
+    {
+      "name": "Block of Towercap",
+      "iconUrl": "gfx/invobjs/wblock-towercap"
+    },
+    {
+      "name": "Block of Walnutwood",
+      "iconUrl": "gfx/invobjs/wblock-walnuttree"
+    },
+    {
+      "name": "Block of Whitebeam",
+      "iconUrl": "gfx/invobjs/wblock-whitebeam"
+    },
+    {
+      "name": "Block of Willow",
+      "iconUrl": "gfx/invobjs/wblock-willow"
+    },
+    {
+      "name": "Block of Witherwood",
+      "iconUrl": "gfx/invobjs/wblock-witherstand"
+    },
+    {
+      "name": "Block of Fly Woodbine",
+      "iconUrl": "gfx/invobjs/wblock-woodbine"
+    },
+    {
+      "name": "Block of Yew",
+      "iconUrl": "gfx/invobjs/wblock-yew"
+    },
+    {
+      "name": "Wellplaiced Pie",
+      "iconUrl": "gfx/invobjs/wellplaicedpie"
+    },
+    {
+      "name": "Whitebeam Fruits",
+      "iconUrl": "gfx/invobjs/whitebeamfruit"
+    },
+    {
+      "name": "Wicker Breadbasket",
+      "iconUrl": "gfx/invobjs/wickerbreadbasket"
+    },
+    {
+      "name": "Wildgoat Hide",
+      "iconUrl": "gfx/invobjs/wildgoathide"
+    },
+    {
+      "name": "Wildgoat Horn",
+      "iconUrl": "gfx/invobjs/wildgoathorn"
+    },
+    {
+      "name": "Fresh Wildhorse Hide",
+      "iconUrl": "gfx/invobjs/wildhorsehide-blood"
+    },
+    {
+      "name": "Wildhorse Hide",
+      "iconUrl": "gfx/invobjs/wildhorsehide"
+    },
+    {
+      "name": "Wine Bottle",
+      "iconUrl": "gfx/invobjs/winebottle-full"
+    },
+    {
+      "name": "Wine Bottle",
+      "iconUrl": "gfx/invobjs/winebottle"
+    },
+    {
+      "name": "Wine Glass",
+      "iconUrl": "gfx/invobjs/wineglass-full"
+    },
+    {
+      "name": "Wine Glass",
+      "iconUrl": "gfx/invobjs/wineglass"
+    },
+    {
+      "name": "Wine",
+      "iconUrl": "gfx/invobjs/wine"
+    },
+    {
+      "name": "Winged Helmet",
+      "iconUrl": "gfx/invobjs/wingedhelmet"
+    },
+    {
+      "name": "Wishbone",
+      "iconUrl": "gfx/invobjs/wishbone"
+    },
+    {
+      "name": "Wolverine Fur Boots",
+      "iconUrl": "gfx/invobjs/wolverineboots"
+    },
+    {
+      "name": "Fresh Wolverine Hide",
+      "iconUrl": "gfx/invobjs/wolverinehide-blood"
+    },
+    {
+      "name": "Wolverine Hide",
+      "iconUrl": "gfx/invobjs/wolverinehide"
+    },
+    {
+      "name": "Wondrous Woodshaving",
+      "iconUrl": "gfx/invobjs/wondrouswoodshaving"
+    },
+    {
+      "name": "Wooden Cup",
+      "iconUrl": "gfx/invobjs/woodencup-full"
+    },
+    {
+      "name": "Wooden Cup",
+      "iconUrl": "gfx/invobjs/woodencup"
+    },
+    {
+      "name": "Wooden Cutlery",
+      "iconUrl": "gfx/invobjs/woodencutlery"
+    },
+    {
+      "name": "Wooden Plate",
+      "iconUrl": "gfx/invobjs/woodenplate"
+    },
+    {
+      "name": "Cleaned Wood Grouse Hen",
+      "iconUrl": "gfx/invobjs/woodgrouse-f-cleaned"
+    },
+    {
+      "name": "Dead Wood Grouse Hen",
+      "iconUrl": "gfx/invobjs/woodgrouse-f-dead"
+    },
+    {
+      "name": "Plucked Wood Grouse Hen",
+      "iconUrl": "gfx/invobjs/woodgrouse-f-plucked"
+    },
+    {
+      "name": "Wood Grouse Hen",
+      "iconUrl": "gfx/invobjs/woodgrouse-f"
+    },
+    {
+      "name": "Cleaned Wood Grouse Cock",
+      "iconUrl": "gfx/invobjs/woodgrouse-m-cleaned"
+    },
+    {
+      "name": "Dead Wood Grouse Cock",
+      "iconUrl": "gfx/invobjs/woodgrouse-m-dead"
+    },
+    {
+      "name": "Plucked Wood Grouse Cock",
+      "iconUrl": "gfx/invobjs/woodgrouse-m-plucked"
+    },
+    {
+      "name": "Wood Grouse Cock",
+      "iconUrl": "gfx/invobjs/woodgrouse-m"
+    },
+    {
+      "name": "Woodsman's Axe",
+      "iconUrl": "gfx/invobjs/woodsmansaxe"
+    },
+    {
+      "name": "Woodsman's Token",
+      "iconUrl": "gfx/invobjs/woodtoken"
+    },
+    {
+      "name": "Wool Cloth",
+      "iconUrl": "gfx/invobjs/woolcloth"
+    },
+    {
+      "name": "Wool Cloth Collar",
+      "iconUrl": "gfx/invobjs/woolcollar"
+    },
+    {
+      "name": "Mohair",
+      "iconUrl": "gfx/invobjs/wool-goat"
+    },
+    {
+      "name": "Wool Pants",
+      "iconUrl": "gfx/invobjs/woolpants"
+    },
+    {
+      "name": "Wool",
+      "iconUrl": "gfx/invobjs/wool-sheep"
+    },
+    {
+      "name": "Wool Shirt",
+      "iconUrl": "gfx/invobjs/woolshirt"
+    },
+    {
+      "name": "Bound Wool Stuffing",
+      "iconUrl": "gfx/invobjs/woolstuffing"
+    },
+    {
+      "name": "Wool",
+      "iconUrl": "gfx/invobjs/wool"
+    },
+    {
+      "name": "Worm-Eaten Apple",
+      "iconUrl": "gfx/invobjs/wormapple"
+    },
+    {
+      "name": "Wort",
+      "iconUrl": "gfx/invobjs/wort"
+    },
+    {
+      "name": "Badger Botillo",
+      "iconUrl": "gfx/invobjs/wurst-badgerbotillo"
+    },
+    {
+      "name": "Bear Salami",
+      "iconUrl": "gfx/invobjs/wurst-bearsalami"
+    },
+    {
+      "name": "Beaver Dog",
+      "iconUrl": "gfx/invobjs/wurst-beaverdog"
+    },
+    {
+      "name": "Big Bear Banger",
+      "iconUrl": "gfx/invobjs/wurst-bigbearbanger"
+    },
+    {
+      "name": "Boar Baloney",
+      "iconUrl": "gfx/invobjs/wurst-boarbaloney"
+    },
+    {
+      "name": "Boar Boudin",
+      "iconUrl": "gfx/invobjs/wurst-boarboudin"
+    },
+    {
+      "name": "Butcher's Surprise",
+      "iconUrl": "gfx/invobjs/wurst-butcherssurprise"
+    },
+    {
+      "name": "Walrus & Carpenter",
+      "iconUrl": "gfx/invobjs/wurst-carpwal"
+    },
+    {
+      "name": "Cavedog",
+      "iconUrl": "gfx/invobjs/wurst-cavedog"
+    },
+    {
+      "name": "Chicken Chorizo",
+      "iconUrl": "gfx/invobjs/wurst-chickenchorizo"
+    },
+    {
+      "name": "Cow Chorizo",
+      "iconUrl": "gfx/invobjs/wurst-cowchorizo"
+    },
+    {
+      "name": "Delicious Deer Dog",
+      "iconUrl": "gfx/invobjs/wurst-deliciousdeer"
+    },
+    {
+      "name": "Elk Dog",
+      "iconUrl": "gfx/invobjs/wurst-elkdog"
+    },
+    {
+      "name": "Fox Fuet",
+      "iconUrl": "gfx/invobjs/wurst-foxfuet"
+    },
+    {
+      "name": "Fox Wurst",
+      "iconUrl": "gfx/invobjs/wurst-foxwurst"
+    },
+    {
+      "name": "Glazed Grazer Dog",
+      "iconUrl": "gfx/invobjs/wurst-glazedgrazer"
+    },
+    {
+      "name": "Lamb & Lynx",
+      "iconUrl": "gfx/invobjs/wurst-lamblynx"
+    },
+    {
+      "name": "Lamb Sausages",
+      "iconUrl": "gfx/invobjs/wurst-lambsausages"
+    },
+    {
+      "name": "Lynxalami",
+      "iconUrl": "gfx/invobjs/wurst-lynxalami"
+    },
+    {
+      "name": "Moodog",
+      "iconUrl": "gfx/invobjs/wurst-moodog"
+    },
+    {
+      "name": "Piglet Wursts",
+      "iconUrl": "gfx/invobjs/wurst-piglet"
+    },
+    {
+      "name": "Running Rabbit Sausage",
+      "iconUrl": "gfx/invobjs/wurst-runningrabbit"
+    },
+    {
+      "name": "Swan Neck",
+      "iconUrl": "gfx/invobjs/wurst-swanneck"
+    },
+    {
+      "name": "Tame Game Liverwurst",
+      "iconUrl": "gfx/invobjs/wurst-tamegame"
+    },
+    {
+      "name": "King of the Woods",
+      "iconUrl": "gfx/invobjs/wurst-woodking"
+    },
+    {
+      "name": "Wonderful Wilderness Wurst",
+      "iconUrl": "gfx/invobjs/wurst-www"
+    },
+    {
+      "name": "Yarn",
+      "iconUrl": "gfx/invobjs/yarn-sheep"
+    },
+    {
+      "name": "Yarn",
+      "iconUrl": "gfx/invobjs/yarn"
+    },
+    {
+      "name": "Yellow Onion",
+      "iconUrl": "gfx/invobjs/yellowonion"
+    },
+    {
+      "name": "Zesty Brill",
+      "iconUrl": "gfx/invobjs/zestybrill"
+    },
+    {
+      "name": "Wintergreen",
+      "iconUrl": "gfx/invobjs/wintergreen",
+      "detection": 24000
+    },
+    {
+      "name": "Marsh-Mallow",
+      "iconUrl": "gfx/invobjs/marshmallow",
+      "detection": 25000
+    },
+    {
+      "name": "Field Blewits",
+      "iconUrl": "gfx/invobjs/blewits",
+      "detection": 10000
+    },
+    {
+      "name": "Rainbowpad",
+      "iconUrl": "gfx/invobjs/rainbowpad",
+      "detection": 2000
+    }
+  ]
+}

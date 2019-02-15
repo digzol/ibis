@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ibis - Haven Calculator</title>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+            crossorigin="anonymous"></script>
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+          integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="styles/layout.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/theme.css?345"/>
+
+    <!-- Scripts -->
+    <script type="module" src="scripts/forages.js"></script>
+</head>
+<body>
+<div id="app" class="container">
+    <hr/>
+    <div id="content" class="container">
+        <div class="d-flex justify-content-center">
+            <div class="forage-form d-flex flex-column">
+                <div class="d-flex align-items-center">
+                    <div class="form-group d-flex flex-column align-items-center">
+                        <label for="forage-perception">Perception</label>
+                        <input id="forage-perception" type="number" class="form-control" autocomplete="off"/>
+                    </div>
+                    <div class="separator mx-4">×</div>
+                    <div class="form-group d-flex flex-column align-items-center">
+                        <label for="forage-exploration">Exploration</label>
+                        <input id="forage-exploration" type="number" class="form-control" autocomplete="off"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr/>
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <span class="forage-detection-label">Detection</span>
+            <span id="forage-detection"></span>
+        </div>
+        <div id="forage-entries" class="d-flex flex-wrap align-items-center">
+            <template id="template-forage-entry">
+                <div class="forage-entry d-flex flex-fill flex-column align-items-center mx-4 my-2 rounded" detection="{{detection}}">
+                    <a href="http://ringofbrodgar.com/wiki/{{name}}" class="forage-name mt-2">{{name}}</a>
+                    <div class="game-icon my-2"
+                         style="background-image:url('http://www.havenandhearth.com/mt/r/{{icon-url}}')"></div>
+                    <div class="w-100 px-2 mb-2">
+                        <div class="forage-detection-limits d-flex justify-content-between">
+                            <div class="forage-detection-min mb-1">{{detection-min}}</div>
+                            <i class="far fa-eye"></i>
+                            <div class="forage-detection-max mb-1 float-right">{{detection-max}}</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" style="width: 0"></div>
+                        </div>
+                    </div>
+                    <span class="forage-percentage pb-2">0%</span>
+                </div>
+            </template>
+        </div>
+    </div>
+    <hr/>
+    <div id="footer" class="row">
+        <span>Created by Digzol.</span>
+    </div>
+</div>
+</body>
+</html>
