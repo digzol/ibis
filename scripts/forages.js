@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(function () {
     $.getJSON("./data/items.json", function (json) {
         const forages = json.entries.filter(isForageable).sort(sortForageable);
         const template = $("#template-forage-entry").html();
@@ -45,7 +45,7 @@ function onDetectionChange() {
 
     $("#forage-detection").html(p_detection);
 
-    $(".forage-entry").each(function() {
+    $("#forage-entries .card").each(function() {
         const detectionReq = $(this).attr("detection");
         let percentDetected = Math.round(100 * (2 * p_detection - detectionReq) / (3 * detectionReq));
 

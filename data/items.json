@@ -3569,7 +3569,8 @@
     },
     {
       "name": "Marrow Roast",
-      "iconUrl": "gfx/invobjs/marrowroast"
+      "iconUrl": "gfx/invobjs/marrowroast",
+      "variableFEPs": true
     },
     {
       "name": "Box of Matches",

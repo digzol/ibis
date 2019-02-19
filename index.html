@@ -21,59 +21,26 @@
 
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="styles/layout.css"/>
-    <link rel="stylesheet" type="text/css" href="styles/theme.css?345"/>
+    <link rel="stylesheet" type="text/css" href="styles/theme.css"/>
 
-    <!-- Scripts -->
-    <script type="module" src="scripts/forages.js"></script>
+    <!-- Content -->
+    <script type="module" src="scripts/main.js"></script>
 </head>
 <body>
-<div id="app" class="container">
-    <hr/>
-    <div id="content" class="container">
-        <div class="d-flex justify-content-center">
-            <div class="forage-form d-flex flex-column">
-                <div class="d-flex align-items-center">
-                    <div class="form-group d-flex flex-column align-items-center">
-                        <label for="forage-perception">Perception</label>
-                        <input id="forage-perception" type="number" class="form-control" autocomplete="off"/>
-                    </div>
-                    <div class="separator mx-4">×</div>
-                    <div class="form-group d-flex flex-column align-items-center">
-                        <label for="forage-exploration">Exploration</label>
-                        <input id="forage-exploration" type="number" class="form-control" autocomplete="off"/>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr/>
-        <div class="d-flex flex-column justify-content-center align-items-center">
-            <span class="forage-detection-label">Detection</span>
-            <span id="forage-detection"></span>
-        </div>
-        <div id="forage-entries" class="d-flex flex-wrap align-items-center">
-            <template id="template-forage-entry">
-                <div class="forage-entry d-flex flex-fill flex-column align-items-center mx-4 my-2 rounded" detection="{{detection}}">
-                    <a href="http://ringofbrodgar.com/wiki/{{name}}" class="forage-name mt-2">{{name}}</a>
-                    <div class="game-icon my-2"
-                         style="background-image:url('http://www.havenandhearth.com/mt/r/{{icon-url}}')"></div>
-                    <div class="w-100 px-2 mb-2">
-                        <div class="forage-detection-limits d-flex justify-content-between">
-                            <div class="forage-detection-min mb-1">{{detection-min}}</div>
-                            <i class="far fa-eye"></i>
-                            <div class="forage-detection-max mb-1 float-right">{{detection-max}}</div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped" style="width: 0"></div>
-                        </div>
-                    </div>
-                    <span class="forage-percentage pb-2">0%</span>
-                </div>
-            </template>
+<div id="app">
+    <div id="app-menu">
+        <div class="container">
+            <a id="plink-forages" href="?p=forages">Forages</a>
+            <!--<span>|</span>
+            <a id="plink-fepvar" href="?p=fepvar">Food Variations</a>-->
         </div>
     </div>
+    <div id="app-content" class="container"></div>
     <hr/>
-    <div id="footer" class="row">
-        <span>Created by Digzol.</span>
+    <div id="app-footer" class="container">
+        <div class="row">
+            <span>Created by Digzol.</span>
+        </div>
     </div>
 </div>
 </body>

@@ -8,46 +8,51 @@ hr {
     border-color: #171818;
 }
 
-#footer span {
-    margin: 0 auto;
-    font-size: 0.75em;
+a {
+    color: #f9ba32;
+}
+
+a:hover {
+    color: #fcdc98;
+}
+
+a.active {
+    color: #e0a72d;
+    font-weight: bold;
+}
+
+#app-menu {
+    background-color: #171818;
+}
+
+#app-footer span {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.forage-form .form-control {
+.form-control {
     color: #f8f1e5;
     background-color: #1b2a38;
     border-color: #171818;
+}
+
+.form-control:focus {
+    color: #f8f1e5;
+    background-color: #34516c;
+}
+
+.form-group label, .form-label {
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.giant-stat-input {
     font-size: 2.5em;
     height: 100px;
     width: 100px;
     text-align: center;
 }
 
-.forage-form .form-control:focus {
-    background-color: #34516c;
-}
-
-.forage-form label {
-    font-size: 0.8em;
-    color: rgba(255, 255, 255, 0.75);
-}
-
-.forage-form .separator {
-    color: #f8f1e5;
-    font-size: 4em;
-}
-
-#forage-detection {
-    font-size: 2em;
-}
-
-.forage-detection-label {
-    font-size: 0.8em;
-    color: rgba(255, 255, 255, 0.75);
-}
-
-.forage-entry {
+.card {
     color: #f8f1e5;
     background-color: #434545;
     border-color: #171818;
@@ -56,10 +61,4 @@ hr {
     width: 200px;
     padding: 2px;
     font-size: 0.8em;
-}
-
-.forage-entry .forage-name {
-    text-align: center;
-    font-size: 1.2em;
-    color: #f8f1e5;
 }
