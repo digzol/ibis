@@ -4,7 +4,7 @@ $(function () {
     $("#plink-" + page).addClass("active");
     $("#app-content").load(pageUrl, async function (response, status) {
         if (status === "error") {
-            $("#app-content").load('./content/index.html');
+            $("#app-content").load('./README.md');
         }
     });
 });

@@ -1,9 +1,11 @@
 <h1>Ibis</h1>
 
-Ibis is a collection of tools with purpose to relieve the player of redundant calculations and offers a visual display of various data based on their character's statistics.
+<p>Ibis is a collection of tools with purpose to relieve the player of redundant calculations and offers a visual display of various data based on their character's statistics.</p>
 
-A live version can be found [here](https://digzol.github.io/ibis/).  
-Source can be found [here](https://github.com/digzol/ibis).
+<p>
+    <div>A live version can be found <a href="https://digzol.github.io/ibis/">here</a>.</div>
+    <div>Source can be found <a href="https://github.com/digzol/ibis">here</a>.</div>
+</p>
 
 
 <h2>Tools</h2>
