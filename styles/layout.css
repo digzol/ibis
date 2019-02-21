@@ -3,6 +3,7 @@
     height: 70px;
     background-repeat: no-repeat;
     background-position: center;
+    background-origin: border-box;
 }
 
 .small-game-icon {

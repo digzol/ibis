@@ -1,6 +1,5 @@
 let items = [];
 let fepvar = [];
-let selectedFood = null;
 
 $(async function () {
     $("#search-keyword").focus();
@@ -82,7 +81,12 @@ function onKeywordChange() {
 }
 
 function onFoodSelect(event) {
-    if (event.type === "click") selectedFood = $(this).attr("data-id");
+    if (event.type === "click") {
+        $(".search-result-entry.selected").removeClass("selected");
+        $(this).addClass("selected");
+    }
+
+    console.log(event.type);
 
     const foodId = $(this).attr("data-id");
     const foodItem = getItem(foodId);
@@ -132,6 +136,5 @@ function onFoodSelect(event) {
 }
 
 function onFoodDeselect() {
-    if (selectedFood == null) return;
-    $(".search-result-entry[data-id='" + selectedFood + "']").trigger("click");
+    $(".search-result-entry.selected").trigger("click");
 }
