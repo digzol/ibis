@@ -1,0 +1,69 @@
+#food-search {
+    background-color: #434545;
+    border: 1px solid #171818;
+    height: 160px;
+    width: 60%;
+    padding: 10px;
+}
+
+.search-result-entry {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.search-result-entry:hover {
+    opacity: 1;
+}
+
+.fep {
+    color: #171818;
+    margin: 2px 2px 10px 2px;
+    width: 42px;
+    height: 42px;
+    background-color: #a0a0a0;
+}
+
+.fep-type {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.fep-value {
+    font-size: 1.2em;
+}
+
+.fep-str {
+    background-color: #be9693;
+}
+
+.fep-agi {
+    background-color: #9894b7;
+}
+
+.fep-int {
+    background-color: #96d5db;
+}
+
+.fep-con {
+    background-color: #c199b3;
+}
+
+.fep-per {
+    background-color: #e3be97;
+}
+
+.fep-cha {
+    background-color: #8df6a9;
+}
+
+.fep-dex {
+    background-color: #fdfccb;
+}
+
+.fep-wil {
+    background-color: #e3f28e;
+}
+
+.fep-psy {
+    background-color: #c38cfc;
+}

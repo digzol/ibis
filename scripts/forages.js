@@ -6,7 +6,7 @@ $(function () {
         forages.forEach(function (forage) {
             $("#forage-entries").append(template
                 .replace(new RegExp("{{name}}", 'g'), forage.name)
-                .replace("{{icon-url}}", forage.iconUrl)
+                .replace(new RegExp("{{id}}", 'g'), forage.id)
                 .replace("{{detection}}", forage.detection)
                 .replace("{{detection-min}}", Math.round(forage.detection / 2))
                 .replace("{{detection-max}}", forage.detection * 2)

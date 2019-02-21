@@ -1,0 +1,39 @@
+<link rel="stylesheet" type="text/css" href="./styles/game-icons.css">
+<link rel="stylesheet" type="text/css" href="./styles/fepvar.css">
+<script src="./scripts/fepvar.js"></script>
+<div class="d-flex justify-content-center">
+    <div id="food-search" class="rounded">
+        <input id="search-keyword" type="text" class="w-100" placeholder="Search">
+        <div id="search-results" class="d-flex p-2">
+            <template id="template-result-entry">
+                <div class="search-result-entry mr-1" data-id="{{id}}">
+                    <div class="game-icon game-icon-1x1 icon-{{id}}" title="{{name}}"></div>
+                </div>
+            </template>
+        </div>
+    </div>
+</div>
+<hr>
+<div id="food-info">
+    <template id="template-mod-entry">
+        <div class="card mx-4 my-2">
+            <span class="card-title mt-2">
+                <span class="game-icon game-icon-1x1 icon-{{id}} d-inline-block align-middle"></span>
+                <span class="align-middle">{{name}}</span>
+            </span>
+            <span class="small-faded-text">Ingredients</span>
+            <div class="ingredients d-flex"></div>
+            <div class="feps d-flex"></div>
+        </div>
+    </template>
+    <template id="template-ingredient">
+        <div class="game-icon game-icon-1x1 icon-{{id}} my-2" title="{{name}}"></div>
+    </template>
+    <template id="template-fep">
+        <div class="fep fep-{{type}} d-stack rounded">
+            <div class="fep-type">{{type}}+{{mult}}</div>
+            <div class="fep-value">{{value}}</div>
+        </div>
+    </template>
+    <div id="variation-entries" class="card-grid"></div>
+</div>

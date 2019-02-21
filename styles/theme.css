@@ -29,15 +29,27 @@ a.active {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.form-control {
+input[type=number] {
     color: #f8f1e5;
     background-color: #1b2a38;
     border-color: #171818;
 }
 
-.form-control:focus {
+input[type=number]:focus {
     color: #f8f1e5;
     background-color: #34516c;
+}
+
+input[type=text] {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #171818;
+    color: #f8f1e5;
+    padding: 5px 10px;
+}
+
+input[type=text]:focus {
+    outline: none;
 }
 
 .form-group label, .form-label {
