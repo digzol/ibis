@@ -30,8 +30,9 @@ $(async function () {
         $("#search-keyword").on("keyup", onKeywordChange);
 
         $(".search-result-entry")
-            .on("click mouseover", onFoodSelect)
-            .on("mouseleave", onFoodDeselect);
+            .on("click", onFoodSelect)
+            // .on("click mouseover", onFoodSelect)
+            // .on("mouseleave", onFoodDeselect);
     });
 });
 
