@@ -20,7 +20,7 @@
 
                 for (let i = 0; i < 5; i++) {
                     const attr = $("#in-att-" + i).val() || 0;
-                    const attrQ10 = Math.round(attr / Math.sqrt(ql / 10) * 1000) / 1000;
+                    const attrQ10 = Math.round(attr / Math.sqrt(ql / 10) * 40) / 40;
                     $("#out-att-" + i).html(attrQ10);
                 }
             });
