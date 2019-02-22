@@ -86,8 +86,6 @@ function onFoodSelect(event) {
         $(this).addClass("selected");
     }
 
-    console.log(event.type);
-
     const foodId = $(this).attr("data-id");
     const foodItem = getItem(foodId);
     const variations = getVariation(foodItem.id)[1];
