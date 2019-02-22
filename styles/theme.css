@@ -21,6 +21,11 @@ a.active {
     font-weight: bold;
 }
 
+#app-logo {
+    width: 32px;
+    height: 32px;
+}
+
 #app-menu {
     background-color: #171818;
 }
