@@ -1,19 +1,19 @@
 let items = [];
-let fepvar = [];
+let cookbook = [];
 
 $(async function () {
     $("#search-keyword").focus();
 
     const itemsReq = $.getJSON("./data/items.json");
-    const fepvarReq = $.getJSON("./data/fepvar.json");
+    const fepvarReq = $.getJSON("./data/cookbook.json");
 
     Promise.all([itemsReq, fepvarReq]).then(function (JSONs) {
         const template = $("#template-result-entry").html();
 
         items = JSONs[0].entries;
-        fepvar = JSONs[1].entries.sort(sortByName);
+        cookbook = JSONs[1].entries.sort(sortByName);
 
-        fepvar.forEach(function (foodEntry) {
+        cookbook.forEach(function (foodEntry) {
             const foodItem = items.find(item => item.id === foodEntry[0]);
 
             if (foodItem === undefined) {
@@ -45,7 +45,7 @@ function getItem(id) {
 }
 
 function getVariation(id) {
-    const result = fepvar.find(variation => variation[0] === id);
+    const result = cookbook.find(variation => variation[0] === id);
     if (result === undefined) {
         console.error("Unknown variation ID:", id);
     }
