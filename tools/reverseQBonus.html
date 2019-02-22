@@ -1,0 +1,89 @@
+<head>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+            crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $("#convertQ").click(function () {
+                $("#result-row").show();
+
+                const ql = $("#in-quality").val();
+
+                for (let i = 0; i < 5; i++) {
+                    const attr = $("#in-att-" + i).val() || 0;
+                    const attrQ10 = Math.round(attr / Math.sqrt(ql / 10) * 1000) / 1000;
+                    $("#out-att-" + i).html(attrQ10);
+                }
+            });
+
+            $("#reset").click(function () {
+                $("#result-row").hide();
+
+                $("#in-quality").val('');
+
+                for (let i = 0; i < 5; i++) {
+                    $("#in-att-" + i).val('');
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="container mt-5">
+    <div class="row mb-3">
+        <div class="col">
+            <button id="convertQ" class="btn btn-primary">Convert to Q10</button>
+            <button id="reset" class="btn btn-link">Reset</button>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col-2">
+            <input type="text" id="in-quality" class="form-control" placeholder="Quality">
+        </div>
+        <div class="col-2">
+            <input type="text" id="in-att-0" class="form-control" placeholder="Attribute 1">
+        </div>
+        <div class="col-2">
+            <input type="text" id="in-att-1" class="form-control" placeholder="Attribute 2">
+        </div>
+        <div class="col-2">
+            <input type="text" id="in-att-2" class="form-control" placeholder="Attribute 3">
+        </div>
+        <div class="col-2">
+            <input type="text" id="in-att-3" class="form-control" placeholder="Attribute 4">
+        </div>
+        <div class="col-2">
+            <input type="text" id="in-att-4" class="form-control" placeholder="Attribute 5">
+        </div>
+    </div>
+    <div id="result-row" class="row mb-3" style="display:none">
+        <div class="col-2">
+            <span>Q10</span>
+        </div>
+        <div class="col-2">
+            <span id="out-att-0"></span>
+        </div>
+        <div class="col-2">
+            <span id="out-att-1"></span>
+        </div>
+        <div class="col-2">
+            <span id="out-att-2"></span>
+        </div>
+        <div class="col-2">
+            <span id="out-att-3"></span>
+        </div>
+        <div class="col-2">
+            <span id="out-att-4"></span>
+        </div>
+    </div>
+</div>
+</body>
