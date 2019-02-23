@@ -5,22 +5,16 @@ $(async function () {
     $("#search-keyword").focus();
 
     const itemsReq = $.getJSON("./data/items.json");
-    const fepvarReq = $.getJSON("./data/cookbook.json");
+    const cookbookReq = $.getJSON("./data/cookbook.json");
 
-    Promise.all([itemsReq, fepvarReq]).then(function (JSONs) {
+    Promise.all([itemsReq, cookbookReq]).then(function (JSONs) {
         const template = $("#template-result-entry").html();
 
         items = JSONs[0].entries;
-        cookbook = JSONs[1].entries.sort(sortByName);
+        cookbook = JSONs[1].entries;
 
-        cookbook.forEach(function (foodEntry) {
-            const foodItem = items.find(item => item.id === foodEntry[0]);
-
-            if (foodItem === undefined) {
-                console.error("Unknown ID:", foodEntry[0]);
-                return;
-            }
-
+        cookbook.forEach(function (recipe) {
+            const foodItem = getItem(recipe[0]);
             $("#search-results").append(template
                 .replace(new RegExp("{{id}}", 'g'), foodItem.id)
                 .replace(new RegExp("{{name}}", 'g'), foodItem.name)
@@ -28,34 +22,20 @@ $(async function () {
         });
 
         $("#search-keyword").on("keyup", onKeywordChange);
-
-        $(".search-result-entry")
-            .on("click", onFoodSelect)
-            // .on("click mouseover", onFoodSelect)
-            // .on("mouseleave", onFoodDeselect);
+        $(".search-result-entry").on("click", onFoodSelect)
     });
 });
 
 function getItem(id) {
     const result = items.find(item => item.id === id);
-    if (result === undefined) {
-        console.error("Unknown item ID:", id);
-    }
+    if (result === undefined) console.error("Unknown item ID:", id);
     return result;
 }
 
-function getVariation(id) {
-    const result = cookbook.find(variation => variation[0] === id);
-    if (result === undefined) {
-        console.error("Unknown variation ID:", id);
-    }
-    return result;
-}
-
-function sortByName(a, b) {
-    if (a[0] < b[0]) return -1;
-    if (a[0] > b[0]) return 1;
-    return 0;
+function getRecipes(id) {
+    const result = cookbook.find(recipe => recipe[0] === id);
+    if (result === undefined) console.error("Unknown recipe ID:", id);
+    return result
 }
 
 function sortByFEP(a, b) {
@@ -70,41 +50,28 @@ function onKeywordChange() {
         $(".search-result-entry").show();
     } else {
         $(".search-result-entry").each(function () {
-            const name = $(this).attr("data-id").toLowerCase();
-
-            if (name.includes(searchKeyword)) {
-                $(this).show();
-            } else {
-                $(this).hide();
-            }
+            const name = $(".game-icon", this).attr("title").toLowerCase();
+            $(this).toggle(name.includes(searchKeyword));
         });
     }
 }
 
-function onFoodSelect(event) {
-    if (event.type === "click") {
-        $(".search-result-entry.selected").removeClass("selected");
-        $(this).addClass("selected");
-    }
+function onFoodSelect() {
+    const selectedFoodId = $(this).attr("data-id");
+    const recipes = getRecipes(selectedFoodId)[1];
 
-    const foodId = $(this).attr("data-id");
-    const foodItem = getItem(foodId);
-    const variations = getVariation(foodItem.id)[1];
-
+    $(".search-result-entry.selected").removeClass("selected");
     $("#variation-entries").html("");
+    $(this).addClass("selected");
 
-    if (variations === undefined) {
-        console.error("Unknown ID:", foodItem.id);
-        return;
-    }
-
-    variations.forEach(function(variation) {
-        const ingredients = variation[0];
-        const feps = variation[1].sort(sortByFEP);
+    recipes.forEach(function(recipe) {
+        const resultItem = getItem(recipe[0]);
+        const ingredients = recipe[1];
+        const feps = recipe[2].sort(sortByFEP);
 
         const $varEntry = $($("#template-mod-entry").html()
-            .replace(new RegExp("{{id}}", 'g'), foodItem.id)
-            .replace(new RegExp("{{name}}", 'g'), foodItem.name)
+            .replace(new RegExp("{{id}}", 'g'), resultItem.id)
+            .replace(new RegExp("{{name}}", 'g'), resultItem.name)
         );
 
         ingredients.forEach(function(ingredient) {
@@ -132,8 +99,4 @@ function onFoodSelect(event) {
 
         $varEntry.appendTo("#variation-entries");
     });
-}
-
-function onFoodDeselect() {
-    $(".search-result-entry.selected").trigger("click");
 }
