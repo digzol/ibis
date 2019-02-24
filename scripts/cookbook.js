@@ -67,7 +67,10 @@ function onFoodSelect() {
     recipes.forEach(function(recipe) {
         const resultItem = getItem(recipe[0]);
         const ingredients = recipe[1];
-        const feps = recipe[2].sort(sortByFEP);
+        let feps = recipe[2].sort(sortByFEP);
+
+        if (feps.length === 0)
+            feps = [["???", "?", "???"]];
 
         const $varEntry = $($("#template-mod-entry").html()
             .replace(new RegExp("{{id}}", 'g'), resultItem.id)

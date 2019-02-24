@@ -989,7 +989,8 @@ url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-filet')}
 .icon-meatpie {background-image:url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meatpie')}
 .icon-meat-pig {background-image:url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-pig'),
 url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-raw')}
-.icon-meat-pike {background-image:url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-pike')}
+.icon-meat-pike {background-image:url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-pike'),
+url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-filet')}
 .icon-meat-plaice {background-image:url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-plaice'),
 url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-filet')}
 .icon-meat-pomfret {background-image:url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-pomfret'),
@@ -1031,6 +1032,28 @@ url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-raw')}
 .icon-meat-silverbream {background-image:url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-silverbream'),
 url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-filet')}
 .icon-meat-smelt {background-image:url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-smelt'),
+url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-filet')}
+.icon-meat-haddock {background-image:url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-haddock'),
+url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-filet')}
+.icon-meat-herring {background-image:url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-herring'),
+url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-filet')}
+.icon-meat-cavelacanth {background-image:url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-cavelacanth'),
+url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-filet')}
+.icon-meat-cavesculpin {background-image:url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-cavesculpin'),
+url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-filet')}
+.icon-meat-cod {background-image:url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-cod'),
+url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-filet')}
+.icon-meat-mackerel {background-image:url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-mackerel'),
+url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-filet')}
+.icon-meat-paleghostfish {background-image:url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-paleghostfish'),
+url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-filet')}
+.icon-meat-rosefish {background-image:url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-rosefish'),
+url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-filet')}
+.icon-meat-ruffle {background-image:url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-ruffle'),
+url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-filet')}
+.icon-meat-saithe {background-image:url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-saithe'),
+url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-filet')}
+.icon-meat- {background-image:url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-'),
 url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-filet')}
 .icon-meat-sfilet {background-image:url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-sfilet')}
 .icon-meat-sfilet-sizzling {background-image:url('http://www.havenandhearth.com/mt/r/gfx/invobjs/meat-smoke'),

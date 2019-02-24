@@ -3643,7 +3643,7 @@
     },
     {
       "id": "meat-cavelacanth",
-      "name": "Filet of Cavelacant"
+      "name": "Filet of Cavelacanth"
     },
     {
       "id": "meat-cavesculpin",
@@ -7306,8 +7306,8 @@
       "name": "Sizzling Roast Filet of Carp"
     },
     {
-      "id": "rfilet-cavelacant-sizzling",
-      "name": "Sizzling Roast Filet of Cavelacant"
+      "id": "rfilet-cavelacanth-sizzling",
+      "name": "Sizzling Roast Filet of Cavelacanth"
     },
     {
       "id": "rfilet-cavesculpin-sizzling",
@@ -7638,8 +7638,8 @@
       "name": "Sizzling Spitroast Carp"
     },
     {
-      "id": "sfilet-cavelacant-sizzling",
-      "name": "Sizzling Spitroast Cavelacant"
+      "id": "sfilet-cavelacanth-sizzling",
+      "name": "Sizzling Spitroast Cavelacanth"
     },
     {
       "id": "sfilet-cavesculpin-sizzling",
