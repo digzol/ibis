@@ -68,6 +68,7 @@ function onFoodSelect() {
         const resultItem = getItem(recipe[0]);
         const ingredients = recipe[1];
         let feps = recipe[2].sort(sortByFEP);
+        let totalFeps = 0;
 
         if (feps.length === 0)
             feps = [["???", "?", "???"]];
@@ -92,12 +93,17 @@ function onFoodSelect() {
             const mult = fep[1];
             const val = fep[2];
 
+            if (!isNaN(val))
+                totalFeps += val;
+
             $(".feps", $varEntry).append(
                 $("#template-fep").html()
                     .replace(new RegExp("{{type}}", 'g'), type)
                     .replace(new RegExp("{{mult}}", 'g'), mult)
                     .replace(new RegExp("{{value}}", 'g'), val)
             );
+
+            $(".total-feps", $varEntry).html(totalFeps || "???");
         });
 
         $varEntry.appendTo("#variation-entries");
