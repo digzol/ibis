@@ -2,7 +2,7 @@
   "entries": [
     ["kebab", [
       ["kebab", ["meat-adder"], [["CON", 2, 1.2], ["INT", 2, 1.8]]],
-      ["kebab", ["meat-ant"], [["CON", 2, "???"]]],
+      ["kebab", ["meat-ant"], [["CON", 2, 0.8], ["WIL", 1, 1.8]]],
       ["kebab", ["meat-aurochs"], [["CON", 2, 0.5], ["STR", 1, 1.5]]],
       ["kebab", ["meat-badger"], [["CON", 2, 1.4], ["CON", 1, 1.4]]],
       ["kebab", ["meat-bat"], [["CON", 2, 1.4], ["PER", 1, 0.8]]],
@@ -275,7 +275,7 @@
       ["kebab", ["meat-woodgrouse", "leaf-laurel"], [["CON", 2, "???"]]]
     ]], ["marrowroast", [
       ["marrowroast", ["meat-adder"], [["CHA", 2, 2.4], ["CON", 1, 3], ["WIL", 1, 2], ["INT", 2, 3.6]]],
-      ["marrowroast", ["meat-ant"], [["CHA", 2, "???"], ["CON", 1, "???"], ["WIL", 1, "???"]]],
+      ["marrowroast", ["meat-ant"], [["CHA", 2, 1.6], ["CON", 1, 3], ["WIL", 1, 5.6]]],
       ["marrowroast", ["meat-aurochs"], [["CHA", 2, 4], ["CON", 1, 4.5], ["WIL", 1, 0.5]]],
       ["marrowroast", ["meat-badger"], [["CHA", 2, 4], ["CON", 1, 3], ["WIL", 1, 1.4], ["AGI", 1, 1.4]]],
       ["marrowroast", ["meat-bat"], [["CHA", 2, 4], ["CON", 1, 3], ["WIL", 1, 1.4], ["INT", 1, 0.8]]],
@@ -361,7 +361,8 @@
       ["rpoultry-seagull-sizzling", ["meat-seagull"], []],
       ["rpoultry-swan-sizzling", ["meat-swan"], [["PER", 1, 1.25], ["PER", 2, 0.625]]],
       ["rpoultry-woodgrouse-sizzling", ["meat-woodgrouse"], []],
-      ["rweird-ant-sizzling", ["meat-ant"], []],
+      ["rweird-ant-sizzling", ["meat-ant"], [["AGI", 1, 2.5], ["WIL", 1, 2.5]]],
+      ["rweird-ant-sizzling", ["meat-ant", "kvann"], [["AGI", 1, 2.5], ["WIL", 1, 2.5]]],
       ["rweird-boreworm-sizzling", ["meat-boreworm"], []],
       ["rweird-cavelouse-sizzling", ["meat-cavelouse"], []],
       ["rweird-chasmconch-sizzling", ["meat-chasmconch"], []],
@@ -444,7 +445,6 @@
       ["spoultry-seagull-sizzling", ["meat-seagull"], []],
       ["spoultry-swan-sizzling", ["meat-swan"], []],
       ["spoultry-woodgrouse-sizzling", ["meat-woodgrouse"], []],
-      ["sweird-ant-sizzling", ["meat-ant"], []],
       ["sweird-boreworm-sizzling", ["meat-boreworm"], []],
       ["sweird-cavelouse-sizzling", ["meat-cavelouse"], []],
       ["sfilet-abyssgazer-sizzling", ["meat-abyssgazer"], []],
