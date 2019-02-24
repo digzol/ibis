@@ -14,3 +14,35 @@
     <li><a href="https://digzol.github.io/ibis/?p=forages">Forages</a> - Measure forage detection based on perception and exploration stats.</li>
     <li><a href="https://digzol.github.io/ibis/?p=cookbook">Cookbook</a> - Explore the various food recipes and their bonus variation based on ingredients.</li>
 </ul>
+
+<h2>Changelog</h2>
+
+<ul>
+    <li>
+        <span>24-Feb-2019</span>
+        <ul>
+            <li>Added a field for total feps to the cookbook.</li>
+            <li>Added a changelog to README.</li>
+        </ul>
+    </li>
+    <li>
+        <span>23-Feb-2019</span>
+        <ul>
+            <li>In-game name and icon are properly displayed in the cookbook.</li>
+        </ul>
+    </li>
+    <li>
+        <span>21-Feb-2019</span>
+        <ul>
+            <li>Added a README</li>
+            <li>Added a nice new favicon.</li>
+            <li>Added a cookbook page.</li>
+        </ul>
+    </li>
+    <li>
+        <span>15-Feb-2019</span>
+        <ul>
+            <li>Original version</li>
+        </ul>
+    </li>
+</ul>
