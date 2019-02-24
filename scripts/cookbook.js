@@ -102,9 +102,10 @@ function onFoodSelect() {
                     .replace(new RegExp("{{mult}}", 'g'), mult)
                     .replace(new RegExp("{{value}}", 'g'), val)
             );
-
-            $(".total-feps", $varEntry).html(Math.round(totalFeps * 1000) / 1000 || "???");
         });
+
+        const finalFeps = Math.round(totalFeps * 1000) / 1000 || "???";
+        $(".total-feps", $varEntry).html(finalFeps);
 
         $varEntry.appendTo("#variation-entries");
     });
