@@ -19,6 +19,13 @@
 
 <ul>
     <li>
+        <span>27-Feb-2019</span>
+        <ul>
+            <li>Added a recipe name filter to the cookbook.</li>
+            <li>Can now display different recipes at once from the same request.</li>
+        </ul>
+    </li>
+    <li>
         <span>24-Feb-2019</span>
         <ul>
             <li>Added a field for total feps to the cookbook.</li>
@@ -42,7 +49,7 @@
     <li>
         <span>15-Feb-2019</span>
         <ul>
-            <li>Original version</li>
+            <li>Initial version</li>
         </ul>
     </li>
 </ul>

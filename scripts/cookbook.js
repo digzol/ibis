@@ -1,28 +1,51 @@
-let items = [];
-let cookbook = [];
+let items;
+let cookbook;
+let recipes;
+
+$(function () {
+    const hoverTimeouts = [];
+
+    $("#search-by-name > .form-control").focus();
+    $(".search-container")
+        .hover(function () {
+            clearTimeout(hoverTimeouts[this]);
+            const filterValue = $("#search-by-name > .form-control").val().toLowerCase();
+            $(".search-dropdown", this).show();
+            $(".search-dropdown > .form-control", this).focus();
+            $(".search-result-entry").each(function () {
+                const dataName = $(this).attr("data-name").toLowerCase();
+                $(this).toggleClass("selected", filterValue.includes(dataName));
+            });
+        })
+        .mouseleave(function () {
+            hoverTimeouts[this] = setTimeout(() => {
+                $(".search-dropdown > .form-control").val("").trigger("change");
+            }, 200);
+        });
+});
 
 $(async function () {
-    $("#search-keyword").focus();
-
     const itemsReq = $.getJSON("./data/items.json");
     const cookbookReq = $.getJSON("./data/cookbook.json");
 
     Promise.all([itemsReq, cookbookReq]).then(function (JSONs) {
-        const template = $("#template-result-entry").html();
+        const template = $("#search-by-name .template-search-entry").html();
 
         items = JSONs[0].entries;
         cookbook = JSONs[1].entries;
+        recipes = JSONs[1].recipes;
 
-        cookbook.forEach(function (recipe) {
+        recipes.forEach(function (recipe) {
             const foodItem = getItem(recipe[0]);
-            $("#search-results").append(template
+            $("#search-by-name .search-results").append(template
                 .replace(new RegExp("{{id}}", 'g'), foodItem.id)
                 .replace(new RegExp("{{name}}", 'g'), foodItem.name)
             );
         });
 
-        $("#search-keyword").on("keyup", onKeywordChange);
-        $(".search-result-entry").on("click", onFoodSelect)
+        $("#search-by-name .search-dropdown > .form-control").on("change keyup", onSearchChange);
+        $("#search-by-name .search-result-entry").on("click", onFoodSelect);
+        $("#search-by-name > .form-control").on("change keyup", onFilterChange);
     });
 });
 
@@ -44,8 +67,14 @@ function sortByFEP(a, b) {
     return 0;
 }
 
-function onKeywordChange() {
-    const searchKeyword = $("#search-keyword").val().toLowerCase();
+function sortByName(a, b) {
+    if (a.name > b.name) return 1;
+    if (a.name < b.name) return -1;
+    return 0;
+}
+
+function onSearchChange() {
+    const searchKeyword = $(this).val().toLowerCase();
     if (searchKeyword.length === 0) {
         $(".search-result-entry").show();
     } else {
@@ -57,15 +86,47 @@ function onKeywordChange() {
 }
 
 function onFoodSelect() {
-    const selectedFoodId = $(this).attr("data-id");
-    const recipes = getRecipes(selectedFoodId)[1];
+    const $filterInput = $(this).closest("#search-by-name").find("> .form-control");
+    const dataName = $(this).attr("data-name");
 
-    $(".search-result-entry.selected").removeClass("selected");
-    $("#variation-entries").html("");
-    $(this).addClass("selected");
+    if ($(this).hasClass("selected")) {
+        const regexp = new RegExp(dataName + ";?\\s?", 'ig');
+        $filterInput.val($filterInput.val().replace(regexp, ''));
+    } else {
+        if (!$filterInput.val().includes(dataName)) {
+            if ($filterInput.val() !== "" && !/;\s?$/.test($filterInput.val().toString()))
+                $filterInput.val($filterInput.val() + "; ");
+            $filterInput.val($filterInput.val() + dataName + "; ");
+        }
+    }
 
-    recipes.forEach(function(recipe) {
-        const resultItem = getItem(recipe[0]);
+    $(this).toggleClass("selected");
+    $filterInput.trigger("change");
+}
+
+function onFilterChange() {
+    const filters = $("#search-by-name .form-control").val().split(";")
+        .map(function (filter) {
+            return filter.trim();
+        }).filter(function (filter) {
+            return filter !== "";
+        });
+
+    const recipes = cookbook.filter(function (recipe) {
+        let res = false;
+        recipe.name = getItem(recipe[0]).name;
+        filters.forEach(function (filter) {
+            if (recipe.name.toLowerCase().includes(filter.toLowerCase()))
+                res = true;
+        });
+        return res;
+    }).sort(sortByName);
+
+    $("#result-recipes").html("");
+
+    recipes.forEach(function (recipe) {
+        const foodName = recipe.name;
+        const foodId = recipe[0];
         const ingredients = recipe[1];
         let feps = recipe[2].sort(sortByFEP);
         let totalFeps = 0;
@@ -74,11 +135,11 @@ function onFoodSelect() {
             feps = [["???", "?", "???"]];
 
         const $varEntry = $($("#template-mod-entry").html()
-            .replace(new RegExp("{{id}}", 'g'), resultItem.id)
-            .replace(new RegExp("{{name}}", 'g'), resultItem.name)
+            .replace(new RegExp("{{id}}", 'g'), foodId)
+            .replace(new RegExp("{{name}}", 'g'), foodName)
         );
 
-        ingredients.forEach(function(ingredient) {
+        ingredients.forEach(function (ingredient) {
             const item = getItem(ingredient);
 
             $(".ingredients", $varEntry).append(
@@ -88,7 +149,7 @@ function onFoodSelect() {
             );
         });
 
-        feps.forEach(function(fep) {
+        feps.forEach(function (fep) {
             const type = fep[0];
             const mult = fep[1];
             const val = fep[2];
@@ -107,6 +168,6 @@ function onFoodSelect() {
         const finalFeps = Math.round(totalFeps * 1000) / 1000 || "???";
         $(".total-feps", $varEntry).html(finalFeps);
 
-        $varEntry.appendTo("#variation-entries");
+        $varEntry.appendTo("#result-recipes");
     });
 }

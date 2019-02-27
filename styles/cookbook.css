@@ -1,14 +1,61 @@
-#food-search {
+#search-panel {
     background-color: #434545;
     border: 1px solid #171818;
-    height: 160px;
     width: 60%;
     padding: 10px;
+}
+
+.search-container {
+    color: rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid #171818;
+    cursor: pointer;
+}
+
+.search-container > .fas {
+    padding: 10px;
+}
+
+.search-container:hover .search-dropdown {
+    visibility: visible;
+    transition-delay:0s;
+}
+
+.search-dropdown {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    margin: -5px 15px 0 15px;
+    background-color: #434545;
+    border: 1px solid #171818;
+    z-index: 99;
+    visibility: hidden;
+    transition: visibility 0s linear 0.2s;
+}
+
+.search-dropdown::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    margin-right: 12px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent;
+    border-bottom-color: #171818;
+}
+
+.search-results {
+    max-height: 100px;
+    overflow-y: auti;
+    margin: 4px;
+    padding: 2px;
 }
 
 .search-result-entry {
     opacity: 0.75;
     cursor: pointer;
+    border: 1px solid transparent;
 }
 
 .search-result-entry:hover {
@@ -16,7 +63,8 @@
 }
 
 .search-result-entry.selected {
-    box-shadow: 0px 0px 5px #171818;
+    /*box-shadow: 0 0 5px #f9ba32;*/
+    border: 1px solid #f9ba32;
 }
 
 .fep {

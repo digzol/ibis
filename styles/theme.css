@@ -45,16 +45,28 @@ input[type=number]:focus {
     background-color: #34516c;
 }
 
-input[type=text] {
+.form-control[type=text] {
     background: none;
     border: none;
     border-bottom: 1px solid #171818;
     color: #f8f1e5;
     padding: 5px 10px;
+    border-radius: 0;
 }
 
-input[type=text]:focus {
+.form-control[type=text]:focus {
     outline: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+input[type=text].rounded {
+    color: #f8f1e5;
+    background-color: #171818;
+    border-color: #171818;
+    height: 1.8em;
+    font-size: 0.9em;
+    width: 100%;
 }
 
 .form-group label, .form-label {
