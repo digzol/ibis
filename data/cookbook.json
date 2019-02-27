@@ -338,7 +338,7 @@
       ["roast-mammoth-sizzling", ["meat-mammoth"], [["STR", 2, 2.5], ["CON", 1, 2.5]]],
       ["roast-mole-sizzling", ["meat-mole"], []],
       ["roast-moose-sizzling", ["meat-moose"], [["STR", 1, 2.5], ["INT", 1, 1.25], ["CHA", 1, 1.25]]],
-      ["roast-moose-sizzling", ["meat-moose", ["kvann"]], [["STR", 1, 1.25], ["INT", 1, 1.25], ["CHA", 1, 2.5]]],
+      ["roast-moose-sizzling", ["meat-moose", "kvann"], [["STR", 1, 1.25], ["INT", 1, 1.25], ["CHA", 1, 2.5]]],
       ["roast-mouflon-sizzling", ["meat-mouflon"], []],
       ["roast-otter-sizzling", ["meat-otter"], []],
       ["roast-pig-sizzling", ["meat-pig"], []],
