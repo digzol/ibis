@@ -120,10 +120,11 @@ function onFilterChange() {
                 res = true;
         });
         return res;
-    }).sort(sortByName);
+    });
 
     $("#result-recipes").html("");
 
+    recipes.sort(sortByName);
     recipes.forEach(function (recipe) {
         const foodName = recipe.name;
         const foodId = recipe[0];

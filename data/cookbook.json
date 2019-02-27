@@ -1,11 +1,18 @@
 {
   "recipes": [
+    ["chickensalad"],
     ["kebab"],
     ["marrowroast"],
     ["meat-roast-sizzling"],
     ["meat-spitroast-sizzling"]
   ],
   "entries": [
+    ["chickensalad", ["beetleaves"], [["CON", 1, 2], ["PER", 1, 4], ["DEX", 1, 5]]],
+    ["chickensalad", ["greenkelp"], []],
+    ["chickensalad", ["leaf-heartwood"], []],
+    ["chickensalad", ["lettuceleaf"], [["CON", 1, 10], ["PER", 1, 4], ["DEX", 1, 3]]],
+    ["chickensalad", ["marshmallow"], []],
+    ["chickensalad", ["stingingnettle"], [["CON", 1, 4], ["PER", 1, 4], ["DEX", 1, 4.4]]],
     ["kebab", ["meat-adder"], [["CON", 2, 1.2], ["INT", 2, 1.8]]],
     ["kebab", ["meat-ant"], [["CON", 2, 0.8], ["WIL", 1, 1.8]]],
     ["kebab", ["meat-aurochs"], [["CON", 2, 0.5], ["STR", 1, 1.5]]],
