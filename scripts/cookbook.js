@@ -43,9 +43,14 @@ $(async function () {
             );
         });
 
+        let typingTimeout;
+
         $("#search-by-name .search-dropdown > .form-control").on("change keyup", onSearchChange);
         $("#search-by-name .search-result-entry").on("click", onFoodSelect);
-        $("#search-by-name > .form-control").on("change keyup", onFilterChange);
+        $("#search-by-name > .form-control").on("change keyup", function() {
+            clearTimeout(typingTimeout);
+            typingTimeout = setTimeout(onFilterChange, 200);
+        });
     });
 });
 
