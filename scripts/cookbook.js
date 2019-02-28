@@ -144,25 +144,24 @@ function onFilterChange() {
 
     const recipes = cookbook.filter(function (recipe) {
         const ingredients = recipe[1];
-        let res = false;
+        let filteredName = nameFilters.length === 0;
+        let filteredIngredient = ingredientFilters.length === 0;
         recipe.name = getItem(recipe[0]).name;
         recipe.ingredients = [];
 
         nameFilters.forEach(function (filter) {
-            res = res || recipe.name.toLowerCase().includes(filter.toLowerCase());
+            filteredName = filteredName || recipe.name.toLowerCase().includes(filter.toLowerCase());
         });
-
-        if (res === true) return res;
 
         ingredients.forEach(function (ingredient) {
             const ingredientName = getItem(ingredient).name
             recipe.ingredients.push(ingredientName);
             ingredientFilters.forEach(function(filter) {
-                res = res || ingredientName.toLowerCase().includes(filter.toLowerCase());
+                filteredIngredient = filteredIngredient || ingredientName.toLowerCase().includes(filter.toLowerCase());
             });
         });
 
-        return res;
+        return filteredName & filteredIngredient;
     });
 
     $("#result-recipes").html("");
