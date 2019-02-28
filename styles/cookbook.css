@@ -46,8 +46,8 @@
 }
 
 .search-results {
-    max-height: 100px;
-    overflow-y: auti;
+    max-height: 200px;
+    overflow-y: auto;
     margin: 4px;
     padding: 2px;
 }
@@ -63,7 +63,6 @@
 }
 
 .search-result-entry.selected {
-    /*box-shadow: 0 0 5px #f9ba32;*/
     border: 1px solid #f9ba32;
 }
 

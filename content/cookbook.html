@@ -3,7 +3,7 @@
 <script src="./scripts/cookbook.js"></script>
 <div id="search-panel" class="container rounded">
     <div class="row">
-        <div id="search-by-name" class="col input-group">
+        <div id="search-by-name" class="col input-group search-group">
             <input type="text" class="form-control" placeholder="Filter by name">
             <div class="search-container">
                 <i class="fas fa-search"></i>
@@ -16,6 +16,16 @@
                             </div>
                         </template>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div id="search-by-ingredient" class="col input-group search-group">
+            <input type="text" class="form-control" placeholder="Filter by ingredient">
+            <div class="search-container">
+                <i class="fas fa-search"></i>
+                <div class="search-dropdown rounded p-1" style="display:none;">
+                    <input type="text" class="form-control rounded" placeholder="Search">
+                    <div class="search-results d-flex flex-wrap"></div>
                 </div>
             </div>
         </div>

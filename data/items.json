@@ -3627,19 +3627,19 @@
     },
     {
       "id": "meat-brill",
-      "name": "Brill"
+      "name": "Filet of Brill"
     },
     {
       "id": "meat-burbot",
-      "name": "Burbot"
+      "name": "Filet of Burbot"
     },
     {
       "id": "meat-carp",
-      "name": "Carp"
+      "name": "Filet of Carp"
     },
     {
       "id": "meat-catfish",
-      "name": "Catfish"
+      "name": "Filet of Catfish"
     },
     {
       "id": "meat-cavelacanth",
@@ -3651,7 +3651,7 @@
     },
     {
       "id": "meat-caveangler",
-      "name": "Cave Angler"
+      "name": "Filet of Cave Angler"
     },
     {
       "id": "meat-cavelouse",
@@ -3663,7 +3663,7 @@
     },
     {
       "id": "meat-chub",
-      "name": "Chub"
+      "name": "Filet of Chub"
     },
     {
       "id": "meat-cod",
@@ -3683,7 +3683,7 @@
     },
     {
       "id": "meat-eel",
-      "name": "Eel"
+      "name": "Filet of Eel"
     },
     {
       "id": "meat-filet",
@@ -3703,7 +3703,7 @@
     },
     {
       "id": "meat-grayling",
-      "name": "Grayling"
+      "name": "Filet of Grayling"
     },
     {
       "id": "meat-greyseal",
@@ -3727,7 +3727,7 @@
     },
     {
       "id": "meat-ide",
-      "name": "Ide"
+      "name": "Filet of Ide"
     },
     {
       "id": "meatinjelly",
@@ -3735,7 +3735,7 @@
     },
     {
       "id": "meat-lavaret",
-      "name": "Lavaret"
+      "name": "Filet of Lavaret"
     },
     {
       "id": "meat-lynx",
@@ -3775,7 +3775,7 @@
     },
     {
       "id": "meat-mullet",
-      "name": "Mullet"
+      "name": "Filet of Mullet"
     },
     {
       "id": "meat-mutton",
@@ -3791,7 +3791,7 @@
     },
     {
       "id": "meat-perch",
-      "name": "Perch"
+      "name": "Filet of Perch"
     },
     {
       "id": "meatpie",
@@ -3803,15 +3803,15 @@
     },
     {
       "id": "meat-pike",
-      "name": "Pike"
+      "name": "Filet of Pike"
     },
     {
       "id": "meat-plaice",
-      "name": "Plaice"
+      "name": "Filet of Plaice"
     },
     {
       "id": "meat-pomfret",
-      "name": "Pomfret"
+      "name": "Filet of Pomfret"
     },
     {
       "id": "meat-pork",
@@ -3855,7 +3855,7 @@
     },
     {
       "id": "meat-roach",
-      "name": "Roach"
+      "name": "Filet of Roach"
     },
     {
       "id": "meat-roast",
@@ -3878,8 +3878,8 @@
       "name": "Sizzling Roast"
     },
     {
-      "id": "meat-ruffle",
-      "name": "Ruffle"
+      "id": "meat-ruffe",
+      "name": "Filet of Ruffe"
     },
     {
       "id": "meat-rweird",
@@ -3895,7 +3895,7 @@
     },
     {
       "id": "meat-salmon",
-      "name": "Salmon"
+      "name": "Filet of Salmon"
     },
     {
       "id": "meat-sheep",
@@ -3903,11 +3903,11 @@
     },
     {
       "id": "meat-silverbream",
-      "name": "Silver Bream"
+      "name": "Filet of Silver Bream"
     },
     {
       "id": "meat-smelt",
-      "name": "Smelt"
+      "name": "Filet of Smelt"
     },
     {
       "id": "meat-spitroast",
@@ -3947,7 +3947,7 @@
     },
     {
       "id": "meat-sturgeon",
-      "name": "Sturgeon"
+      "name": "Filet of Sturgeon"
     },
     {
       "id": "meat-swan",
@@ -3955,7 +3955,7 @@
     },
     {
       "id": "meat-tench",
-      "name": "Tench"
+      "name": "Filet of Tench"
     },
     {
       "id": "meat-testis",
@@ -3971,7 +3971,7 @@
     },
     {
       "id": "meat-trout",
-      "name": "Trout"
+      "name": "Filet of Trout"
     },
     {
       "id": "meat-walrus",
@@ -3983,7 +3983,7 @@
     },
     {
       "id": "meat-whiting",
-      "name": "Whiting"
+      "name": "Filet of Whiting"
     },
     {
       "id": "meat-wildgoat",
@@ -4003,11 +4003,11 @@
     },
     {
       "id": "meat-zander",
-      "name": "Zander"
+      "name": "Filet of Zander"
     },
     {
       "id": "meat-zope",
-      "name": "Zope"
+      "name": "Filet of Zope"
     },
     {
       "id": "medlar",
@@ -7382,8 +7382,8 @@
       "name": "Sizzling Roast Filet of Rose Fish"
     },
     {
-      "id": "rfilet-ruffle-sizzling",
-      "name": "Sizzling Roast Filet of Ruffle"
+      "id": "rfilet-ruffe-sizzling",
+      "name": "Sizzling Roast Filet of Ruffe"
     },
     {
       "id": "rfilet-saithe-sizzling",
@@ -7714,8 +7714,8 @@
       "name": "Sizzling Spitroast Rose Fish"
     },
     {
-      "id": "sfilet-ruffle-sizzling",
-      "name": "Sizzling Spitroast Ruffle"
+      "id": "sfilet-ruffe-sizzling",
+      "name": "Sizzling Spitroast Ruffe"
     },
     {
       "id": "sfilet-saithe-sizzling",

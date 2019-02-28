@@ -2,6 +2,58 @@ let items;
 let cookbook;
 let recipes;
 
+$(async function () {
+    const itemsReq = $.getJSON("./data/items.json");
+    const cookbookReq = $.getJSON("./data/cookbook.json");
+
+    Promise.all([itemsReq, cookbookReq]).then(function (JSONs) {
+        const template = $("#search-panel .template-search-entry").html();
+        const ingredients = [];
+        let typingTimeout;
+
+        items = JSONs[0].entries;
+        cookbook = JSONs[1].entries;
+        recipes = JSONs[1].recipes;
+
+        recipes.forEach(function (recipe) {
+            const recipeItem = getItem(recipe[0]);
+
+            $("#search-by-name .search-results").append(template
+                .replace(new RegExp("{{id}}", 'g'), recipeItem.id)
+                .replace(new RegExp("{{name}}", 'g'), recipeItem.name)
+            );
+        });
+
+        cookbook.forEach(function (recipe) {
+            const recipeIngredients = recipe[1];
+
+            recipeIngredients.forEach(function (ingredient) {
+                if (ingredients[ingredient] === undefined) {
+                    const item = getItem(ingredient);
+                    ingredients[ingredient] = ingredients.length;
+                    ingredients.push({name: item.name, id: item.id});
+                }
+            });
+        });
+
+        ingredients.sort(sortByName);
+
+        ingredients.forEach(function (ingredient) {
+            $("#search-by-ingredient .search-results").append(template
+                .replace(new RegExp("{{id}}", 'g'), ingredient.id)
+                .replace(new RegExp("{{name}}", 'g'), ingredient.name)
+            );
+        });
+
+        $(".search-dropdown > .form-control").on("change keyup", onSearchChange);
+        $(".search-result-entry").on("click", onFoodSelect);
+        $(".search-group > .form-control").on("change keyup", function () {
+            clearTimeout(typingTimeout);
+            typingTimeout = setTimeout(onFilterChange, 200);
+        });
+    });
+});
+
 $(function () {
     const hoverTimeouts = [];
 
@@ -9,10 +61,11 @@ $(function () {
     $(".search-container")
         .hover(function () {
             clearTimeout(hoverTimeouts[this]);
-            const filterValue = $("#search-by-name > .form-control").val().toLowerCase();
+            const context = $(this).parent(".search-group");
+            const filterValue = $("> .form-control", context).val().toLowerCase();
             $(".search-dropdown", this).show();
             $(".search-dropdown > .form-control", this).focus();
-            $(".search-result-entry").each(function () {
+            $(".search-result-entry", this).each(function () {
                 const dataName = $(this).attr("data-name").toLowerCase();
                 $(this).toggleClass("selected", filterValue.includes(dataName));
             });
@@ -24,46 +77,10 @@ $(function () {
         });
 });
 
-$(async function () {
-    const itemsReq = $.getJSON("./data/items.json");
-    const cookbookReq = $.getJSON("./data/cookbook.json");
-
-    Promise.all([itemsReq, cookbookReq]).then(function (JSONs) {
-        const template = $("#search-by-name .template-search-entry").html();
-
-        items = JSONs[0].entries;
-        cookbook = JSONs[1].entries;
-        recipes = JSONs[1].recipes;
-
-        recipes.forEach(function (recipe) {
-            const foodItem = getItem(recipe[0]);
-            $("#search-by-name .search-results").append(template
-                .replace(new RegExp("{{id}}", 'g'), foodItem.id)
-                .replace(new RegExp("{{name}}", 'g'), foodItem.name)
-            );
-        });
-
-        let typingTimeout;
-
-        $("#search-by-name .search-dropdown > .form-control").on("change keyup", onSearchChange);
-        $("#search-by-name .search-result-entry").on("click", onFoodSelect);
-        $("#search-by-name > .form-control").on("change keyup", function() {
-            clearTimeout(typingTimeout);
-            typingTimeout = setTimeout(onFilterChange, 200);
-        });
-    });
-});
-
 function getItem(id) {
     const result = items.find(item => item.id === id);
     if (result === undefined) console.error("Unknown item ID:", id);
     return result;
-}
-
-function getRecipes(id) {
-    const result = cookbook.find(recipe => recipe[0] === id);
-    if (result === undefined) console.error("Unknown recipe ID:", id);
-    return result
 }
 
 function sortByFEP(a, b) {
@@ -79,11 +96,12 @@ function sortByName(a, b) {
 }
 
 function onSearchChange() {
+    const context = $(this).parent(".search-dropdown");
     const searchKeyword = $(this).val().toLowerCase();
     if (searchKeyword.length === 0) {
-        $(".search-result-entry").show();
+        $(".search-result-entry", context).show();
     } else {
-        $(".search-result-entry").each(function () {
+        $(".search-result-entry", context).each(function () {
             const name = $(".game-icon", this).attr("title").toLowerCase();
             $(this).toggle(name.includes(searchKeyword));
         });
@@ -91,7 +109,8 @@ function onSearchChange() {
 }
 
 function onFoodSelect() {
-    const $filterInput = $(this).closest("#search-by-name").find("> .form-control");
+    const context = $(this).closest(".search-group");
+    const $filterInput = $("> .form-control", context);
     const dataName = $(this).attr("data-name");
 
     if ($(this).hasClass("selected")) {
@@ -110,7 +129,13 @@ function onFoodSelect() {
 }
 
 function onFilterChange() {
-    const filters = $("#search-by-name .form-control").val().split(";")
+    const nameFilters = $("#search-by-name .form-control").val().split(";")
+        .map(function (filter) {
+            return filter.trim();
+        }).filter(function (filter) {
+            return filter !== "";
+        });
+    const ingredientFilters = $("#search-by-ingredient .form-control").val().split(";")
         .map(function (filter) {
             return filter.trim();
         }).filter(function (filter) {
@@ -118,12 +143,25 @@ function onFilterChange() {
         });
 
     const recipes = cookbook.filter(function (recipe) {
+        const ingredients = recipe[1];
         let res = false;
         recipe.name = getItem(recipe[0]).name;
-        filters.forEach(function (filter) {
-            if (recipe.name.toLowerCase().includes(filter.toLowerCase()))
-                res = true;
+        recipe.ingredients = [];
+
+        nameFilters.forEach(function (filter) {
+            res = res || recipe.name.toLowerCase().includes(filter.toLowerCase());
         });
+
+        if (res === true) return res;
+
+        ingredients.forEach(function (ingredient) {
+            const ingredientName = getItem(ingredient).name
+            recipe.ingredients.push(ingredientName);
+            ingredientFilters.forEach(function(filter) {
+                res = res || ingredientName.toLowerCase().includes(filter.toLowerCase());
+            });
+        });
+
         return res;
     });
 

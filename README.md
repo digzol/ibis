@@ -21,7 +21,7 @@
     <li>
         <span>27-Feb-2019</span>
         <ul>
-            <li>Added a recipe name filter to the cookbook.</li>
+            <li>Added recipe name & ingredient filters to the cookbook.</li>
             <li>Can now display different recipes at once from the same request.</li>
         </ul>
     </li>
