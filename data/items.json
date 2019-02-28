@@ -3642,6 +3642,10 @@
       "name": "Filet of Catfish"
     },
     {
+      "id": "meat-caveangler",
+      "name": "Filet of Cave Angler"
+    },
+    {
       "id": "meat-cavelacanth",
       "name": "Filet of Cavelacanth"
     },
@@ -7304,6 +7308,10 @@
     {
       "id": "rfilet-carp-sizzling",
       "name": "Sizzling Roast Filet of Carp"
+    },
+    {
+      "id": "rfilet-caveangler-sizzling",
+      "name": "Sizzling Roast Filet of Cave Angler"
     },
     {
       "id": "rfilet-cavelacanth-sizzling",
