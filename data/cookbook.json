@@ -370,7 +370,7 @@
     ["roast-beaver-sizzling", ["meat-beaver", "dill"], []],
     ["roast-beaver-sizzling", ["meat-beaver", "kvann"], []],
     ["roast-beaver-sizzling", ["meat-beaver", "leaf-laurel"], []],
-    ["roast-boar-sizzling", ["meat-boar"], []],
+    ["roast-boar-sizzling", ["meat-boar"], [["STR", 1, 2.5]]],
     ["roast-boar-sizzling", ["meat-boar", "pepper"], []],
     ["roast-boar-sizzling", ["meat-boar", "chives"], []],
     ["roast-boar-sizzling", ["meat-boar", "dill"], []],
