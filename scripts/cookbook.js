@@ -15,8 +15,8 @@ $(async function () {
         cookbook = JSONs[1].entries;
         recipes = JSONs[1].recipes;
 
-        recipes.forEach(function (recipe) {
-            const recipeItem = getItem(recipe[0]);
+        recipes.forEach(function (entry) {
+            const recipeItem = getItem(entry[0]);
 
             $("#search-by-name .search-results").append(template
                 .replace(new RegExp("{{id}}", 'g'), recipeItem.id)
@@ -24,10 +24,50 @@ $(async function () {
             );
         });
 
-        cookbook.forEach(function (recipe) {
-            const recipeIngredients = recipe[1];
+        cookbook.forEach(function (entry) {
+            const entryIngredients = entry[1];
+            let recipe = getRecipe(entry[0]);
 
-            recipeIngredients.forEach(function (ingredient) {
+            if (recipe === undefined) {
+                const resultItem = getItem(entry[0]);
+                recipe = getRecipe(resultItem.recipe);
+            }
+
+            if ("spices" in recipe[1]) {
+                const fepCount = entry[2].length;
+
+                if (fepCount !== 0) {
+                    // Chives
+                    const var_chives = [entry[0], entry[1].slice(), entry[2].slice()];
+
+                    // Black Pepper
+                    const var_pepper = [entry[0], entry[1].slice(), entry[2].slice()];
+
+                    // Dill
+                    const var_dill = [entry[0], entry[1].slice(), entry[2].slice()];
+
+                    // Kvann (Switch first & last FEPs)
+                    const var_kvann = [entry[0], entry[1].slice(), entry[2].slice()];
+                    var_kvann[1].push("kvann");
+                    var_kvann[2][0] = entry[2][0].slice();
+                    var_kvann[2][0][2] = entry[2][fepCount - 1][2];
+                    var_kvann[2][fepCount - 1] = entry[2][fepCount - 1].slice();
+                    var_kvann[2][fepCount - 1][2] = entry[2][0][2];
+                    var_kvann[3] = true;
+
+                    // Laurel Leaves (Multiply last FEP by 1.625)
+                    const var_laurel = [entry[0], entry[1].slice(), entry[2].slice()];
+                    var_laurel[1].push("leaf-laurel");
+                    var_laurel[2][fepCount - 1] = entry[2][fepCount - 1].slice();
+                    var_laurel[2][fepCount - 1][2] = Math.round(entry[2][fepCount - 1][2] * 1.625 * 100) / 100;
+                    var_laurel[3] = true;
+
+                    cookbook.push(var_kvann);
+                    cookbook.push(var_laurel);
+                }
+            }
+
+            entryIngredients.forEach(function (ingredient) {
                 if (ingredients[ingredient] === undefined) {
                     const item = getItem(ingredient);
                     ingredients[ingredient] = ingredients.length;
@@ -75,11 +115,30 @@ $(function () {
                 $(".search-dropdown > .form-control").val("").trigger("change");
             }, 200);
         });
+    $("#search-toggles .btn").click(function() {
+        const value = $(this).attr("data-value");
+        localStorage.setItem("toggle-" + value, $(this).hasClass("disabled"));
+        $(this).toggleClass("disabled");
+        onFilterChange();
+    });
+});
+
+$(function() {
+    $("#search-toggles .btn").each(function() {
+        const value = $(this).attr("data-value");
+        const disabled = localStorage.getItem("toggle-" + value);
+        $(this).toggleClass("disabled", disabled === 'false');
+    });
 });
 
 function getItem(id) {
     const result = items.find(item => item.id === id);
     if (result === undefined) console.error("Unknown item ID:", id);
+    return result;
+}
+
+function getRecipe(id) {
+    const result = recipes.find(recipe => recipe[0] === id);
     return result;
 }
 
@@ -142,10 +201,20 @@ function onFilterChange() {
             return filter !== "";
         });
 
+    if (nameFilters.length === 0 && ingredientFilters.length === 0) {
+        $("#food-info").hide();
+        return;
+    } else {
+        $("#food-info").show();
+    }
+
     const recipes = cookbook.filter(function (recipe) {
+        if (recipe[3] === true && !(localStorage.getItem("toggle-spices") === "true")) return;
+
         const ingredients = recipe[1];
         let filteredName = nameFilters.length === 0;
         let filteredIngredient = ingredientFilters.length === 0;
+
         recipe.name = getItem(recipe[0]).name;
         recipe.ingredients = [];
 
@@ -154,7 +223,7 @@ function onFilterChange() {
         });
 
         ingredients.forEach(function (ingredient) {
-            const ingredientName = getItem(ingredient).name
+            const ingredientName = getItem(ingredient).name;
             recipe.ingredients.push(ingredientName);
             ingredientFilters.forEach(function(filter) {
                 filteredIngredient = filteredIngredient || ingredientName.toLowerCase().includes(filter.toLowerCase());
@@ -164,7 +233,13 @@ function onFilterChange() {
         return filteredName & filteredIngredient;
     });
 
-    $("#result-recipes").html("");
+    if (recipes.length === 0) {
+        $("#result-recipes").html("No results found.");
+        return
+    } else {
+        $("#result-recipes").html("");
+
+    }
 
     recipes.sort(sortByName);
     recipes.forEach(function (recipe) {

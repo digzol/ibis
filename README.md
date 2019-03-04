@@ -19,6 +19,13 @@
 
 <ul>
     <li>
+        <span>03-Mar-2019</span>
+        <ul>
+            <li>Recipes with spices are now dynamically calculated. So far only includes Kvann and Laurel Leaves since only those are known.</li>
+            <li>Added an option to toggle recipes using spices.</li>
+        </ul>
+    </li>
+    <li>
         <span>27-Feb-2019</span>
         <ul>
             <li>Added recipe name & ingredient filters to the cookbook.</li>

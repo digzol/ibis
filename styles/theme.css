@@ -91,3 +91,9 @@ input[type=text].rounded {
     padding: 2px;
     font-size: 0.8em;
 }
+
+.panel {
+    background-color: #434545;
+    border: 1px solid #171818;
+    border-radius: .25rem;
+}

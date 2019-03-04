@@ -4,6 +4,11 @@
     background-repeat: no-repeat;
     background-position: center;
     background-origin: border-box;
+    position: relative;
+}
+
+.game-icon.disabled {
+    filter: grayscale(100%);
 }
 
 .small-game-icon {

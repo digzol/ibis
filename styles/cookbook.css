@@ -1,6 +1,4 @@
 #search-panel {
-    background-color: #434545;
-    border: 1px solid #171818;
     width: 60%;
     padding: 10px;
 }
@@ -64,6 +62,10 @@
 
 .search-result-entry.selected {
     border: 1px solid #f9ba32;
+}
+
+#search-toggles .game-icon {
+    cursor: pointer;
 }
 
 .fep {

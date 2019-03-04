@@ -7279,659 +7279,823 @@
     },
     {
       "id": "rfilet-abyssgazer-sizzling",
-      "name": "Sizzling Roast Filet of Abyss Gazer"
+      "name": "Sizzling Roast Filet of Abyss Gazer",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-asp-sizzling",
-      "name": "Sizzling Roast Filet of Asp"
+      "name": "Sizzling Roast Filet of Asp",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-bass-sizzling",
-      "name": "Sizzling Roast Filet of Bass"
+      "name": "Sizzling Roast Filet of Bass",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-brill-sizzling",
-      "name": "Sizzling Roast Filet of Brill"
+      "name": "Sizzling Roast Filet of Brill",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-bream-sizzling",
-      "name": "Sizzling Roast Filet of Bream"
+      "name": "Sizzling Roast Filet of Bream",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-burbot-sizzling",
-      "name": "Sizzling Roast Filet of Burbot"
+      "name": "Sizzling Roast Filet of Burbot",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-catfish-sizzling",
-      "name": "Sizzling Roast Filet of Catfish"
+      "name": "Sizzling Roast Filet of Catfish",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-carp-sizzling",
-      "name": "Sizzling Roast Filet of Carp"
+      "name": "Sizzling Roast Filet of Carp",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-caveangler-sizzling",
-      "name": "Sizzling Roast Filet of Cave Angler"
+      "name": "Sizzling Roast Filet of Cave Angler",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-cavelacanth-sizzling",
-      "name": "Sizzling Roast Filet of Cavelacanth"
+      "name": "Sizzling Roast Filet of Cavelacanth",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-cavesculpin-sizzling",
-      "name": "Sizzling Roast Filet of Cave Sculpin"
+      "name": "Sizzling Roast Filet of Cave Sculpin",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-chub-sizzling",
-      "name": "Sizzling Roast Filet of Chub"
+      "name": "Sizzling Roast Filet of Chub",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-cod-sizzling",
-      "name": "Sizzling Roast Filet of Cod"
+      "name": "Sizzling Roast Filet of Cod",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-eel-sizzling",
-      "name": "Sizzling Roast Filet of Eel"
+      "name": "Sizzling Roast Filet of Eel",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-grayling-sizzling",
-      "name": "Sizzling Roast Filet of Grayling"
+      "name": "Sizzling Roast Filet of Grayling",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-haddock-sizzling",
-      "name": "Sizzling Roast Filet of Haddock"
+      "name": "Sizzling Roast Filet of Haddock",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-herring-sizzling",
-      "name": "Sizzling Roast Filet of Herring"
+      "name": "Sizzling Roast Filet of Herring",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-ide-sizzling",
-      "name": "Sizzling Roast Filet of Ide"
+      "name": "Sizzling Roast Filet of Ide",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-lavaret-sizzling",
-      "name": "Sizzling Roast Filet of Lavaret"
+      "name": "Sizzling Roast Filet of Lavaret",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-mackerel-sizzling",
-      "name": "Sizzling Roast Filet of Mackerel"
+      "name": "Sizzling Roast Filet of Mackerel",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-mullet-sizzling",
-      "name": "Sizzling Roast Filet of Mullet"
+      "name": "Sizzling Roast Filet of Mullet",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-paleghostfish-sizzling",
-      "name": "Sizzling Roast Filet of Pale Ghostfish"
+      "name": "Sizzling Roast Filet of Pale Ghostfish",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-perch-sizzling",
-      "name": "Sizzling Roast Filet of Perch"
+      "name": "Sizzling Roast Filet of Perch",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-pike-sizzling",
-      "name": "Sizzling Roast Filet of Pike"
+      "name": "Sizzling Roast Filet of Pike",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-plaice-sizzling",
-      "name": "Sizzling Roast Filet of Plaice"
+      "name": "Sizzling Roast Filet of Plaice",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-pomfret-sizzling",
-      "name": "Sizzling Roast Filet of Pomfret"
+      "name": "Sizzling Roast Filet of Pomfret",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-roach-sizzling",
-      "name": "Sizzling Roast Filet of Roach"
+      "name": "Sizzling Roast Filet of Roach",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-rosefish-sizzling",
-      "name": "Sizzling Roast Filet of Rose Fish"
+      "name": "Sizzling Roast Filet of Rose Fish",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-ruffe-sizzling",
-      "name": "Sizzling Roast Filet of Ruffe"
+      "name": "Sizzling Roast Filet of Ruffe",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-saithe-sizzling",
-      "name": "Sizzling Roast Filet of Saithe"
+      "name": "Sizzling Roast Filet of Saithe",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-salmon-sizzling",
-      "name": "Sizzling Roast Filet of Salmon"
+      "name": "Sizzling Roast Filet of Salmon",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-smelt-sizzling",
-      "name": "Sizzling Roast Filet of Smelt"
+      "name": "Sizzling Roast Filet of Smelt",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-sturgeon-sizzling",
-      "name": "Sizzling Roast Filet of Sturgeon"
+      "name": "Sizzling Roast Filet of Sturgeon",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-tench-sizzling",
-      "name": "Sizzling Roast Filet of Tench"
+      "name": "Sizzling Roast Filet of Tench",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-trout-sizzling",
-      "name": "Sizzling Roast Filet of Trout"
+      "name": "Sizzling Roast Filet of Trout",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-silverbream-sizzling",
-      "name": "Sizzling Roast Filet of Silver Bream"
+      "name": "Sizzling Roast Filet of Silver Bream",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-whiting-sizzling",
-      "name": "Sizzling Roast Filet of Whiting"
+      "name": "Sizzling Roast Filet of Whiting",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-zander-sizzling",
-      "name": "Sizzling Roast Filet of Zander"
+      "name": "Sizzling Roast Filet of Zander",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rfilet-zope-sizzling",
-      "name": "Sizzling Roast Filet of Zope"
+      "name": "Sizzling Roast Filet of Zope",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-adder-sizzling",
-      "name": "Sizzling Roast Adder"
+      "name": "Sizzling Roast Adder",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-aurochs-sizzling",
-      "name": "Sizzling Roast Wild Beef"
+      "name": "Sizzling Roast Wild Beef",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-badger-sizzling",
-      "name": "Sizzling Roast Badger"
+      "name": "Sizzling Roast Badger",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-bat-sizzling",
-      "name": "Sizzling Roast Bat"
+      "name": "Sizzling Roast Bat",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-bear-sizzling",
-      "name": "Sizzling Roast Bear"
+      "name": "Sizzling Roast Bear",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-beaver-sizzling",
-      "name": "Sizzling Roast Beaver"
+      "name": "Sizzling Roast Beaver",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-boar-sizzling",
-      "name": "Sizzling Roast Wild Pork"
+      "name": "Sizzling Roast Wild Pork",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-cow-sizzling",
-      "name": "Sizzling Roast Beef"
+      "name": "Sizzling Roast Beef",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-fox-sizzling",
-      "name": "Sizzling Roast Fox"
+      "name": "Sizzling Roast Fox",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-goat-sizzling",
-      "name": "Sizzling Roast Chevron"
+      "name": "Sizzling Roast Chevron",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-goldeneagle-sizzling",
-      "name": "Sizzling Roast Golden Eagle"
+      "name": "Sizzling Roast Golden Eagle",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-greyseal-sizzling",
-      "name": "Sizzling Roast Grey Seal"
+      "name": "Sizzling Roast Grey Seal",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-hedgehog-sizzling",
-      "name": "Sizzling Roast Hedgehog"
+      "name": "Sizzling Roast Hedgehog",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-horse-sizzling",
-      "name": "Sizzling Roast Horse"
+      "name": "Sizzling Roast Horse",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-lynx-sizzling",
-      "name": "Sizzling Roast Lynx"
+      "name": "Sizzling Roast Lynx",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-mammoth-sizzling",
-      "name": "Sizzling Roast Mammoth"
+      "name": "Sizzling Roast Mammoth",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-mole-sizzling",
-      "name": "Sizzling Roast Mole"
+      "name": "Sizzling Roast Mole",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-moose-sizzling",
-      "name": "Sizzling Roast Moose"
+      "name": "Sizzling Roast Moose",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-mouflon-sizzling",
-      "name": "Sizzling Roast Wild Mutton"
+      "name": "Sizzling Roast Wild Mutton",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-otter-sizzling",
-      "name": "Sizzling Roast Otter"
+      "name": "Sizzling Roast Otter",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-pig-sizzling",
-      "name": "Sizzling Roast Pork"
+      "name": "Sizzling Roast Pork",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-rabbit-sizzling",
-      "name": "Sizzling Roast Rabbit"
+      "name": "Sizzling Roast Rabbit",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-reddeer-sizzling",
-      "name": "Sizzling Roast Venison"
+      "name": "Sizzling Roast Venison",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-reindeer-sizzling",
-      "name": "Sizzling Roast Reindeer Venison"
+      "name": "Sizzling Roast Reindeer Venison",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-sheep-sizzling",
-      "name": "Sizzling Roast Mutton"
+      "name": "Sizzling Roast Mutton",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-squirrel-sizzling",
-      "name": "Sizzling Roast Squirrel"
+      "name": "Sizzling Roast Squirrel",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-walrus-sizzling",
-      "name": "Sizzling Roast Walrus"
+      "name": "Sizzling Roast Walrus",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-wildgoat-sizzling",
-      "name": "Sizzling Roast Wildgoat"
+      "name": "Sizzling Roast Wildgoat",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-wildhorse-sizzling",
-      "name": "Sizzling Roast Wildhorse"
+      "name": "Sizzling Roast Wildhorse",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-wolf-sizzling",
-      "name": "Sizzling Roast Wolf"
+      "name": "Sizzling Roast Wolf",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "roast-wolverine-sizzling",
-      "name": "Sizzling Roast Wolverine"
+      "name": "Sizzling Roast Wolverine",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rpoultry-chicken-sizzling",
-      "name": "Sizzling Roast Chicken"
+      "name": "Sizzling Roast Chicken",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rpoultry-eagleowl-sizzling",
-      "name": "Sizzling Roast Eagle Owl"
+      "name": "Sizzling Roast Eagle Owl",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rpoultry-magpie-sizzling",
-      "name": "Sizzling Roast Magpie"
+      "name": "Sizzling Roast Magpie",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rpoultry-mallard-sizzling",
-      "name": "Sizzling Roast Mallard"
+      "name": "Sizzling Roast Mallard",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rpoultry-ptarmigan-sizzling",
-      "name": "Sizzling Roast Ptarmigan"
+      "name": "Sizzling Roast Ptarmigan",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rpoultry-quail-sizzling",
-      "name": "Sizzling Roast Quail"
+      "name": "Sizzling Roast Quail",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rpoultry-seagull-sizzling",
-      "name": "Sizzling Roast Seagull"
+      "name": "Sizzling Roast Seagull",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rpoultry-swan-sizzling",
-      "name": "Sizzling Roast Swan"
+      "name": "Sizzling Roast Swan",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rpoultry-woodgrouse-sizzling",
-      "name": "Sizzling Roast Woodgrouse"
+      "name": "Sizzling Roast Woodgrouse",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rweird-ant-sizzling",
-      "name": "Sizzling Roast Ant"
+      "name": "Sizzling Roast Ant",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rweird-boreworm-sizzling",
-      "name": "Sizzling Roast Boreworm"
+      "name": "Sizzling Roast Boreworm",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rweird-cavelouse-sizzling",
-      "name": "Sizzling Roast Cave Louse"
+      "name": "Sizzling Roast Cave Louse",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rweird-chasmconch-sizzling",
-      "name": "Sizzling Roast Chasm Conch"
+      "name": "Sizzling Roast Chasm Conch",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "rweird-troll-sizzling",
-      "name": "Sizzling Roast Troll"
+      "name": "Sizzling Roast Troll",
+      "recipe": "meat-roast-sizzling"
     },
     {
       "id": "sfilet-abyssgazer-sizzling",
-      "name": "Sizzling Spitroast Abyss Gazer"
+      "name": "Sizzling Spitroast Abyss Gazer",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-asp-sizzling",
-      "name": "Sizzling Spitroast Asp"
+      "name": "Sizzling Spitroast Asp",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-bass-sizzling",
-      "name": "Sizzling Spitroast Bass"
+      "name": "Sizzling Spitroast Bass",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-brill-sizzling",
-      "name": "Sizzling Spitroast Brill"
+      "name": "Sizzling Spitroast Brill",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-bream-sizzling",
-      "name": "Sizzling Spitroast Bream"
+      "name": "Sizzling Spitroast Bream",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-burbot-sizzling",
-      "name": "Sizzling Spitroast Burbot"
+      "name": "Sizzling Spitroast Burbot",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-catfish-sizzling",
-      "name": "Sizzling Spitroast Catfish"
+      "name": "Sizzling Spitroast Catfish",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-carp-sizzling",
-      "name": "Sizzling Spitroast Carp"
+      "name": "Sizzling Spitroast Carp",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-cavelacanth-sizzling",
-      "name": "Sizzling Spitroast Cavelacanth"
+      "name": "Sizzling Spitroast Cavelacanth",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-cavesculpin-sizzling",
-      "name": "Sizzling Spitroast Cave Sculpin"
+      "name": "Sizzling Spitroast Cave Sculpin",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-chub-sizzling",
-      "name": "Sizzling Spitroast Chub"
+      "name": "Sizzling Spitroast Chub",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-cod-sizzling",
-      "name": "Sizzling Spitroast Cod"
+      "name": "Sizzling Spitroast Cod",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-eel-sizzling",
-      "name": "Sizzling Spitroast Eel"
+      "name": "Sizzling Spitroast Eel",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-grayling-sizzling",
-      "name": "Sizzling Spitroast Grayling"
+      "name": "Sizzling Spitroast Grayling",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-haddock-sizzling",
-      "name": "Sizzling Spitroast Haddock"
+      "name": "Sizzling Spitroast Haddock",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-herring-sizzling",
-      "name": "Sizzling Spitroast Herring"
+      "name": "Sizzling Spitroast Herring",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-ide-sizzling",
-      "name": "Sizzling Spitroast Ide"
+      "name": "Sizzling Spitroast Ide",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-lavaret-sizzling",
-      "name": "Sizzling Spitroast Lavaret"
+      "name": "Sizzling Spitroast Lavaret",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-mackerel-sizzling",
-      "name": "Sizzling Spitroast Mackerel"
+      "name": "Sizzling Spitroast Mackerel",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-mullet-sizzling",
-      "name": "Sizzling Spitroast Mullet"
+      "name": "Sizzling Spitroast Mullet",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-paleghostfish-sizzling",
-      "name": "Sizzling Spitroast Pale Ghostfish"
+      "name": "Sizzling Spitroast Pale Ghostfish",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-perch-sizzling",
-      "name": "Sizzling Spitroast Perch"
+      "name": "Sizzling Spitroast Perch",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-pike-sizzling",
-      "name": "Sizzling Spitroast Pike"
+      "name": "Sizzling Spitroast Pike",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-plaice-sizzling",
-      "name": "Sizzling Spitroast Plaice"
+      "name": "Sizzling Spitroast Plaice",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-pomfret-sizzling",
-      "name": "Sizzling Spitroast Pomfret"
+      "name": "Sizzling Spitroast Pomfret",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-roach-sizzling",
-      "name": "Sizzling Spitroast Roach"
+      "name": "Sizzling Spitroast Roach",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-rosefish-sizzling",
-      "name": "Sizzling Spitroast Rose Fish"
+      "name": "Sizzling Spitroast Rose Fish",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-ruffe-sizzling",
-      "name": "Sizzling Spitroast Ruffe"
+      "name": "Sizzling Spitroast Ruffe",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-saithe-sizzling",
-      "name": "Sizzling Spitroast Saithe"
+      "name": "Sizzling Spitroast Saithe",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-salmon-sizzling",
-      "name": "Sizzling Spitroast Salmon"
+      "name": "Sizzling Spitroast Salmon",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-smelt-sizzling",
-      "name": "Sizzling Spitroast Smelt"
+      "name": "Sizzling Spitroast Smelt",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-sturgeon-sizzling",
-      "name": "Sizzling Spitroast Sturgeon"
+      "name": "Sizzling Spitroast Sturgeon",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-tench-sizzling",
-      "name": "Sizzling Spitroast Tench"
+      "name": "Sizzling Spitroast Tench",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-trout-sizzling",
-      "name": "Sizzling Spitroast Trout"
+      "name": "Sizzling Spitroast Trout",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-silverbream-sizzling",
-      "name": "Sizzling Spitroast Silver Bream"
+      "name": "Sizzling Spitroast Silver Bream",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-whiting-sizzling",
-      "name": "Sizzling Spitroast Whiting"
+      "name": "Sizzling Spitroast Whiting",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-zander-sizzling",
-      "name": "Sizzling Spitroast Zander"
+      "name": "Sizzling Spitroast Zander",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sfilet-zope-sizzling",
-      "name": "Sizzling Spitroast Zope"
+      "name": "Sizzling Spitroast Zope",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-adder-sizzling",
-      "name": "Sizzling Spitroast Adder"
+      "name": "Sizzling Spitroast Adder",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-aurochs-sizzling",
-      "name": "Sizzling Spitroast Wild Beef"
+      "name": "Sizzling Spitroast Wild Beef",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-badger-sizzling",
-      "name": "Sizzling Spitroast Badger"
+      "name": "Sizzling Spitroast Badger",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-bat-sizzling",
-      "name": "Sizzling Spitroast Bat"
+      "name": "Sizzling Spitroast Bat",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-bear-sizzling",
-      "name": "Sizzling Spitroast Bear"
+      "name": "Sizzling Spitroast Bear",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-beaver-sizzling",
-      "name": "Sizzling Spitroast Beaver"
+      "name": "Sizzling Spitroast Beaver",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-boar-sizzling",
-      "name": "Sizzling Spitroast Wild Pork"
+      "name": "Sizzling Spitroast Wild Pork",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-cow-sizzling",
-      "name": "Sizzling Spitroast Beef"
+      "name": "Sizzling Spitroast Beef",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-fox-sizzling",
-      "name": "Sizzling Spitroast Fox"
+      "name": "Sizzling Spitroast Fox",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-goat-sizzling",
-      "name": "Sizzling Spitroast Chevron"
+      "name": "Sizzling Spitroast Chevron",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-greyseal-sizzling",
-      "name": "Sizzling Spitroast Grey Seal"
+      "name": "Sizzling Spitroast Grey Seal",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-hedgehog-sizzling",
-      "name": "Sizzling Spitroast Hedgehog"
+      "name": "Sizzling Spitroast Hedgehog",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-horse-sizzling",
-      "name": "Sizzling Spitroast Horse"
+      "name": "Sizzling Spitroast Horse",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-lynx-sizzling",
-      "name": "Sizzling Spitroast Lynx"
+      "name": "Sizzling Spitroast Lynx",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-mole-sizzling",
-      "name": "Sizzling Spitroast Mole"
+      "name": "Sizzling Spitroast Mole",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-moose-sizzling",
-      "name": "Sizzling Spitroast Moose"
+      "name": "Sizzling Spitroast Moose",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-mouflon-sizzling",
-      "name": "Sizzling Spitroast Wild Mutton"
+      "name": "Sizzling Spitroast Wild Mutton",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-otter-sizzling",
-      "name": "Sizzling Spitroast Otter"
+      "name": "Sizzling Spitroast Otter",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-pig-sizzling",
-      "name": "Sizzling Spitroast Pork"
+      "name": "Sizzling Spitroast Pork",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-rabbit-sizzling",
-      "name": "Sizzling Spitroast Rabbit"
+      "name": "Sizzling Spitroast Rabbit",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-reddeer-sizzling",
-      "name": "Sizzling Spitroast Venison"
+      "name": "Sizzling Spitroast Venison",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-reindeer-sizzling",
-      "name": "Sizzling Spitroast Reindeer Venison"
+      "name": "Sizzling Spitroast Reindeer Venison",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-sheep-sizzling",
-      "name": "Sizzling Spitroast Mutton"
+      "name": "Sizzling Spitroast Mutton",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-squirrel-sizzling",
-      "name": "Sizzling Spitroast Squirrel"
+      "name": "Sizzling Spitroast Squirrel",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-walrus-sizzling",
-      "name": "Sizzling Spitroast Walrus"
+      "name": "Sizzling Spitroast Walrus",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-wildgoat-sizzling",
-      "name": "Sizzling Spitroast Wildgoat"
+      "name": "Sizzling Spitroast Wildgoat",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-wildhorse-sizzling",
-      "name": "Sizzling Spitroast Wildhorse"
+      "name": "Sizzling Spitroast Wildhorse",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-wolf-sizzling",
-      "name": "Sizzling Spitroast Wolf"
+      "name": "Sizzling Spitroast Wolf",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spitroast-wolverine-sizzling",
-      "name": "Sizzling Spitroast Wolverine"
+      "name": "Sizzling Spitroast Wolverine",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spoultry-chicken-sizzling",
-      "name": "Sizzling Spitroast Chicken"
+      "name": "Sizzling Spitroast Chicken",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spoultry-eagleowl-sizzling",
-      "name": "Sizzling Spitroast Eagle Owl"
+      "name": "Sizzling Spitroast Eagle Owl",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spoultry-goldeneagle-sizzling",
-      "name": "Sizzling Spitroast Golden Eagle"
+      "name": "Sizzling Spitroast Golden Eagle",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spoultry-magpie-sizzling",
-      "name": "Sizzling Spitroast Magpie"
+      "name": "Sizzling Spitroast Magpie",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spoultry-mallard-sizzling",
-      "name": "Sizzling Spitroast Mallard"
+      "name": "Sizzling Spitroast Mallard",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spoultry-ptarmigan-sizzling",
-      "name": "Sizzling Spitroast Ptarmigan"
+      "name": "Sizzling Spitroast Ptarmigan",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spoultry-quail-sizzling",
-      "name": "Sizzling Spitroast Quail"
+      "name": "Sizzling Spitroast Quail",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spoultry-seagull-sizzling",
-      "name": "Sizzling Spitroast Seagull"
+      "name": "Sizzling Spitroast Seagull",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spoultry-swan-sizzling",
-      "name": "Sizzling Spitroast Swan"
+      "name": "Sizzling Spitroast Swan",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "spoultry-woodgrouse-sizzling",
-      "name": "Sizzling Spitroast Woodgrouse"
+      "name": "Sizzling Spitroast Woodgrouse",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sweird-ant-sizzling",
-      "name": "Sizzling Spitroast Ant"
+      "name": "Sizzling Spitroast Ant",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sweird-boreworm-sizzling",
-      "name": "Sizzling Spitroast Boreworm"
+      "name": "Sizzling Spitroast Boreworm",
+      "recipe": "meat-spitroast-sizzling"
     },
     {
       "id": "sweird-cavelouse-sizzling",
-      "name": "Sizzling Spitroast Cave Louse"
+      "name": "Sizzling Spitroast Cave Louse",
+      "recipe": "meat-spitroast-sizzling"
     }
   ]
 }
