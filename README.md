@@ -19,6 +19,13 @@
 
 <ul>
     <li>
+        <span>05-Mar-2019</span>
+        <ul>
+            <li>Cookbook search now changes page to allow page linking.</li>
+            <li>Fixed an issue where search fields would be deselected when hovering on the droplist.</li>
+        </ul>
+    </li>
+    <li>
         <span>03-Mar-2019</span>
         <ul>
             <li>Recipes with spices are now dynamically calculated. So far only includes Kvann and Laurel Leaves since only those are known.</li>

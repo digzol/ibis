@@ -1,3 +1,5 @@
+import { GetURLParameter } from './main.js';
+
 let items;
 let cookbook;
 let recipes;
@@ -89,8 +91,12 @@ $(async function () {
         $(".search-result-entry").on("click", onFoodSelect);
         $(".search-group > .form-control").on("change keyup", function () {
             clearTimeout(typingTimeout);
-            typingTimeout = setTimeout(onFilterChange, 200);
+            typingTimeout = setTimeout(onFilterChange, 500);
         });
+
+        $("#search-by-name .form-control").val(GetURLParameter('name'));
+        $("#search-by-ingredient .form-control").val(GetURLParameter('ingredient'));
+        onFilterChange();
     });
 });
 
@@ -122,6 +128,17 @@ $(function () {
         $(this).toggleClass("disabled");
         onFilterChange();
     });
+
+    window.onpopstate = function(e) {
+        if (e.state === null) {
+            $("#search-by-name .form-control").val('');
+            $("#search-by-ingredient .form-control").val('');
+        } else {
+            $("#search-by-name .form-control").val(e.state.names);
+            $("#search-by-ingredient .form-control").val(e.state.ingredients);
+        }
+        onFilterChange();
+    };
 });
 
 $(function() {
@@ -189,13 +206,24 @@ function onFoodSelect() {
 }
 
 function onFilterChange() {
-    const nameFilters = $("#search-by-name .form-control").val().split(";")
+    const inputNames = $("#search-by-name .form-control").val();
+    const inputIngredients = $("#search-by-ingredient .form-control").val();
+    let newURL = location.pathname + "?p=cookbook";
+    newURL += (inputNames !== "") ? "&name=" + inputNames : '';
+    newURL += (inputIngredients !== "") ? "&ingredients=" + inputIngredients : '';
+
+    if (location.origin + newURL !== location.href) {
+        console.log(location.origin + newURL, location.href);
+        history.pushState({names: inputNames, ingredients: inputIngredients}, '', newURL);
+    }
+
+    const nameFilters = inputNames.split(";")
         .map(function (filter) {
             return filter.trim();
         }).filter(function (filter) {
             return filter !== "";
         });
-    const ingredientFilters = $("#search-by-ingredient .form-control").val().split(";")
+    const ingredientFilters = inputIngredients.split(";")
         .map(function (filter) {
             return filter.trim();
         }).filter(function (filter) {

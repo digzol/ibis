@@ -12,7 +12,7 @@ $(function () {
 /**
  * @return {string}
  */
-function GetURLParameter(sParam) {
+export function GetURLParameter(sParam) {
     const sPageURL = window.location.search.substring(1);
     const sURLVariables = sPageURL.split('&');
     for (let i = 0; i < sURLVariables.length; i++) {
