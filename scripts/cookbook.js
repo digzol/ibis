@@ -104,7 +104,8 @@ $(function () {
             const context = $(this).parent(".search-group");
             const filterValue = $("> .form-control", context).val().toLowerCase();
             $(".search-dropdown", this).show();
-            $(".search-dropdown > .form-control", this).focus();
+            if ( $('input:focus').length === 0)
+                $(".search-dropdown > .form-control", this).focus();
             $(".search-result-entry", this).each(function () {
                 const dataName = $(this).attr("data-name").toLowerCase();
                 $(this).toggleClass("selected", filterValue.includes(dataName));
