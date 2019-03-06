@@ -94,8 +94,10 @@ $(async function () {
             typingTimeout = setTimeout(onFilterChange, 500);
         });
 
-        $("#search-by-name .form-control").val(GetURLParameter('name'));
-        $("#search-by-ingredient .form-control").val(GetURLParameter('ingredient'));
+        if (GetURLParameter('name') !== undefined)
+            $("#search-by-name .form-control").val(decodeURI(GetURLParameter('name')));
+        if (GetURLParameter('ingredient') !== undefined)
+            $("#search-by-ingredient .form-control").val(decodeURI(GetURLParameter('ingredient')));
         onFilterChange();
     });
 });
