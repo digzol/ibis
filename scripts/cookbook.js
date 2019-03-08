@@ -145,8 +145,6 @@ function mapCookbook(cookbook, items, entries) {
                     index[id] = index[len - 1];
                 }
             });
-
-            ingredients.sort(sortByFEP);
         });
     });
 
@@ -156,6 +154,7 @@ function mapCookbook(cookbook, items, entries) {
 }
 
 function addRecipe(map, id, name, ingredients, fep, optional) {
+    fep.sort(sortByFEP);
     map.push({id: id, name: name, ingredients: ingredients, fep: fep, optional: optional});
 }
 
@@ -173,7 +172,6 @@ function addSpices(map, count, id, name, ingredients, fep) {
 
     // Dill
     // ...
-
     // Kvann (Switch first & last FEPs)
     _ingredients = ingredients.slice();
     _ingredients.push("kvann");
@@ -187,6 +185,7 @@ function addSpices(map, count, id, name, ingredients, fep) {
     // Laurel Leaves (Multiply last FEP by 1.625)
     _ingredients = ingredients.slice();
     _ingredients.push("leaf-laurel");
+    _fep = fep.slice();
     _fep[len - 1] = fep[len - 1].slice();
     _fep[len - 1][2] = Math.round(fep[len - 1][2] * 1.625 * 100) / 100;
     addRecipe(map, id, name, _ingredients, _fep, {"spices": count});
