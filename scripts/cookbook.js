@@ -16,7 +16,7 @@ let cookbook = {
 // Fills user data
 $(function() {
     const nameParam = Utils.GetURLParameter('name');
-    const ingredientParam = Utils.GetURLParameter('ingredient');
+    const ingredientParam = Utils.GetURLParameter('ingredients');
 
     // URL search params
     if (nameParam !== undefined)
