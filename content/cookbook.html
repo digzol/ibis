@@ -4,14 +4,14 @@
 <div id="search-panel" class="container panel mb-3">
     <div class="row">
         <div id="search-by-name" class="col input-group search-group">
-            <input type="text" class="form-control" placeholder="Filter by name">
+            <input type="text" class="search-input form-control" placeholder="Filter by name">
             <div class="search-container">
                 <i class="fas fa-search"></i>
                 <div class="search-dropdown rounded p-1" style="display:none;">
-                    <input type="text" class="form-control rounded" placeholder="Search">
+                    <input type="text" class="search-filter-input form-control rounded" placeholder="Search">
                     <div class="search-results d-flex">
                         <template class="template-search-entry">
-                            <div class="search-result-entry mr-1" data-name="{{name}}">
+                            <div class="search-result-entry mr-1" data-id="{{id}}">
                                 <div class="game-icon game-icon-1x1 icon-{{id}}" title="{{name}}"></div>
                             </div>
                         </template>
@@ -20,11 +20,11 @@
             </div>
         </div>
         <div id="search-by-ingredient" class="col input-group search-group">
-            <input type="text" class="form-control" placeholder="Filter by ingredient">
+            <input type="text" class="search-input form-control" placeholder="Filter by ingredient">
             <div class="search-container">
                 <i class="fas fa-search"></i>
                 <div class="search-dropdown rounded p-1" style="display:none;">
-                    <input type="text" class="form-control rounded" placeholder="Search">
+                    <input type="text" class="search-filter-input form-control rounded" placeholder="Search">
                     <div class="search-results d-flex flex-wrap"></div>
                 </div>
             </div>
