@@ -134,7 +134,7 @@ function mapCookbook(cookbook, items, entries) {
             // Inserting spices
             if ("spices" in oRecipeOptional) {
                 const iSpiceCount = oRecipeOptional.spices;
-                addSpices(map, iSpiceCount, id, name, ingredients, fep);
+                //addSpices(map, iSpiceCount, id, name, ingredients, fep);
             }
 
             // Indexing ingredients
