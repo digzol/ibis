@@ -6255,7 +6255,14 @@
     },
     {
       "id": "spices",
-      "name": "Spices"
+      "name": "Spices",
+      "describes": [
+        "pepper",
+        "chives",
+        "dill",
+        "kvann",
+        "leaf-laurel"
+      ]
     },
     {
       "id": "spicysalad",

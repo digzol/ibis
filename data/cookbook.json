@@ -63,7 +63,7 @@
     },
     {
       "id": "kebab",
-      "optional": {"spices": 3},
+      "optional": [["spices", 3]],
       "entries": [
         ["", ["meat-adder"], []],
         ["", ["meat-ant"], []],
@@ -384,7 +384,7 @@
     },
     {
       "id": "meat-roast-sizzling",
-      "optional": {"spices": 1},
+      "optional": [["spices", 3]],
       "entries": [
         ["roast-adder-sizzling", ["meat-adder"], [["WIL", 2, 1.25]]],
         ["roast-adder-sizzling", ["meat-adder", "pepper"], []],

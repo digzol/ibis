@@ -99,12 +99,12 @@ $(function() {
 });
 
 function mapItems(items, entries) {
-    const map = items.entries;
+    const itemMap = items.entries;
 
     entries.forEach(function(entry) {
         const id = entry.id;
-        const len = map.push(entry);
-        map[id] = map[len - 1];
+        const len = itemMap.push(entry);
+        itemMap[id] = itemMap[len - 1];
     });
 }
 
@@ -117,7 +117,7 @@ function mapCookbook(cookbook, items, entries) {
         const sRecipeId = recipe.id;
         const oRecipeItem = items[sRecipeId];
         const aRecipeEntries = recipe.entries;
-        const oRecipeOptional = recipe.optional || {};
+        const aOptionalIngredients = recipe.optional || [];
 
         table.push(oRecipeItem);
 
@@ -128,14 +128,7 @@ function mapCookbook(cookbook, items, entries) {
             const name = items[id].name;
             const ingredients = entry[1];
             const fep = entry[2];
-
-            addRecipe(map, id, name, ingredients, fep, {});
-
-            // Inserting spices
-            if ("spices" in oRecipeOptional) {
-                const iSpiceCount = oRecipeOptional.spices;
-                //addSpices(map, iSpiceCount, id, name, ingredients, fep);
-            }
+            const optional = {};
 
             // Indexing ingredients
             ingredients.forEach(function(id) {
@@ -144,7 +137,17 @@ function mapCookbook(cookbook, items, entries) {
                     const len = index.push(entry);
                     index[id] = index[len - 1];
                 }
+
+                aOptionalIngredients.forEach(function(optionalIngredient) {;
+                    const typeID = optionalIngredient[0];
+                    const set = items[typeID].describes;
+                    if (set.includes(id)) {
+                        optional[typeID] = optionalIngredient[1];
+                    }
+                })
             });
+
+            addRecipe(map, id, name, ingredients, fep, optional);
         });
     });
 
