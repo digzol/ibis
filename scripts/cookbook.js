@@ -140,7 +140,7 @@ function mapCookbook(cookbook, items, entries) {
 
                 aOptionalIngredients.forEach(function(optionalIngredient) {;
                     const typeID = optionalIngredient[0];
-                    const set = items[typeID].describes;
+                    const set = items[typeID]["describes"];
                     if (set.includes(id)) {
                         optional[typeID] = optionalIngredient[1];
                     }
