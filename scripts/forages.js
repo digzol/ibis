@@ -1,6 +1,9 @@
+import {getItemsData} from '../model/ItemCollection.js';
+
 $(function () {
-    $.getJSON("./data/items.json", function (json) {
-        const forages = json.entries.filter(isForageable).sort(sortForageable);
+    getItemsData().then(data => {
+        const items = data.getEntries();
+        const forages = items.filter(isForageable).sort(sortForageable);
         const template = $("#template-forage-entry").html();
 
         forages.forEach(function (forage) {

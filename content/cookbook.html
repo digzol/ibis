@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="./styles/game-icons.css">
+<link rel="stylesheet" type="text/css" href="./styles/sprites.css">
 <link rel="stylesheet" type="text/css" href="./styles/cookbook.css">
 <script type="module" src="./scripts/cookbook.js"></script>
 <div id="search-panel" class="container panel mb-3">
@@ -12,7 +12,8 @@
                     <div class="search-results d-flex">
                         <template class="template-search-entry">
                             <div class="search-result-entry mr-1" data-id="{{id}}">
-                                <div class="game-icon game-icon-1x1 icon-{{id}}" title="{{name}}"></div>
+                                <div class="game-icon game-icon-1x1"
+                                     style="background-position:{{icon}}" title="{{name}}"></div>
                             </div>
                         </template>
                     </div>
@@ -38,7 +39,8 @@
         </div>
         <div class="col col-auto">
             <div class="d-flex panel">
-                <div data-value="spices" class="btn game-icon game-icon-1x1 icon-spices"></div>
+                <div data-value="spices" class="btn game-icon game-icon-1x1 m-1"
+                     style="background-position:var(--icon-spices)"></div>
             </div>
         </div>
     </div>
@@ -48,7 +50,8 @@
     <template id="template-mod-entry">
         <div class="card mx-4 my-2">
             <span class="card-title mt-2 d-stack">
-                <span class="game-icon game-icon-1x1 icon-{{id}} d-inline-block align-middle"></span>
+                <span class="game-icon game-icon-1x1 d-inline-block align-middle"
+                      style="background-position:{{icon}}"></span>
                 <span class="align-middle text-center">{{name}}</span>
             </span>
             <span class="small-faded-text">Ingredients</span>
@@ -58,7 +61,8 @@
         </div>
     </template>
     <template id="template-ingredient">
-        <div class="game-icon game-icon-1x1 icon-{{id}} my-2" title="{{name}}"></div>
+        <div class="game-icon game-icon-1x1 my-2" title="{{name}}" style="background-position:{{icon}}">
+        </div>
     </template>
     <template id="template-fep">
         <div class="fep fep-{{type}} d-stack rounded">

@@ -1,5 +1,5 @@
-<link rel="stylesheet" type="text/css" href="./styles/game-icons.css">
-<script src="./scripts/forages.js"></script>
+<link rel="stylesheet" type="text/css" href="./styles/sprites.css">
+<script type="module" src="./scripts/forages.js"></script>
 <div class="d-flex justify-content-center">
     <div class="forage-form d-flex flex-column">
         <div class="d-flex align-items-center">
@@ -24,7 +24,7 @@
     <template id="template-forage-entry">
         <div class="card mx-4 my-2" detection="{{detection}}">
             <a href="http://ringofbrodgar.com/wiki/{{name}}" class="card-title text-reset mt-2">{{name}}</a>
-            <div class="game-icon game-icon-2x2 icon-{{id}} my-2"></div>
+            <div class="game-icon game-icon-1x1 my-2" style="background-position:var(--icon-{{id}})"></div>
             <div class="w-100 px-2 mb-2">
                 <div class="mb-1 d-flex justify-content-between">
                     <div>{{detection-min}}</div>

@@ -1,10 +1,17 @@
 .game-icon {
-    width: 70px;
-    height: 70px;
+    background-image: url(../gfx/sprites.png), url(../gfx/sprites.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-origin: border-box;
-    position: relative;
+    display: block;
+}
+
+.game-icon-1x1 {
+    width: 32px;
+    height: 32px;
+}
+
+.game-icon-2x2 {
+    width: 65px;
+    height: 65px;
 }
 
 .game-icon.disabled {
