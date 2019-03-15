@@ -21,7 +21,7 @@ def download(gfx_path):
 
 
 def generate_sprite_map():
-    json_path = os.path.abspath(os.path.join(__file__, "../../../", "data/items.json"))
+    json_path = os.path.abspath(os.path.join(__file__, "../../../", "model/items.json"))
     json_file = open(json_path)
     items = json.load(json_file)
 
