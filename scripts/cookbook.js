@@ -13,11 +13,11 @@ $(function() {
 
     // URL search params
     if (nameParam !== undefined) {
-        const val = decodeURI(nameParam).replace(/\(\)/g, ';');
+        const val = decodeURIComponent(nameParam);
         $("#search-by-name .search-input").val(val);
     }
     if (ingredientParam !== undefined) {
-        const val = decodeURI(ingredientParam).replace(/\(\)/g, ';');
+        const val = decodeURIComponent(ingredientParam);
         $("#search-by-ingredient .search-input").val(val);
     }
 
@@ -150,8 +150,8 @@ function onSearchFilterClick() {
 }
 
 function onFilterChange() {
-    const inputNames = $("#search-by-name .form-control").val().replace(/;/g, '()');
-    const inputIngredients = $("#search-by-ingredient .form-control").val().replace(/;/g, '()');
+    const inputNames = encodeURIComponent($("#search-by-name .form-control").val())
+    const inputIngredients = encodeURIComponent($("#search-by-ingredient .form-control").val())
 
     let newURL = location.pathname + "?p=cookbook";
     newURL += (inputNames !== "") ? "&name=" + inputNames : '';
