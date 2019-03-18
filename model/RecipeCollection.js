@@ -61,6 +61,10 @@ function parseData(holder, data) {
             // Indexing ingredients
             ingredients.forEach(function(id) {
                 const entry = items[id];
+                if (entry === undefined) {
+                    console.log("Unknown Item ID:", id);
+                }
+
                 if (!(id in index)){
                     const len = index.push(entry);
                     index[id] = index[len - 1];

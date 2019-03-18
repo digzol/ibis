@@ -981,6 +981,11 @@
       "name": "Bronze Sword"
     },
     {
+      "id": "bucket",
+      "gfx": "bucket",
+      "name": "Bucket"
+    },
+    {
       "id": "bucket-ashes",
       "gfx": "bucket-ashes",
       "name": "Bucket"
@@ -1003,11 +1008,6 @@
     {
       "id": "bucket-beer",
       "gfx": "bucket-beer",
-      "name": "Bucket"
-    },
-    {
-      "id": "bucket",
-      "gfx": "bucket",
       "name": "Bucket"
     },
     {
@@ -1078,6 +1078,16 @@
     {
       "id": "bucket-milk",
       "gfx": "bucket-milk",
+      "name": "Bucket"
+    },
+    {
+      "id": "bucket-millet",
+      "gfx": "bucket-millet",
+      "name": "Bucket"
+    },
+    {
+      "id": "bucket-milletflour",
+      "gfx": "bucket-milletflour",
       "name": "Bucket"
     },
     {
@@ -2618,24 +2628,29 @@
       "name": "Flipper Bones"
     },
     {
-      "id": "flour-barleyflour",
-      "gfx": "flour-barleyflour",
-      "name": "Barley Flour"
-    },
-    {
       "id": "flour",
       "gfx": "flour",
       "name": "Flour"
     },
     {
-      "id": "flourseeds",
-      "gfx": "flourseeds",
-      "name": "Millable Seed"
+      "id": "flour-barleyflour",
+      "gfx": "flour-barleyflour",
+      "name": "Barley Flour"
+    },
+    {
+      "id": "flour-milletflour",
+      "gfx": "flour-milletflour",
+      "name": "Millet Flour"
     },
     {
       "id": "flour-wheatflour",
       "gfx": "flour-wheatflour",
       "name": "Wheat Flour"
+    },
+    {
+      "id": "flourseeds",
+      "gfx": "flourseeds",
+      "name": "Millable Seed"
     },
     {
       "id": "flower",
@@ -7057,6 +7072,11 @@
       "name": "Bronze Sword"
     },
     {
+      "id": "small-bucket",
+      "gfx": "small/bucket",
+      "name": "Bucket"
+    },
+    {
       "id": "small-bucket-barley",
       "gfx": "small/bucket-barley",
       "name": "Bucket"
@@ -7069,11 +7089,6 @@
     {
       "id": "small-bucket-beer",
       "gfx": "small/bucket-beer",
-      "name": "Bucket"
-    },
-    {
-      "id": "small-bucket",
-      "gfx": "small/bucket",
       "name": "Bucket"
     },
     {
@@ -7124,6 +7139,16 @@
     {
       "id": "small-bucket-milk",
       "gfx": "small/bucket-milk",
+      "name": "Bucket"
+    },
+    {
+      "id": "small-bucket-millet",
+      "gfx": "small/bucket-millet",
+      "name": "Bucket"
+    },
+    {
+      "id": "small-bucket-milletflour",
+      "gfx": "small/bucket-milletflour",
       "name": "Bucket"
     },
     {
@@ -10675,6 +10700,16 @@
       "id": "goldcloth",
       "gfx": "goldcloth",
       "name": "Golden Cloth"
+    },
+    {
+      "id": "herbs-truffle-black",
+      "gfx": "herbs/truffle-black",
+      "name": "Black Truffles"
+    },
+    {
+      "id": "herbs-truffle-white",
+      "gfx": "herbs/truffle-white",
+      "name": "White Truffles"
     }
   ]
 }
