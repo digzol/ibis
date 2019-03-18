@@ -208,11 +208,8 @@ function displaySearchResults() {
         return filteredName & filteredIngredient;
     });
 
-    if (results.length === 0) {
-        return $("#result-recipes").html("No results found.");
-    } else {
-        $("#result-recipes").html("");
-    }
+    $("#info-results-count").html(results.length.toString());
+    $("#result-recipes").html("");
 
     results.forEach(function (recipe) {
         const ingredients = recipe.ingredients;
