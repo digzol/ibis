@@ -96,8 +96,13 @@ $(function() {
     };
 
     $(window).scroll(function() {
+        if ($(window).scrollTop() > 20) {
+            $(".scroll-top").fadeIn(200);
+        } else {
+            $(".scroll-top").fadeOut(200);
+        }
         if ($(window).scrollTop() > $(window).height() - window.outerHeight - 100) {
-            displayMore()
+            displayMore();
         }
     });
 });
@@ -231,7 +236,6 @@ function displayMore() {
 }
 
 function displayResults(start, end) {
-    console.log(start, end);
     const searchResultBlock = searchResults.slice(start, end);
     searchResultBlock.forEach(function (recipe) {
         const ingredients = recipe.ingredients;

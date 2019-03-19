@@ -8,5 +8,9 @@ $(function () {
         if (status === "error") {
             $("#app-content").load('./README.md');
         }
+
+        $(".scroll-top").click(function() {
+            $(window).scrollTop(0);
+        });
     });
 });

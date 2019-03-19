@@ -23,6 +23,7 @@
         <ul>
             <li>Added a load more feature.</li>
             <li>Added number of recipes found from search.</li>
+            <li>Added a scroll to top button.</li>
         </ul>
     </li>
     <li>
