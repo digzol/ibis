@@ -6,6 +6,10 @@ import {getCookbookData} from '../model/RecipeCollection.js';
 let items;
 let cookbook;
 
+let searchResults;
+const RESULT_BLOCK_SIZE = 40;
+
+
 // Fills user data
 $(function() {
     const nameParam = Utils.GetURLParameter('name');
@@ -90,6 +94,12 @@ $(function() {
 
         displaySearchResults();
     };
+
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > $(window).height() - window.outerHeight - 100) {
+            displayMore()
+        }
+    });
 });
 
 function populateSearches() {
@@ -187,7 +197,7 @@ function displaySearchResults() {
         $("#food-info").show();
     }
 
-    const results = cookbook.getEntries().filter(function (recipe) {
+    searchResults = cookbook.getEntries().filter(function (recipe) {
         if ('spices' in recipe.getOpIngredients() && !(localStorage.getItem("toggle-spices") === "true")) return;
 
         const ingredients = recipe.ingredients;
@@ -208,10 +218,22 @@ function displaySearchResults() {
         return filteredName & filteredIngredient;
     });
 
-    $("#info-results-count").html(results.length.toString());
+    $("#info-results-count").html(searchResults.length.toString());
     $("#result-recipes").html("");
 
-    results.forEach(function (recipe) {
+    displayResults(0, RESULT_BLOCK_SIZE);
+}
+
+function displayMore() {
+    const start = $("#result-recipes .card").length;
+
+    displayResults(start, start + RESULT_BLOCK_SIZE);
+}
+
+function displayResults(start, end) {
+    console.log(start, end);
+    const searchResultBlock = searchResults.slice(start, end);
+    searchResultBlock.forEach(function (recipe) {
         const ingredients = recipe.ingredients;
         let fep = recipe.fep;
         let totalFEP = 0;

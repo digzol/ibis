@@ -19,6 +19,13 @@
 
 <ul>
     <li>
+        <span>19-Mar-2019</span>
+        <ul>
+            <li>Added a load more feature.</li>
+            <li>Added number of recipes found from search.</li>
+        </ul>
+    </li>
+    <li>
         <span>05-Mar-2019</span>
         <ul>
             <li>Cookbook search now changes page to allow page linking.</li>
