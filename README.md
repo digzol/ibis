@@ -28,7 +28,7 @@
     <li>
         <span>05-Mar-2019</span>
         <ul>
-            <li>Cookbook search now changes page to allow page linking.</li>
+            <li>Cookbook search now changes url to allow page linking.</li>
             <li>Fixed an issue where search fields would be deselected when hovering on the droplist.</li>
         </ul>
     </li>
