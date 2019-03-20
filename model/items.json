@@ -10710,6 +10710,17 @@
       "id": "herbs-truffle-white",
       "gfx": "herbs/truffle-white",
       "name": "White Truffles"
+    },
+    {
+      "id": "herbs-razorclams",
+      "gfx": "herbs/razorclams",
+      "name": "Razor Clam",
+      "detection": 600
+    },
+    {
+      "id": "herbs-razorclams-b",
+      "gfx": "herbs/razorclams-b",
+      "name": "Boiled Razor Clam"
     }
   ]
 }
