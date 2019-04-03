@@ -1,7 +1,7 @@
 .game-icon {
     background-image: url(../gfx/sprites.png), url(../gfx/sprites.png);
     background-repeat: no-repeat;
-    display: block;
+    display: inline-block;
 }
 
 .game-icon-1x1 {
@@ -114,4 +114,23 @@ input[type=number]::-webkit-inner-spin-button {
     -ms-flex: 1 1 auto;
     -ms-flex-align: center;
     -ms-flex-direction: column;
+}
+
+.btn-primary {
+    background-color: #e0a72d;
+    border-color: #e0a72d;
+}
+
+.btn-primary:hover {
+    background-color: #b7851b;
+    border-color: #b7851b;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #c8921e;
+    border-color: #c8921e;
+}
+
+.text-primary {
+    color: #e0a72d !important;
 }
