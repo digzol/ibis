@@ -1,0 +1,136 @@
+.game-icon {
+    background-image: url(../images/sprites.png), url(../images/sprites.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.game-icon-1x1 {
+    width: 32px;
+    height: 32px;
+}
+
+.game-icon-2x2 {
+    width: 65px;
+    height: 65px;
+}
+
+.game-icon.disabled {
+    filter: grayscale(100%);
+}
+
+.small-game-icon {
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#app-menu {
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+#app-menu a {
+    padding: 0 10px;
+}
+
+#app-footer span {
+    margin: 0 auto 10px auto;
+    font-size: 0.75em;
+}
+
+.scroll-top {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 99;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 0.5em;
+    background-color: #00000022;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.scroll-top:before {
+    content: "\f062";
+}
+
+.scroll-top:hover {
+    background-color: #00000033;
+}
+
+.small-faded-text {
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.large-text {
+    font-size: 2em;
+}
+
+.extra-large-text {
+    font-size: 4em;
+}
+
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    -ms-flex-align: center;
+}
+
+.card {
+    border: 1px solid;
+    width: 200px;
+    font-size: 0.8em;
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    flex-direction: column;
+    display: -ms-flexbox;
+    -ms-flex: 1 1 auto;
+    -ms-flex-align: center;
+    -ms-flex-direction: column;
+}
+
+.card-title {
+    font-size: 1.2em;
+}
+
+.d-stack {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    flex-direction: column;
+    display: -ms-flexbox;
+    -ms-flex: 1 1 auto;
+    -ms-flex-align: center;
+    -ms-flex-direction: column;
+}
+
+.btn-primary {
+    background-color: #e0a72d;
+    border-color: #e0a72d;
+}
+
+.btn-primary:hover {
+    background-color: #b7851b;
+    border-color: #b7851b;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #c8921e;
+    border-color: #c8921e;
+}
+
+.text-primary {
+    color: #e0a72d !important;
+}
