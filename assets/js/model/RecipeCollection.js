@@ -5,7 +5,7 @@ let items;
 
 class RecipeCollection {
     constructor() {
-        this.source = '/assets/json/cookbook.json';
+        this.source = 'ibis/assets/json/cookbook.json';
         this._entries = [];
         this._recipeTable = [];
         this._ingredientIndex = [];

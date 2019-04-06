@@ -2,7 +2,7 @@ import {Item} from './Item.js';
 
 class ItemCollection {
     constructor() {
-        this.source = '/assets/json/items.json';
+        this.source = '/ibis/assets/json/items.json';
         this._entries = [];
 
         this.ready = this.init();
