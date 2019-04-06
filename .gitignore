@@ -1,6 +1,6 @@
 .idea/
 
-/genSpriteMap/input/*
+*/genSpriteMap/input/*
 
 _site
 .sass-cache

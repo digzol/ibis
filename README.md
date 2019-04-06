@@ -11,8 +11,8 @@
 <h2>Tools</h2>
 
 <ul>
-    <li><a href="https://digzol.github.io/ibis/?p=forages">Forages</a> - Measure forage detection based on perception and exploration stats.</li>
-    <li><a href="https://digzol.github.io/ibis/?p=cookbook">Cookbook</a> - Explore the various food recipes and their bonus variation based on ingredients.</li>
+    <li><a href="{{ "forages" | absolute_url }}">Forages</a> - Measure forage detection based on perception and exploration stats.</li>
+    <li><a href="{{ "cookbook" | absolute_url }}">Cookbook</a> - Explore the various food recipes and their bonus variation based on ingredients.</li>
 </ul>
 
 <h2>Changelog</h2>

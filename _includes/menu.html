@@ -1,8 +1,9 @@
 <div id="app-menu">
     <div class="container">
-        <a href="/"><img id="app-logo" src="{{ "logo.svg" | relative_url }}"/></a>
+        <a href="{{ "/" | relative_url }}"><img id="app-logo" src="{{ "logo.svg" | relative_url }}"/></a>
         {% for item in site.data.menu %}
-            <a href="{{ item.link }}" {% if page.url contains item.link %}class="active"{% endif %}>{{ item.name }}</a>
+            <span>|</span>
+            <a href="{{ item.link | relative_url }}" {% if page.url contains item.link %}class="active"{% endif %}>{{ item.name }}</a>
         {% endfor %}
     </div>
 </div>
