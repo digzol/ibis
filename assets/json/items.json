@@ -493,7 +493,7 @@
     {
       "id": "beethatstung",
       "gfx": "beethatstung",
-      "name": "The Bee that Stung"
+      "name": "A Bee That Stung"
     },
     {
       "id": "beetleaves",
@@ -10721,6 +10721,81 @@
       "id": "herbs-razorclams-b",
       "gfx": "herbs/razorclams-b",
       "name": "Boiled Razor Clam"
+    },
+    {
+      "id": "batclaw",
+      "gfx": "batclaw",
+      "name": "Bat Claw"
+    },
+    {
+      "id": "batfang",
+      "gfx": "batfang",
+      "name": "Bat Fang"
+    },
+    {
+      "id": "billygoathorn",
+      "gfx": "billygoathorn",
+      "name": "Billygoat Horn"
+    },
+    {
+      "id": "curiousneedle",
+      "gfx": "curiousneedle",
+      "name": "Curious Needle"
+    },
+    {
+      "id": "eagleowleye",
+      "gfx": "eagleowleye",
+      "name": "Eagle Owl Eye"
+    },
+    {
+      "id": "feather-eaglepwl",
+      "gfx": "feather-eagleowl",
+      "name": "Eagle Owl Feather"
+    },
+    {
+      "id": "feathersunfeather",
+      "gfx": "feathersunfeather",
+      "name": "Feather Sunfeather"
+    },
+    {
+      "id": "small-lovedart",
+      "gfx": "small/lovedart",
+      "name": "Horrid Love Dart"
+    },
+    {
+      "id": "scarabtalisman",
+      "gfx": "scarabtalisman",
+      "name": "Scarab Talisman"
+    },
+    {
+      "id": "seahorse",
+      "gfx": "seahorse",
+      "name": "Seahorse"
+    },
+    {
+      "id": "spiredforestconch",
+      "gfx": "spiredforestconch",
+      "name": "Spired Forest Conch"
+    },
+    {
+      "id": "small-yulewreath",
+      "gfx": "small/yulewreath",
+      "name": "Yule Wreath"
+    },
+    {
+      "id": "wolfclaw",
+      "gfx": "wolfclaw",
+      "name": "Wolf Claw"
+    },
+    {
+      "id": "beetweird",
+      "gfx": "beetweird",
+      "name": "Weird Beet"
+    },
+    {
+      "id": "small-queenantwings",
+      "gfx": "small/queenantwings",
+      "name": "Ant Queen's Wings"
     }
   ]
 }
