@@ -8,12 +8,14 @@ from PIL import Image
 ICON_SIZE = 32
 ICON_PADDING = 1
 
+DIR = os.path.dirname(__file__)
+
 
 def download(gfx_path):
     filename = gfx_path.replace('/', '-')
-    t_path = './input/' + filename + '.png'
+    t_path = os.path.join(DIR, 'input', filename + '.png')
 
-    print("Downloading gfx file '" + t_path + "'")
+    print("Downloading to '" + t_path + "'")
 
     r = requests.get('http://www.havenandhearth.com/mt/r/gfx/invobjs/' + gfx_path)
     if r.status_code == 200:
@@ -21,7 +23,7 @@ def download(gfx_path):
 
 
 def generate_sprite_map():
-    json_path = os.path.abspath(os.path.join(__file__, "../../../", "model/items.json"))
+    json_path = os.path.abspath(os.path.join(DIR, "../../", "assets/json/items.json"))
     json_file = open(json_path)
     items = json.load(json_file)
 
@@ -33,7 +35,7 @@ def generate_sprite_map():
             continue
 
         filename = item['gfx'].replace('/', '-')
-        file_path = './input/' + filename + '.png'
+        file_path = os.path.join(DIR, 'input', filename + '.png')
 
         if not os.path.isfile(file_path):
             download(item['gfx'])
@@ -65,11 +67,8 @@ def generate_sprite_map():
 
     map_css += "}"
 
-    map_img.save('sprites.png')
-    open('sprites.css', 'wb').write(bytearray(map_css, 'UTF-8'))
-
-    map_img_export_path = os.path.abspath(os.path.join(__file__, "../../../", "gfx/", "sprites.png"))
-    map_css_export_path = os.path.abspath(os.path.join(__file__, "../../../", "styles/", "sprites.css"))
+    map_img_export_path = os.path.abspath(os.path.join(DIR, "../../", "assets/images/", "sprites.png"))
+    map_css_export_path = os.path.abspath(os.path.join(DIR, "../../", "assets/css/", "sprites.css"))
 
     map_img.save(map_img_export_path)
     open(map_css_export_path, 'wb').write(bytearray(map_css, 'UTF-8'))
