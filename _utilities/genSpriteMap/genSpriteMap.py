@@ -56,7 +56,7 @@ def generate_sprite_map():
     map_w = cols * (ICON_SIZE + ICON_PADDING) - ICON_PADDING
     map_h = rows * (ICON_SIZE + ICON_PADDING) - ICON_PADDING
     map_img = Image.new('RGBA', (map_w, map_h))
-    map_css = ".game-icon {\n"
+    map_css = ".game-icon {"
 
     for i in range(len(sprites)):
         sprite = sprites[i]
@@ -65,7 +65,7 @@ def generate_sprite_map():
         pos_x = i % cols * (ICON_SIZE + ICON_PADDING)
         pos_y = math.floor(i / (cols)) * (ICON_SIZE + ICON_PADDING)
         map_img.paste(img, (pos_x, pos_y))
-        map_css += "\t--icon-" + sprite_id + ": " + str(pos_x * -1) + "px " + str(pos_y * -1) + "px;\n"
+        map_css += "--icon-" + sprite_id + ":" + str(pos_x * -1) + "px " + str(pos_y * -1) + "px;"
 
     map_css += "}"
 
