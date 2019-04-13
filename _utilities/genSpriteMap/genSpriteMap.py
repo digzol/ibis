@@ -27,7 +27,9 @@ def generate_sprite_map():
     json_file = open(json_path)
     items = json.load(json_file)
 
-    sprites = ['base.png']
+    items["entries"].sort(key = lambda x: x["id"])
+
+    sprites = [os.path.join(DIR, 'base.png')]
     sprites_id = ['missing']
 
     for item in items["entries"]:
@@ -75,3 +77,4 @@ def generate_sprite_map():
 
 
 generate_sprite_map()
+print("Sprites compiled successfully.")
