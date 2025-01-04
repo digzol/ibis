@@ -1,0 +1,30 @@
+---
+layout: default
+title: Spritesheet
+---
+<script type="module" src="{{ "/assets/js/spritesheet.js" | relative_url }}"></script>
+
+<style>
+    #spritesheet-canvas, #spritesheet-output-css {
+        background-color: #434545;
+        border: 1px solid #171818;
+        border-radius: .25rem;
+        padding: 10px;
+    }
+
+    #spritesheet-output-css {
+        width: 100%;
+        height: 100%;
+        color: #f8f1e5;
+        font-size: 0.75em;
+    }
+</style>
+
+<div class="row">
+    <div class="col">
+        <canvas id="spritesheet-canvas"></canvas>
+    </div>
+    <div class="col">
+        <textarea id="spritesheet-output-css" readonly></textarea>
+    </div>
+</div>

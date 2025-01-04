@@ -19,6 +19,16 @@
 
 <ul>
     <li>
+        <span>03-Jan-2025</span>
+        <ul>
+            <li>Added missing forages and updated detection values.</li>
+            <li>Added comma as thousands separator.</li>
+            <li>Added a sprites generator page.</li>
+            <li>Cookbook to be unavailable until dataset is updated.</li>
+            <li>Fixed wiki links not being secure.</li>
+        </ul>
+    </li>
+    <li>
         <span>19-Mar-2019</span>
         <ul>
             <li>Added a load more feature.</li>

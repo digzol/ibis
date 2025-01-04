@@ -1,38 +1,19 @@
 export class Item {
-    constructor(options) {
-        this.id = options.id;
-        this.name = options.name;
+    constructor(id, name, gfx, icons) {
+        this.id = id;
+        this.name = name;
+        this.gfx = gfx || id.replace("herbs-", "herbs/");
+        this.icons = icons;
 
-        if (options.parent !== undefined)
-            this.parent = options.parent;
-
-        if (options.detection !== undefined)
-            this.detection = options.detection;
-
-        if (options.describes !== undefined)
-            this.describes = options.describes;
-
-        if (options.icons !== undefined)
-            this.icons = options.icons;
-
-        this.getName = this._getName;
-        this.getIcon = this._getIcon;
+        this.iconString = this._getIconString();
     }
 
-    _getName() {
-        return this.name;
-    }
-
-    _getIcon() {
-        const format = "var(--icon-%)";
-
+    _getIconString() {
         if (this.icons === undefined) {
-            return format.replace('%', this.id);
+            this.iconString = `var(--icon-${this.id})`;
         } else {
-            const icons = this.icons.map((icon) => {
-                return format.replace('%', icon);
-            });
-            return icons.join(', ');
+            this.iconString = this.icons.map((icon) => `var(--icon-${icon})`).join(', ');
         }
+        return this.iconString;
     }
 }
