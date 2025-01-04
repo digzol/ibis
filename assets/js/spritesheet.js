@@ -45,7 +45,7 @@ $(function() {
       drawIcon(img, index + 1);
     }
     img.onerror = function() {
-      console.log(`Couldn't load icon at ${img.src}`);
+      console.log(`Couldn't load icon from ${img.src}`);
       drawIcon(defaultIcon, index + 1);
     }
 
