@@ -11,7 +11,7 @@ $(function() {
   const ctx = canvas[0].getContext("2d");
 
   const drawnItems = [];
-  let outputString = ".game-icon {\n";
+  let outputString = `.game-icon-1x1 { background-position: ${ICON_PADDING * -1}px ${ICON_PADDING * -1}px; }\n`;
 
   // Check items to draw
   for (let key in Items) {
@@ -52,7 +52,6 @@ $(function() {
     appendString(item.id, index + 1);
   });
 
-  outputString += "}";
   outputDiv.html(outputString);
 
   function drawIcon(img, index) {
@@ -62,7 +61,7 @@ $(function() {
 
   function appendString(id, index) {
     const pos = GetPos(index)
-    outputString += `  --icon-${id}: ${pos.x * -1}px ${pos.y * -1}px;\n`;
+    outputString += `.game-icon-1x1.icon-${id} { background-position: ${pos.x * -1}px ${pos.y * -1}px; }\n`;
   }
 
   function GetPos(index) {

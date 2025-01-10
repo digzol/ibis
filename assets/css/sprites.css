@@ -1,172 +1,171 @@
-.game-icon {
-    --icon-missing: -2px -2px;
-    --icon-herbs-baybolete: -36px -2px;
-    --icon-herbs-blacktrumpet: -70px -2px;
-    --icon-herbs-bladderwrack: -104px -2px;
-    --icon-herbs-bloatedbolete: -138px -2px;
-    --icon-herbs-bloodstern: -172px -2px;
-    --icon-herbs-blueberry: -206px -2px;
-    --icon-herbs-camomile: -240px -2px;
-    --icon-herbs-candleberry: -274px -2px;
-    --icon-herbs-cattailfibre: -308px -2px;
-    --icon-herbs-cattailhead: -342px -2px;
-    --icon-herbs-cattailroots: -376px -2px;
-    --icon-herbs-cavebulb: -410px -2px;
-    --icon-herbs-cavecoral: -444px -2px;
-    --icon-herbs-cavelantern: -478px -2px;
-    --icon-herbs-chantrelle: -2px -36px;
-    --icon-herbs-chimingbluebell: -36px -36px;
-    --icon-herbs-chives: -70px -36px;
-    --icon-herbs-clover: -104px -36px;
-    --icon-herbs-commonstarfish: -138px -36px;
-    --icon-herbs-dandelion: -172px -36px;
-    --icon-herbs-dill: -206px -36px;
-    --icon-herbs-edelweiss: -240px -36px;
-    --icon-herbs-flotsam: -274px -36px;
-    --icon-herbs-fourleafclover: -308px -36px;
-    --icon-herbs-frogscrown: -342px -36px;
-    --icon-herbs-frogspawn: -376px -36px;
-    --icon-herbs-giantpuffball: -410px -36px;
-    --icon-herbs-glimmermoss: -444px -36px;
-    --icon-herbs-goosebarnacle: -478px -36px;
-    --icon-herbs-greenkelp: -2px -70px;
-    --icon-herbs-kvann: -36px -70px;
-    --icon-herbs-ladysmantledew: -70px -70px;
-    --icon-herbs-ladysmantle: -104px -70px;
-    --icon-herbs-lampstalk: -138px -70px;
-    --icon-herbs-lingon: -172px -70px;
-    --icon-herbs-lorchel: -206px -70px;
-    --icon-herbs-mandrake: -240px -70px;
-    --icon-herbs-mistletoe: -274px -70px;
-    --icon-herbs-mussels: -308px -70px;
-    --icon-herbs-parasolshroom: -342px -70px;
-    --icon-herbs-royaltoadstool: -376px -70px;
-    --icon-herbs-rustroot: -410px -70px;
-    --icon-herbs-seashell: -444px -70px;
-    --icon-herbs-snapdragon: -478px -70px;
-    --icon-herbs-spindlytaproot: -2px -104px;
-    --icon-herbs-stalagoom: -36px -104px;
-    --icon-herbs-stingingnettle: -70px -104px;
-    --icon-herbs-strawberry: -104px -104px;
-    --icon-herbs-tangledbramble: -138px -104px;
-    --icon-herbs-thornythistle: -172px -104px;
-    --icon-herbs-vrakgods: -206px -104px;
-    --icon-herbs-waybroad: -240px -104px;
-    --icon-herbs-windweed: -274px -104px;
-    --icon-herbs-yarrow: -308px -104px;
-    --icon-herbs-yellowfoot: -342px -104px;
-    --icon-lorcheldried: -376px -104px;
-    --icon-fairyshroom: -410px -104px;
-    --icon-herbs-fieldblewit: -444px -104px;
-    --icon-herbs-libertycap: -478px -104px;
-    --icon-herbs-marshmallow: -2px -138px;
-    --icon-lorchelwet: -36px -138px;
-    --icon-trollshrooms: -70px -138px;
-    --icon-herbs-truffle-black: -104px -138px;
-    --icon-herbs-truffle-white: -138px -138px;
-    --icon-herbs-wintergreen: -172px -138px;
-    --icon-brownkelp: -206px -138px;
-    --icon-herbs-coltsfoot: -240px -138px;
-    --icon-dovepoop: -274px -138px;
-    --icon-herbs-duskfern: -308px -138px;
-    --icon-herbs-ghostapple: -342px -138px;
-    --icon-herbs-heartsease: -376px -138px;
-    --icon-herbs-indigocap: -410px -138px;
-    --icon-herbs-lupine: -444px -138px;
-    --icon-herbs-oystermushroom: -478px -138px;
-    --icon-herbs-perfectautumnleaf: -2px -172px;
-    --icon-champignon-small: -36px -172px;
-    --icon-champignon-medium: -70px -172px;
-    --icon-champignon-large: -104px -172px;
-    --icon-reeds: -138px -172px;
-    --icon-standinggrass: -172px -172px;
-    --icon-herbs-rubybolete: -206px -172px;
-    --icon-herbs-salvia: -240px -172px;
-    --icon-herbs-seasponge: -274px -172px;
-    --icon-conchshard: -308px -172px;
-    --icon-herbs-thyme: -342px -172px;
-    --icon-herbs-toadflax: -376px -172px;
-    --icon-herbs-tansy: -410px -172px;
-    --icon-swamplilyshred: -444px -172px;
-    --icon-herbs-razorclams: -478px -172px;
-    --icon-roundclam: -2px -206px;
-    --icon-herbs-oyster: -36px -206px;
-    --icon-herbs-whalebarnacle: -70px -206px;
-    --icon-herbs-sleighbell: -104px -206px;
-    --icon-herbs-snowtop: -138px -206px;
-    --icon-herbs-rabbitfrost: -172px -206px;
-    --icon-herbs-precioussnowflake: -206px -206px;
-    --icon-herbs-ambergris: -240px -206px;
-    --icon-clay-gray: -274px -206px;
-    --icon-clay-cave: -308px -206px;
-    --icon-brick-coade: -342px -206px;
-    --icon-alabaster: -376px -206px;
-    --icon-apatite: -410px -206px;
-    --icon-arkose: -444px -206px;
-    --icon-basalt: -478px -206px;
-    --icon-batrock: -2px -240px;
-    --icon-blackcoal: -36px -240px;
-    --icon-magnetite: -70px -240px;
-    --icon-hematite: -104px -240px;
-    --icon-breccia: -138px -240px;
-    --icon-cassiterite: -172px -240px;
-    --icon-catgold: -206px -240px;
-    --icon-chalcopyrite: -240px -240px;
-    --icon-chert: -274px -240px;
-    --icon-cinnabar: -308px -240px;
-    --icon-diabase: -342px -240px;
-    --icon-diorite: -376px -240px;
-    --icon-petzite: -410px -240px;
-    --icon-dolomite: -444px -240px;
-    --icon-dross: -478px -240px;
-    --icon-eclogite: -2px -274px;
-    --icon-feldspar: -36px -274px;
-    --icon-flint: -70px -274px;
-    --icon-fluorospar: -104px -274px;
-    --icon-gabbro: -138px -274px;
-    --icon-galena: -172px -274px;
-    --icon-gneiss: -206px -274px;
-    --icon-granite: -240px -274px;
-    --icon-graywacke: -274px -274px;
-    --icon-greenschist: -308px -274px;
-    --icon-ilmenite: -342px -274px;
-    --icon-hornblende: -376px -274px;
-    --icon-hornsilver: -410px -274px;
-    --icon-limonite: -444px -274px;
-    --icon-jasper: -478px -274px;
-    --icon-corund: -2px -308px;
-    --icon-kyanite: -36px -308px;
-    --icon-lavarock: -70px -308px;
-    --icon-leadglance: -104px -308px;
-    --icon-nagyagite: -138px -308px;
-    --icon-limestone: -172px -308px;
-    --icon-malachite: -206px -308px;
-    --icon-marble: -240px -308px;
-    --icon-mica: -274px -308px;
-    --icon-microlite: -308px -308px;
-    --icon-obsidian: -342px -308px;
-    --icon-olivine: -376px -308px;
-    --icon-orthoclase: -410px -308px;
-    --icon-peacockore: -444px -308px;
-    --icon-pegmatite: -478px -308px;
-    --icon-porphyry: -2px -342px;
-    --icon-pumice: -36px -342px;
-    --icon-quarryquartz: -70px -342px;
-    --icon-quartz: -104px -342px;
-    --icon-rhyolite: -138px -342px;
-    --icon-rockcrystal: -172px -342px;
-    --icon-halite: -206px -342px;
-    --icon-sandstone: -240px -342px;
-    --icon-schist: -274px -342px;
-    --icon-sylvanite: -308px -342px;
-    --icon-serpentine: -342px -342px;
-    --icon-argentite: -376px -342px;
-    --icon-slag: -410px -342px;
-    --icon-slate: -444px -342px;
-    --icon-soapstone: -478px -342px;
-    --icon-sodalite: -2px -376px;
-    --icon-sunstone: -36px -376px;
-    --icon-cuprite: -70px -376px;
-    --icon-zincspar: -104px -376px;
-    --icon-wblock-trombonechantrelle: -138px -376px;
-}
+.game-icon-1x1 { background-position: -2px -2px; }
+.game-icon-1x1.icon-missing { background-position: -2px -2px; }
+.game-icon-1x1.icon-herbs-baybolete { background-position: -36px -2px; }
+.game-icon-1x1.icon-herbs-blacktrumpet { background-position: -70px -2px; }
+.game-icon-1x1.icon-herbs-bladderwrack { background-position: -104px -2px; }
+.game-icon-1x1.icon-herbs-bloatedbolete { background-position: -138px -2px; }
+.game-icon-1x1.icon-herbs-bloodstern { background-position: -172px -2px; }
+.game-icon-1x1.icon-herbs-blueberry { background-position: -206px -2px; }
+.game-icon-1x1.icon-herbs-camomile { background-position: -240px -2px; }
+.game-icon-1x1.icon-herbs-candleberry { background-position: -274px -2px; }
+.game-icon-1x1.icon-herbs-cattailfibre { background-position: -308px -2px; }
+.game-icon-1x1.icon-herbs-cattailhead { background-position: -342px -2px; }
+.game-icon-1x1.icon-herbs-cattailroots { background-position: -376px -2px; }
+.game-icon-1x1.icon-herbs-cavebulb { background-position: -410px -2px; }
+.game-icon-1x1.icon-herbs-cavecoral { background-position: -444px -2px; }
+.game-icon-1x1.icon-herbs-cavelantern { background-position: -478px -2px; }
+.game-icon-1x1.icon-herbs-chantrelle { background-position: -2px -36px; }
+.game-icon-1x1.icon-herbs-chimingbluebell { background-position: -36px -36px; }
+.game-icon-1x1.icon-herbs-chives { background-position: -70px -36px; }
+.game-icon-1x1.icon-herbs-clover { background-position: -104px -36px; }
+.game-icon-1x1.icon-herbs-commonstarfish { background-position: -138px -36px; }
+.game-icon-1x1.icon-herbs-dandelion { background-position: -172px -36px; }
+.game-icon-1x1.icon-herbs-dill { background-position: -206px -36px; }
+.game-icon-1x1.icon-herbs-edelweiss { background-position: -240px -36px; }
+.game-icon-1x1.icon-herbs-flotsam { background-position: -274px -36px; }
+.game-icon-1x1.icon-herbs-fourleafclover { background-position: -308px -36px; }
+.game-icon-1x1.icon-herbs-frogscrown { background-position: -342px -36px; }
+.game-icon-1x1.icon-herbs-frogspawn { background-position: -376px -36px; }
+.game-icon-1x1.icon-herbs-giantpuffball { background-position: -410px -36px; }
+.game-icon-1x1.icon-herbs-glimmermoss { background-position: -444px -36px; }
+.game-icon-1x1.icon-herbs-goosebarnacle { background-position: -478px -36px; }
+.game-icon-1x1.icon-herbs-greenkelp { background-position: -2px -70px; }
+.game-icon-1x1.icon-herbs-kvann { background-position: -36px -70px; }
+.game-icon-1x1.icon-herbs-ladysmantledew { background-position: -70px -70px; }
+.game-icon-1x1.icon-herbs-ladysmantle { background-position: -104px -70px; }
+.game-icon-1x1.icon-herbs-lampstalk { background-position: -138px -70px; }
+.game-icon-1x1.icon-herbs-lingon { background-position: -172px -70px; }
+.game-icon-1x1.icon-herbs-lorchel { background-position: -206px -70px; }
+.game-icon-1x1.icon-herbs-mandrake { background-position: -240px -70px; }
+.game-icon-1x1.icon-herbs-mistletoe { background-position: -274px -70px; }
+.game-icon-1x1.icon-herbs-mussels { background-position: -308px -70px; }
+.game-icon-1x1.icon-herbs-parasolshroom { background-position: -342px -70px; }
+.game-icon-1x1.icon-herbs-royaltoadstool { background-position: -376px -70px; }
+.game-icon-1x1.icon-herbs-rustroot { background-position: -410px -70px; }
+.game-icon-1x1.icon-herbs-seashell { background-position: -444px -70px; }
+.game-icon-1x1.icon-herbs-snapdragon { background-position: -478px -70px; }
+.game-icon-1x1.icon-herbs-spindlytaproot { background-position: -2px -104px; }
+.game-icon-1x1.icon-herbs-stalagoom { background-position: -36px -104px; }
+.game-icon-1x1.icon-herbs-stingingnettle { background-position: -70px -104px; }
+.game-icon-1x1.icon-herbs-strawberry { background-position: -104px -104px; }
+.game-icon-1x1.icon-herbs-tangledbramble { background-position: -138px -104px; }
+.game-icon-1x1.icon-herbs-thornythistle { background-position: -172px -104px; }
+.game-icon-1x1.icon-herbs-vrakgods { background-position: -206px -104px; }
+.game-icon-1x1.icon-herbs-waybroad { background-position: -240px -104px; }
+.game-icon-1x1.icon-herbs-windweed { background-position: -274px -104px; }
+.game-icon-1x1.icon-herbs-yarrow { background-position: -308px -104px; }
+.game-icon-1x1.icon-herbs-yellowfoot { background-position: -342px -104px; }
+.game-icon-1x1.icon-lorcheldried { background-position: -376px -104px; }
+.game-icon-1x1.icon-fairyshroom { background-position: -410px -104px; }
+.game-icon-1x1.icon-herbs-fieldblewit { background-position: -444px -104px; }
+.game-icon-1x1.icon-herbs-libertycap { background-position: -478px -104px; }
+.game-icon-1x1.icon-herbs-marshmallow { background-position: -2px -138px; }
+.game-icon-1x1.icon-lorchelwet { background-position: -36px -138px; }
+.game-icon-1x1.icon-trollshrooms { background-position: -70px -138px; }
+.game-icon-1x1.icon-herbs-truffle-black { background-position: -104px -138px; }
+.game-icon-1x1.icon-herbs-truffle-white { background-position: -138px -138px; }
+.game-icon-1x1.icon-herbs-wintergreen { background-position: -172px -138px; }
+.game-icon-1x1.icon-brownkelp { background-position: -206px -138px; }
+.game-icon-1x1.icon-herbs-coltsfoot { background-position: -240px -138px; }
+.game-icon-1x1.icon-dovepoop { background-position: -274px -138px; }
+.game-icon-1x1.icon-herbs-duskfern { background-position: -308px -138px; }
+.game-icon-1x1.icon-herbs-ghostapple { background-position: -342px -138px; }
+.game-icon-1x1.icon-herbs-heartsease { background-position: -376px -138px; }
+.game-icon-1x1.icon-herbs-indigocap { background-position: -410px -138px; }
+.game-icon-1x1.icon-herbs-lupine { background-position: -444px -138px; }
+.game-icon-1x1.icon-herbs-oystermushroom { background-position: -478px -138px; }
+.game-icon-1x1.icon-herbs-perfectautumnleaf { background-position: -2px -172px; }
+.game-icon-1x1.icon-champignon-small { background-position: -36px -172px; }
+.game-icon-1x1.icon-champignon-medium { background-position: -70px -172px; }
+.game-icon-1x1.icon-champignon-large { background-position: -104px -172px; }
+.game-icon-1x1.icon-reeds { background-position: -138px -172px; }
+.game-icon-1x1.icon-standinggrass { background-position: -172px -172px; }
+.game-icon-1x1.icon-herbs-rubybolete { background-position: -206px -172px; }
+.game-icon-1x1.icon-herbs-salvia { background-position: -240px -172px; }
+.game-icon-1x1.icon-herbs-seasponge { background-position: -274px -172px; }
+.game-icon-1x1.icon-conchshard { background-position: -308px -172px; }
+.game-icon-1x1.icon-herbs-thyme { background-position: -342px -172px; }
+.game-icon-1x1.icon-herbs-toadflax { background-position: -376px -172px; }
+.game-icon-1x1.icon-herbs-tansy { background-position: -410px -172px; }
+.game-icon-1x1.icon-swamplilyshred { background-position: -444px -172px; }
+.game-icon-1x1.icon-herbs-razorclams { background-position: -478px -172px; }
+.game-icon-1x1.icon-roundclam { background-position: -2px -206px; }
+.game-icon-1x1.icon-herbs-oyster { background-position: -36px -206px; }
+.game-icon-1x1.icon-herbs-whalebarnacle { background-position: -70px -206px; }
+.game-icon-1x1.icon-herbs-sleighbell { background-position: -104px -206px; }
+.game-icon-1x1.icon-herbs-snowtop { background-position: -138px -206px; }
+.game-icon-1x1.icon-herbs-rabbitfrost { background-position: -172px -206px; }
+.game-icon-1x1.icon-herbs-precioussnowflake { background-position: -206px -206px; }
+.game-icon-1x1.icon-herbs-ambergris { background-position: -240px -206px; }
+.game-icon-1x1.icon-clay-gray { background-position: -274px -206px; }
+.game-icon-1x1.icon-clay-cave { background-position: -308px -206px; }
+.game-icon-1x1.icon-brick-coade { background-position: -342px -206px; }
+.game-icon-1x1.icon-alabaster { background-position: -376px -206px; }
+.game-icon-1x1.icon-apatite { background-position: -410px -206px; }
+.game-icon-1x1.icon-arkose { background-position: -444px -206px; }
+.game-icon-1x1.icon-basalt { background-position: -478px -206px; }
+.game-icon-1x1.icon-batrock { background-position: -2px -240px; }
+.game-icon-1x1.icon-blackcoal { background-position: -36px -240px; }
+.game-icon-1x1.icon-magnetite { background-position: -70px -240px; }
+.game-icon-1x1.icon-hematite { background-position: -104px -240px; }
+.game-icon-1x1.icon-breccia { background-position: -138px -240px; }
+.game-icon-1x1.icon-cassiterite { background-position: -172px -240px; }
+.game-icon-1x1.icon-catgold { background-position: -206px -240px; }
+.game-icon-1x1.icon-chalcopyrite { background-position: -240px -240px; }
+.game-icon-1x1.icon-chert { background-position: -274px -240px; }
+.game-icon-1x1.icon-cinnabar { background-position: -308px -240px; }
+.game-icon-1x1.icon-diabase { background-position: -342px -240px; }
+.game-icon-1x1.icon-diorite { background-position: -376px -240px; }
+.game-icon-1x1.icon-petzite { background-position: -410px -240px; }
+.game-icon-1x1.icon-dolomite { background-position: -444px -240px; }
+.game-icon-1x1.icon-dross { background-position: -478px -240px; }
+.game-icon-1x1.icon-eclogite { background-position: -2px -274px; }
+.game-icon-1x1.icon-feldspar { background-position: -36px -274px; }
+.game-icon-1x1.icon-flint { background-position: -70px -274px; }
+.game-icon-1x1.icon-fluorospar { background-position: -104px -274px; }
+.game-icon-1x1.icon-gabbro { background-position: -138px -274px; }
+.game-icon-1x1.icon-galena { background-position: -172px -274px; }
+.game-icon-1x1.icon-gneiss { background-position: -206px -274px; }
+.game-icon-1x1.icon-granite { background-position: -240px -274px; }
+.game-icon-1x1.icon-graywacke { background-position: -274px -274px; }
+.game-icon-1x1.icon-greenschist { background-position: -308px -274px; }
+.game-icon-1x1.icon-ilmenite { background-position: -342px -274px; }
+.game-icon-1x1.icon-hornblende { background-position: -376px -274px; }
+.game-icon-1x1.icon-hornsilver { background-position: -410px -274px; }
+.game-icon-1x1.icon-limonite { background-position: -444px -274px; }
+.game-icon-1x1.icon-jasper { background-position: -478px -274px; }
+.game-icon-1x1.icon-corund { background-position: -2px -308px; }
+.game-icon-1x1.icon-kyanite { background-position: -36px -308px; }
+.game-icon-1x1.icon-lavarock { background-position: -70px -308px; }
+.game-icon-1x1.icon-leadglance { background-position: -104px -308px; }
+.game-icon-1x1.icon-nagyagite { background-position: -138px -308px; }
+.game-icon-1x1.icon-limestone { background-position: -172px -308px; }
+.game-icon-1x1.icon-malachite { background-position: -206px -308px; }
+.game-icon-1x1.icon-marble { background-position: -240px -308px; }
+.game-icon-1x1.icon-mica { background-position: -274px -308px; }
+.game-icon-1x1.icon-microlite { background-position: -308px -308px; }
+.game-icon-1x1.icon-obsidian { background-position: -342px -308px; }
+.game-icon-1x1.icon-olivine { background-position: -376px -308px; }
+.game-icon-1x1.icon-orthoclase { background-position: -410px -308px; }
+.game-icon-1x1.icon-peacockore { background-position: -444px -308px; }
+.game-icon-1x1.icon-pegmatite { background-position: -478px -308px; }
+.game-icon-1x1.icon-porphyry { background-position: -2px -342px; }
+.game-icon-1x1.icon-pumice { background-position: -36px -342px; }
+.game-icon-1x1.icon-quarryquartz { background-position: -70px -342px; }
+.game-icon-1x1.icon-quartz { background-position: -104px -342px; }
+.game-icon-1x1.icon-rhyolite { background-position: -138px -342px; }
+.game-icon-1x1.icon-rockcrystal { background-position: -172px -342px; }
+.game-icon-1x1.icon-halite { background-position: -206px -342px; }
+.game-icon-1x1.icon-sandstone { background-position: -240px -342px; }
+.game-icon-1x1.icon-schist { background-position: -274px -342px; }
+.game-icon-1x1.icon-sylvanite { background-position: -308px -342px; }
+.game-icon-1x1.icon-serpentine { background-position: -342px -342px; }
+.game-icon-1x1.icon-argentite { background-position: -376px -342px; }
+.game-icon-1x1.icon-slag { background-position: -410px -342px; }
+.game-icon-1x1.icon-slate { background-position: -444px -342px; }
+.game-icon-1x1.icon-soapstone { background-position: -478px -342px; }
+.game-icon-1x1.icon-sodalite { background-position: -2px -376px; }
+.game-icon-1x1.icon-sunstone { background-position: -36px -376px; }
+.game-icon-1x1.icon-cuprite { background-position: -70px -376px; }
+.game-icon-1x1.icon-zincspar { background-position: -104px -376px; }
+.game-icon-1x1.icon-wblock-trombonechantrelle { background-position: -138px -376px; }
