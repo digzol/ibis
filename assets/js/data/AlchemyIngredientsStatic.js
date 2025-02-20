@@ -459,8 +459,8 @@ export const AlchemyIngredients = {
     new AlchemyIngredient(
       Items.FourLeafClover,
       IngredientTypes.Herb,
-      [Properties.SealFinger, Properties.UnarmedCombat, Properties.SomethingBroken, undefined],
-      0b0000,
+      [Properties.Nidburns, Properties.SealFinger, Properties.UnarmedCombat, Properties.SomethingBroken],
+      0b1100,
       false,
       { }
     ),
