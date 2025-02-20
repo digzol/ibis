@@ -1276,6 +1276,12 @@ export const AlchemyIngredients = {
       [Properties.Unfaced, Properties.Unfaced, Properties.Survival, undefined],
       0b1000
     ),
+    new AlchemyIngredient(
+      [Items.Clover, Items.CaveLantern],
+      IngredientTypes.HerbalGrind,
+      [Properties.NastyLaceration, undefined, undefined, undefined],
+      0b1000
+    ),
   ],
   Filtered: {}
 };
