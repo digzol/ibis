@@ -55,8 +55,7 @@ title: Cookbook
     <template id="template-mod-entry">
         <div class="card mx-4 my-2">
             <span class="card-title mt-2 d-stack">
-                <span class="game-icon game-icon-1x1 d-inline-block align-middle"
-                      style="background-position:{icon}"></span>
+                <span class="game-icon game-icon-1x1 d-inline-block align-middle icon-{id}"></span>
                 <span class="align-middle text-center">{name}</span>
             </span>
             <span class="small-faded-text">Ingredients</span>
@@ -66,7 +65,7 @@ title: Cookbook
         </div>
     </template>
     <template id="template-ingredient">
-        <div class="game-icon game-icon-1x1 my-2" title="{name}" style="background-position:{icon}"></div>
+        <div class="game-icon game-icon-1x1 my-2 icon-{id}" title="{name}"></div>
     </template>
     <template id="template-fep">
         <div class="fep fep-{type_lower} d-stack rounded">

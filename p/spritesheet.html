@@ -5,14 +5,14 @@ title: Spritesheet
 <script type="module" src="{{ "/assets/js/spritesheet.js" | relative_url }}"></script>
 
 <style>
-    #spritesheet-canvas, #spritesheet-output-css {
+    canvas, textarea {
         background-color: #434545;
         border: 1px solid #171818;
         border-radius: .25rem;
         padding: 10px;
     }
 
-    #spritesheet-output-css {
+    textarea {
         width: 100%;
         height: 100%;
         color: #f8f1e5;
@@ -20,11 +20,20 @@ title: Spritesheet
     }
 </style>
 
-<div class="row">
+<div id="spritesheet-data" class="row">
     <div class="col">
-        <canvas id="spritesheet-canvas"></canvas>
+        <canvas></canvas>
     </div>
     <div class="col">
-        <textarea id="spritesheet-output-css" readonly></textarea>
+        <textarea readonly></textarea>
+    </div>
+</div>
+<hr>
+<div id="spritesheet-data-small" class="row">
+    <div class="col">
+        <canvas></canvas>
+    </div>
+    <div class="col">
+        <textarea readonly></textarea>
     </div>
 </div>
