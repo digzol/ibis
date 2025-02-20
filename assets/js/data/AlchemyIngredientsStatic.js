@@ -1214,7 +1214,7 @@ export const AlchemyIngredients = {
       [Properties.NoseBleed, Properties.AllergicReaction, Properties.Exploration, Properties.DragonBite],
       0b1100,
       false,
-      { SimpleDistillateSolution: null }
+      { SimpleDistillateSolution: undefined }
     ),
     new AlchemyIngredient(
       Items.Zincspar,
