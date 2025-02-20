@@ -96,3 +96,39 @@ input[type=text].rounded {
     border: 1px solid #171818;
     border-radius: .25rem;
 }
+
+/* ALCHEMY PAGE */
+
+.ingredients-list > .ingredient-group,
+.ingredients-list > .ingredient-display,
+.popup .ingredient-display {
+    border: 1px solid #171818;
+    border-radius: .25rem;
+    margin: .25rem;
+}
+
+.ingredient-group .ingredient-display {
+    border-bottom: 1px solid #171818;
+}
+
+.ingredients-list > .ingredient-group,
+.ingredient-group .select-group .ingredient-display:hover{
+    background-color: #2f3131;
+}
+
+.ingredient-group .see-more .popup {
+    background-color: #383a3aee;
+    border: 1px solid #171818;
+}
+
+.stickers .fa-question-circle {
+    color: #ffffff;
+}
+
+.stickers .fa-check-square {
+    color: #95ff80;
+}
+
+.stickers .fa-exclamation-triangle {
+    color: #ff917a;
+}

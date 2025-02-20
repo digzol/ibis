@@ -1,23 +1,30 @@
 <h1>Ibis</h1>
 
-<p>Ibis is a collection of tools with purpose to relieve the player of redundant calculations and offers a visual display of various data based on their character's statistics.</p>
+<p>Ibis is a collection of tools with purpose to relieve the player of redundant calculations and offer a visual display of various game data including their character's statistics.</p>
 
-<p>
+<div>
     <div>A live version can be found <a href="https://digzol.github.io/ibis/">here</a>.</div>
     <div>Source can be found <a href="https://github.com/digzol/ibis">here</a>.</div>
-</p>
-
+</div><br>
 
 <h2>Tools</h2>
 
 <ul>
-    <li><a href="{{ "/p/forages" | absolute_url }}">Forages</a> - Measure forage detection based on perception and exploration stats.</li>
-    <li><a href="{{ "/p/cookbook" | absolute_url }}">Cookbook</a> - Explore the various food recipes and their bonus variation based on ingredients.</li>
+    <li><a href='{{ "/p/forages" | absolute_url }}'>Forages</a> - Measure forage detection based on perception and exploration stats.</li>
+    <li><a href='{{ "/p/alchemy" | absolute_url }}'>Alchemy</a> - Combine effects from alchemy to find safe elixir combinations.</li>
+    <li><del><a href='{{ "/p/cookbook" | absolute_url }}'>Cookbook</a> - Search the various food recipes and their bonus variation based on ingredients.</del> (defunct)</li>
 </ul>
 
 <h2>Changelog</h2>
 
 <ul>
+    <li>
+        <span>20-Feb-2025</span>
+        <ul>
+            <li>Added alchemy page.</li>
+            <li>Removed defunct cookbook.</li>
+        </ul>
+    </li>
     <li>
         <span>03-Jan-2025</span>
         <ul>

@@ -1,0 +1,80 @@
+---
+layout: default
+title: Alchemy
+---
+<link rel="stylesheet" type="text/css" href="{{ "/assets/css/sprites.css" | relative_url }}">
+<link rel="stylesheet" type="text/css" href="{{ "/assets/css/sprites-small.css" | relative_url }}">
+<script src="{{ "/assets/js/common.js" | relative_url }}"></script>
+<script type="module" src="{{ "/assets/js/alchemy.js" | relative_url }}"></script>
+
+<!--
+<div id="search-toggles" class="container">
+    <div class="row justify-content-center">
+        <div class="col col-auto d-flex pr-0">
+            <div class="small-faded-text align-self-center">Optional</div>
+        </div>
+        <div class="col col-auto">
+            <div class="d-inline-flex panel">
+                <div data-value="lyeablution" class="btn game-icon game-icon-1x1 icon-lyeablution m-1"></div>
+            </div>
+            <div class="d-inline-flex panel">
+                <div data-value="fierycombustion" class="btn game-icon game-icon-1x1 icon-fierycombustion m-1"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+-->
+<div id="alchemy-results" class="card-grid"></div>
+<div class="d-none">
+    <template id="template-recipe">
+        <div class="card mx-4 my-2">
+            <div class="card-title d-stack mt-2">
+                <span class="game-icon game-icon-1x1"></span>
+                <span class="recipe-name"></span>
+            </div>
+            <div class="stickers"></div>
+            <div class="d-stack">
+                <span class="small-faded-text">Alchemical ingredients</span>
+                <div class="ingredients-list d-flex justify-content-center flex-wrap my-2"></div>
+            </div>
+            <div class="d-stack">
+                <span class="small-faded-text">Properties</span>
+                <div class="property-list my-2"></div>
+            </div>
+            <div class="d-stack d-none">
+                <span class="small-faded-text">Wounds caused by</span>
+                <div class="wounds-list my-2"></div>
+            </div>
+        </div>
+    </template>
+    <template id="template-item-icon">
+        <div class="ingredient-display d-stack p-1 align-self-start">
+            <div class="d-flex">
+                <span class="game-icon game-icon-1x1"></span>
+                <span class="game-icon game-icon-1x1" hidden></span>
+            </div>
+            <div class="alchemical-intermediary-steps"></div>
+        </div>
+    </template>
+    <template id="template-ingredient-group">
+        <div class="ingredient-group d-stack">
+            <div class="see-more d-flex" tabindex="0">
+                <i class="fas fa-caret-down p-1"></i>
+                <div class="popup d-stack rounded p-1">
+                    <span class="small-faded-text">Alternatives</span>
+                    <div class="select-group"></div>
+                </div>
+            </div>
+        </div>
+    </template>
+    <template id="template-property-icon">
+        <div class="d-flex">
+            <span class="game-icon small-icon mx-2"></span>
+            <span class="property-name"></span>
+        </div>
+    </template>
+    <template id="template-intermediary-steps">
+        <span class="game-icon small-icon m-auto"></span>
+    </template>
+</div>

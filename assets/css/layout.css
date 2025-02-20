@@ -148,3 +148,67 @@ input[type=number]::-webkit-inner-spin-button {
 .text-primary {
     color: #e0a72d !important;
 }
+
+/* ALCHEMY PAGE */
+
+.card .stickers {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0.75em;
+}
+
+.ingredient-group {
+    position: relative;
+    /*cursor: pointer;*/
+}
+
+.ingredient-group .select-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ingredient-group .popup::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    border-bottom-color: #171818;
+}
+
+.ingredient-group .popup::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    width: 100%;
+    padding-top: 5px;
+}
+
+.ingredient-group .select-group .ingredient-display {
+    padding: .25rem;
+    cursor: pointer;
+}
+
+.see-more {
+    width: 100%;
+    justify-content: center;
+}
+
+.see-more .popup {
+    width: 180px;
+    margin-top: 5px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+    visibility: hidden;
+}
+
+.see-more:hover > .popup {
+    visibility: visible;
+    transition-delay: 0s;
+}
