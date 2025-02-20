@@ -97,12 +97,16 @@ input[type=number]::-webkit-inner-spin-button {
     -ms-flex-align: center;
 }
 
+#forage-entries .card {
+    width: 200px;
+}
+
 .card {
     border: 1px solid;
-    width: 200px;
     font-size: 0.8em;
     display: flex;
     flex: 1 1 auto;
+    align-self: flex-start;
     align-items: center;
     flex-direction: column;
     display: -ms-flexbox;

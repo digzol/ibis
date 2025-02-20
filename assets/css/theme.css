@@ -87,7 +87,6 @@ input[type=text].rounded {
     border-color: #171818;
     border-width: 1px;
     border-style: solid;
-    width: 200px;
     padding: 2px;
     font-size: 0.8em;
 }

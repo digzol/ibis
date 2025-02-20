@@ -8,8 +8,8 @@ $(function () {
           .replace(new RegExp("{name}", 'g'), forage.item.name)
           .replace(new RegExp("{id}", 'g'), forage.item.id)
           .replace("{detection}", forage.detection)
-          .replace("{detection-min}", numberFormat(Math.round(forage.detection / 2)))
-          .replace("{detection-max}", numberFormat(forage.detection * 2))
+          .replace("{detection-min}", NumberWithCommas(Math.round(forage.detection / 2)))
+          .replace("{detection-max}", NumberWithCommas(forage.detection * 2))
         );
     }
 
@@ -32,7 +32,7 @@ function onDetectionChange() {
     localStorage.setItem("perception", p_perception);
     localStorage.setItem("exploration", p_exploration);
 
-    $("#forage-detection").html(numberFormat(p_detection));
+    $("#forage-detection").html(NumberWithCommas(p_detection));
 
     $("#forage-entries .card").each(function() {
         const detectionReq = $(this).attr("detection");
@@ -44,8 +44,4 @@ function onDetectionChange() {
         $(".progress-bar", this).css("width", percentDetected + "%");
         $(".forage-percentage", this).html(percentDetected + "%");
     })
-}
-
-function numberFormat(num) {
-    return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
