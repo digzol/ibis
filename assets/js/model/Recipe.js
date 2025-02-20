@@ -1,19 +1,31 @@
+import {IngredientCombo} from "./IngredientCombo.js";
+
 export class Recipe {
-    constructor(recipe, entry, base) {
-        Object.assign(this, base);
+    constructor(product, energy) {
+        // Remote data
+        this.product = product;
+        this.energy = energy;
 
-        this.ingredients = entry[1];
-        this.fep = entry[2];
-        this.fep.sort(sortByFEP);
-        this._opIngredients = {};
+        // Static data
+        this.baseFeps = [];
+        this.baseHunger = -1;
+        this.acceptSpices = false;
+
+        // Dynamic data
+        this.combos = [];
+        this.possibleIngredients = new Set();
+        this.variableIngredients = [];
     }
 
-    getOpIngredients() {
-        return this._opIngredients;
-    }
+    addCombo(ingredients, feps, hunger) {
+        const newCombo = new IngredientCombo(this, ingredients, feps, hunger);
+        this.combos.push(newCombo);
 
-    setOpIngredient(index, value) {
-        this._opIngredients[index] = value;
+        for (let ingredient of ingredients) {
+            this.possibleIngredients.add(ingredient);
+        }
+
+        // TODO: check for unknown variable ingredient groups.
     }
 }
 

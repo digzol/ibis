@@ -2,41 +2,56 @@ import {Item} from './Item.js';
 
 class ItemCollection {
     constructor() {
-        this.source = '/ibis/assets/json/items.json';
-        this._entries = [];
-
-        this.ready = this.init();
+        this.defaultSource = '/ibis/assets/json/items.json';
+        this.items = [];
+        this.nameLookup = [];
     }
 
-    async init() {
-        const json = $.getJSON(this.source);
+    getEntries() {
+        return this.items;
+    }
 
-        await json.then((data) => {
-            parseData(this, data)
+    async loadData(sourceURL) {
+        this.source = sourceURL || this.defaultSource;
+        await $.getJSON(this.source).then(
+          (data) => this.parseData(data),
+          (response, status) => {
+            console.log(`[${status}] Couldn't fetch JSON data from URL: ${this.source}`);
         });
 
         return this;
     }
 
-    getEntries() {
-        return this._entries;
+    getOrCreateEntry(id, name, gfx) {
+        return this.addEntry(id, name, gfx);
+    }
+
+    getItemByName(name) {
+        return this.nameLookup[name];
+    }
+
+    parseData(data) {
+        for (let entry of data['entries']) {
+            this.addEntry(entry.id, entry.name, entry.gfx);
+        }
+    }
+
+    addEntry(id, name, gfx) {
+        if (!(id in this.items))
+        {
+            const newItem = new Item(id, name, gfx);
+            this.items.push(newItem);
+            this.items[newItem.id] = newItem;
+            this.nameLookup[newItem.name] = newItem;
+        }
+
+        return this.items[id];
     }
 }
 
-function parseData(holder, data) {
-    const map = holder.getEntries();
+const instance = new ItemCollection();
 
-    data['entries'].forEach(function (entry) {
-        const obj = new Item(entry);
-        const id = obj.id;
-
-        map.push(obj);
-        map[id] = obj;
-    });
-}
-
-const instance = new ItemCollection().ready;
-
-export const getItemsData = async function() {
-    return await instance;
-};
+export const Items = instance.getEntries();
+export const LoadItemData = (...args) => instance.loadData(...args);
+export const GetOrCreateItem = (...args) => instance.getOrCreateEntry(...args);
+export const GetItemByName = (...args) => instance.getItemByName(...args);

@@ -1,19 +1,16 @@
 import * as Utils from './utils.js';
 
-import {getItemsData} from './model/ItemCollection.js';
-import {getCookbookData} from './model/RecipeCollection.js';
+import {Items, LoadItemData} from './model/ItemCollection.js';
+import {LoadRecipeData, Recipes} from './model/RecipeCollection.js';
 
-let items;
-let cookbook;
-
-let searchResults;
+let searchResults = [];
 const RESULT_BLOCK_SIZE = 40;
-
 
 // Fills user data
 $(function() {
     const nameParam = Utils.GetURLParameter('name');
     const ingredientParam = Utils.GetURLParameter('ingredients');
+    const foodDataset = Utils.GetURLParameter('food-dataset')
 
     // URL search params
     if (nameParam !== undefined) {
@@ -23,6 +20,10 @@ $(function() {
     if (ingredientParam !== undefined) {
         const val = decodeURIComponent(ingredientParam);
         $("#search-by-ingredient .search-input").val(val);
+    }
+
+    if (foodDataset !== undefined) {
+        localStorage.setItem("food-dataset", foodDataset);
     }
 
     // Local storage user preferences
@@ -35,10 +36,10 @@ $(function() {
 
 // Data setup
 $(function () {
-    $.when(getItemsData(), getCookbookData()).then(function (itemsData, cookbookData) {
-        items = itemsData.getEntries();
-        cookbook = cookbookData;
-
+    LoadItemData().then(function (data) {
+        const sourceDataURL = localStorage.getItem("food-dataset");
+        return LoadRecipeData(sourceDataURL);
+    }).then(function (recipes) {
         populateSearches();
         displaySearchResults();
 
@@ -54,22 +55,22 @@ $(function() {
     $("#search-by-name > .form-control").focus();
 
     $(".search-container")
-        .mouseenter(function () {
-            const context = $(this).parent(".search-group");
-            const filterValue = $(".search-input", context).val();
+      .on('mouseenter', function () {
+          const context = $(this).parent(".search-group");
+          const filterValue = $(".search-input", context).val();
 
-            $(".search-dropdown", this).show();
+          $(".search-dropdown", this).show();
 
-            if ( $('input:focus').length === 0)
-                $(".search-dropdown > .form-control", this).focus();
+          if ( $('input:focus').length === 0)
+              $(".search-dropdown > .form-control", this).focus();
 
-            $(".search-result-entry", this).each(function () {
-                const id = $(this).attr("data-id");
-                const name = items[id].getName();
-                const matchesSearch = filterValue.toLowerCase().includes(name.toLowerCase());
-                $(this).toggleClass("selected", matchesSearch);
-            });
-        });
+          $(".search-result-entry", this).each(function () {
+              const id = $(this).attr("data-id");
+              const name = Items[id].name || id;
+              const matchesSearch = filterValue.toLowerCase().includes(name.toLowerCase());
+              $(this).toggleClass("selected", matchesSearch);
+          });
+      });
 
     $("#search-toggles .btn").click(function() {
         const value = $(this).attr("data-value");
@@ -110,21 +111,21 @@ $(function() {
 function populateSearches() {
     const tSearchEntry = $("#search-panel .template-search-entry").html();
 
-    cookbook.getRecipeTable().forEach(function (recipe) {
+    Recipes.forEach(function (recipe) {
         $("#search-by-name .search-results").append(tSearchEntry
-            .replace(new RegExp("{id}", 'g'), recipe.id)
-            .replace(new RegExp("{name}", 'g'), recipe.getName())
-            .replace(new RegExp("{icon}", 'g'), recipe.getIcon())
+          .replace(new RegExp("{id}", 'g'), recipe.product.id)
+          .replace(new RegExp("{name}", 'g'), recipe.product.name)
         );
     });
 
-    cookbook.getIngredientIndex().forEach(function (ingredient) {
+    /*
+    Recipes.getIngredientIndex().forEach(function (ingredient) {
         $("#search-by-ingredient .search-results").append(tSearchEntry
             .replace(new RegExp("{id}", 'g'), ingredient.id)
-            .replace(new RegExp("{name}", 'g'), ingredient.getName())
-            .replace(new RegExp("{icon}", 'g'), ingredient.getIcon())
+            .replace(new RegExp("{name}", 'g'), ingredient.name)
         );
     });
+    */
 }
 
 function onSearchFilterChange() {
@@ -135,7 +136,7 @@ function onSearchFilterChange() {
     } else {
         $(".search-result-entry", context).each(function () {
             const id = $(this).attr("data-id");
-            const name = items[id].getName();
+            const name = Items[id].name;
             const matchesFilter = name.toLowerCase().includes(searchKeyword);
             $(this).toggle(matchesFilter);
         });
@@ -146,7 +147,7 @@ function onSearchFilterClick() {
     const context = $(this).closest(".search-group");
     const $filterInput = $(".search-input", context);
     const id = $(this).attr("data-id");
-    const name = items[id].getName();
+    const name = Items[id].name;
 
     if ($(this).hasClass("selected")) {
         const regexp = new RegExp(name + ";?\\s?", 'ig');
@@ -180,47 +181,78 @@ function onFilterChange() {
 }
 
 function displaySearchResults() {
-    const inputNames = $("#search-by-name .form-control").val();
-    const inputIngredients = $("#search-by-ingredient .form-control").val();
+    const nameSearchString = $("#search-by-name .form-control").val();
+    const ingredientsSearchString = $("#search-by-ingredient .form-control").val();
 
-    const nameFilters = inputNames.split(";")
-        .map(function (filter) {
-            return filter.trim();
-        }).filter(function (filter) {
-            return filter !== "";
-        });
-    const ingredientFilters = inputIngredients.split(";")
-        .map(function (filter) {
-            return filter.trim();
-        }).filter(function (filter) {
-            return filter !== "";
-        });
+    const nameSearchTerms = nameSearchString
+      .split(";")
+      .map(function (filter) {
+          return filter.trim().toLowerCase();
+      }).filter(function (filter) {
+          return filter !== "";
+      });
 
-    if (nameFilters.length === 0 && ingredientFilters.length === 0) {
+    const ingredientSearchTerms = ingredientsSearchString
+      .split(";")
+      .map(function (filter) {
+          return filter.trim();
+      }).filter(function (filter) {
+          return filter !== "";
+      });
+
+    if (nameSearchTerms.length === 0 && ingredientSearchTerms.length === 0) {
         return $("#food-info").hide();
     } else {
         $("#food-info").show();
     }
 
-    searchResults = cookbook.getEntries().filter(function (recipe) {
-        if ('spices' in recipe.getOpIngredients() && !(localStorage.getItem("toggle-spices") === "true")) return;
+    searchResults = [];
 
-        const ingredients = recipe.ingredients;
-        let filteredName = nameFilters.length === 0;
-        let filteredIngredient = ingredientFilters.length === 0;
+    Recipes.forEach((recipe) => {
+        //TODO: spice toggle        if ('spices' in recipe.getOpIngredients() && !(localStorage.getItem("toggle-spices") === "true")) return;
 
-        nameFilters.forEach(function (filter) {
-            filteredName = filteredName || recipe.getName().toLowerCase().includes(filter.toLowerCase());
-        });
+        let displayInResults = nameSearchTerms.length === 0;
 
-        ingredients.forEach(function (ingredient) {
-            const ingredientName = items[ingredient].getName();
-            ingredientFilters.forEach(function(filter) {
-                filteredIngredient = filteredIngredient || ingredientName.toLowerCase().includes(filter.toLowerCase());
-            });
-        });
+        for (let searchTerm of nameSearchTerms) {
+            displayInResults = recipe.product.name.toLowerCase().includes(searchTerm);
+            if (displayInResults) { break; }
+        }
 
-        return filteredName & filteredIngredient;
+        if (!displayInResults)
+            return; // Filtered out by name
+
+        if (ingredientSearchTerms.length === 0) {
+            for (let combo of recipe.combos) {
+                searchResults.push(combo);
+            }
+        } else {
+            let matchesIngSearchTerm = false;
+
+            for (let searchTerm of ingredientSearchTerms) {
+                for (let ingredient of recipe.possibleIngredients) {
+                    matchesIngSearchTerm = ingredient.name.toLowerCase().includes(searchTerm.toLowerCase());
+                    if (matchesIngSearchTerm) { break; }
+                }
+                if (matchesIngSearchTerm) { break; }
+            }
+
+            if (!matchesIngSearchTerm)
+                return // None of the combos uses the searched ingredient
+
+            for (let combo of recipe.combos) {
+                displayInResults = false;
+                for (let searchTerm of ingredientSearchTerms) {
+                    for (let ingredient of combo.ingredients) {
+                        displayInResults = ingredient.name.toLowerCase().includes(searchTerm.toLowerCase());
+                        if (displayInResults) { break; }
+                    }
+                    if (displayInResults) { break; }
+                }
+
+                if (displayInResults)
+                    searchResults.push(combo);
+            }
+        }
     });
 
     $("#info-results-count").html(searchResults.length.toString());
@@ -237,28 +269,24 @@ function displayMore() {
 
 function displayResults(start, end) {
     const searchResultBlock = searchResults.slice(start, end);
-    searchResultBlock.forEach(function (recipe) {
-        const ingredients = recipe.ingredients;
-        let fep = recipe.fep;
+    searchResultBlock.forEach(function (combo) {
+        const ingredients = combo.ingredients;
+        let fep = combo.feps;
         let totalFEP = 0;
 
         if (fep.length === 0)
             fep = [["???", "?", "???"]];
 
         const $varEntry = $($("#template-mod-entry").html()
-            .replace(new RegExp("{id}", 'g'), recipe.id)
-            .replace(new RegExp("{name}", 'g'), recipe.getName())
-            .replace(new RegExp("{icon}", 'g'), recipe.getIcon())
+          .replace(new RegExp("{id}", 'g'), combo.recipe.product.id)
+          .replace(new RegExp("{name}", 'g'), combo.recipe.product.name)
         );
 
         ingredients.forEach(function (ingredient) {
-            const item = items[ingredient];
-
             $(".ingredients", $varEntry).append(
-                $("#template-ingredient").html()
-                    .replace(new RegExp("{id}", 'g'), item.id)
-                    .replace(new RegExp("{name}", 'g'), item.getName())
-                    .replace(new RegExp("{icon}", 'g'), item.getIcon())
+              $("#template-ingredient").html()
+                .replace(new RegExp("{id}", 'g'), ingredient.id)
+                .replace(new RegExp("{name}", 'g'), ingredient.name)
             );
         });
 
@@ -271,11 +299,11 @@ function displayResults(start, end) {
                 totalFEP += val;
 
             $(".feps", $varEntry).append(
-                $("#template-fep").html()
-                    .replace(new RegExp("{type}", 'g'), type)
-                    .replace(new RegExp("{type_lower}", 'g'), type.toLowerCase())
-                    .replace(new RegExp("{mult}", 'g'), mult)
-                    .replace(new RegExp("{value}", 'g'), val)
+              $("#template-fep").html()
+                .replace(new RegExp("{type}", 'g'), type)
+                .replace(new RegExp("{type_lower}", 'g'), type.toLowerCase())
+                .replace(new RegExp("{mult}", 'g'), mult)
+                .replace(new RegExp("{value}", 'g'), val)
             );
         });
 

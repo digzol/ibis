@@ -1,42 +1,71 @@
 import {Recipe} from './Recipe.js';
-import {getItemsData} from './ItemCollection.js';
-
-let items;
+import {GetOrCreateItem} from './ItemCollection.js';
+import {RemoteDataEntry} from "./Remote/RemoteDataEntry.js";
 
 class RecipeCollection {
     constructor() {
         this.source = '/ibis/assets/json/cookbook.json';
-        this._entries = [];
-        this._recipeTable = [];
-        this._ingredientIndex = [];
-
-        this.ready = this.init();
-    }
-
-    async init() {
-        const json = $.getJSON(this.source);
-
-        await $.when(getItemsData(), json).then((itemsData, data) => {
-            items = itemsData.getEntries();
-            parseData(this, data[0]);
-        });
-
-        return this;
+        this.recipes = [];
     }
 
     getEntries() {
-        return this._entries
+        return this.recipes
     }
 
-    getRecipeTable() {
-        return this._recipeTable;
+    async loadData(sourceURL) {
+        this.source = sourceURL;
+
+        if (this.source == null)
+            return null;
+
+        await $.getJSON(this.source).then((data) => this.parseData(data));
+        return this;
     }
 
-    getIngredientIndex() {
-        return this._ingredientIndex
+    getOrCreateEntry(id, product, energy) {
+        if (!(id in this.recipes))
+        {
+            const newRecipe = new Recipe(product, energy);
+            this.recipes[id] = newRecipe;
+            this.recipes.push(newRecipe);
+        }
+        return this.recipes[id];
+    }
+
+    parseData(data) {
+        for (let key in data) {
+            const entry = new RemoteDataEntry(data[key]);
+
+            if (entry.ingredients.length === 0) {
+                console.log(`Skipped '${entry.itemName}'; Uncraftable.`);
+                continue; // Ignore uncraftable food
+            }
+
+            if (entry.mixedIngredients)
+                continue; // Ignore mixed-ingredient food
+
+            // Add new item
+            const product = GetOrCreateItem(entry.id ,entry.itemName, entry.resourceName);
+
+            // Add new recipe
+            const recipe = this.getOrCreateEntry(entry.id, product, entry.energy);
+
+            const ingredients = entry.ingredients.map((ingredient) => {
+                return GetOrCreateItem(ingredient.id, ingredient.name);
+            });
+
+            const feps = entry.feps.map((fep) => {
+                return [fep.type, fep.mult, fep.value];
+            })
+
+            // Add ingredient combo to recipe
+            recipe.addCombo(ingredients, feps, entry.hunger);
+        }
     }
 }
 
+// Old parser for local JSON
+/*
 function parseData(holder, data) {
     const map = holder._entries;
     const table = holder._recipeTable;
@@ -51,7 +80,7 @@ function parseData(holder, data) {
         table.push(recipeItem);
 
         recipeEntries.forEach(function(entry) {
-            const id = entry[0] || recipe.id;
+            const id = entry[0] || recipe.id;
             const resultItem = items[id];
             const ingredients = entry[1];
             const obj = new Recipe(recipe, entry, resultItem);
@@ -86,6 +115,7 @@ function parseData(holder, data) {
     table.sort(sortByName);
     index.sort(sortByName);
 }
+*/
 
 function sortByName(a, b) {
     if (a.getName() > b.getName()) return 1;
@@ -93,8 +123,7 @@ function sortByName(a, b) {
     return 0;
 }
 
-const instance = new RecipeCollection().ready;
+const instance = new RecipeCollection();
 
-export const getCookbookData = async function() {
-    return await instance;
-};
+export const Recipes = instance.getEntries();
+export const LoadRecipeData = (...args) => instance.loadData(...args);
