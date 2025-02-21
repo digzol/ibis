@@ -345,7 +345,7 @@ export const AlchemyIngredients = {
       Items.Diorite,
       IngredientTypes.Mineral,
       [Properties.Asphyxiation, Properties.Exploration, Properties.Carpentry, Properties.SandFleaBites],
-      0b1100,
+      0b1111,
       false,
       { SimpleDistillateSolution: undefined }
     ),
