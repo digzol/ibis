@@ -8,10 +8,7 @@ export const IngredientTypes = {
   Mineral: 3,
   Other: 4,
   MineralCalcination: 5,
-  HerbalGrind: 6,
-  LyeAblution: 7,
-  FieryCombustion: 8,
-  MeasuredDistillate: 9,
+  HerbalGrind: 6
 }
 
 export const AlchemyIngredients = {
@@ -446,7 +443,7 @@ export const AlchemyIngredients = {
       [Properties.Marksmanship, Properties.PunchSore, Properties.Charisma, Properties.Will],
       0b1100,
       false,
-      { SimpleDistillateSolution: undefined }
+      { SimpleDistillateSolution: null }
     ),
     new AlchemyIngredient(
       Items.Fluorospar,
@@ -606,7 +603,7 @@ export const AlchemyIngredients = {
       [Properties.Stealth, Properties.Intelligence, Properties.HearthBurn, Properties.CrabCaressed],
       0b1100,
       false,
-      { SimpleDistillateSolution: undefined }
+      { SimpleDistillateSolution: null }
     ),
     new AlchemyIngredient(
       Items.Korund,
@@ -814,7 +811,7 @@ export const AlchemyIngredients = {
       [Properties.IncreasedDuration, Properties.Exploration, Properties.Lore, Properties.SwampFever],
       0,
       true,
-      { SimpleDistillateSolution: undefined }
+      { SimpleDistillateSolution: null }
     ),
     new AlchemyIngredient(
       Items.PeacockOre,
@@ -830,7 +827,7 @@ export const AlchemyIngredients = {
       [Properties.Tuskalooza, Properties.BlackEyed, Properties.SoreSnout, Properties.Survival],
       0b1100,
       false,
-      { SimpleDistillateSolution: undefined }
+      { SimpleDistillateSolution: null }
     ),
     new AlchemyIngredient(
       Items.PerfectAutumnLeaf,
@@ -1094,7 +1091,7 @@ export const AlchemyIngredients = {
       [Properties.MeleeCombat, Properties.Smithing, Properties.NoseBleed, Properties.Charisma],
       0b1100,
       false,
-      { SimpleDistillateSolution: undefined }
+      { SimpleDistillateSolution: null }
     ),
     new AlchemyIngredient(
       Items.TangledBramble,
@@ -1233,6 +1230,12 @@ export const AlchemyIngredients = {
       0b1100
     ),
     new AlchemyIngredient(
+      [Items.Malachite, Items.Breccia],
+      IngredientTypes.MineralCalcination,
+      [null, Properties.QuicksilverPoisoning, undefined, undefined],
+      0b1000
+    ),
+    new AlchemyIngredient(
       [Items.Malachite, Items.Slag],
       IngredientTypes.MineralCalcination,
       [null, Properties.QuicksilverPoisoning, undefined, undefined],
@@ -1245,13 +1248,19 @@ export const AlchemyIngredients = {
       0b1100
     ),
     new AlchemyIngredient(
-      [Items.Olivine, Items.Basalt],
+      [Items.Basalt, Items.Chalcopyrite],
       IngredientTypes.MineralCalcination,
       [null, Properties.BladeKiss, undefined, undefined],
       0b1100
     ),
     new AlchemyIngredient(
-      [Items.Chalcopyrite, Items.Basalt],
+      [Items.Basalt, Items.Mica],
+      IngredientTypes.MineralCalcination,
+      [null, Properties.BladeKiss, undefined, undefined],
+      0b1100
+    ),
+    new AlchemyIngredient(
+      [Items.Basalt, Items.Olivine],
       IngredientTypes.MineralCalcination,
       [null, Properties.BladeKiss, undefined, undefined],
       0b1100
@@ -1268,19 +1277,43 @@ export const AlchemyIngredients = {
       [null, Properties.SoreSnout, Properties.Survival, undefined],
       0b1100
     ),
+    new AlchemyIngredient(
+      [Items.BlackOre, Items.CatGold],
+      IngredientTypes.MineralCalcination,
+      [null, Properties.SoreSnout, undefined, undefined],
+      0b1000
+    ),
 
     /// Herbal Grinds
     new AlchemyIngredient(
-      [Items.Tansy, Items.Dandelion],
+      [Items.GhostApple, Items.Lupine],
+      IngredientTypes.HerbalGrind,
+      [undefined, Properties.QuicksilverPoisoning, undefined, undefined],
+      0b0100
+    ),
+    new AlchemyIngredient(
+      [Items.Dandelion, Items.Tansy],
       IngredientTypes.HerbalGrind,
       [Properties.Unfaced, Properties.Unfaced, Properties.Survival, undefined],
       0b1000
     ),
     new AlchemyIngredient(
-      [Items.Clover, Items.CaveLantern],
+      [Items.CaveLantern, Items.Clover],
       IngredientTypes.HerbalGrind,
       [Properties.NastyLaceration, undefined, undefined, undefined],
       0b1000
+    ),
+    new AlchemyIngredient(
+      [Items.CaveLantern, Items.Rustroot],
+      IngredientTypes.HerbalGrind,
+      [Properties.Dexterity, Properties.Marksmanship, undefined, undefined],
+      0b1100
+    ),
+    new AlchemyIngredient(
+      [Items.Chives, Items.Kvann],
+      IngredientTypes.HerbalGrind,
+      [Properties.MeleeCombat, Properties.Will, undefined, undefined],
+      0b1100
     ),
   ],
   Filtered: {}
