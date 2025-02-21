@@ -214,7 +214,7 @@ function DisplayResults(results) {
     const $card = $tempRecipe.contents().clone();
 
     // Card title
-    $(".recipe-name", $card).html(baseIngredient.GetElixirName());
+    $(".recipe-name", $card).html(baseIngredient.DisplayName);
     $(".card-title .game-icon", $card)
       .addClass("icon-" + baseIngredient.components[0].id)
       .attr("title", baseIngredient.DisplayName);

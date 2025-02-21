@@ -176,4 +176,7 @@ export const Items = {
   FieryCombustion: new Item("fierycombustion", "Fiery Combustion"),
   HerbalGrind: new Item("herbalgrind", "Herbal Grind"),
   MineralCalcination: new Item("mineralcalcination", "Mineral Calcination"),
+  HerbalSwill: new Item("herbalswill", "Herbal Swill"),
+  MercurialElixir: new Item("mercurialelixir", "Mercurial Elixir"),
+  MushroomDecoction: new Item("mushroomdecoction", "Mushroom Decoction"),
 };
