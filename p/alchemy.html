@@ -28,15 +28,17 @@ title: Alchemy
 <div id="alchemy-results" class="card-grid"></div>
 <div class="d-none">
     <template id="template-recipe">
-        <div class="card mx-4 my-2">
-            <div class="card-title d-stack mt-2">
-                <span class="game-icon game-icon-1x1"></span>
-                <span class="recipe-name"></span>
-            </div>
+        <div class="card m-2">
             <div class="stickers"></div>
+            <div class="card-title d-stack mt-2">
+                <span class="base-ingredient game-icon game-icon-1x1"></span>
+                <div class="recipe-name row align-items-center">
+                    <span class="craft-recipe game-icon small-icon mx-1"></span>
+                </div>
+            </div>
             <div class="d-stack">
                 <span class="small-faded-text">Alchemical ingredients</span>
-                <div class="ingredients-list d-flex justify-content-center flex-wrap my-2"></div>
+                <div class="ingredients-list d-flex justify-content-center align-items-start flex-wrap my-2"></div>
             </div>
             <div class="d-stack">
                 <span class="small-faded-text">Properties</span>
@@ -49,7 +51,7 @@ title: Alchemy
         </div>
     </template>
     <template id="template-item-icon">
-        <div class="ingredient-display d-stack p-1 align-self-start">
+        <div class="ingredient-display d-stack flex-grow-0 p-1">
             <div class="d-flex">
                 <span class="game-icon game-icon-1x1"></span>
                 <span class="game-icon game-icon-1x1" hidden></span>
@@ -58,7 +60,7 @@ title: Alchemy
         </div>
     </template>
     <template id="template-ingredient-group">
-        <div class="ingredient-group d-stack">
+        <div class="ingredient-group d-stack flex-grow-0">
             <div class="see-more d-flex" tabindex="0">
                 <i class="fas fa-caret-down p-1"></i>
                 <div class="popup d-stack rounded p-1">

@@ -30,8 +30,15 @@ export class AlchemyIngredient {
     }
   }
 
-  GetElixirName() {
-    return this.type === IngredientTypes.Mushroom ? "Mushroom Decoction" : "Mercurial Elixir";
+  GetElixirType() {
+    switch(this.type) {
+      case IngredientTypes.Mushroom:
+        return Items.MushroomDecoction;
+      case IngredientTypes.Mineral:
+        return Items.MercurialElixir;
+      case IngredientTypes.HerbalGrind:
+        return Items.HerbalSwill;
+    }
   }
 
   HasDifferentComponents(otherIngredient) {

@@ -212,12 +212,16 @@ function DisplayResults(results) {
   for (let result of results) {
     const baseIngredient = result.baseIngredient;
     const $card = $tempRecipe.contents().clone();
+    const craftRecipe = baseIngredient.GetElixirType();
 
     // Card title
-    $(".recipe-name", $card).html(baseIngredient.DisplayName);
-    $(".card-title .game-icon", $card)
+    $(".base-ingredient", $card)
       .addClass("icon-" + baseIngredient.components[0].id)
       .attr("title", baseIngredient.DisplayName);
+    $(".craft-recipe", $card)
+      .addClass("icon-" + craftRecipe.id)
+      .attr("title", craftRecipe.name);
+    $(".recipe-name", $card).append(baseIngredient.DisplayName);
 
     // Wound conversion sticker
     if (HasWoundProperties(result.properties)) {

@@ -107,10 +107,6 @@ input[type=text].rounded {
     margin: .25rem;
 }
 
-.ingredient-group .ingredient-display {
-    border-bottom: 1px solid #171818;
-}
-
 .ingredients-list > .ingredient-group,
 .ingredient-group .select-group .ingredient-display:hover{
     background-color: #2f3131;
@@ -131,4 +127,8 @@ input[type=text].rounded {
 
 .stickers .fa-exclamation-triangle {
     color: #ff917a;
+}
+
+.see-more {
+    border-top: 1px solid #171818;
 }
