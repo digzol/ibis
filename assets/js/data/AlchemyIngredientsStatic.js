@@ -507,7 +507,7 @@ export const AlchemyIngredients = {
     new AlchemyIngredient(
       Items.Glimmermoss,
       IngredientTypes.Herb,
-      [Properties.Survival, Properties.Sewing, Properties.Concussion, Properties.CoalersCough],
+      [Properties.Survival, Properties.Concussion, Properties.Sewing, Properties.CoalersCough],
       0b1100,
       false,
       { }
