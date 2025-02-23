@@ -867,7 +867,7 @@ export const AlchemyIngredients = {
       [Properties.Dexterity, Properties.MaddeningRash, Properties.Psyche, Properties.BumBurn],
       0b1100,
       false,
-      { SimpleDistillateSolution: undefined }
+      { SimpleDistillateSolution: Properties.RotGut }
     ),
     new AlchemyIngredient(
       Items.Quartz,
