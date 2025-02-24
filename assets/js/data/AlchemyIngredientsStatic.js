@@ -1266,6 +1266,12 @@ export const AlchemyIngredients = {
       0b1100
     ),
     new AlchemyIngredient(
+      [Items.Basalt, Items.Feldspar],
+      IngredientTypes.MineralCalcination,
+      [null, Properties.ChillsNausea, undefined, undefined],
+      0b1100
+    ),
+    new AlchemyIngredient(
       [Items.HeavyEarth, Items.LavaRock],
       IngredientTypes.MineralCalcination,
       [null, Properties.BladeKiss, undefined, undefined],
@@ -1287,6 +1293,12 @@ export const AlchemyIngredients = {
       [Items.Feldspar, Items.Sandstone],
       IngredientTypes.MineralCalcination,
       [null, Properties.AdderBite, undefined, undefined],
+      0b1100
+    ),
+    new AlchemyIngredient(
+      [Items.IronOchre, Items.Korund],
+      IngredientTypes.MineralCalcination,
+      [null, Properties.NastyLaceration, undefined, undefined],
       0b1100
     ),
 
