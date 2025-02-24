@@ -1327,6 +1327,12 @@ export const AlchemyIngredients = {
       [Properties.MeleeCombat, Properties.Will, undefined, undefined],
       0b1100
     ),
+    new AlchemyIngredient(
+      [Items.Clover, Items.Rustroot],
+      IngredientTypes.HerbalGrind,
+      [undefined, Properties.Masonry, undefined, undefined],
+      0b0100
+    ),
   ],
   Filtered: {}
 };
