@@ -1328,7 +1328,7 @@ export const AlchemyIngredients = {
       0b1100
     ),
     new AlchemyIngredient(
-      [Items.Clover, Items.Rustroot],
+      [Items.DuskFern, Items.Rustroot],
       IngredientTypes.HerbalGrind,
       [undefined, Properties.Masonry, undefined, undefined],
       0b0100
