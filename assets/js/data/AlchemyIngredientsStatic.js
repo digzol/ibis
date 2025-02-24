@@ -1233,7 +1233,7 @@ export const AlchemyIngredients = {
       [Items.Malachite, Items.Breccia],
       IngredientTypes.MineralCalcination,
       [null, Properties.QuicksilverPoisoning, undefined, undefined],
-      0b1000
+      0b1100
     ),
     new AlchemyIngredient(
       [Items.Malachite, Items.Slag],
@@ -1281,7 +1281,13 @@ export const AlchemyIngredients = {
       [Items.BlackOre, Items.CatGold],
       IngredientTypes.MineralCalcination,
       [null, Properties.SoreSnout, undefined, undefined],
-      0b1000
+      0b1100
+    ),
+    new AlchemyIngredient(
+      [Items.Feldspar, Items.Sandstone],
+      IngredientTypes.MineralCalcination,
+      [null, Properties.AdderBite, undefined, undefined],
+      0b1100
     ),
 
     /// Herbal Grinds
@@ -1298,7 +1304,13 @@ export const AlchemyIngredients = {
       0b1000
     ),
     new AlchemyIngredient(
-      [Items.CaveLantern, Items.Clover],
+      [Items.Clover, Items.Cavebulb],
+      IngredientTypes.HerbalGrind,
+      [Properties.NastyLaceration, undefined, undefined, undefined],
+      0b1000
+    ),
+    new AlchemyIngredient(
+      [Items.Clover, Items.CaveLantern],
       IngredientTypes.HerbalGrind,
       [Properties.NastyLaceration, undefined, undefined, undefined],
       0b1000
