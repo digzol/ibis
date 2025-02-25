@@ -19,6 +19,13 @@
 
 <ul>
     <li>
+        <span>25-Feb-2025</span>
+        <ul>
+            <li>Added alchemical properties given by each ingredient.</li>
+            <li>Changed potion title cards to read the base ingredient instead.</li>
+        </ul>
+    </li>
+    <li>
         <span>20-Feb-2025</span>
         <ul>
             <li>Added alchemy page.</li>

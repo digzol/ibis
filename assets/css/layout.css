@@ -155,17 +155,17 @@ input[type=number]::-webkit-inner-spin-button {
     margin: 0.75em;
 }
 
-.ingredient-group {
+.ingredient-display {
     position: relative;
 }
 
-.ingredient-group .select-group {
+.ingredient-display .select-group {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.ingredient-group .popup::before {
+.ingredient-display .popup::before {
     content: "";
     position: absolute;
     bottom: 100%;
@@ -175,7 +175,7 @@ input[type=number]::-webkit-inner-spin-button {
     border-bottom-color: #171818;
 }
 
-.ingredient-group .popup::after {
+.ingredient-display .popup::after {
     content: "";
     position: absolute;
     bottom: 100%;
@@ -183,8 +183,7 @@ input[type=number]::-webkit-inner-spin-button {
     padding-top: 5px;
 }
 
-.ingredient-group .select-group .ingredient-display {
-    padding: .25rem;
+.ingredient-display .select-group .ingredient-display {
     cursor: pointer;
 }
 
@@ -207,4 +206,8 @@ input[type=number]::-webkit-inner-spin-button {
 .see-more:hover > .popup {
     visibility: visible;
     transition-delay: 0s;
+}
+
+.ingredient-display .properties {
+    gap: .25rem;
 }

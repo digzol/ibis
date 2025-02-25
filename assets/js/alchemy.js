@@ -7,14 +7,14 @@ let $tempRecipe;
 let $tempIcon;
 let $tempPropertyIcon;
 let $tempIntSteps;
-let $tempIngredientGroup
+let $tempSeeMore;
 
 $(function() {
   $tempRecipe = $("#template-recipe");
   $tempIcon = $("#template-item-icon");
   $tempPropertyIcon = $("#template-property-icon");
   $tempIntSteps = $("#template-intermediary-steps");
-  $tempIngredientGroup = $("#template-ingredient-group")
+  $tempSeeMore = $("#template-see-more")
 });
 
 $(function() {
@@ -245,19 +245,30 @@ function DisplayResults(results) {
 
     // Ingredient list
     for (let i = 0; i < result.ingredients.length; i++) {
-      if (result.ingredients[i].length === 1) {
-        $(".ingredients-list", $card).append(IngredientDisplay(result.ingredients[i][0]));
-      } else {
-        const $ingredientGroup = $tempIngredientGroup.contents().clone();
-        $ingredientGroup.prepend(IngredientDisplay(result.ingredients[i][0]));
+      const selectedIngredient = result.ingredients[i][0];
+      const $ingredientDisplay = IngredientDisplay(selectedIngredient);
+
+      $($ingredientDisplay).prepend(`<div class="properties d-flex p-1"></div>`);
+
+      // Related properties
+      const properties = selectedIngredient.ingredient.ApplySteps(selectedIngredient.intermediaryProducts);
+      for (let prop of properties) {
+        $(".properties", $ingredientDisplay).append(`<span class="game-icon small-icon icon-${prop.gfx || "unknown" } " title="${prop.name}"></span>`);
+      }
+
+      // Variants with same effects
+      if (result.ingredients[i].length > 1) {
+        const $more = $tempSeeMore.contents().clone();
 
         for (let j = 1; j < result.ingredients[i].length; j++) {
-          $(".select-group", $ingredientGroup).append(IngredientDisplay(result.ingredients[i][j]));
+          $(".select-group", $more).append(IngredientDisplay(result.ingredients[i][j]));
         }
 
-        $(".ingredient-display", $ingredientGroup).on("click", function() { SelectIngredient($ingredientGroup, $(this)) });
-        $(".ingredients-list", $card).append($ingredientGroup);
+        $ingredientDisplay.append($more);
+        $(".ingredient-display", $ingredientDisplay).on("click", function() { SelectIngredient($ingredientDisplay, $(this)) });
       }
+
+      $(".ingredients-list", $card).append($ingredientDisplay);
     }
 
     // Property list
@@ -290,7 +301,7 @@ function IngredientDisplay(ingredientDisplay) {
   }
 
   intermediaryProducts.forEach((products) => {
-    $(".alchemical-intermediary-steps", $element).append(
+    $(".intermediary-steps", $element).append(
       $tempIntSteps.contents().clone()
         .addClass("icon-" + products.id)
         .attr("title",  products.name)
@@ -344,9 +355,9 @@ function SelectIngredient($ingredientGroup, $selectedIngredient) {
   if (!$selectedIngredient.parent().hasClass("select-group"))
     return;
 
-  const $oldSelectedIngredient = $(".ingredient-display", $ingredientGroup).first();
-  $oldSelectedIngredient.insertBefore($selectedIngredient);
-  $ingredientGroup.prepend($selectedIngredient);
+  const $oldSelectedIngredient = $(".ingredient-info", $ingredientGroup).first();
+  $(".properties", $ingredientGroup).first().after($selectedIngredient.contents());
+  $selectedIngredient.prepend($oldSelectedIngredient);
 }
 
 function LogMissingParams() {

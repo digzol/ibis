@@ -99,20 +99,18 @@ input[type=text].rounded {
 
 /* ALCHEMY PAGE */
 
-.ingredients-list > .ingredient-group,
-.ingredients-list > .ingredient-display,
-.popup .ingredient-display {
+.ingredient-display {
     border: 1px solid #171818;
     border-radius: .25rem;
     margin: .25rem;
 }
 
-.ingredients-list > .ingredient-group,
-.ingredient-group .select-group .ingredient-display:hover{
+.ingredient-display:has(> .see-more),
+.ingredient-display .select-group .ingredient-display:hover {
     background-color: #2f3131;
 }
 
-.ingredient-group .see-more .popup {
+.ingredient-display .see-more .popup {
     background-color: #383a3aee;
     border: 1px solid #171818;
 }
