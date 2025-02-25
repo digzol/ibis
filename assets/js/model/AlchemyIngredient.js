@@ -79,8 +79,10 @@ export class AlchemyIngredient {
       properties[1] = null;
 
     if (steps.includes(Items.MeasuredDistillate))
-      return [properties[0]];
+      for (let i = 0; i < 4; i++)
+        if (properties[i])
+          return [properties[i]];
 
-    return properties;
+    return properties.filter(x => x !== null);
   }
 }
