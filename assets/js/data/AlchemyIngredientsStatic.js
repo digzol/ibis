@@ -1269,7 +1269,7 @@ export const AlchemyIngredients = {
       [Items.Basalt, Items.Feldspar],
       IngredientTypes.MineralCalcination,
       [null, Properties.ChillsNausea, undefined, undefined],
-      0b1100
+      0b1000
     ),
     new AlchemyIngredient(
       [Items.HeavyEarth, Items.LavaRock],
@@ -1298,8 +1298,8 @@ export const AlchemyIngredients = {
     new AlchemyIngredient(
       [Items.IronOchre, Items.Korund],
       IngredientTypes.MineralCalcination,
-      [null, Properties.NastyLaceration, undefined, undefined],
-      0b1100
+      [null, Properties.NastyLaceration, Properties.Constitution, Properties.Marskmanship],
+      0b1000
     ),
 
     /// Herbal Grinds
