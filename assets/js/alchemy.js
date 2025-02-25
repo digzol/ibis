@@ -300,7 +300,6 @@ function IngredientDisplay(ingredientDisplay) {
   return $element;
 }
 
-
 // TODO Potential optimization: Return an array of matched, unmatched and counts?
 function SortProperties(properties) {
   const sorted = properties.reduce((acc, prop) => {
@@ -326,14 +325,9 @@ function PropertyDisplay(prop) {
     $(".property-name", $element).append(` (×${prop.count})`);
   }
 
-  if (prop.property.gfx !== undefined) {
-    $(".game-icon", $element)
-      .addClass("icon-" + prop.property.gfx)
-      .attr("title", prop.property.name);
-  } else {
-    $(".game-icon", $element)
-      .addClass("blank-icon");
-  }
+  $(".game-icon", $element)
+    .addClass("icon-" + prop.property.gfx || "unknown")
+    .attr("title", prop.property.name);
 
   return $element;
 }

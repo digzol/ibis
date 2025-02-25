@@ -1,7 +1,6 @@
 import {Items} from "./data/ItemsStatic.js";
 import {Icons} from "./data/IconsStatic.js";
 
-const SOURCE_URL = "https://www.havenandhearth.com/mt/r/";
 const MAX_COLS = 15;
 const ICON_PADDING = 2;
 
@@ -17,9 +16,9 @@ $(function() {
 
 function GetIconsToDraw() {
   const icons = [];
-  const sets = [Icons.CharSheet, Icons.Wounds];
+  const sets = [Icons.CharSheet, Icons.Wounds, Icons.Custom];
 
-  icons.push({ id: "missing", path: "gfx/invobjs/missing" });
+  icons.push({ id: "missing", path: "https://www.havenandhearth.com/mt/r/gfx/invobjs/missing" });
 
   sets.forEach(set => {
     const path = set.path;
@@ -32,13 +31,13 @@ function GetIconsToDraw() {
   for (let key in Items) {
     const item = Items[key];
     if (item.gfx !== undefined) {
-      icons.push({id: item.id, path: `gfx/invobjs/${item.gfx}` });
+      icons.push({id: item.id, path: `https://www.havenandhearth.com/mt/r/gfx/invobjs/${item.gfx}` });
     }
   }
 
   icons.forEach(icon => {
     icon.img = document.createElement('img');
-    icon.img.src = SOURCE_URL + icon.path;
+    icon.img.src = icon.path;
     icon.img.addEventListener("error", () =>
       console.log(`Couldn't load icon from ${icon.img.src}`));
   });
@@ -52,8 +51,7 @@ function displaySheet(icons, $target, iconSize, cssClass) {
   const ctx = canvas[0].getContext("2d");
   let outputString = `.${cssClass} { background-position: ${ICON_PADDING * -1}px ${ICON_PADDING * -1}px; }\n`;
 
-  let index = 1;
-  const len = icons.length + 1;
+  const len = icons.length;
   const cols = Math.min(len, MAX_COLS);
   const rows = Math.ceil(len / cols);
   ctx.width = cols * (iconSize + ICON_PADDING) + ICON_PADDING;

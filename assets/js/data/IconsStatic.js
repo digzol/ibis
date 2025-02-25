@@ -1,6 +1,6 @@
 export const Icons = {
   CharSheet: {
-    path: "gfx/hud/chr",
+    path: "https://www.havenandhearth.com/mt/r/gfx/hud/chr",
     entries: [
       "str",
       "agi",
@@ -29,7 +29,7 @@ export const Icons = {
     ],
   },
   Wounds: {
-    path: "paginae/wound",
+    path: "https://www.havenandhearth.com/mt/r/paginae/wound",
     entries: [
       "addervenom",
       "allergicreaction",
@@ -62,7 +62,7 @@ export const Icons = {
       "nosebleed",
       "pipewheeze",
       "punchsore",
-      "quicksilverpoisoning",
+      "mercury",
       "quilled",
       "sandfleabites",
       "scrapesncuts",
@@ -75,7 +75,7 @@ export const Icons = {
       "swollenbump",
       "tickedoff",
       "tuskalooza",
-      "achingjoints",
+      "jointache",
       "blisteringheadache",
       "chillsandnausea",
       "maddeningrash",
@@ -86,7 +86,7 @@ export const Icons = {
   },
   // Unused, grabbed from a forum post
   Items: {
-    path: "gfx/invobjs",
+    path: "https://www.havenandhearth.com/mt/r/gfx/invobjs",
     entries: [
       "grasscape",
       "wblock-cherry",
@@ -747,4 +747,11 @@ export const Icons = {
       "wblock-elm",
     ]
   },
+  Custom: {
+    path: "../assets/images",
+    entries: [
+      "duration-increased",
+      "duration-decreased",
+    ]
+  }
 };

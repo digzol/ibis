@@ -54,7 +54,7 @@ export const Properties = {
   NoseBleed: new AlchemyProperty(51, "Nose Bleed", "nosebleed"),
   PipeWheeze: new AlchemyProperty(52, "Pipe Wheeze", "pipewheeze"),
   PunchSore: new AlchemyProperty(53, "Punch Sore", "punchsore"),
-  QuicksilverPoisoning: new AlchemyProperty(54, "Quicksilver Poisoning"),
+  QuicksilverPoisoning: new AlchemyProperty(54, "Quicksilver Poisoning", "mercury"),
   Quilld: new AlchemyProperty(55, "Quill'd", "quilled"),
   SandFleaBites: new AlchemyProperty(56, "Sand Flea Bites", "sandfleabites"),
   ScrapesCuts: new AlchemyProperty(57, "Scrapes & Cuts", "scrapesncuts"),
@@ -67,15 +67,15 @@ export const Properties = {
   SwollenBump: new AlchemyProperty(64, "Swollen Bumps", "swollenbump"),
   TickdOff: new AlchemyProperty(65, "Tick'd Off", "tickedoff"),
   Tuskalooza: new AlchemyProperty(66, "Tuskalooza!", "tuskalooza"),
-  AchingJoints: new AlchemyProperty(67, "Aching Joints"),
+  AchingJoints: new AlchemyProperty(67, "Aching Joints", "jointache"),
   BlisteringHeadache: new AlchemyProperty(68, "Blistering Headache", "blisteringheadache"),
   ChillsNausea: new AlchemyProperty(69, "Chills & Nausea", "chillsandnausea"),
   MaddeningRash: new AlchemyProperty(70, "Maddening Rash", "maddeningrash"),
   RotGut: new AlchemyProperty(71, "Rot Gut", "rotgut"),
   Unfaced: new AlchemyProperty(72, "Unfaced", "unfaced"),
   WretchedGore: new AlchemyProperty(73, "Wretched Gore", "wretchedgore"),
-  IncreasedDuration: new AlchemyProperty(74, "Increased Duration"),
-  DecreasedDuration: new AlchemyProperty(75, "Decreased Duration"),
+  IncreasedDuration: new AlchemyProperty(74, "Increased Duration", "duration-increased"),
+  DecreasedDuration: new AlchemyProperty(75, "Decreased Duration", "duration-decreased"),
 };
 
 export function GetPropertyById(id) {
