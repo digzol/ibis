@@ -27,7 +27,7 @@ export const AlchemyIngredients = {
       [Properties.Quilld, Properties.CruelIncision, Properties.Strength, Properties.Tuskalooza],
       0b1100,
       false,
-      { SimpleDistillateSolution: undefined }
+      { SimpleDistillateSolution: null }
     ),
     new AlchemyIngredient(
       Items.Arkose,
@@ -528,7 +528,7 @@ export const AlchemyIngredients = {
     new AlchemyIngredient(
       Items.Graywacke,
       IngredientTypes.Mineral,
-      [Properties.SealFinger, Properties.ChillsNausea, Properties.SevereMauling, Properties.NastyWart],
+      [Properties.SealFinger, Properties.SevereMauling, Properties.ChillsNausea, Properties.NastyWart],
       0b1100,
       false,
       { SimpleDistillateSolution: null }
@@ -1268,8 +1268,8 @@ export const AlchemyIngredients = {
     new AlchemyIngredient(
       [Items.Basalt, Items.Feldspar],
       IngredientTypes.MineralCalcination,
-      [null, Properties.ChillsNausea, undefined, undefined],
-      0b1000
+      [null, Properties.ChillsNausea, Properties.Marksmanship, undefined],
+      0b1000 // Chills is NOT B
     ),
     new AlchemyIngredient(
       [Items.HeavyEarth, Items.LavaRock],
@@ -1298,8 +1298,8 @@ export const AlchemyIngredients = {
     new AlchemyIngredient(
       [Items.IronOchre, Items.Korund],
       IngredientTypes.MineralCalcination,
-      [null, Properties.NastyLaceration, Properties.Constitution, Properties.Marskmanship],
-      0b1000
+      [null, Properties.Constitution, Properties.NastyLaceration, Properties.Marksmanship],
+      0b1100
     ),
 
     /// Herbal Grinds
@@ -1318,8 +1318,8 @@ export const AlchemyIngredients = {
     new AlchemyIngredient(
       [Items.Clover, Items.Cavebulb],
       IngredientTypes.HerbalGrind,
-      [Properties.NastyLaceration, undefined, undefined, undefined],
-      0b1000
+      [Properties.NastyLaceration, Properties.Quilld, Properties.Lore, Properties.AllergicReaction],
+      0b1100
     ),
     new AlchemyIngredient(
       [Items.Clover, Items.CaveLantern],
