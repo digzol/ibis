@@ -683,7 +683,7 @@ export const AlchemyIngredients = {
       [Properties.RotGut, Properties.NicksKnacks, Properties.NettleBurn, Properties.DecreasedDuration],
       0b1100,
       false,
-      { SimpleDistillateSolution: undefined }
+      { SimpleDistillateSolution: Properties.ChillsNausea }
     ),
     new AlchemyIngredient(
       Items.Lingonberries,
