@@ -137,9 +137,12 @@ input[type=number]::-webkit-inner-spin-button {
     border-color: #b7851b;
 }
 
-.btn-primary:not(:disabled):not(.disabled):active {
+.btn-primary:not(:disabled):active {
     background-color: #c8921e;
     border-color: #c8921e;
+}
+.btn-toggle {
+    cursor: pointer;
 }
 
 .text-primary {

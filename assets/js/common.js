@@ -1,5 +1,5 @@
 $(function() {
-  $(".btn").on("click", function() {
+  $(".btn-toggle").on("click", function() {
     $(this).toggleClass("disabled");
   });
 });
