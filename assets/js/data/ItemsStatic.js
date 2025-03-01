@@ -170,6 +170,8 @@ export const Items = {
   Sunstone: new Item("sunstone", "Sunstone"),
   WineGlance: new Item("cuprite", "Wine Glance"),
   Zincspar: new Item("zincspar", "Zincspar"),
+  Lye: new Item("lye", "Lye"),
+  Brimstone: new Item("brimstone", "Brimstone"),
   BlockTromboneChantrelle: new Item("wblock-trombonechantrelle", "Trombone Chantrelle"),
   MeasuredDistillate: new Item("measureddistillate", "Measured Distillate"),
   LyeAblution: new Item("lyeablution", "Lye Ablution"),
