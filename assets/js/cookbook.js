@@ -1,5 +1,3 @@
-import * as Utils from './utils.js';
-
 import {Items, LoadItemData} from './model/ItemCollection.js';
 import {LoadRecipeData, Recipes} from './model/RecipeCollection.js';
 
@@ -8,9 +6,9 @@ const RESULT_BLOCK_SIZE = 40;
 
 // Fills user data
 $(function() {
-    const nameParam = Utils.GetURLParameter('name');
-    const ingredientParam = Utils.GetURLParameter('ingredients');
-    const foodDataset = Utils.GetURLParameter('food-dataset')
+    const nameParam = GetURLParameter('name');
+    const ingredientParam = GetURLParameter('ingredients');
+    const foodDataset = GetURLParameter('food-dataset')
 
     // URL search params
     if (nameParam !== undefined) {

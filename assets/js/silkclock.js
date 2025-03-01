@@ -1,9 +1,7 @@
-import * as Utils from './utils.js';
-
 let startTime = 0;
 
 $(function () {
-    const timerStart = Utils.GetURLParameter('t');
+    const timerStart = GetURLParameter('t');
     setFormTime(timerStart);
     formTick();
 });
