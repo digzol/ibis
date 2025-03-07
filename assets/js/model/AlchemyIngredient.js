@@ -16,10 +16,11 @@ export class AlchemyIngredient {
     ];
     this.woundConversion = woundConversion;
 
-    this.DisplayName = this.GetDisplayName();
+    this.DisplayName = this._GetDisplayName();
+    this.CraftingRecipe = this._GetCraftingRecipe();
   }
 
-  GetDisplayName() {
+  _GetDisplayName() {
     switch(this.type) {
       case IngredientTypes.HerbalGrind:
         return `${this.components[0].name} & ${this.components[1].name} ${Items.HerbalGrind.name}`;
@@ -30,7 +31,7 @@ export class AlchemyIngredient {
     }
   }
 
-  GetElixirType() {
+  _GetCraftingRecipe() {
     switch(this.type) {
       case IngredientTypes.Mushroom:
         return Items.MushroomDecoction;
@@ -39,50 +40,5 @@ export class AlchemyIngredient {
       case IngredientTypes.HerbalGrind:
         return Items.HerbalSwill;
     }
-  }
-
-  HasDifferentComponents(otherIngredient) {
-    for (let i = 0; i < this.components.length; i++) {
-      for (let j = 0; j < otherIngredient.components.length; j++) {
-        if (this.components[i] === otherIngredient.components[j])
-          return false;
-      }
-    }
-    return true;
-  }
-
-  GetStepsForPropertyOrder(order) {
-    let processes = [Items.MeasuredDistillate];
-
-    if (order === 2)
-      processes.unshift(Items.FieryCombustion);
-
-    if (order > 0 && this.type !== IngredientTypes.MineralCalcination)
-      processes.unshift(Items.LyeAblution);
-
-    if (this.type === IngredientTypes.MineralCalcination)
-      processes.unshift(Items.MineralCalcination);
-
-    else if (this.type === IngredientTypes.HerbalGrind)
-      processes.unshift(Items.HerbalGrind);
-
-    return processes;
-  }
-
-  ApplySteps(steps) {
-    const properties = Array.from(this.properties);
-
-    if (steps.includes(Items.LyeAblution))
-      properties[0] = null;
-
-    if (steps.includes(Items.FieryCombustion))
-      properties[1] = null;
-
-    if (steps.includes(Items.MeasuredDistillate))
-      for (let i = 0; i < 4; i++)
-        if (properties[i])
-          return [properties[i]];
-
-    return properties.filter(x => x !== null);
   }
 }

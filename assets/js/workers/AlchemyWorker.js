@@ -1,5 +1,6 @@
 import {AlchemyIngredients} from "../data/AlchemyIngredientsStatic.js";
 import {Items} from "../data/ItemsStatic.js";
+import {ApplySteps, GetStepsForPropertyOrder, HasDifferentComponents, SortProperties} from "../AlchemyUtils.js";
 
 onmessage = (e) => {
   const logMessages = e.data.logMessages;
@@ -22,7 +23,8 @@ onmessage = (e) => {
   }
 
   const timeEnd = Date.now();
-  console.log(`Finished loading in ${(timeEnd - timeStart) / 1000} seconds.`);
+  if (logMessages)
+    console.log(`Finished loading in ${(timeEnd - timeStart) / 1000} seconds.`);
 
   postMessage(results);
 };
@@ -110,8 +112,11 @@ function SimpleDistillateSolution(baseIngredient, logMessages, allowLye, allowBr
 
       if (applicableIngredients.Ordered[j].length > 0) {
         for (let ingredient of applicableIngredients.Ordered[j]) {
-          if (ingredient.HasDifferentComponents(baseIngredient) && !ingredient.baseOnly) {
-            ingredients[i].push({ ingredient: ingredient, intermediaryProducts: ingredient.GetStepsForPropertyOrder(j) });
+          if (HasDifferentComponents(ingredient, baseIngredient) && !ingredient.baseOnly) {
+            ingredients[i].push({
+              ingredient: ingredient,
+              intermediaryProducts: GetStepsForPropertyOrder(ingredient, j)
+            });
           }
         }
       }
@@ -138,7 +143,7 @@ function ComplementarySolution(baseIngredient, logMessages, allowLye, allowBrims
     return null;
 
   for (let ingredientA of AlchemyIngredients.Unfiltered) {
-    if (ingredientA.baseOnly || !ingredientA.HasDifferentComponents(baseIngredient) || ingredientA.properties.includes(undefined))
+    if (ingredientA.baseOnly || !HasDifferentComponents(ingredientA, baseIngredient) || ingredientA.properties.includes(undefined))
       continue;
 
     const stepsToTry = [[]];
@@ -160,8 +165,7 @@ function ComplementarySolution(baseIngredient, logMessages, allowLye, allowBrims
 
       const ingredients = [[{ ingredient: ingredientA, intermediaryProducts: stepsToTry[i] }]];
       const properties = [];
-
-      const combinedProperties = SortProperties(baseIngredient.properties.concat(ingredientA.ApplySteps(stepsToTry[i])));
+      const combinedProperties = SortProperties(baseIngredient.properties.concat(ApplySteps(ingredientA, stepsToTry[i])));
       const matchCount = combinedProperties.filter(x => x.count > 1).length;
       let incomplete = false;
 
@@ -176,8 +180,11 @@ function ComplementarySolution(baseIngredient, logMessages, allowLye, allowBrims
             for (let j = 0; j < 3; j++) {
               if (applicableIngredients.Ordered[j].length > 0) {
                 for (let ingredient of applicableIngredients.Ordered[j]) {
-                  if (ingredient.HasDifferentComponents(baseIngredient) && ingredient.HasDifferentComponents(ingredientA) && !ingredient.baseOnly) {
-                    complementaryDistillateIngredients.push({ ingredient: ingredient, intermediaryProducts: ingredient.GetStepsForPropertyOrder(j) });
+                  if (HasDifferentComponents(ingredient, baseIngredient) && HasDifferentComponents(ingredient, ingredientA) && !ingredient.baseOnly) {
+                    complementaryDistillateIngredients.push({
+                      ingredient: ingredient,
+                      intermediaryProducts: GetStepsForPropertyOrder(ingredient, j)
+                    });
                   }
                 }
               }

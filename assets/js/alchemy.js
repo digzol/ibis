@@ -1,4 +1,5 @@
 import {AlchemyIngredients, IngredientTypes} from "./data/AlchemyIngredientsStatic.js";
+import {SortProperties, ApplySteps, HasWoundProperties} from "./AlchemyUtils.js";
 
 const worker = new Worker("../assets/js/workers/AlchemyWorker.js", { type: "module" });
 
@@ -48,7 +49,7 @@ function DisplayResults(results) {
   for (let result of results) {
     const baseIngredient = result.baseIngredient;
     const $card = $tempRecipe.contents().clone();
-    const craftRecipe = baseIngredient.GetElixirType();
+    const craftRecipe = baseIngredient.CraftingRecipe;
 
     // Card title
     $(".base-ingredient", $card)
@@ -87,7 +88,7 @@ function DisplayResults(results) {
       $($ingredientDisplay).prepend(`<div class="properties d-flex p-1"></div>`);
 
       // Related properties
-      const properties = selectedIngredient.ingredient.ApplySteps(selectedIngredient.intermediaryProducts);
+      const properties = ApplySteps(selectedIngredient.ingredient, selectedIngredient.intermediaryProducts);
       for (let prop of properties) {
         $(".properties", $ingredientDisplay).append(`<span class="game-icon small-icon icon-${prop.gfx || "unknown" } " title="${prop.name}"></span>`);
       }
@@ -147,22 +148,6 @@ function IngredientDisplay(ingredientDisplay) {
   return $element;
 }
 
-// TODO Potential optimization: Return an array of matched, unmatched and counts?
-function SortProperties(properties) {
-  const sorted = properties.reduce((acc, prop) => {
-    if (prop) {
-      if (prop.id in acc) {
-        acc[prop.id].count++;
-      }
-      else {
-        acc[prop.id] = { property: prop, count: 1 };
-      }
-    }
-    return acc;
-  }, {});
-  return Object.values(sorted);
-}
-
 function PropertyDisplay(prop) {
   const $element = $tempPropertyIcon.contents().clone();
 
@@ -177,14 +162,6 @@ function PropertyDisplay(prop) {
     .attr("title", prop.property.name);
 
   return $element;
-}
-
-function HasWoundProperties(properties) {
-  for (let property of properties) {
-    if (property.id > 25)
-      return true;
-  }
-  return false;
 }
 
 function SelectIngredient($ingredientGroup, $selectedIngredient) {
