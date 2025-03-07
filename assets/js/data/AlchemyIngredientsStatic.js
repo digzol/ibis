@@ -1350,11 +1350,9 @@ export const AlchemyIngredients = {
 };
 
 function CreateFilteredSets() {
-  AlchemyIngredients.Filtered.Herbs = AlchemyIngredients.Unfiltered.filter((n) => n.type === IngredientTypes.Herb);
-  AlchemyIngredients.Filtered.Minerals = AlchemyIngredients.Unfiltered.filter((n) => n.type === IngredientTypes.Mineral);
-  AlchemyIngredients.Filtered.Mushrooms = AlchemyIngredients.Unfiltered.filter((n) => n.type === IngredientTypes.Mushroom);
-
-// Map properties
+  AlchemyIngredients.Filtered.Herbs = [];
+  AlchemyIngredients.Filtered.Minerals = [];
+  AlchemyIngredients.Filtered.Mushrooms = [];
   for (let key in Properties) {
     const id = Properties[key].id
     AlchemyIngredients.Filtered[id] = {
@@ -1364,6 +1362,23 @@ function CreateFilteredSets() {
   }
 
   AlchemyIngredients.Unfiltered.forEach(ingredient => {
+    let skipFirstProperty = false;
+
+    switch(ingredient.type) {
+      case IngredientTypes.Herb:
+        AlchemyIngredients.Filtered.Herbs.push(ingredient);
+        break;
+      case IngredientTypes.Mineral:
+        AlchemyIngredients.Filtered.Minerals.push(ingredient);
+        break;
+      case IngredientTypes.Mushroom:
+        AlchemyIngredients.Filtered.Mushrooms.push(ingredient);
+        break;
+      case IngredientTypes.MineralCalcination:
+        skipFirstProperty = true;
+        break;
+    }
+
     for (let i = 0; i < 4; i++) {
       const unorderedProperty = ingredient.properties[i];
       if (unorderedProperty && 'id' in unorderedProperty) {
@@ -1372,7 +1387,8 @@ function CreateFilteredSets() {
 
       const orderedProperty = ingredient.orderedProperties[i];
       if (orderedProperty && 'id' in orderedProperty) {
-        AlchemyIngredients.Filtered[orderedProperty.id].Ordered[i].push(ingredient);
+        const index = (i === 1 && skipFirstProperty) ? 0 : i;
+        AlchemyIngredients.Filtered[orderedProperty.id].Ordered[index].push(ingredient);
       }
     }
   });

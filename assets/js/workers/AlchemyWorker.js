@@ -107,7 +107,7 @@ function SimpleDistillateSolution(baseIngredient, logMessages, allowLye, allowBr
     // TODO Optimization: filter?
 
     for (let j = 0; j < 3; j++) {
-      if ((j === 1 && !allowLye) || (j === 2 && !allowBrimstone))
+      if ((j > 0 && !allowLye) || (j > 1 && !allowBrimstone))
         continue;
 
       if (applicableIngredients.Ordered[j].length > 0) {
