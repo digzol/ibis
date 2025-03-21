@@ -24,7 +24,7 @@ onmessage = (e) => {
 
   const timeEnd = Date.now();
   if (logMessages)
-    console.log(`Finished loading in ${(timeEnd - timeStart) / 1000} seconds.`);
+    console.log(`Finished combining recipes in ${(timeEnd - timeStart) / 1000} seconds.`);
 
   postMessage(results);
 };

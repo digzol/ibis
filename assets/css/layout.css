@@ -1,27 +1,29 @@
-.game-icon {
-    background-repeat: no-repeat;
-    display: inline-block;
-}
-
 .small-icon {
     background-image: url(../images/sprites-small.png);
     width: 16px;
     height: 16px;
+    background-repeat: no-repeat;
+    display: inline-block;
 }
 
 .game-icon-1x1 {
     background-image: url(../images/sprites.png);
     width: 32px;
     height: 32px;
-}
-
-.blank-icon {
-    background-image: none;
+    background-repeat: no-repeat;
+    display: inline-block;
 }
 
 .game-icon-2x2 {
     width: 65px;
     height: 65px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.blank-icon {
+    background-image: none;
+    display: inline-block;
 }
 
 .game-icon.disabled {

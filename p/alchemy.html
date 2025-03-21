@@ -55,57 +55,44 @@ title: Alchemy
 </div>
 <hr>
 <div id="alchemy-results" class="card-grid"></div>
-<div class="d-none">
-    <template id="template-recipe">
-        <div class="card m-2">
-            <div class="stickers"></div>
-            <div class="card-title d-stack mt-2">
-                <span class="base-ingredient game-icon game-icon-1x1"></span>
-                <div class="recipe-name row align-items-center">
-                    <span class="craft-recipe game-icon small-icon mx-1"></span>
-                </div>
-            </div>
-            <div class="d-stack">
-                <span class="small-faded-text">Alchemical ingredients</span>
-                <div class="ingredients-list d-flex justify-content-center align-items-start flex-wrap my-2"></div>
-            </div>
-            <div class="d-stack">
-                <span class="small-faded-text">Properties</span>
-                <div class="property-list my-2"></div>
-            </div>
-            <div class="d-stack d-none">
-                <span class="small-faded-text">Wounds caused by</span>
-                <div class="wounds-list my-2"></div>
+
+<template id="template-recipe-card">
+    <div class="card m-2">
+        <div class="stickers"></div>
+        <div class="card-title d-stack mt-2">
+            <span class="base-ingredient game-icon game-icon-1x1"></span>
+            <div class="recipe-name row align-items-center">
+                <span class="craft-recipe game-icon small-icon mx-1"></span>
             </div>
         </div>
-    </template>
-    <template id="template-item-icon">
-        <div class="ingredient-display d-stack flex-grow-0">
-            <div class="ingredient-info d-stack justify-content-center p-1">
-                <div class="d-flex">
-                    <span class="game-icon game-icon-1x1"></span>
-                    <span class="game-icon game-icon-1x1" hidden></span>
-                </div>
-                <div class="intermediary-steps d-flex pb-1"></div>
-            </div>
+        <div class="d-stack">
+            <span class="small-faded-text">Alchemical ingredients</span>
+            <div class="ingredients-list d-flex justify-content-center align-items-start flex-wrap my-2"></div>
         </div>
-    </template>
-    <template id="template-see-more">
-        <div class="see-more d-flex" tabindex="0">
-            <i class="fas fa-caret-down p-1"></i>
-            <div class="popup d-stack rounded p-1">
-                <span class="small-faded-text">Alternatives</span>
-                <div class="select-group"></div>
-            </div>
+        <div class="d-stack">
+            <span class="small-faded-text">Properties</span>
+            <div class="property-list my-2"></div>
         </div>
-    </template>
-    <template id="template-property-icon">
-        <div class="d-flex">
-            <span class="game-icon small-icon mx-2"></span>
-            <span class="property-name"></span>
+        <div class="d-stack d-none">
+            <span class="small-faded-text">Wounds caused by</span>
+            <div class="wounds-list my-2"></div>
         </div>
-    </template>
-    <template id="template-intermediary-steps">
-        <span class="game-icon small-icon"></span>
-    </template>
-</div>
+    </div>
+</template>
+<template id="template-item-icon">
+    <div class="ingredient-display d-stack flex-grow-0">
+        <div class="ingredient-info d-stack justify-content-center p-1">
+            <div class="item-components d-flex"></div>
+            <div class="intermediary-steps d-flex pb-1"></div>
+        </div>
+    </div>
+</template>
+<template id="template-see-more">
+    <div class="see-more d-flex" tabindex="0">
+        <i class="fas fa-caret-down p-1"></i>
+        <div class="popup d-stack rounded p-1">
+            <span class="small-faded-text">Alternatives</span>
+            <div class="select-group"></div>
+        </div>
+    </div>
+</template>
